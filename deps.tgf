@@ -1,0 +1,25 @@
+libc//0.2.50 libc 0.2.50
+proc-macro2//0.4.27 proc-macro2 0.4.27
+quote//0.6.11 quote 0.6.11
+rustc-std-workspace-core//1.0.0 rustc-std-workspace-core 1.0.0
+serde//1.0.89 serde 1.0.89
+serde_derive//1.0.89 serde_derive 1.0.89
+syn//0.15.29 syn 0.15.29
+unicode-xid//0.1.0 unicode-xid 0.1.0
+#
+libc//0.2.50 rustc-std-workspace-core//1.0.0 weak:feature:rustc-dep-of-std
+libc//0.2.50 rustc-std-workspace-core//1.0.0 weak:optional
+proc-macro2//0.4.27 unicode-xid//0.1.0
+quote//0.6.11 proc-macro2//0.4.27
+serde//1.0.89 serde_derive//1.0.89 weak:feature:derive
+serde//1.0.89 serde_derive//1.0.89 weak:optional
+serde//1.0.89 serde_derive//1.0.89 weak:test
+serde_derive//1.0.89 proc-macro2//0.4.27
+serde_derive//1.0.89 quote//0.6.11
+serde_derive//1.0.89 serde//1.0.89 weak:test
+serde_derive//1.0.89 syn//0.15.29
+syn//0.15.29 proc-macro2//0.4.27
+syn//0.15.29 quote//0.6.11 feature:default
+syn//0.15.29 quote//0.6.11 weak:feature:printing
+syn//0.15.29 quote//0.6.11 weak:feature:proc-macro
+syn//0.15.29 quote//0.6.11 weak:optional

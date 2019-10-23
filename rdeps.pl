@@ -33,7 +33,7 @@ if ( $ENV{LEGACY} ) {
 resolve_deps();
 
 for my $pair (
-    sort { $a->[0] <=> $b->[0] }
+    sort { $a->[0] cmp $b->[0] }
     map { [ $identities{$_}, $_ ] } keys %identities
   )
 {
@@ -407,8 +407,7 @@ sub ident_for {
     my ( $package, $version ) = @_;
     my $key = "$package $version";
     return $identities{$key} if exists $identities{$key};
-    $identities{$key} = $id_id;
-    $id_id++;
+    $identities{$key} = "${package}//${version}";
     return $identities{$key};
 }
 
