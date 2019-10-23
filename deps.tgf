@@ -139,6 +139,7 @@ unicode-width//0.1.6 unicode-width 0.1.6
 unicode-xid//0.0.4 unicode-xid 0.0.4
 unicode-xid//0.1.0 unicode-xid 0.1.0
 unicode-xid//0.2.0 unicode-xid 0.2.0
+untrusted//0.7.0 untrusted 0.7.0
 uuid//0.7.4 uuid 0.7.4
 walkdir//2.2.9 walkdir 2.2.9
 yaml-rust//0.4.3 yaml-rust 0.4.3
