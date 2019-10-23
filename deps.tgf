@@ -105,6 +105,7 @@ rustc-demangle//0.1.16 rustc-demangle 0.1.16
 rustc-serialize//0.3.24 rustc-serialize 0.3.24
 rustc-std-workspace-core//1.0.0 rustc-std-workspace-core 1.0.0
 rustc_version//0.2.3 rustc_version 0.2.3
+rustls//0.16.0 rustls 0.16.0
 rustversion//0.1.4 rustversion 0.1.4
 ryu//1.0.1 ryu 1.0.1
 same-file//1.0.5 same-file 1.0.5
@@ -409,6 +410,13 @@ ron//0.4.1 base64//0.10.1
 ron//0.4.1 bitflags//1.2.1
 ron//0.4.1 serde//1.0.101
 rustc_version//0.2.3 semver//0.9.0
+rustls//0.16.0 base64//0.10.1
+rustls//0.16.0 log//0.4.8 feature:default
+rustls//0.16.0 log//0.4.8 weak:feature:logging
+rustls//0.16.0 log//0.4.8 weak:optional
+rustls//0.16.0 ring//0.16.9
+rustls//0.16.0 sct//0.6.0
+rustls//0.16.0 webpki//0.21.0
 rustversion//0.1.4 proc-macro2//1.0.5
 rustversion//0.1.4 quote//1.0.2
 rustversion//0.1.4 syn//1.0.5
