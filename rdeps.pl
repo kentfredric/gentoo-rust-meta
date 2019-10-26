@@ -136,6 +136,21 @@ sub semver {
     };
 }
 
+sub tilde {
+    my ( $v_prefix, $v_suffix ) = @_;
+    my $min = version->parse( expando_version("${v_prefix}.${v_suffix}") );
+    my (@max) = split q/\./, $v_prefix;
+    $max[-1]++;
+    my $max = version->parse( expando_version( join q[.], @max, $v_suffix ) );
+    return sub {
+        grep {
+            my $v = version->parse($_);
+            $v >= $min
+              and $v < $max
+        } @_;
+      }
+}
+
 sub union_fn {
     my (@fn_parts) = @_;
     return sub {
@@ -249,6 +264,16 @@ sub expr_to_fn {
     if ( $expr =~ /\A\^([0-9]+).([0-9][0-9.]*)\z/ ) {
         return semver( $1, $2 );
     }
+    if ( $expr =~ /\A~([0-9]+)\z/ ) {
+        return tilde( $1, "0.0" );
+    }
+    if ( $expr =~ /\A~([0-9]+\.[0-9]+)\z/ ) {
+        return tilde( $1, "0" );
+    }
+    if ( $expr =~ /\A~([0-9]+\.[0-9]+)\.([0-9]+)\z/ ) {
+        return tilde( $1, $2 );
+    }
+
     if ( $expr =~ /\A\s*([^,]+),(.*\z)/ ) {
         return union_fn( expr_to_fn( $1, $package ),
             expr_to_fn( $2, $package ) );
