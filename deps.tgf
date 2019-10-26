@@ -66,6 +66,7 @@ num-traits//0.1.43 num-traits 0.1.43
 num-traits//0.2.8 num-traits 0.2.8
 num_cpus//1.10.1 num_cpus 1.10.1
 opaque-debug//0.2.3 opaque-debug 0.2.3
+openssl-probe//0.1.2 openssl-probe 0.1.2
 openssl-src//111.6.0 openssl-src 111.6.0
 openssl-sys//0.9.52 openssl-sys 0.9.52
 owning_ref//0.4.0 owning_ref 0.4.0
