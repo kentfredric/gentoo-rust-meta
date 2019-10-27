@@ -151,6 +151,7 @@ toml//0.5.3 toml 0.5.3
 trybuild//1.0.17 trybuild 1.0.17
 typenum//1.11.2 typenum 1.11.2
 ucd-trie//0.1.2 ucd-trie 0.1.2
+unicode-bidi//0.3.4 unicode-bidi 0.3.4
 unicode-width//0.1.6 unicode-width 0.1.6
 unicode-xid//0.0.4 unicode-xid 0.0.4
 unicode-xid//0.1.0 unicode-xid 0.1.0
@@ -571,6 +572,7 @@ trybuild//1.0.17 serde_json//1.0.41
 trybuild//1.0.17 termcolor//1.0.5
 trybuild//1.0.17 toml//0.5.3
 ucd-trie//0.1.2 lazy_static//1.4.0 weak:test
+unicode-bidi//0.3.4 matches//0.1.8
 walkdir//2.2.9 doc-comment//0.3.1 weak:test
 walkdir//2.2.9 same-file//1.0.5
 webpki-roots//0.17.0 webpki//0.21.0
