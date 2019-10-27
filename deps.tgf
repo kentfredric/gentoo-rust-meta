@@ -62,6 +62,7 @@ linked-hash-map//0.5.2 linked-hash-map 0.5.2
 lock_api//0.3.1 lock_api 0.3.1
 log//0.4.8 log 0.4.8
 maplit//1.0.2 maplit 1.0.2
+matches//0.1.8 matches 0.1.8
 memchr//2.2.1 memchr 2.2.1
 memoffset//0.5.1 memoffset 0.5.1
 mesalink//1.1.0 mesalink 1.1.0
