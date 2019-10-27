@@ -29,6 +29,7 @@ digest//0.8.1 digest 0.8.1
 doc-comment//0.3.1 doc-comment 0.3.1
 dtoa//0.4.4 dtoa 0.4.4
 either//1.5.3 either 1.5.3
+encoding-index-japanese//1.20141219.5 encoding-index-japanese 1.20141219.5
 enum_to_u8_slice_derive//0.1.1 enum_to_u8_slice_derive 0.1.1
 env_logger//0.6.2 env_logger 0.6.2
 failure//0.1.6 failure 0.1.6
