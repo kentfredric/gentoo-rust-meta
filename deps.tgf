@@ -5,6 +5,7 @@ proc-macro2//0.4.30 proc-macro2 0.4.30
 quote//0.6.11 quote 0.6.11
 quote//0.6.13 quote 0.6.13
 rustc-std-workspace-core//1.0.0 rustc-std-workspace-core 1.0.0
+serde//1.0.101 serde 1.0.101
 serde//1.0.89 serde 1.0.89
 serde_derive//1.0.89 serde_derive 1.0.89
 syn//0.15.29 syn 0.15.29
@@ -19,12 +20,15 @@ proc-macro2//0.4.30 quote//0.6.13 weak:test
 proc-macro2//0.4.30 unicode-xid//0.1.0
 quote//0.6.11 proc-macro2//0.4.30
 quote//0.6.13 proc-macro2//0.4.30
+serde//1.0.101 serde_derive//1.0.89 weak:feature:derive
+serde//1.0.101 serde_derive//1.0.89 weak:optional
+serde//1.0.101 serde_derive//1.0.89 weak:test
 serde//1.0.89 serde_derive//1.0.89 weak:feature:derive
 serde//1.0.89 serde_derive//1.0.89 weak:optional
 serde//1.0.89 serde_derive//1.0.89 weak:test
 serde_derive//1.0.89 proc-macro2//0.4.30
 serde_derive//1.0.89 quote//0.6.13
-serde_derive//1.0.89 serde//1.0.89 weak:test
+serde_derive//1.0.89 serde//1.0.101 weak:test
 serde_derive//1.0.89 syn//0.15.29
 syn//0.15.29 proc-macro2//0.4.30
 syn//0.15.29 quote//0.6.13 feature:default
