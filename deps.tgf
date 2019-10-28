@@ -128,6 +128,7 @@ scopeguard//1.0.0 scopeguard 1.0.0
 sct//0.6.0 sct 0.6.0
 semver-parser//0.7.0 semver-parser 0.7.0
 semver//0.9.0 semver 0.9.0
+serde//0.8.23 serde 0.8.23
 serde//1.0.101 serde 1.0.101
 serde//1.0.89 serde 1.0.89
 serde_derive//1.0.89 serde_derive 1.0.89
