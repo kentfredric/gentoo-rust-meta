@@ -14,6 +14,7 @@ rand//0.4.6 rand 0.4.6
 remove_dir_all//0.5.2 remove_dir_all 0.5.2
 rustc-std-workspace-core//1.0.0 rustc-std-workspace-core 1.0.0
 rustversion//0.1.4 rustversion 0.1.4
+ryu//1.0.1 ryu 1.0.1
 serde//1.0.101 serde 1.0.101
 serde//1.0.89 serde 1.0.89
 serde_derive//1.0.89 serde_derive 1.0.89
