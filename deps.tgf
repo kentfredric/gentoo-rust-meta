@@ -17,6 +17,7 @@ serde//1.0.89 serde 1.0.89
 serde_derive//1.0.89 serde_derive 1.0.89
 spin//0.5.2 spin 0.5.2
 syn//0.15.29 syn 0.15.29
+syn//1.0.5 syn 1.0.5
 tempdir//0.3.7 tempdir 0.3.7
 unicode-xid//0.1.0 unicode-xid 0.1.0
 unicode-xid//0.2.0 unicode-xid 0.2.0
@@ -56,5 +57,11 @@ syn//0.15.29 quote//0.6.13 feature:default
 syn//0.15.29 quote//0.6.13 weak:feature:printing
 syn//0.15.29 quote//0.6.13 weak:feature:proc-macro
 syn//0.15.29 quote//0.6.13 weak:optional
+syn//1.0.5 proc-macro2//1.0.5
+syn//1.0.5 quote//1.0.2 feature:default
+syn//1.0.5 quote//1.0.2 weak:feature:printing
+syn//1.0.5 quote//1.0.2 weak:feature:proc-macro
+syn//1.0.5 quote//1.0.2 weak:optional
+syn//1.0.5 unicode-xid//0.2.0
 tempdir//0.3.7 rand//0.4.6
 tempdir//0.3.7 remove_dir_all//0.5.2
