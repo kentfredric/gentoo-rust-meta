@@ -21,6 +21,7 @@ libc//0.2.62 rustc-std-workspace-core//1.0.0 weak:optional
 proc-macro2//0.4.27 unicode-xid//0.1.0
 proc-macro2//0.4.30 quote//0.6.13 weak:test
 proc-macro2//0.4.30 unicode-xid//0.1.0
+proc-macro2//1.0.5 quote//1.0.2 weak:test
 proc-macro2//1.0.5 unicode-xid//0.2.0
 quote//0.6.11 proc-macro2//0.4.30
 quote//0.6.13 proc-macro2//0.4.30
