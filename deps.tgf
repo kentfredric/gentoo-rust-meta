@@ -8,6 +8,7 @@ quote//0.6.11 quote 0.6.11
 quote//0.6.13 quote 0.6.13
 quote//1.0.2 quote 1.0.2
 rand//0.4.6 rand 0.4.6
+remove_dir_all//0.5.2 remove_dir_all 0.5.2
 rustc-std-workspace-core//1.0.0 rustc-std-workspace-core 1.0.0
 serde//1.0.101 serde 1.0.101
 serde//1.0.89 serde 1.0.89
@@ -31,6 +32,7 @@ quote//1.0.2 proc-macro2//1.0.5
 rand//0.4.6 libc//0.2.62 feature:default
 rand//0.4.6 libc//0.2.62 weak:feature:std
 rand//0.4.6 libc//0.2.62 weak:optional
+remove_dir_all//0.5.2 doc-comment//0.3.1 weak:test
 serde//1.0.101 serde_derive//1.0.89 weak:feature:derive
 serde//1.0.101 serde_derive//1.0.89 weak:optional
 serde//1.0.101 serde_derive//1.0.89 weak:test
