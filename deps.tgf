@@ -22,6 +22,7 @@ quote//0.6.11 quote 0.6.11
 quote//0.6.13 quote 0.6.13
 quote//1.0.2 quote 1.0.2
 rand//0.4.6 rand 0.4.6
+regex-syntax//0.6.12 regex-syntax 0.6.12
 remove_dir_all//0.5.2 remove_dir_all 0.5.2
 rustc-std-workspace-core//1.0.0 rustc-std-workspace-core 1.0.0
 rustc_version//0.2.3 rustc_version 0.2.3
