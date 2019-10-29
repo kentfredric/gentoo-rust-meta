@@ -1,3 +1,4 @@
+aho-corasick//0.7.6 aho-corasick 0.7.6
 atty//0.2.13 atty 0.2.13
 autocfg//0.1.6 autocfg 0.1.6
 cfg-if//0.1.10 cfg-if 0.1.10
@@ -51,6 +52,8 @@ unicode-width//0.1.6 unicode-width 0.1.6
 unicode-xid//0.1.0 unicode-xid 0.1.0
 unicode-xid//0.2.0 unicode-xid 0.2.0
 #
+aho-corasick//0.7.6 doc-comment//0.3.1 weak:test
+aho-corasick//0.7.6 memchr//2.2.1
 atty//0.2.13 libc//0.2.62
 chrono//0.4.9 libc//0.2.62
 chrono//0.4.9 num-integer//0.1.41
