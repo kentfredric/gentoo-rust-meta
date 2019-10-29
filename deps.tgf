@@ -13,6 +13,7 @@ libc//0.2.62 libc 0.2.62
 lock_api//0.3.1 lock_api 0.3.1
 num-integer//0.1.41 num-integer 0.1.41
 num-traits//0.2.8 num-traits 0.2.8
+parking_lot//0.9.0 parking_lot 0.9.0
 parking_lot_core//0.6.2 parking_lot_core 0.6.2
 proc-macro2//0.4.27 proc-macro2 0.4.27
 proc-macro2//0.4.30 proc-macro2 0.4.30
@@ -66,6 +67,9 @@ libc//0.2.62 rustc-std-workspace-core//1.0.0 weak:optional
 num-integer//0.1.41 autocfg//0.1.6
 num-integer//0.1.41 num-traits//0.2.8
 num-traits//0.2.8 autocfg//0.1.6
+parking_lot//0.9.0 lock_api//0.3.1
+parking_lot//0.9.0 parking_lot_core//0.6.2
+parking_lot//0.9.0 rustc_version//0.2.3
 parking_lot_core//0.6.2 cfg-if//0.1.10
 parking_lot_core//0.6.2 libc//0.2.62
 parking_lot_core//0.6.2 rustc_version//0.2.3
