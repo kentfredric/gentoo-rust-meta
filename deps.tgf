@@ -18,6 +18,7 @@ ryu//1.0.1 ryu 1.0.1
 serde//1.0.101 serde 1.0.101
 serde//1.0.89 serde 1.0.89
 serde_derive//1.0.89 serde_derive 1.0.89
+serde_json//1.0.41 serde_json 1.0.41
 spin//0.5.2 spin 0.5.2
 syn//0.15.29 syn 0.15.29
 syn//1.0.5 syn 1.0.5
@@ -58,6 +59,9 @@ serde_derive//1.0.89 proc-macro2//0.4.30
 serde_derive//1.0.89 quote//0.6.13
 serde_derive//1.0.89 serde//1.0.101 weak:test
 serde_derive//1.0.89 syn//0.15.29
+serde_json//1.0.41 itoa//0.4.4
+serde_json//1.0.41 ryu//1.0.1
+serde_json//1.0.41 serde//1.0.101
 syn//0.15.29 proc-macro2//0.4.30
 syn//0.15.29 quote//0.6.13 feature:default
 syn//0.15.29 quote//0.6.13 weak:feature:printing
