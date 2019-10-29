@@ -22,6 +22,7 @@ quote//1.0.2 quote 1.0.2
 rand//0.4.6 rand 0.4.6
 remove_dir_all//0.5.2 remove_dir_all 0.5.2
 rustc-std-workspace-core//1.0.0 rustc-std-workspace-core 1.0.0
+rustc_version//0.2.3 rustc_version 0.2.3
 rustversion//0.1.4 rustversion 0.1.4
 ryu//1.0.1 ryu 1.0.1
 scopeguard//1.0.0 scopeguard 1.0.0
@@ -77,6 +78,7 @@ rand//0.4.6 libc//0.2.62 feature:default
 rand//0.4.6 libc//0.2.62 weak:feature:std
 rand//0.4.6 libc//0.2.62 weak:optional
 remove_dir_all//0.5.2 doc-comment//0.3.1 weak:test
+rustc_version//0.2.3 semver//0.9.0
 rustversion//0.1.4 proc-macro2//1.0.5
 rustversion//0.1.4 quote//1.0.2
 rustversion//0.1.4 syn//1.0.5
