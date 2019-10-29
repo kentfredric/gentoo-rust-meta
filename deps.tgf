@@ -48,6 +48,7 @@ smallvec//0.6.10 smallvec 0.6.10
 spin//0.5.2 spin 0.5.2
 syn//0.15.29 syn 0.15.29
 syn//1.0.5 syn 1.0.5
+synstructure//0.12.1 synstructure 0.12.1
 tempdir//0.3.7 tempdir 0.3.7
 termcolor//1.0.5 termcolor 1.0.5
 termios//0.3.1 termios 0.3.1
@@ -147,6 +148,10 @@ syn//1.0.5 quote//1.0.2 weak:feature:printing
 syn//1.0.5 quote//1.0.2 weak:feature:proc-macro
 syn//1.0.5 quote//1.0.2 weak:optional
 syn//1.0.5 unicode-xid//0.2.0
+synstructure//0.12.1 proc-macro2//1.0.5
+synstructure//0.12.1 quote//1.0.2
+synstructure//0.12.1 syn//1.0.5
+synstructure//0.12.1 unicode-xid//0.2.0
 tempdir//0.3.7 rand//0.4.6
 tempdir//0.3.7 remove_dir_all//0.5.2
 termios//0.3.1 libc//0.2.62
