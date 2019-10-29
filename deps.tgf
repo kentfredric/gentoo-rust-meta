@@ -24,6 +24,7 @@ syn//0.15.29 syn 0.15.29
 syn//1.0.5 syn 1.0.5
 tempdir//0.3.7 tempdir 0.3.7
 termcolor//1.0.5 termcolor 1.0.5
+toml//0.5.3 toml 0.5.3
 unicode-xid//0.1.0 unicode-xid 0.1.0
 unicode-xid//0.2.0 unicode-xid 0.2.0
 #
@@ -76,3 +77,4 @@ syn//1.0.5 quote//1.0.2 weak:optional
 syn//1.0.5 unicode-xid//0.2.0
 tempdir//0.3.7 rand//0.4.6
 tempdir//0.3.7 remove_dir_all//0.5.2
+toml//0.5.3 serde//1.0.101
