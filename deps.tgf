@@ -1,6 +1,7 @@
 aho-corasick//0.7.6 aho-corasick 0.7.6
 atty//0.2.13 atty 0.2.13
 autocfg//0.1.6 autocfg 0.1.6
+cc//1.0.46 cc 1.0.46
 cfg-if//0.1.10 cfg-if 0.1.10
 chrono//0.4.9 chrono 0.4.9
 ci_info//0.3.1 ci_info 0.3.1
