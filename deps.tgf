@@ -6,6 +6,7 @@ chrono//0.4.9 chrono 0.4.9
 ci_info//0.3.1 ci_info 0.3.1
 clicolors-control//1.0.1 clicolors-control 1.0.1
 console//0.7.7 console 0.7.7
+difference//2.0.0 difference 2.0.0
 doc-comment//0.3.1 doc-comment 0.3.1
 glob//0.3.0 glob 0.3.0
 itoa//0.4.4 itoa 0.4.4
