@@ -23,6 +23,7 @@ spin//0.5.2 spin 0.5.2
 syn//0.15.29 syn 0.15.29
 syn//1.0.5 syn 1.0.5
 tempdir//0.3.7 tempdir 0.3.7
+termcolor//1.0.5 termcolor 1.0.5
 unicode-xid//0.1.0 unicode-xid 0.1.0
 unicode-xid//0.2.0 unicode-xid 0.2.0
 #
