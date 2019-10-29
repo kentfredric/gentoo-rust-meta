@@ -9,6 +9,7 @@ itoa//0.4.4 itoa 0.4.4
 lazy_static//1.4.0 lazy_static 1.4.0
 libc//0.2.50 libc 0.2.50
 libc//0.2.62 libc 0.2.62
+lock_api//0.3.1 lock_api 0.3.1
 num-integer//0.1.41 num-integer 0.1.41
 num-traits//0.2.8 num-traits 0.2.8
 proc-macro2//0.4.27 proc-macro2 0.4.27
