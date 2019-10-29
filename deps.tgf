@@ -1,3 +1,4 @@
+atty//0.2.13 atty 0.2.13
 autocfg//0.1.6 autocfg 0.1.6
 chrono//0.4.9 chrono 0.4.9
 ci_info//0.3.1 ci_info 0.3.1
@@ -35,6 +36,7 @@ trybuild//1.0.17 trybuild 1.0.17
 unicode-xid//0.1.0 unicode-xid 0.1.0
 unicode-xid//0.2.0 unicode-xid 0.2.0
 #
+atty//0.2.13 libc//0.2.62
 chrono//0.4.9 libc//0.2.62
 chrono//0.4.9 num-integer//0.1.41
 chrono//0.4.9 num-traits//0.2.8
