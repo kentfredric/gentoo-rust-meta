@@ -5,6 +5,7 @@ itoa//0.4.4 itoa 0.4.4
 lazy_static//1.4.0 lazy_static 1.4.0
 libc//0.2.50 libc 0.2.50
 libc//0.2.62 libc 0.2.62
+num-integer//0.1.41 num-integer 0.1.41
 num-traits//0.2.8 num-traits 0.2.8
 proc-macro2//0.4.27 proc-macro2 0.4.27
 proc-macro2//0.4.30 proc-macro2 0.4.30
@@ -39,6 +40,8 @@ libc//0.2.50 rustc-std-workspace-core//1.0.0 weak:feature:rustc-dep-of-std
 libc//0.2.50 rustc-std-workspace-core//1.0.0 weak:optional
 libc//0.2.62 rustc-std-workspace-core//1.0.0 weak:feature:rustc-dep-of-std
 libc//0.2.62 rustc-std-workspace-core//1.0.0 weak:optional
+num-integer//0.1.41 autocfg//0.1.6
+num-integer//0.1.41 num-traits//0.2.8
 num-traits//0.2.8 autocfg//0.1.6
 proc-macro2//0.4.27 unicode-xid//0.1.0
 proc-macro2//0.4.30 quote//0.6.13 weak:test
