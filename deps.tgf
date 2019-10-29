@@ -46,6 +46,7 @@ termios//0.3.1 termios 0.3.1
 time//0.1.42 time 0.1.42
 toml//0.5.3 toml 0.5.3
 trybuild//1.0.17 trybuild 1.0.17
+unicode-width//0.1.6 unicode-width 0.1.6
 unicode-xid//0.1.0 unicode-xid 0.1.0
 unicode-xid//0.2.0 unicode-xid 0.2.0
 #
