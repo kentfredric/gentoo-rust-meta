@@ -2,6 +2,7 @@ aho-corasick//0.7.6 aho-corasick 0.7.6
 atty//0.2.13 atty 0.2.13
 autocfg//0.1.6 autocfg 0.1.6
 backtrace-sys//0.1.31 backtrace-sys 0.1.31
+backtrace//0.3.38 backtrace 0.3.38
 cc//1.0.46 cc 1.0.46
 cfg-if//0.1.10 cfg-if 0.1.10
 chrono//0.4.9 chrono 0.4.9
@@ -63,6 +64,9 @@ aho-corasick//0.7.6 memchr//2.2.1
 atty//0.2.13 libc//0.2.62
 backtrace-sys//0.1.31 cc//1.0.46
 backtrace-sys//0.1.31 libc//0.2.62
+backtrace//0.3.38 cfg-if//0.1.10
+backtrace//0.3.38 libc//0.2.62
+backtrace//0.3.38 rustc-demangle//0.1.16
 chrono//0.4.9 libc//0.2.62
 chrono//0.4.9 num-integer//0.1.41
 chrono//0.4.9 num-traits//0.2.8
