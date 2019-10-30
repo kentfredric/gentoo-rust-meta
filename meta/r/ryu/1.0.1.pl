@@ -3,12 +3,8 @@ use strict;
 use warnings;
 
 crate(
-    # TODO
-    # NOTE: Tests restricted
-    ryu             => '1.0.1',
-    missing_tests   => 1,
-    missing_options => 1,
-    optional        => {
+    ryu      => '1.0.1',
+    optional => {
         'no-panic' => '^0.1',
     },
     test => {
