@@ -1,4 +1,5 @@
 aho-corasick//0.7.6 aho-corasick 0.7.6
+arrayvec//0.4.12 arrayvec 0.4.12
 atty//0.2.13 atty 0.2.13
 autocfg//0.1.6 autocfg 0.1.6
 backtrace-sys//0.1.31 backtrace-sys 0.1.31
@@ -100,6 +101,9 @@ yaml-rust//0.4.3 yaml-rust 0.4.3
 #
 aho-corasick//0.7.6 doc-comment//0.3.1 weak:test
 aho-corasick//0.7.6 memchr//2.2.1
+arrayvec//0.4.12 nodrop//0.1.14
+arrayvec//0.4.12 serde//1.0.101 weak:feature:serde-1
+arrayvec//0.4.12 serde//1.0.101 weak:optional
 atty//0.2.13 libc//0.2.62
 backtrace-sys//0.1.31 cc//1.0.46
 backtrace-sys//0.1.31 libc//0.2.62
