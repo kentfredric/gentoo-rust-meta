@@ -55,6 +55,7 @@ num-traits//0.1.43 num-traits 0.1.43
 num-traits//0.2.8 num-traits 0.2.8
 num_cpus//1.10.1 num_cpus 1.10.1
 opaque-debug//0.2.3 opaque-debug 0.2.3
+openssl-src//111.6.0 openssl-src 111.6.0
 owning_ref//0.4.0 owning_ref 0.4.0
 parking_lot//0.9.0 parking_lot 0.9.0
 parking_lot_core//0.6.2 parking_lot_core 0.6.2
@@ -256,6 +257,7 @@ num-traits//0.1.43 num-traits//0.2.8
 num-traits//0.2.8 autocfg//0.1.6
 num_cpus//1.10.1 doc-comment//0.3.1 weak:test
 num_cpus//1.10.1 libc//0.2.62
+openssl-src//111.6.0 cc//1.0.46
 owning_ref//0.4.0 stable_deref_trait//1.1.1
 parking_lot//0.9.0 lock_api//0.3.1
 parking_lot//0.9.0 parking_lot_core//0.6.2
