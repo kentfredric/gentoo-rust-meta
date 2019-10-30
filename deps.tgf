@@ -35,6 +35,7 @@ linked-hash-map//0.5.2 linked-hash-map 0.5.2
 lock_api//0.3.1 lock_api 0.3.1
 maplit//1.0.2 maplit 1.0.2
 memchr//2.2.1 memchr 2.2.1
+memoffset//0.5.1 memoffset 0.5.1
 nodrop//0.1.14 nodrop 0.1.14
 num-integer//0.1.41 num-integer 0.1.41
 num-traits//0.2.8 num-traits 0.2.8
@@ -174,6 +175,7 @@ libc//0.2.50 rustc-std-workspace-core//1.0.0 weak:optional
 libc//0.2.62 rustc-std-workspace-core//1.0.0 weak:feature:rustc-dep-of-std
 libc//0.2.62 rustc-std-workspace-core//1.0.0 weak:optional
 memchr//2.2.1 libc//0.2.62 weak:optional
+memoffset//0.5.1 rustc_version//0.2.3
 num-integer//0.1.41 autocfg//0.1.6
 num-integer//0.1.41 num-traits//0.2.8
 num-traits//0.2.8 autocfg//0.1.6
