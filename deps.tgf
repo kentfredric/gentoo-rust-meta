@@ -16,6 +16,7 @@ chrono//0.4.9 chrono 0.4.9
 ci_info//0.3.1 ci_info 0.3.1
 clicolors-control//1.0.1 clicolors-control 1.0.1
 console//0.7.7 console 0.7.7
+crossbeam-deque//0.7.1 crossbeam-deque 0.7.1
 crossbeam-epoch//0.7.2 crossbeam-epoch 0.7.2
 crossbeam-utils//0.6.6 crossbeam-utils 0.6.6
 difference//2.0.0 difference 2.0.0
@@ -136,6 +137,9 @@ console//0.7.7 parking_lot//0.9.0
 console//0.7.7 regex//1.3.1
 console//0.7.7 termios//0.3.1
 console//0.7.7 unicode-width//0.1.6
+crossbeam-deque//0.7.1 crossbeam-epoch//0.7.2
+crossbeam-deque//0.7.1 crossbeam-utils//0.6.6
+crossbeam-deque//0.7.1 rand//0.6.5 weak:test
 crossbeam-epoch//0.7.2 arrayvec//0.4.12
 crossbeam-epoch//0.7.2 cfg-if//0.1.10
 crossbeam-epoch//0.7.2 crossbeam-utils//0.6.6
