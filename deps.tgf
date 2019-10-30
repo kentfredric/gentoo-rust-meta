@@ -16,6 +16,7 @@ difference//2.0.0 difference 2.0.0
 doc-comment//0.3.1 doc-comment 0.3.1
 failure//0.1.6 failure 0.1.6
 failure_derive//0.1.6 failure_derive 0.1.6
+generic-array//0.12.3 generic-array 0.12.3
 glob//0.3.0 glob 0.3.0
 itoa//0.4.4 itoa 0.4.4
 lazy_static//1.4.0 lazy_static 1.4.0
@@ -105,6 +106,8 @@ failure_derive//0.1.6 proc-macro2//1.0.5
 failure_derive//0.1.6 quote//1.0.2
 failure_derive//0.1.6 syn//1.0.5
 failure_derive//0.1.6 synstructure//0.12.1
+generic-array//0.12.3 serde//1.0.101 weak:optional
+generic-array//0.12.3 typenum//1.11.2
 glob//0.3.0 tempdir//0.3.7 weak:test
 lazy_static//1.4.0 doc-comment//0.3.1 weak:test
 lazy_static//1.4.0 spin//0.5.2 weak:feature:spin_no_std
