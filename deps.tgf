@@ -17,6 +17,7 @@ cfg-if//0.1.10 cfg-if 0.1.10
 chrono//0.4.9 chrono 0.4.9
 ci_info//0.3.1 ci_info 0.3.1
 clicolors-control//1.0.1 clicolors-control 1.0.1
+cmake//0.1.42 cmake 0.1.42
 console//0.7.7 console 0.7.7
 crossbeam-deque//0.7.1 crossbeam-deque 0.7.1
 crossbeam-epoch//0.7.2 crossbeam-epoch 0.7.2
@@ -162,6 +163,7 @@ ci_info//0.3.1 serde_derive//1.0.89 weak:feature:serde-1
 ci_info//0.3.1 serde_derive//1.0.89 weak:optional
 clicolors-control//1.0.1 lazy_static//1.4.0
 clicolors-control//1.0.1 libc//0.2.62
+cmake//0.1.42 cc//1.0.46
 console//0.7.7 atty//0.2.13
 console//0.7.7 clicolors-control//1.0.1
 console//0.7.7 lazy_static//1.4.0
