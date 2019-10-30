@@ -53,6 +53,7 @@ rand_core//0.3.1 rand_core 0.3.1
 rand_core//0.4.2 rand_core 0.4.2
 rand_hc//0.1.0 rand_hc 0.1.0
 rand_isaac//0.1.1 rand_isaac 0.1.1
+rand_jitter//0.1.4 rand_jitter 0.1.4
 regex-syntax//0.6.12 regex-syntax 0.6.12
 regex//1.3.1 regex 1.3.1
 remove_dir_all//0.5.2 remove_dir_all 0.5.2
@@ -194,6 +195,7 @@ rand_isaac//0.1.1 serde//1.0.101 weak:feature:serde1
 rand_isaac//0.1.1 serde//1.0.101 weak:optional
 rand_isaac//0.1.1 serde_derive//1.0.89 weak:feature:serde1
 rand_isaac//0.1.1 serde_derive//1.0.89 weak:optional
+rand_jitter//0.1.4 rand_core//0.4.2
 regex//1.3.1 regex-syntax//0.6.12
 remove_dir_all//0.5.2 doc-comment//0.3.1 weak:test
 ron//0.4.1 base64//0.10.1
