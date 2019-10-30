@@ -226,6 +226,9 @@ libc//0.2.50 rustc-std-workspace-core//1.0.0 weak:feature:rustc-dep-of-std
 libc//0.2.50 rustc-std-workspace-core//1.0.0 weak:optional
 libc//0.2.62 rustc-std-workspace-core//1.0.0 weak:feature:rustc-dep-of-std
 libc//0.2.62 rustc-std-workspace-core//1.0.0 weak:optional
+lock_api//0.3.1 owning_ref//0.4.0 weak:optional
+lock_api//0.3.1 scopeguard//1.0.0 weak:optional
+lock_api//0.3.1 serde//1.0.101 weak:optional
 memchr//2.2.1 libc//0.2.62 weak:optional
 memoffset//0.5.1 rustc_version//0.2.3
 no-panic//0.1.11 proc-macro2//1.0.5
