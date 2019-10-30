@@ -5,6 +5,7 @@ backtrace-sys//0.1.31 backtrace-sys 0.1.31
 backtrace//0.3.38 backtrace 0.3.38
 block-padding//0.1.4 block-padding 0.1.4
 byte-tools//0.3.1 byte-tools 0.3.1
+byteorder//1.3.2 byteorder 1.3.2
 cc//1.0.46 cc 1.0.46
 cfg-if//0.1.10 cfg-if 0.1.10
 chrono//0.4.9 chrono 0.4.9
