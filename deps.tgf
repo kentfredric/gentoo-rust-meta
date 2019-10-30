@@ -23,6 +23,7 @@ difference//2.0.0 difference 2.0.0
 digest//0.8.1 digest 0.8.1
 doc-comment//0.3.1 doc-comment 0.3.1
 dtoa//0.4.4 dtoa 0.4.4
+either//1.5.3 either 1.5.3
 failure//0.1.6 failure 0.1.6
 failure_derive//0.1.6 failure_derive 0.1.6
 fake-simd//0.1.2 fake-simd 0.1.2
@@ -155,6 +156,7 @@ crossbeam-utils//0.6.6 lazy_static//1.4.0 weak:feature:std
 crossbeam-utils//0.6.6 lazy_static//1.4.0 weak:optional
 crossbeam-utils//0.6.6 rand//0.6.5 weak:test
 digest//0.8.1 generic-array//0.12.3
+either//1.5.3 serde//1.0.101 weak:optional
 failure//0.1.6 backtrace//0.3.38 feature:default
 failure//0.1.6 backtrace//0.3.38 weak:feature:std
 failure//0.1.6 backtrace//0.3.38 weak:optional
