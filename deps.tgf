@@ -109,6 +109,7 @@ unicode-width//0.1.6 unicode-width 0.1.6
 unicode-xid//0.1.0 unicode-xid 0.1.0
 unicode-xid//0.2.0 unicode-xid 0.2.0
 uuid//0.7.4 uuid 0.7.4
+walkdir//2.2.9 walkdir 2.2.9
 yaml-rust//0.4.3 yaml-rust 0.4.3
 #
 aho-corasick//0.7.6 doc-comment//0.3.1 weak:test
@@ -354,4 +355,6 @@ trybuild//1.0.17 serde_json//1.0.41
 trybuild//1.0.17 termcolor//1.0.5
 trybuild//1.0.17 toml//0.5.3
 ucd-trie//0.1.2 lazy_static//1.4.0 weak:test
+walkdir//2.2.9 doc-comment//0.3.1 weak:test
+walkdir//2.2.9 same-file//1.0.5
 yaml-rust//0.4.3 linked-hash-map//0.5.2
