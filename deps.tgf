@@ -40,6 +40,7 @@ itoa//0.4.4 itoa 0.4.4
 lazy_static//1.4.0 lazy_static 1.4.0
 libc//0.2.50 libc 0.2.50
 libc//0.2.62 libc 0.2.62
+libnghttp2-sys//0.1.2 libnghttp2-sys 0.1.2
 linked-hash-map//0.5.2 linked-hash-map 0.5.2
 lock_api//0.3.1 lock_api 0.3.1
 maplit//1.0.2 maplit 1.0.2
@@ -231,6 +232,8 @@ libc//0.2.50 rustc-std-workspace-core//1.0.0 weak:feature:rustc-dep-of-std
 libc//0.2.50 rustc-std-workspace-core//1.0.0 weak:optional
 libc//0.2.62 rustc-std-workspace-core//1.0.0 weak:feature:rustc-dep-of-std
 libc//0.2.62 rustc-std-workspace-core//1.0.0 weak:optional
+libnghttp2-sys//0.1.2 cc//1.0.46
+libnghttp2-sys//0.1.2 libc//0.2.62
 lock_api//0.3.1 owning_ref//0.4.0 weak:optional
 lock_api//0.3.1 scopeguard//1.0.0 weak:optional
 lock_api//0.3.1 serde//1.0.101 weak:optional
