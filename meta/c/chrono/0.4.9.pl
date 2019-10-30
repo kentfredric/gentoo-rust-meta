@@ -3,12 +3,8 @@ use strict;
 use warnings;
 
 crate(
-    # TODO
-    # NOTE: Tests restricted, features missing
-    chrono          => '0.4.9',
-    missing_tests   => 1,
-    missing_options => 1,
-    requires        => {
+    chrono   => '0.4.9',
+    requires => {
         libc          => '^0.2',
         'num-integer' => '^0.1.36',
         'num-traits'  => '^0.2',
