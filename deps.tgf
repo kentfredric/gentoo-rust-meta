@@ -18,6 +18,7 @@ console//0.7.7 console 0.7.7
 difference//2.0.0 difference 2.0.0
 digest//0.8.1 digest 0.8.1
 doc-comment//0.3.1 doc-comment 0.3.1
+dtoa//0.4.4 dtoa 0.4.4
 failure//0.1.6 failure 0.1.6
 failure_derive//0.1.6 failure_derive 0.1.6
 fake-simd//0.1.2 fake-simd 0.1.2
