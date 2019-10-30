@@ -81,6 +81,7 @@ rustc-std-workspace-core//1.0.0 rustc-std-workspace-core 1.0.0
 rustc_version//0.2.3 rustc_version 0.2.3
 rustversion//0.1.4 rustversion 0.1.4
 ryu//1.0.1 ryu 1.0.1
+same-file//1.0.5 same-file 1.0.5
 scopeguard//1.0.0 scopeguard 1.0.0
 semver-parser//0.7.0 semver-parser 0.7.0
 semver//0.9.0 semver 0.9.0
