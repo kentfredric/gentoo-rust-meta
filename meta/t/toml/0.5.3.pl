@@ -3,12 +3,8 @@ use strict;
 use warnings;
 
 crate(
-    # TODO
-    # NOTE: Tests Restricted, features missing
-    toml            => '0.5.3',
-    missing_tests   => 1,
-    missing_options => 1,
-    optional        => {
+    toml     => '0.5.3',
+    optional => {
         'linked-hash-map' => '^0.5',
     },
     requires => {

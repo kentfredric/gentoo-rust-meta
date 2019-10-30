@@ -369,7 +369,11 @@ tempdir//0.3.7 remove_dir_all//0.5.2
 termios//0.3.1 libc//0.2.62
 thread_local//0.3.6 lazy_static//1.4.0
 time//0.1.42 libc//0.2.62
+toml//0.5.3 linked-hash-map//0.5.2 weak:feature:preserve_order
+toml//0.5.3 linked-hash-map//0.5.2 weak:optional
 toml//0.5.3 serde//1.0.101
+toml//0.5.3 serde_derive//1.0.89 weak:test
+toml//0.5.3 serde_json//1.0.41 weak:test
 trybuild//1.0.17 glob//0.3.0
 trybuild//1.0.17 lazy_static//1.4.0
 trybuild//1.0.17 serde//1.0.101
