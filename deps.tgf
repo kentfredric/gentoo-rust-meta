@@ -114,6 +114,7 @@ sha-1//0.8.1 sha-1 0.8.1
 smallvec//0.6.10 smallvec 0.6.10
 spin//0.5.2 spin 0.5.2
 stable_deref_trait//1.1.1 stable_deref_trait 1.1.1
+sval//0.4.7 sval 0.4.7
 sval_derive//0.4.7 sval_derive 0.4.7
 syn//0.11.11 syn 0.11.11
 syn//0.15.29 syn 0.15.29
@@ -406,6 +407,13 @@ sha-1//0.8.1 block-buffer//0.7.3
 sha-1//0.8.1 digest//0.8.1
 sha-1//0.8.1 fake-simd//0.1.2
 sha-1//0.8.1 opaque-debug//0.2.3
+sval//0.4.7 serde//1.0.101 weak:feature:serde_no_std
+sval//0.4.7 serde//1.0.101 weak:feature:serde_std
+sval//0.4.7 serde//1.0.101 weak:optional
+sval//0.4.7 smallvec//0.6.10 weak:feature:arbitrary-depth
+sval//0.4.7 smallvec//0.6.10 weak:optional
+sval//0.4.7 sval_derive//0.4.7 weak:feature:derive
+sval//0.4.7 sval_derive//0.4.7 weak:optional
 sval_derive//0.4.7 proc-macro2//1.0.5
 sval_derive//0.4.7 quote//1.0.2
 sval_derive//0.4.7 syn//1.0.5
