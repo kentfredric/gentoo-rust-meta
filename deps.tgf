@@ -47,6 +47,7 @@ jemallocator//0.3.2 jemallocator 0.3.2
 lazy_static//1.4.0 lazy_static 1.4.0
 libc//0.2.50 libc 0.2.50
 libc//0.2.62 libc 0.2.62
+libgit2-sys//0.6.19 libgit2-sys 0.6.19
 libnghttp2-sys//0.1.2 libnghttp2-sys 0.1.2
 libssh2-sys//0.2.13 libssh2-sys 0.2.13
 libz-sys//1.0.25 libz-sys 1.0.25
@@ -289,6 +290,17 @@ libc//0.2.50 rustc-std-workspace-core//1.0.0 weak:feature:rustc-dep-of-std
 libc//0.2.50 rustc-std-workspace-core//1.0.0 weak:optional
 libc//0.2.62 rustc-std-workspace-core//1.0.0 weak:feature:rustc-dep-of-std
 libc//0.2.62 rustc-std-workspace-core//1.0.0 weak:optional
+libgit2-sys//0.6.19 cc//1.0.46
+libgit2-sys//0.6.19 cmake//0.1.42
+libgit2-sys//0.6.19 curl-sys//0.4.23 weak:feature:curl
+libgit2-sys//0.6.19 curl-sys//0.4.23 weak:optional
+libgit2-sys//0.6.19 libc//0.2.62
+libgit2-sys//0.6.19 libssh2-sys//0.2.13 weak:feature:ssh
+libgit2-sys//0.6.19 libssh2-sys//0.2.13 weak:optional
+libgit2-sys//0.6.19 libz-sys//1.0.25
+libgit2-sys//0.6.19 openssl-sys//0.9.52 weak:feature:https
+libgit2-sys//0.6.19 openssl-sys//0.9.52 weak:optional
+libgit2-sys//0.6.19 pkg-config//0.3.16
 libnghttp2-sys//0.1.2 cc//1.0.46
 libnghttp2-sys//0.1.2 libc//0.2.62
 libssh2-sys//0.2.13 cc//1.0.46
