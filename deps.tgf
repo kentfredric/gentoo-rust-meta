@@ -23,6 +23,7 @@ crossbeam-deque//0.7.1 crossbeam-deque 0.7.1
 crossbeam-epoch//0.7.2 crossbeam-epoch 0.7.2
 crossbeam-queue//0.1.2 crossbeam-queue 0.1.2
 crossbeam-utils//0.6.6 crossbeam-utils 0.6.6
+curl-sys//0.4.23 curl-sys 0.4.23
 difference//2.0.0 difference 2.0.0
 digest//0.8.1 digest 0.8.1
 doc-comment//0.3.1 doc-comment 0.3.1
@@ -217,6 +218,17 @@ crossbeam-utils//0.6.6 lazy_static//1.4.0 feature:default
 crossbeam-utils//0.6.6 lazy_static//1.4.0 weak:feature:std
 crossbeam-utils//0.6.6 lazy_static//1.4.0 weak:optional
 crossbeam-utils//0.6.6 rand//0.6.5 weak:test
+curl-sys//0.4.23 cc//1.0.46
+curl-sys//0.4.23 libc//0.2.62
+curl-sys//0.4.23 libnghttp2-sys//0.1.2 weak:feature:http2
+curl-sys//0.4.23 libnghttp2-sys//0.1.2 weak:optional
+curl-sys//0.4.23 libz-sys//1.0.25
+curl-sys//0.4.23 mesalink//1.1.0 weak:optional
+curl-sys//0.4.23 openssl-sys//0.9.52 feature:default
+curl-sys//0.4.23 openssl-sys//0.9.52 weak:feature:ssl
+curl-sys//0.4.23 openssl-sys//0.9.52 weak:feature:static-ssl
+curl-sys//0.4.23 openssl-sys//0.9.52 weak:optional
+curl-sys//0.4.23 pkg-config//0.3.16
 digest//0.8.1 generic-array//0.12.3
 either//1.5.3 serde//1.0.101 weak:optional
 enum_to_u8_slice_derive//0.1.1 quote//0.3.15
