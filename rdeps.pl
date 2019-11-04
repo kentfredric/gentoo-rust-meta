@@ -297,6 +297,12 @@ sub resolve_dep {
     #    }
     my (@versions)      = sort keys %{ $deps{$package} };
     my (@orig_versions) = (@versions);
+    my $for             = {};
+    if (    exists $deps{ $opts->{for_package} }
+        and exists $deps{ $opts->{for_package} }{ $opts->{for_version} } )
+    {
+        $for = $deps{ $opts->{for_package} }{ $opts->{for_version} };
+    }
 
     if ( 'CODE' eq ref $version ) {
         my $selected = $version->(@versions);
@@ -313,84 +319,31 @@ sub resolve_dep {
         if (@found_versions) {
             return largest_version(@found_versions);
         }
+        if (    $opts->{reason}
+            and $opts->{reason} eq 'test'
+            and $for->{problems}->{missing_tests} )
+        {
+            return;
+        }
+        if (    $opts->{reason}
+            and $opts->{reason} eq 'optional'
+            and $for->{problems}->{missing_options} )
+        {
+            return;
+        }
+        if (    $opts->{reason}
+            and $opts->{reason} eq 'feature'
+            and $for->{problems}->{missing_options} )
+        {
+            return;
+        }
+
         dep_missing( $package, $version,
             $opts->{for_package}, $opts->{for_version}, $opts->{reason},
             @orig_versions );
         return undef;
 
     }
-    if ( $version =~ /\(.+\)/ ) {
-        my $selected = expr_to_fn($version)->(@versions);
-        return $selected if defined $selected;
-        dep_missing( $package, $version,
-            $opts->{for_package}, $opts->{for_version}, $opts->{reason},
-            @orig_versions );
-        return undef;
-    }
-    if ( $version =~ /\A\^?0[.](\d+)[.]?/ ) {
-        my $sem_max = $1;
-        @versions = grep { /\A0[.]${sem_max}/ } @versions;
-        my $vsel = $version;
-        $vsel =~ s/\A\^//;
-        my $min = version->parse( expando_version($vsel) );
-        @versions = grep { version->parse($_) >= $min } @versions;
-        if (@versions) {
-            return largest_version(@versions);
-        }
-        dep_missing( $package, $version, $opts->{for_package},
-            $opts->{for_version}, $opts->{reason}, @orig_versions );
-        return undef;
-    }
-    elsif ( $version =~ /\A\^?(\d+)[.]?/ ) {
-        my $sem_max = "$1";
-        @versions = grep { /\A${sem_max}([.]|\z)/ } @versions;
-        my $vsel = $version;
-        $vsel =~ s/\A\^//;
-        my $min = version->parse( expando_version($vsel) );
-        @versions = grep { version->parse($_) >= $min } @versions;
-
-        if (@versions) {
-            return largest_version(@versions);
-        }
-        dep_missing( $package, $version, $opts->{for_package},
-            $opts->{for_version}, $opts->{reason}, @orig_versions );
-        return undef;
-
-    }
-    if ( $version =~ /\A~([\d.]+)\z/ ) {
-        my ($spec_v) = "$1";
-        my (@spec_parts) = ( split qr/[.]/, $spec_v );
-        my $min;
-        my $max;
-        warn "$spec_v => @spec_parts";
-        if ( 1 == scalar @spec_parts ) {
-            $min = version->parse( expando_version($spec_v) );
-            $max = version->parse( expando_version( $spec_parts[0] + 1 ) );
-        }
-        elsif ( 2 == scalar @spec_parts or 3 == scalar @spec_parts ) {
-            $min = version->parse( expando_version($spec_v) );
-            $max = version->parse(
-                expando_version(
-                    $spec_parts[0] . q[.] . ( $spec_parts[1] + 1 )
-                )
-            );
-        }
-        else {
-            die "unhandled number of parts in ~<$spec_v>";
-        }
-        @versions = grep {
-            my $v = version->parse($_);
-            $min <= $v and $v < $max
-        } @versions;
-        if (@versions) {
-            return largest_version(@versions);
-        }
-        dep_missing( $package, $version, $opts->{for_package},
-            $opts->{for_version}, $opts->{reason}, @orig_versions );
-        return undef;
-    }
-    die "Can't resolve $version for $package: Candidates @orig_versions";
-
 }
 
 sub crate {
@@ -418,26 +371,31 @@ sub crate {
     if ( exists $opt_hash{feature} ) {
         $stash->{feature} = delete $opt_hash{feature};
     }
-    if ( exists $opt_hash{features} ) {
-        $stash->{features} = delete $opt_hash{features}
-          unless $opt_hash{missing_options};
-        delete $opt_hash{features};
-    }
-    if ( exists $opt_hash{test} or $opt_hash{missing_tests} ) {
-        $stash->{test} = $opt_hash{test} unless $opt_hash{missing_tests};
-        delete $opt_hash{test};
-        delete $opt_hash{missing_tests};
-    }
-    if ( exists $opt_hash{optional} or $opt_hash{missing_options} ) {
-        $stash->{optional} = $opt_hash{optional}
-          unless $opt_hash{missing_options};
-        delete $opt_hash{optional};
-        delete $opt_hash{missing_options};
-    }
 
-    if ( exists $opt_hash{missing} ) {
-        $stash->{missing} = delete $opt_hash{missing};
+    # Problem handling
+    if ( exists $opt_hash{problems} and 'HASH' eq ref $opt_hash{problems} ) {
+        $stash->{problems} = delete $opt_hash{problems};
     }
+    if ( exists $opt_hash{problems} and 'ARRAY' eq ref $opt_hash{problems} ) {
+        $stash->{problems} = { map { $_, 1 } @{ delete $opt_hash{problems} } };
+    }
+    $stash->{problems}->{missing_options} = delete $opt_hash{missing_options}
+      if exists $opt_hash{missing_options};
+    $stash->{problems}->{missing_tests} = delete $opt_hash{missing_tests}
+      if exists $opt_hash{missing_tests};
+    $stash->{problems}->{missing} = delete $opt_hash{missing}
+      if exists $opt_hash{missing};
+    $stash->{problems}->{package_masked} = delete $opt_hash{package_masked}
+      if exists $opt_hash{package_masked};
+
+    ## Done problem handling
+    #
+    $stash->{features} = delete $opt_hash{features}
+      if exists $opt_hash{features};
+    $stash->{test} = delete $opt_hash{test}
+      if exists $opt_hash{test};
+    $stash->{optional} = delete $opt_hash{optional}
+      if exists $opt_hash{optional};
 
     if ( $ENV{AUTOFEATURE}
         or exists $opt_hash{test_features} and $opt_hash{test_features} )
@@ -472,6 +430,7 @@ sub expand_feature {
     my $features = exists $xcrate->{features} ? $xcrate->{features} : {};
     my $optional = exists $xcrate->{optional} ? $xcrate->{optional} : {};
     my $requires = exists $xcrate->{requires} ? $xcrate->{requires} : {};
+    my $problems = exists $xcrate->{problems} ? $xcrate->{problems} : {};
 
     if ( exists $features->{$name} ) {
         my @expanded;
@@ -496,6 +455,16 @@ sub expand_feature {
         return ();
 
         #        return ( [ $name, $xcrate->{requires}->{$name} ] );
+    }
+    if ( $problems->{missing} ) {
+        warn
+"Can't resolve feature $name in (\e[35mmissing\e[0m) crate $crate version $crate_version";
+        return ();
+    }
+    if ( $problems->{missing_tests} or $problems->{missing_options} ) {
+        warn
+"Can't resolve (\e[36moptional/test\e[0m) feature $name in crate $crate version $crate_version";
+        return ();
     }
     die "Can't resolve feature $name in crate $crate version $crate_version";
 }
@@ -529,11 +498,20 @@ sub resolve_deps {
                     );
                 }
             }
-            if ( exists $vhash->{test} && !$ENV{MINIMAL} ) {
+            if (   exists $vhash->{test}
+                && !$ENV{MINIMAL}
+                && !$vhash->{problems}->{missing_tests} )
+            {
                 for my $d_pkg ( sort keys %{ $vhash->{test} } ) {
                     my $rv = $vhash->{test}->{$d_pkg};
-                    my $wv = resolve_dep( $d_pkg, $rv,
-                        { for_package => $o_pkg, for_version => $o_version } );
+                    my $wv = resolve_dep(
+                        $d_pkg, $rv,
+                        {
+                            for_package => $o_pkg,
+                            for_version => $o_version,
+                            reason      => 'test'
+                        }
+                    );
                     next unless defined $wv;
                     unless ( exists $deps{$d_pkg}{$wv} ) {
                         die "Unknown dep $d_pkg v=$wv for $o_pkg v=$o_version";
@@ -548,11 +526,20 @@ sub resolve_deps {
                         ident_for( $d_pkg, $wv ), "weak:test" );
                 }
             }
-            if ( exists $vhash->{optional} && !$ENV{MINIMAL} ) {
+            if (   exists $vhash->{optional}
+                && !$ENV{MINIMAL}
+                && !$vhash->{problems}->{missing_options} )
+            {
                 for my $d_pkg ( sort keys %{ $vhash->{optional} } ) {
                     my $rv = $vhash->{optional}->{$d_pkg};
-                    my $wv = resolve_dep( $d_pkg, $rv,
-                        { for_package => $o_pkg, for_version => $o_version } );
+                    my $wv = resolve_dep(
+                        $d_pkg, $rv,
+                        {
+                            for_package => $o_pkg,
+                            for_version => $o_version,
+                            reason      => 'optional'
+                        }
+                    );
                     next unless defined $wv;
                     unless ( exists $deps{$d_pkg}{$wv} ) {
                         die "Unknown dep $d_pkg v=$wv for $o_pkg v=$o_version";
@@ -570,7 +557,9 @@ sub resolve_deps {
                     );
                 }
             }
-            if ( exists $vhash->{features} ) {
+            if ( exists $vhash->{features}
+                and !$vhash->{problems}->{missing_options} )
+            {
                 if ( ref $vhash->{features} ne 'HASH' ) {
                     die "illegal features for  $o_pkg $o_version";
                 }
@@ -605,7 +594,8 @@ sub resolve_deps {
                             $d_pkg, $rv,
                             {
                                 for_package => $o_pkg,
-                                for_version => $o_version
+                                for_version => $o_version,
+                                reason      => 'feature',
                             }
                         );
                         next unless defined $wv;
