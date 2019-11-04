@@ -273,6 +273,9 @@ sub expr_to_fn {
     if ( $expr =~ /\A~([0-9]+\.[0-9]+)\.([0-9]+)\z/ ) {
         return tilde( $1, $2 );
     }
+    if ( $expr =~ /\A\s*\*\s*\z/ ) {
+        return larger_than('0.0.0');
+    }
 
     if ( $expr =~ /\A\s*([^,]+),(.*\z)/ ) {
         return union_fn( expr_to_fn( $1, $package ),
