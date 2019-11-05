@@ -226,6 +226,25 @@ sub dep_missing {
 
 }
 
+sub dep_masked {
+    my ( $package, $version, $for_package, $for_version, $reason, @candidates )
+      = @_;
+    my $message =
+"Required masked package \e[1;31m$version\e[0m for \e[1;31m$package\e[0m\n";
+    $message .=
+      "   in \e[31m$for_package\e[0m version \e[31m$for_version\e[0m\n";
+    if ( not @candidates ) {
+        $message .= "Candidates: \e[1;31mNone\e[0m";
+    }
+    else {
+        $message .= "Candidates: \e[1m@candidates\e[0m";
+    }
+    $reason = ( defined $reason ) ? " $reason" : "";
+    $unresolved{$package}{$version}{"$for_package $for_version$reason"}++;
+    warn $message;
+
+}
+
 sub expr_to_fn {
     my ( $expr, $package ) = @_;
     if ( $expr =~ /\A\s*range_excl\(\s*([0-9.]+)\s*,\s*([0-9.]+)\s*\)\s*\z/ ) {
@@ -469,93 +488,137 @@ sub expand_feature {
     die "Can't resolve feature $name in crate $crate version $crate_version";
 }
 
+sub crate_names    { sort keys %deps }
+sub crate_versions { sort keys %{ $deps{ $_[0] } } }
+
+sub crate_info {
+    my ( $name, $version, $requestee ) = @_;
+    unless ( exists $deps{$name}{$version} ) {
+        die "Unknown dep $name v=$version for $requestee";
+    }
+    $deps{$name}{$version};
+}
+
+sub crate_requirements {
+    my $meta = crate_info(@_);
+    map { { package => $_, requirement => $meta->{requires}->{$_} } }
+      sort keys %{ $meta->{requires} || {} };
+}
+
+sub crate_test_requirements {
+    my $meta = crate_info(@_);
+    map { { package => $_, requirement => $meta->{test}->{$_} } }
+      sort keys %{ $meta->{test} || {} };
+}
+
+sub crate_optional_requirements {
+    my $meta = crate_info(@_);
+    map { { package => $_, requirement => $meta->{optional}->{$_} } }
+      sort keys %{ $meta->{optional} || {} };
+}
+
+sub crate_problem {
+    my $meta = crate_info( @_[ 0, 1, 2 ] );
+    !!$meta->{problems}->{ $_[3] };
+}
+
+sub define_link {
+    my ( $source_package, $source_version, $dest_package, $dest_version,
+        $label, $requestee, @options )
+      = @_;
+    my ($source_meta) =
+      crate_info( $source_package, $source_version, $requestee );
+    my ($dest_meta) = crate_info( $dest_package, $dest_version,
+        "$source_package v=$source_version"
+          . ( defined $requestee ? " $requestee" : "" ) );
+    if ( $dest_meta->{problems}->{missing} ) {
+        dep_missing( $source_package, $source_version, $dest_package,
+            $dest_version, $label, @options );
+        return;
+    }
+    if ( $dest_meta->{problems}->{package_masked} ) {
+        dep_masked( $source_package, $source_version, $dest_package,
+            $dest_version, $label, @options );
+        if ( defined $label ) {
+            $label = "bad(dependency masked):$label";
+        }
+        else {
+            $label = "bad(dependency masked)";
+        }
+    }
+    assoc( ident_for( $source_package, $source_version ),
+        ident_for( $dest_package, $dest_version ), $label );
+
+}
+
 sub resolve_deps {
     for my $o_pkg ( sort keys %deps ) {
         for my $o_version ( sort keys %{ $deps{$o_pkg} } ) {
             ident_for( $o_pkg, $o_version );
         }
     }
-    for my $o_pkg ( sort keys %deps ) {
-        for my $o_version ( sort keys %{ $deps{$o_pkg} } ) {
-            my $vhash = $deps{$o_pkg}{$o_version};
-            if ( exists $vhash->{requires} ) {
-                for my $d_pkg ( sort keys %{ $vhash->{requires} } ) {
-                    my $rv = $vhash->{requires}->{$d_pkg};
-                    my $wv = resolve_dep( $d_pkg, $rv,
-                        { for_package => $o_pkg, for_version => $o_version } );
-                    next unless defined $wv;
-                    unless ( exists $deps{$d_pkg}{$wv} ) {
-                        die "Unknown dep $d_pkg v=$wv for $o_pkg v=$o_version";
-                    }
-                    if ( $deps{$d_pkg}{$wv}{missing} ) {
-                        dep_missing( $d_pkg, $wv, $o_pkg, $o_version, undef,
-                            $wv );
-                        next;
-                    }
-                    assoc(
-                        ident_for( $o_pkg, $o_version ),
-                        ident_for( $d_pkg, $wv )
-                    );
-                }
-            }
-            if (   exists $vhash->{test}
-                && !$ENV{MINIMAL}
-                && !$vhash->{problems}->{missing_tests} )
+
+    for my $o_pkg (crate_names) {
+        for my $o_version ( crate_versions($o_pkg) ) {
+            my $req = "global loop";
+
+            my $vhash = crate_info( $o_pkg, $o_version, $req );
+            for
+              my $requirement ( crate_requirements( $o_pkg, $o_version, $req ) )
             {
-                for my $d_pkg ( sort keys %{ $vhash->{test} } ) {
-                    my $rv = $vhash->{test}->{$d_pkg};
-                    my $wv = resolve_dep(
-                        $d_pkg, $rv,
+                my $resolved_version = resolve_dep(
+                    $requirement->{package},
+                    $requirement->{requirement},
+                    { for_package => $o_pkg, for_version => $o_version }
+                );
+                next unless defined $resolved_version;
+                define_link( $o_pkg, $o_version, $requirement->{package},
+                    $resolved_version, undef, $req, $resolved_version );
+            }
+
+            $req = "global loop(tests)";
+            if ( !$ENV{MINIMAL} && !$vhash->{problems}->{missing_tests} ) {
+                for my $requirement (
+                    crate_test_requirements( $o_pkg, $o_version, $req ) )
+                {
+                    my $resolved_version = resolve_dep(
+                        $requirement->{package},
+                        $requirement->{requirement},
                         {
                             for_package => $o_pkg,
                             for_version => $o_version,
                             reason      => 'test'
                         }
                     );
-                    next unless defined $wv;
-                    unless ( exists $deps{$d_pkg}{$wv} ) {
-                        die "Unknown dep $d_pkg v=$wv for $o_pkg v=$o_version";
-                    }
-                    if ( $deps{$d_pkg}{$wv}{missing} ) {
-                        dep_missing( $d_pkg, $wv, $o_pkg, $o_version, 'test',
-                            $wv );
-                        next;
-                    }
-
-                    assoc( ident_for( $o_pkg, $o_version ),
-                        ident_for( $d_pkg, $wv ), "weak:test" );
+                    next unless defined $resolved_version;
+                    define_link( $o_pkg, $o_version, $requirement->{package},
+                        $resolved_version, 'weak:test', $req,
+                        $resolved_version );
                 }
             }
-            if (   exists $vhash->{optional}
-                && !$ENV{MINIMAL}
+            $req = "global loop(optional)";
+            if (   !$ENV{MINIMAL}
                 && !$vhash->{problems}->{missing_options} )
             {
-                for my $d_pkg ( sort keys %{ $vhash->{optional} } ) {
-                    my $rv = $vhash->{optional}->{$d_pkg};
-                    my $wv = resolve_dep(
-                        $d_pkg, $rv,
+
+                for my $requirement (
+                    crate_optional_requirements( $o_pkg, $o_version, $req ) )
+                {
+                    my $resolved_version = resolve_dep(
+                        $requirement->{package},
+                        $requirement->{requirement},
                         {
                             for_package => $o_pkg,
                             for_version => $o_version,
                             reason      => 'optional'
                         }
                     );
-                    next unless defined $wv;
-                    unless ( exists $deps{$d_pkg}{$wv} ) {
-                        die "Unknown dep $d_pkg v=$wv for $o_pkg v=$o_version";
-                    }
-                    if ( $deps{$d_pkg}{$wv}{missing} ) {
-                        dep_missing( $d_pkg, $wv, $o_pkg, $o_version,
-                            'optional', $wv );
-                        next;
-                    }
-
-                    assoc(
-                        ident_for( $o_pkg, $o_version ),
-                        ident_for( $d_pkg, $wv ),
-                        "weak:optional"
-                    );
+                    next unless defined $resolved_version;
+                    define_link( $o_pkg, $o_version, $requirement->{package},
+                        $resolved_version, "weak:optional", $req,
+                        $resolved_version );
                 }
+
             }
             if ( exists $vhash->{features}
                 and !$vhash->{problems}->{missing_options} )
@@ -612,6 +675,13 @@ sub resolve_deps {
                           $feature eq 'default'
                           ? 'feature:default'
                           : "weak:feature:${feature}";
+                        if ( $deps{$d_pkg}{$wv}{problems}{package_masked} ) {
+                            $fname = "bad(dependency masked):$fname";
+                            dep_masked( $d_pkg, $wv, $o_pkg, $o_version,
+                                "feature:$feature", $wv );
+
+                        }
+
                         assoc( ident_for( $o_pkg, $o_version ),
                             ident_for( $d_pkg, $wv ), $fname );
                     }
