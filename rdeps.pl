@@ -387,9 +387,6 @@ sub crate {
         }
         delete $opt_hash{build_requires};
     }
-    if ( exists $opt_hash{feature} ) {
-        $stash->{feature} = delete $opt_hash{feature};
-    }
 
     # Problem handling
     if ( exists $opt_hash{problems} and 'HASH' eq ref $opt_hash{problems} ) {
