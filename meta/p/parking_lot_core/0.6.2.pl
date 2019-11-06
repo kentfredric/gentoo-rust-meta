@@ -3,11 +3,7 @@ use strict;
 use warnings;
 
 crate(
-    # TODO
-    # NOTE: Tests restricted, features missing
     parking_lot_core => '0.6.2',
-    missing_tests    => 1,
-    missing_options  => 1,
     requires         => {
         'cfg-if' => '^0.1.5',
         smallvec => '^0.6',
