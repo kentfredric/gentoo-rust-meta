@@ -340,68 +340,6 @@ sub resolve_req {
     return undef;
 }
 
-sub resolve_dep {
-    my ( $package, $version, $opts ) = @_;
-
-    #    unless ( 'CODE' eq ref $version
-    #        or $version =~ /\A\^/
-    #        or $version =~ /\A~/
-    #        or $version =~ /\(.+\)/ )
-    #    {
-    #        die "Illegal version spec $version for $package";
-    #    }
-    my (@versions)      = sort keys %{ $deps{$package} };
-    my (@orig_versions) = (@versions);
-    my $for             = {};
-    if (    exists $deps{ $opts->{for_package} }
-        and exists $deps{ $opts->{for_package} }{ $opts->{for_version} } )
-    {
-        $for = $deps{ $opts->{for_package} }{ $opts->{for_version} };
-    }
-
-    if ( 'CODE' eq ref $version ) {
-        my $selected = $version->(@versions);
-        return $selected if defined $selected;
-        dep_missing( $package, "(dynamic rule)",
-            $opts->{for_package}, $opts->{for_version}, $opts->{reason},
-            @orig_versions );
-        return undef;
-
-    }
-    else {
-        my $selector = expr_to_fn( $version, $package );
-        my (@found_versions) =
-          expr_to_fn( $version, $package )->(@versions);
-        if (@found_versions) {
-            return largest_version(@found_versions);
-        }
-        if (    $opts->{reason}
-            and $opts->{reason} eq 'test'
-            and $for->{problems}->{missing_tests} )
-        {
-            return;
-        }
-        if (    $opts->{reason}
-            and $opts->{reason} eq 'optional'
-            and $for->{problems}->{missing_options} )
-        {
-            return;
-        }
-        if (    $opts->{reason}
-            and $opts->{reason} eq 'feature'
-            and $for->{problems}->{missing_options} )
-        {
-            return;
-        }
-
-        dep_missing( $package, $version,
-            $opts->{for_package}, $opts->{for_version}, $opts->{reason},
-            @orig_versions );
-        return undef;
-
-    }
-}
-
 sub crate {
     my ( $name, $version, %opt_hash ) = @_;
     if ( exists $deps{$name}{$version} ) {
