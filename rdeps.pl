@@ -7,10 +7,13 @@ use CrateInfo;
 use Requirement;
 use Feature;
 use Expressions;
+use CrateDB;
 
 BEGIN {
     *expr_to_fn = *Expressions::expr_to_fn;
 }
+
+my $db = CrateDB->new();
 
 my $id_id = 1;
 my %deps;
@@ -27,11 +30,7 @@ if ( $ENV{LEGACY} ) {
 for my $i (@bases) {
     my $base_path = "${prefix}/${i}";
     my $path      = "${base_path}.pl";
-    if ( -e $path ) {
-        local $@;
-        do "$path";
-        die $@ if $@;
-    }
+    $db->load_file($path);
     if ( -e $base_path and -d $base_path ) {
         opendir my ($dfh), $base_path;
         while ( my $ent = readdir $dfh ) {
@@ -42,9 +41,7 @@ for my $i (@bases) {
                     next if $subent =~ /\A\.\.?\z/;
                     next unless $subent =~ /\.pl\z/;
                     my $file = "${base_path}/${ent}/${subent}";
-                    local $@;
-                    do "$file";
-                    die $@ if $@;
+                    $db->load_file($file);
                 }
             }
         }
@@ -139,7 +136,7 @@ sub req_missing {
     my ($req) = @_;
     dep_missing( $req->crate, $req->requirement, $req->for_crate->name,
         $req->for_crate->version,
-        $req->for_reason, crate_versions( $req->crate ) );
+        $req->for_reason, $db->crate_versions( $req->crate ) );
 
 }
 
@@ -147,7 +144,7 @@ sub resolve_req {
     my ($req) = @_;
 
     my (@found_versions) =
-      $req->apply_requirement( crate_versions( $req->crate ) );
+      $req->apply_requirement( $db->crate_versions( $req->crate ) );
     if (@found_versions) {
         my $v = largest_version(@found_versions);
         return CrateInfo->new(
@@ -237,6 +234,7 @@ sub crate {
     if ( keys %opt_hash ) {
         die "unknown keys: @{[ keys %opt_hash ]}";
     }
+    $db->add( $name, $version, $deps{$name}{$version} );
 }
 
 sub expand_feature {
@@ -294,19 +292,6 @@ sub expand_feature {
     die "Can't resolve feature $name in crate $crate version $crate_version";
 }
 
-sub crate_names { sort keys %deps }
-
-sub crate_versions {
-    my $crate = shift;
-    if ( not defined $crate ) {
-        die "Illegal undef crate passed";
-    }
-    if ( not exists $deps{$crate} ) {
-        die "No crate named $crate";
-    }
-    sort keys %{ $deps{$crate} };
-}
-
 sub crate_info {
     my ( $name, $version, $requestee ) = @_;
     unless ( exists $deps{$name}{$version} ) {
@@ -321,20 +306,6 @@ sub crate_info_ng {
         die "Unknown dep $name v=$version for $requestee";
     }
     CrateInfo::new( $deps{$name}{$version} );
-}
-
-sub crates {
-    map {
-        my $name = $_;
-        map {
-            CrateInfo->new(
-                name    => $name,
-                version => $_,
-                %{ $deps{$name}{$_} }
-              )
-        } sort keys %{ $deps{$name} }
-      }
-      sort keys %deps;
 }
 
 sub crate_requirements {
@@ -399,10 +370,10 @@ sub define_link {
 }
 
 sub resolve_deps {
-    for my $crate ( crates() ) {
+    for my $crate ( $db->crates() ) {
         ident_for( $crate->name, $crate->version );
     }
-    for my $crate ( crates() ) {
+    for my $crate ( $db->crates() ) {
         for my $requirement ( $crate->requirements ) {
             my $resolved_version = $requirement->resolve();
             next unless defined $resolved_version;
