@@ -3,12 +3,8 @@ use strict;
 use warnings;
 
 crate(
-    # TODO
-    # NOTE: Tests restricted, features missing
-    semver          => '0.9.0',
-    missing_tests   => 1,
-    missing_options => 1,
-    requires        => {
+    semver   => '0.9.0',
+    requires => {
         'semver-parser' => '^0.7',
     },
     optional => {
