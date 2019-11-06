@@ -4,6 +4,7 @@ use warnings;
 use mro 'c3';
 use lib 'lib';
 use CrateInfo;
+use Requirement;
 
 my $id_id = 1;
 my %deps;
@@ -664,53 +665,5 @@ sub assoc {
             );
         } ::expand_feature( $self->name, $self->crate->name,
             $self->crate->version );
-    }
-}
-{
-
-    package Requirement;
-
-    sub new {
-        my $self = $_[1];
-        $self = { @_[ 1 .. $#_ ] } unless ref $self;
-        bless $self, __PACKAGE__;
-        $self->__CHECK;
-        $self;
-    }
-
-    sub __CHECK {
-        defined $_[0]->{crate}       or die "Missing crate";
-        defined $_[0]->{requirement} or die "Missing requirement";
-        defined $_[0]->{for_crate}   or die "Missing for_crate";
-    }
-
-    sub crate {
-        $_[0]->{crate};
-    }
-
-    sub requirement {
-        $_[0]->{requirement};
-    }
-
-    sub requirement_fn {
-        exists $_[0]->{requirement_fn}
-          ? $_[0]->{requirement_fn}
-          : ( $_[0]->{requirement_fn} = ::expr_to_fn( $_[0]->requirement ) );
-    }
-
-    sub apply_requirement {
-        $_[0]->requirement_fn()->( @_[ 1 .. $#_ ] );
-    }
-
-    sub for_crate {
-        $_[0]->{for_crate};
-    }
-
-    sub for_reason {
-        $_[0]->{for_reason} || '';
-    }
-
-    sub resolve {
-        ::resolve_req( $_[0] );
     }
 }
