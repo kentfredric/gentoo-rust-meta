@@ -367,20 +367,27 @@ sub resolve_deps {
         }
         if ( !$ENV{MINIMAL} and !$crate->has_problem(qw( missing_options )) ) {
             for my $feature ( $crate->features ) {
+                next if $feature->name eq 'default';
                 for my $requirement ( $feature->dependencies ) {
                     my $resolved_version = $requirement->resolve();
                     next unless defined $resolved_version;
-                    if ( $feature->name eq 'default' ) {
-                        $crate->link_to( $resolved_version,
-                            'feature:' . $feature->name );
-                    }
-                    else {
-                        $crate->link_to( $resolved_version,
-                            'weak:feature:' . $feature->name );
-
-                    }
+                    $crate->link_to( $resolved_version,
+                        'weak:feature:' . $feature->name );
                 }
             }
+        }
+        for my $feature ( $crate->features ) {
+            next unless $feature->name eq 'default';
+            for my $requirement ( $feature->dependencies ) {
+                my $resolved_version = $requirement->resolve();
+                next unless defined $resolved_version;
+                next
+                  if $ENV{MINIMAL}
+                  or $crate->has_problem(qw( missing_options ));
+                $crate->link_to( $resolved_version,
+                    'feature:' . $feature->name );
+            }
+
         }
     }
 }
