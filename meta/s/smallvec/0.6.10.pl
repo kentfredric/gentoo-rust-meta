@@ -3,12 +3,8 @@ use strict;
 use warnings;
 
 crate(
-    # TODO
-    # Note: tests restricted, features missing
-    smallvec        => '0.6.10',
-    missing_options => 1,
-    missing_tests   => 1,
-    optional        => {
+    smallvec => '0.6.10',
+    optional => {
         serde => '^1',
     },
     test => {
