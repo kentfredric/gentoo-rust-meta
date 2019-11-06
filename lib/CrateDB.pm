@@ -74,6 +74,10 @@ sub crate_names {
     sort keys %{ $_[0]->{crates} };
 }
 
+sub has_crate {
+    exists $_[0]->{crates}->{ $_[1] };
+}
+
 sub crate_versions {
     my ( $self, $crate ) = @_;
     if ( not defined $crate ) {

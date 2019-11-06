@@ -116,25 +116,33 @@ sub dep_masked {
 
 sub req_missing {
     my ($req) = @_;
-    dep_missing( $req->crate, $req->requirement, $req->for_crate->name,
+
+    dep_missing(
+        $req->crate,
+        $req->requirement,
+        $req->for_crate->name,
         $req->for_crate->version,
-        $req->for_reason, $db->crate_versions( $req->crate ) );
+        $req->for_reason,
+        $db->has_crate( $req->crate ) ? $db->crate_versions( $req->crate ) : ()
+    );
 
 }
 
 sub resolve_req {
     my ($req) = @_;
 
-    my (@found_versions) =
-      $req->apply_requirement( $db->crate_versions( $req->crate ) );
-    if (@found_versions) {
-        my $v = largest_version(@found_versions);
-        return CrateInfo->new(
-            name    => $req->crate,
-            version => $v,
-            %{ $deps{ $req->crate }{$v} }
-        );
+    if ( $db->has_crate( $req->crate ) ) {
+        my (@found_versions) =
+          $req->apply_requirement( $db->crate_versions( $req->crate ) );
+        if (@found_versions) {
+            my $v = largest_version(@found_versions);
+            return CrateInfo->new(
+                name    => $req->crate,
+                version => $v,
+                %{ $deps{ $req->crate }{$v} }
+            );
 
+        }
     }
     return
       if $req->for_reason eq 'test'
