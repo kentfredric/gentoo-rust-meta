@@ -93,6 +93,7 @@ pest//2.1.2 pest 2.1.2
 pest_derive//2.1.0 pest_derive 2.1.0
 pest_generator//2.1.1 pest_generator 2.1.1
 pest_meta//2.1.2 pest_meta 2.1.2
+petgraph//0.4.13 petgraph 0.4.13
 pkg-config//0.3.16 pkg-config 0.3.16
 proc-macro2//0.4.27 proc-macro2 0.4.27
 proc-macro2//0.4.30 proc-macro2 0.4.30
@@ -450,6 +451,7 @@ pest_generator//2.1.1 syn//1.0.7
 pest_meta//2.1.2 maplit//1.0.2
 pest_meta//2.1.2 pest//2.1.2
 pest_meta//2.1.2 sha-1//0.8.1
+petgraph//0.4.13 fixedbitset//0.1.9
 pkg-config//0.3.16 lazy_static//1.4.0 weak:test
 proc-macro2//0.4.27 unicode-xid//0.1.0
 proc-macro2//0.4.30 quote//0.6.13 weak:test
