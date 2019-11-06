@@ -13,7 +13,7 @@ BEGIN {
     *expr_to_fn = *Expressions::expr_to_fn;
 }
 
-my $db = CrateDB->new();
+my $db = CrateDB->new( meta_root => '/home/kent/rust/gentoo-rust-meta/meta' );
 
 my $id_id = 1;
 my %deps;
@@ -21,30 +21,12 @@ my %identities;
 my %simple_graph;
 my %unresolved;
 
-my $prefix = '/home/kent/rust/gentoo-rust-meta/meta';
-my (@bases) = qw( a b c d e f g h i j k l m n o p q r s t u w x y z );
-if ( $ENV{LEGACY} ) {
-    push @bases, 'legacy';
-}
-
-for my $i (@bases) {
-    my $base_path = "${prefix}/${i}";
-    my $path      = "${base_path}.pl";
+for my $path ( $db->file_paths() ) {
     $db->load_file($path);
-    if ( -e $base_path and -d $base_path ) {
-        opendir my ($dfh), $base_path;
-        while ( my $ent = readdir $dfh ) {
-            next if $ent =~ /\A\.\.?\z/;
-            if ( -e "${base_path}/${ent}" && -d "${base_path}/${ent}" ) {
-                opendir my $subdfh, "${base_path}/${ent}";
-                while ( my $subent = readdir $subdfh ) {
-                    next if $subent =~ /\A\.\.?\z/;
-                    next unless $subent =~ /\.pl\z/;
-                    my $file = "${base_path}/${ent}/${subent}";
-                    $db->load_file($file);
-                }
-            }
-        }
+}
+if ( $ENV{LEGACY} ) {
+    for my $path ( $db->file_paths_suffix('legacy') ) {
+        $db->load_file($path);
     }
 }
 
@@ -306,24 +288,6 @@ sub crate_info_ng {
         die "Unknown dep $name v=$version for $requestee";
     }
     CrateInfo::new( $deps{$name}{$version} );
-}
-
-sub crate_requirements {
-    my $meta = crate_info(@_);
-    map { { package => $_, requirement => $meta->{requires}->{$_} } }
-      sort keys %{ $meta->{requires} || {} };
-}
-
-sub crate_test_requirements {
-    my $meta = crate_info(@_);
-    map { { package => $_, requirement => $meta->{test}->{$_} } }
-      sort keys %{ $meta->{test} || {} };
-}
-
-sub crate_optional_requirements {
-    my $meta = crate_info(@_);
-    map { { package => $_, requirement => $meta->{optional}->{$_} } }
-      sort keys %{ $meta->{optional} || {} };
 }
 
 sub crate_problem {
