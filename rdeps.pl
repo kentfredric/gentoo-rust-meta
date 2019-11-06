@@ -1,6 +1,7 @@
 #!perl
 use strict;
 use warnings;
+use mro 'c3';
 
 my $id_id = 1;
 my %deps;
@@ -304,6 +305,41 @@ sub expr_to_fn {
     die "Cannot convert expression $expr to resolver for $package";
 }
 
+sub req_missing {
+    my ($req) = @_;
+    dep_missing( $req->crate, $req->requirement, $req->for_crate->name,
+        $req->for_crate->version,
+        $req->for_reason, crate_versions( $req->crate ) );
+
+}
+
+sub resolve_req {
+    my ($req) = @_;
+
+    my (@found_versions) =
+      $req->apply_requirement( crate_versions( $req->crate ) );
+    if (@found_versions) {
+        my $v = largest_version(@found_versions);
+        return CrateInfo->new(
+            name    => $req->crate,
+            version => $v,
+            %{ $deps{ $req->crate }{$v} }
+        );
+
+    }
+    return
+      if $req->for_reason eq 'test'
+      and $req->for_crate->has_problem(qw( missing_tests ));
+
+    if ( $req->for_crate->has_problem(qw( missing_options )) ) {
+        return
+          if $req->for_reason eq 'optional'
+          or $req->for_reason eq 'feature';
+    }
+    req_missing($req);
+    return undef;
+}
+
 sub resolve_dep {
     my ( $package, $version, $opts ) = @_;
 
@@ -334,7 +370,8 @@ sub resolve_dep {
     }
     else {
         my $selector = expr_to_fn( $version, $package );
-        my (@found_versions) = expr_to_fn( $version, $package )->(@versions);
+        my (@found_versions) =
+          expr_to_fn( $version, $package )->(@versions);
         if (@found_versions) {
             return largest_version(@found_versions);
         }
@@ -383,7 +420,8 @@ sub crate {
                 die
 "Clobbered <requires> with <build_requires> in $name, $version";
             }
-            $stash->{requires}->{$build} = $opt_hash{build_requires}{$build};
+            $stash->{requires}->{$build} =
+              $opt_hash{build_requires}{$build};
         }
         delete $opt_hash{build_requires};
     }
@@ -393,7 +431,8 @@ sub crate {
         $stash->{problems} = delete $opt_hash{problems};
     }
     if ( exists $opt_hash{problems} and 'ARRAY' eq ref $opt_hash{problems} ) {
-        $stash->{problems} = { map { $_, 1 } @{ delete $opt_hash{problems} } };
+        $stash->{problems} =
+          { map { $_, 1 } @{ delete $opt_hash{problems} } };
     }
     $stash->{problems}->{missing_options} = delete $opt_hash{missing_options}
       if exists $opt_hash{missing_options};
@@ -419,7 +458,8 @@ sub crate {
         delete $opt_hash{test_features};
         for my $feature ( sort keys %{ $stash->{feature} || {} } ) {
             for my $dep ( sort keys %{ $stash->{feature}->{$feature} } ) {
-                $stash->{test}->{$dep} = $stash->{feature}->{$feature}->{$dep};
+                $stash->{test}->{$dep} =
+                  $stash->{feature}->{$feature}->{$dep};
             }
         }
         for my $optdep ( sort keys %{ $stash->{optional} || {} } ) {
@@ -437,7 +477,8 @@ sub expand_feature {
     if ( $name =~ /\A(.+?)\/(.+)\z/ ) {
         ( $name, $want_feature ) = ( "$1", "$2" );
     }
-    if ( not exists $deps{$crate} or not exists $deps{$crate}{$crate_version} )
+    if (   not exists $deps{$crate}
+        or not exists $deps{$crate}{$crate_version} )
     {
         warn "Unknown crate $crate version $crate_version for feature $name";
         return ();
@@ -485,8 +526,18 @@ sub expand_feature {
     die "Can't resolve feature $name in crate $crate version $crate_version";
 }
 
-sub crate_names    { sort keys %deps }
-sub crate_versions { sort keys %{ $deps{ $_[0] } } }
+sub crate_names { sort keys %deps }
+
+sub crate_versions {
+    my $crate = shift;
+    if ( not defined $crate ) {
+        die "Illegal undef crate passed";
+    }
+    if ( not exists $deps{$crate} ) {
+        die "No crate named $crate";
+    }
+    sort keys %{ $deps{$crate} };
+}
 
 sub crate_info {
     my ( $name, $version, $requestee ) = @_;
@@ -494,6 +545,28 @@ sub crate_info {
         die "Unknown dep $name v=$version for $requestee";
     }
     $deps{$name}{$version};
+}
+
+sub crate_info_ng {
+    my ( $name, $version, $requestee ) = @_;
+    unless ( exists $deps{$name}{$version} ) {
+        die "Unknown dep $name v=$version for $requestee";
+    }
+    CrateInfo::new( $deps{$name}{$version} );
+}
+
+sub crates {
+    map {
+        my $name = $_;
+        map {
+            CrateInfo->new(
+                name    => $name,
+                version => $_,
+                %{ $deps{$name}{$_} }
+              )
+        } sort keys %{ $deps{$name} }
+      }
+      sort keys %deps;
 }
 
 sub crate_requirements {
@@ -523,17 +596,26 @@ sub define_link {
     my ( $source_package, $source_version, $dest_package, $dest_version,
         $label, $requestee, @options )
       = @_;
+    my $dep_requestee = "$source_package v=$source_version"
+      . ( defined $requestee ? " $requestee" : "" );
     my ($source_meta) =
       crate_info( $source_package, $source_version, $requestee );
-    my ($dest_meta) = crate_info( $dest_package, $dest_version,
-        "$source_package v=$source_version"
-          . ( defined $requestee ? " $requestee" : "" ) );
-    if ( $dest_meta->{problems}->{missing} ) {
+    if (
+        crate_problem(
+            $dest_package, $dest_version, $dep_requestee, 'missing'
+        )
+      )
+    {
         dep_missing( $source_package, $source_version, $dest_package,
             $dest_version, $label, @options );
         return;
     }
-    if ( $dest_meta->{problems}->{package_masked} ) {
+    if (
+        crate_problem(
+            $dest_package, $dest_version, $dep_requestee, 'package_masked'
+        )
+      )
+    {
         dep_masked( $source_package, $source_version, $dest_package,
             $dest_version, $label, @options );
         if ( defined $label ) {
@@ -549,142 +631,45 @@ sub define_link {
 }
 
 sub resolve_deps {
-    for my $o_pkg ( sort keys %deps ) {
-        for my $o_version ( sort keys %{ $deps{$o_pkg} } ) {
-            ident_for( $o_pkg, $o_version );
-        }
+    for my $crate ( crates() ) {
+        ident_for( $crate->name, $crate->version );
     }
-
-    for my $o_pkg (crate_names) {
-        for my $o_version ( crate_versions($o_pkg) ) {
-            my $req = "global loop";
-
-            my $vhash = crate_info( $o_pkg, $o_version, $req );
-            for
-              my $requirement ( crate_requirements( $o_pkg, $o_version, $req ) )
-            {
-                my $resolved_version = resolve_dep(
-                    $requirement->{package},
-                    $requirement->{requirement},
-                    { for_package => $o_pkg, for_version => $o_version }
-                );
+    for my $crate ( crates() ) {
+        for my $requirement ( $crate->requirements ) {
+            my $resolved_version = $requirement->resolve();
+            next unless defined $resolved_version;
+            $crate->link_to( $resolved_version, undef );
+        }
+        if ( !$ENV{MINIMAL} and !$crate->has_problem(qw( missing_tests )) ) {
+            for my $requirement ( $crate->test_requirements ) {
+                my $resolved_version = $requirement->resolve();
                 next unless defined $resolved_version;
-                define_link( $o_pkg, $o_version, $requirement->{package},
-                    $resolved_version, undef, $req, $resolved_version );
+                $crate->link_to( $resolved_version, 'weak:test' );
             }
-
-            $req = "global loop(tests)";
-            if ( !$ENV{MINIMAL} && !$vhash->{problems}->{missing_tests} ) {
-                for my $requirement (
-                    crate_test_requirements( $o_pkg, $o_version, $req ) )
-                {
-                    my $resolved_version = resolve_dep(
-                        $requirement->{package},
-                        $requirement->{requirement},
-                        {
-                            for_package => $o_pkg,
-                            for_version => $o_version,
-                            reason      => 'test'
-                        }
-                    );
+        }
+        if ( !$ENV{MINIMAL} and !$crate->has_problem(qw( missing_options )) ) {
+            for my $requirement ( $crate->optional_requirements ) {
+                my $resolved_version = $requirement->resolve();
+                next unless defined $resolved_version;
+                $crate->link_to( $resolved_version, 'weak:optional' );
+            }
+        }
+        if ( !$ENV{MINIMAL} and !$crate->has_problem(qw( missing_options )) ) {
+            for my $feature ( $crate->features ) {
+                for my $requirement ( $feature->dependencies ) {
+                    my $resolved_version = $requirement->resolve();
                     next unless defined $resolved_version;
-                    define_link( $o_pkg, $o_version, $requirement->{package},
-                        $resolved_version, 'weak:test', $req,
-                        $resolved_version );
-                }
-            }
-            $req = "global loop(optional)";
-            if (   !$ENV{MINIMAL}
-                && !$vhash->{problems}->{missing_options} )
-            {
-
-                for my $requirement (
-                    crate_optional_requirements( $o_pkg, $o_version, $req ) )
-                {
-                    my $resolved_version = resolve_dep(
-                        $requirement->{package},
-                        $requirement->{requirement},
-                        {
-                            for_package => $o_pkg,
-                            for_version => $o_version,
-                            reason      => 'optional'
-                        }
-                    );
-                    next unless defined $resolved_version;
-                    define_link( $o_pkg, $o_version, $requirement->{package},
-                        $resolved_version, "weak:optional", $req,
-                        $resolved_version );
-                }
-
-            }
-            if ( exists $vhash->{features}
-                and !$vhash->{problems}->{missing_options} )
-            {
-                if ( ref $vhash->{features} ne 'HASH' ) {
-                    die "illegal features for  $o_pkg $o_version";
-                }
-                my $expanded_features = {};
-                for my $feature ( sort keys %{ $vhash->{features} } ) {
-                    my (@feature_reqs) =
-                      expand_feature( $feature, $o_pkg, $o_version );
-                    for my $defn (@feature_reqs) {
-                        $expanded_features->{$feature}->{ $defn->[0] } =
-                          $defn->[1];
+                    if ( $feature->name eq 'default' ) {
+                        $crate->link_to( $resolved_version,
+                            'feature:' . $feature->name );
                     }
-                }
-                for my $feature ( sort keys %{$expanded_features} ) {
-                    if (    exists $vhash->{feature}
-                        and exists $vhash->{feature}->{$feature} )
-                    {
-                        die
-"Clobbered redefintion of $feature for $o_pkg v=$o_version";
-                    }
-                    $vhash->{feature}->{$feature} =
-                      $expanded_features->{$feature};
-                }
-            }
-            if ( exists $vhash->{feature} && !$ENV{MINIMAL} ) {
-                for my $feature ( sort keys %{ $vhash->{feature} } ) {
+                    else {
+                        $crate->link_to( $resolved_version,
+                            'weak:feature:' . $feature->name );
 
-                    for
-                      my $d_pkg ( sort keys %{ $vhash->{feature}->{$feature} } )
-                    {
-                        my $rv = $vhash->{feature}->{$feature}->{$d_pkg};
-                        my $wv = resolve_dep(
-                            $d_pkg, $rv,
-                            {
-                                for_package => $o_pkg,
-                                for_version => $o_version,
-                                reason      => 'feature',
-                            }
-                        );
-                        next unless defined $wv;
-                        unless ( exists $deps{$d_pkg}{$wv} ) {
-                            die
-"Unknown dep $d_pkg v=$wv for $o_pkg v=$o_version";
-                        }
-                        if ( $deps{$d_pkg}{$wv}{missing} ) {
-                            dep_missing( $d_pkg, $wv, $o_pkg, $o_version,
-                                "feature:$feature", $wv );
-                            next;
-                        }
-                        my $fname =
-                          $feature eq 'default'
-                          ? 'feature:default'
-                          : "weak:feature:${feature}";
-                        if ( $deps{$d_pkg}{$wv}{problems}{package_masked} ) {
-                            $fname = "bad(dependency masked):$fname";
-                            dep_masked( $d_pkg, $wv, $o_pkg, $o_version,
-                                "feature:$feature", $wv );
-
-                        }
-
-                        assoc( ident_for( $o_pkg, $o_version ),
-                            ident_for( $d_pkg, $wv ), $fname );
                     }
                 }
             }
-
         }
     }
 }
@@ -707,3 +692,221 @@ sub assoc {
         $simple_graph{$parent}{$child}{$reason} = 1;
     }
 }
+{
+
+    package Feature;
+
+    sub new {
+        my $self = $_[1];
+        $self = { @_[ 1 .. $#_ ] } unless ref $self;
+        bless $self, __PACKAGE__;
+        $self->__CHECK;
+        $self;
+    }
+
+    sub __CHECK {
+        defined $_[0]->{name}    or die "No name for Feature";
+        defined $_[0]->{members} or die "No members for Feature";
+        defined $_[0]->{crate}   or die "No owner crate for Feature";
+    }
+    sub name    { $_[0]->{name} }
+    sub members { $_[0]->{members} }
+    sub crate   { $_[0]->{crate} }
+
+    sub dependencies {
+        my $self = $_[0];
+        map {
+            Requirement->new(
+                crate       => $_->[0],
+                requirement => $_->[1],
+                for_crate   => $self->crate,
+                for_reason  => 'feature:' . $self->name,
+            );
+        } ::expand_feature( $self->name, $self->crate->name,
+            $self->crate->version );
+    }
+}
+{
+
+    package Requirement;
+
+    sub new {
+        my $self = $_[1];
+        $self = { @_[ 1 .. $#_ ] } unless ref $self;
+        bless $self, __PACKAGE__;
+        $self->__CHECK;
+        $self;
+    }
+
+    sub __CHECK {
+        defined $_[0]->{crate}       or die "Missing crate";
+        defined $_[0]->{requirement} or die "Missing requirement";
+        defined $_[0]->{for_crate}   or die "Missing for_crate";
+    }
+
+    sub crate {
+        $_[0]->{crate};
+    }
+
+    sub requirement {
+        $_[0]->{requirement};
+    }
+
+    sub requirement_fn {
+        exists $_[0]->{requirement_fn}
+          ? $_[0]->{requirement_fn}
+          : ( $_[0]->{requirement_fn} = ::expr_to_fn( $_[0]->requirement ) );
+    }
+
+    sub apply_requirement {
+        $_[0]->requirement_fn()->( @_[ 1 .. $#_ ] );
+    }
+
+    sub for_crate {
+        $_[0]->{for_crate};
+    }
+
+    sub for_reason {
+        $_[0]->{for_reason} || '';
+    }
+
+    sub resolve {
+        ::resolve_req( $_[0] );
+    }
+}
+{
+
+    package CrateInfo;
+
+    sub new {
+        my $self = $_[1];
+        $self = { @_[ 1 .. $#_ ] } unless ref $self;
+        bless $self, __PACKAGE__;
+        $self->__CHECK;
+        $self;
+    }
+
+    sub __CHECK {
+        defined $_[0]->{name}    or die "No name for crate";
+        defined $_[0]->{version} or die "No version for crate";
+        if ( exists $_[0]->{requires} ) {
+            'HASH' eq ref $_[0]->{requires}
+              or die "Illegal value for requires (expected HASH)";
+        }
+        if ( exists $_[0]->{test} ) {
+            'HASH' eq ref $_[0]->{test}
+              or die "Illegal value for test (expected HASH)";
+        }
+        if ( exists $_[0]->{optional} ) {
+            'HASH' eq ref $_[0]->{optional}
+              or die "Illegal value for optional (expected HASH)";
+        }
+        if ( exists $_[0]->{problems} ) {
+            'HASH' eq ref $_[0]->{problems}
+              or die "Illegal value for problems (expected HASH)";
+        }
+        if ( exists $_[0]->{features} ) {
+            'HASH' eq ref $_[0]->{features}
+              or die "Illegal value for features (expected HASH)";
+        }
+    }
+
+    sub name {
+        $_[0]->{name};
+    }
+
+    sub version {
+        $_[0]->{version};
+    }
+
+    sub __ident {
+        ::ident_for( $_[0]->name, $_[0]->version );
+    }
+
+    sub requirements {
+        my ($self) = @_;
+        map {
+            Requirement->new(
+                {
+                    crate       => $_,
+                    requirement => $self->{requires}->{$_},
+                    for_crate   => $self,
+                }
+              )
+          }
+          sort keys %{ $self->{requires} || {} };
+    }
+
+    sub test_requirements {
+        my ($self) = @_;
+        map {
+            Requirement->new(
+                {
+                    crate       => $_,
+                    requirement => $self->{test}->{$_},
+                    for_crate   => $self,
+                    for_reason  => 'test',
+                }
+              )
+          }
+          sort keys %{ $self->{test} || {} };
+    }
+
+    sub optional_requirements {
+        my ($self) = @_;
+        map {
+            Requirement->new(
+                {
+                    crate       => $_,
+                    requirement => $self->{optional}->{$_},
+                    for_crate   => $self,
+                    for_reason  => 'optional'
+                }
+              )
+          }
+          sort keys %{ $self->{optional} || {} };
+    }
+
+    sub has_problem {
+        my ( $self, $problem ) = @_;
+        !!$self->{problems}->{$problem};
+    }
+
+    sub link_to {
+        my ( $self, $other, $reason ) = @_;
+
+        if ( $other->has_problem(qw( missing )) ) {
+            ::dep_missing(
+                $self->name,     $self->version, $other->name,
+                $other->version, $reason,        $other->version
+            );
+            return;
+        }
+        if ( $other->has_problem(qw( package_masked )) ) {
+            ::dep_masked(
+                $self->name,     $self->version, $other->name,
+                $other->version, $reason,        $other->version
+            );
+            if ( defined $reason ) {
+                $reason = "bad(dependency masked):$reason";
+            }
+            else {
+                $reason = "bad(dependency masked)";
+            }
+        }
+        ::assoc( $self->__ident, $other->__ident, $reason );
+    }
+
+    sub features {
+        my ($self) = @_;
+        map {
+            Feature->new(
+                name    => $_,
+                members => $self->{features}->{$_},
+                crate   => $self,
+              )
+          }
+          sort keys %{ $self->{features} || {} };
+    }
+}
+
