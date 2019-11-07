@@ -111,6 +111,7 @@ rand//0.6.5 rand 0.6.5
 rand_chacha//0.1.1 rand_chacha 0.1.1
 rand_core//0.3.1 rand_core 0.3.1
 rand_core//0.4.2 rand_core 0.4.2
+rand_core//0.5.1 rand_core 0.5.1
 rand_hc//0.1.0 rand_hc 0.1.0
 rand_isaac//0.1.1 rand_isaac 0.1.1
 rand_jitter//0.1.4 rand_jitter 0.1.4
@@ -497,6 +498,10 @@ rand_core//0.4.2 serde//1.0.101 weak:feature:serde1
 rand_core//0.4.2 serde//1.0.101 weak:optional
 rand_core//0.4.2 serde_derive//1.0.89 weak:feature:serde1
 rand_core//0.4.2 serde_derive//1.0.89 weak:optional
+rand_core//0.5.1 getrandom//0.1.13 weak:feature:std
+rand_core//0.5.1 getrandom//0.1.13 weak:optional
+rand_core//0.5.1 serde//1.0.101 weak:feature:serde1
+rand_core//0.5.1 serde//1.0.101 weak:optional
 rand_hc//0.1.0 rand_core//0.3.1
 rand_isaac//0.1.1 rand_core//0.3.1
 rand_isaac//0.1.1 serde//1.0.101 weak:feature:serde1
