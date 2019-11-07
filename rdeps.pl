@@ -351,21 +351,36 @@ sub resolve_deps {
             next unless defined $resolved_version;
             $crate->link_to( $resolved_version, undef );
         }
-        if ( !$ENV{MINIMAL} and !$crate->has_problem(qw( missing_tests )) ) {
+        if ( $ENV{FORCE_DEPS}
+            or ( !$ENV{MINIMAL} and !$crate->has_problem(qw( missing_tests )) )
+          )
+        {
             for my $requirement ( $crate->test_requirements ) {
                 my $resolved_version = $requirement->resolve();
                 next unless defined $resolved_version;
                 $crate->link_to( $resolved_version, 'weak:test' );
             }
         }
-        if ( !$ENV{MINIMAL} and !$crate->has_problem(qw( missing_options )) ) {
+        if (
+            $ENV{FORCE_DEPS}
+            or (
+                (
+                        !$ENV{MINIMAL}
+                    and !$crate->has_problem(qw( missing_options ))
+                )
+            )
+          )
+        {
             for my $requirement ( $crate->optional_requirements ) {
                 my $resolved_version = $requirement->resolve();
                 next unless defined $resolved_version;
                 $crate->link_to( $resolved_version, 'weak:optional' );
             }
         }
-        if ( !$ENV{MINIMAL} and !$crate->has_problem(qw( missing_options )) ) {
+        if ( $ENV{FORCE_DEPS}
+            or
+            ( !$ENV{MINIMAL} and !$crate->has_problem(qw( missing_options )) ) )
+        {
             for my $feature ( $crate->features ) {
                 next if $feature->name eq 'default';
                 for my $requirement ( $feature->dependencies ) {
@@ -382,8 +397,9 @@ sub resolve_deps {
                 my $resolved_version = $requirement->resolve();
                 next unless defined $resolved_version;
                 next
-                  if $ENV{MINIMAL}
-                  or $crate->has_problem(qw( missing_options ));
+                  if !$ENV{FORCE_DEPS}
+                  and ($ENV{MINIMAL}
+                    or $crate->has_problem(qw( missing_options )) );
                 $crate->link_to( $resolved_version,
                     'feature:' . $feature->name );
             }
