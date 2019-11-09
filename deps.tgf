@@ -14,6 +14,7 @@ block-buffer//0.7.3 block-buffer 0.7.3
 block-padding//0.1.4 block-padding 0.1.4
 byte-tools//0.3.1 byte-tools 0.3.1
 byteorder//1.3.2 byteorder 1.3.2
+c2-chacha//0.2.3 c2-chacha 0.2.3
 cc//1.0.46 cc 1.0.46
 cfg-if//0.1.10 cfg-if 0.1.10
 chrono//0.4.9 chrono 0.4.9
@@ -209,6 +210,13 @@ block-buffer//0.7.3 byte-tools//0.3.1
 block-buffer//0.7.3 byteorder//1.3.2
 block-buffer//0.7.3 generic-array//0.12.3
 block-padding//0.1.4 byte-tools//0.3.1
+c2-chacha//0.2.3 byteorder//1.3.2 feature:default
+c2-chacha//0.2.3 byteorder//1.3.2 weak:feature:rustcrypto_api
+c2-chacha//0.2.3 byteorder//1.3.2 weak:optional
+c2-chacha//0.2.3 ppv-lite86//0.2.6
+c2-chacha//0.2.3 stream-cipher//0.3.2 feature:default
+c2-chacha//0.2.3 stream-cipher//0.3.2 weak:feature:rustcrypto_api
+c2-chacha//0.2.3 stream-cipher//0.3.2 weak:optional
 chrono//0.4.9 bincode//0.8.0 weak:test
 chrono//0.4.9 doc-comment//0.3.1 weak:test
 chrono//0.4.9 libc//0.2.65
