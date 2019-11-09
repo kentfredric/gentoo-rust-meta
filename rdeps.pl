@@ -144,14 +144,13 @@ sub resolve_req {
 
         }
     }
-    return
-      if $req->for_reason eq 'test'
-      and $req->for_crate->has_problem(qw( missing_tests ));
-
-    if ( $req->for_crate->has_problem(qw( missing_options )) ) {
+    if ( !$ENV{FORCE_DEPS} ) {
         return
-          if $req->for_reason eq 'optional'
-          or $req->for_reason eq 'feature';
+          if $req->for_reason eq 'test'
+          and $req->for_crate->has_problem(qw( missing_tests ));
+        return
+          if ( $req->for_reason eq 'optional' or $req->for_reason eq 'feature' )
+          and $req->for_crate->has_problem(qw( missing_options ));
     }
     req_missing($req);
     return undef;
