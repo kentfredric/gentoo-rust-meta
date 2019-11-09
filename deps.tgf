@@ -152,6 +152,7 @@ sha-1//0.8.1 sha-1 0.8.1
 smallvec//0.6.10 smallvec 0.6.10
 spin//0.5.2 spin 0.5.2
 stable_deref_trait//1.1.1 stable_deref_trait 1.1.1
+stream-cipher//0.3.2 stream-cipher 0.3.2
 sval//0.4.7 sval 0.4.7
 sval_derive//0.4.7 sval_derive 0.4.7
 syn//0.11.11 syn 0.11.11
@@ -604,6 +605,9 @@ sha-1//0.8.1 fake-simd//0.1.2
 sha-1//0.8.1 opaque-debug//0.2.3
 smallvec//0.6.10 bincode//1.2.0 weak:test
 smallvec//0.6.10 serde//1.0.101 weak:optional
+stream-cipher//0.3.2 blobby//0.1.2 weak:feature:dev
+stream-cipher//0.3.2 blobby//0.1.2 weak:optional
+stream-cipher//0.3.2 generic-array//0.12.3
 sval//0.4.7 serde//1.0.101 weak:feature:serde_no_std
 sval//0.4.7 serde//1.0.101 weak:feature:serde_std
 sval//0.4.7 serde//1.0.101 weak:optional
