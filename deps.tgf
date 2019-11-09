@@ -452,8 +452,11 @@ openssl-sys//0.9.52 pkg-config//0.3.16
 ordermap//0.3.5 serde//1.0.101 weak:feature:serde-1
 ordermap//0.3.5 serde//1.0.101 weak:optional
 owning_ref//0.4.0 stable_deref_trait//1.1.1
+parking_lot//0.9.0 bincode//1.2.0 weak:test
+parking_lot//0.9.0 lazy_static//1.4.0 weak:test
 parking_lot//0.9.0 lock_api//0.3.1
 parking_lot//0.9.0 parking_lot_core//0.6.2
+parking_lot//0.9.0 rand//0.7.2 weak:test
 parking_lot//0.9.0 rustc_version//0.2.3
 parking_lot_core//0.6.2 backtrace//0.3.38 weak:feature:deadlock_detection
 parking_lot_core//0.6.2 backtrace//0.3.38 weak:optional

@@ -3,12 +3,8 @@ use strict;
 use warnings;
 
 crate(
-    # TODO
-    # NOTE: Tests restricted, features missing
-    parking_lot     => '0.9.0',
-    missing_tests   => 1,
-    missing_options => 1,
-    requires        => {
+    parking_lot => '0.9.0',
+    requires    => {
         lock_api         => '^0.3.1',
         parking_lot_core => '^0.6',
     },

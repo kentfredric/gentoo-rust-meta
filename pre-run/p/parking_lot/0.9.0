@@ -1,0 +1,10 @@
+target: test
+  - ensure:
+    - package: =dev-rust/lock_api-0.3*
+    - has_use: owning-ref serde
+  - ensure:
+    - package: =dev-rust/rand_core-0.5*
+    - has_use: std
+  - ensure:
+    - package: =dev-rust/parking_lot_core-0.6*
+    - has_use: deadlock-detection
