@@ -3,12 +3,8 @@ use strict;
 use warnings;
 
 crate(
-    # TODO
-    # NOTE: Tests restricted, features missing
-    regex           => '1.3.1',
-    missing_tests   => 1,
-    missing_options => 1,
-    requires        => {
+    regex    => '1.3.1',
+    requires => {
         'regex-syntax' => '^0.6.12',
     },
     optional => {
