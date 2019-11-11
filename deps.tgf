@@ -413,6 +413,7 @@ log//0.4.8 serde//1.0.101 weak:optional
 log//0.4.8 sval//0.4.7 weak:feature:kv_unstable_sval
 log//0.4.8 sval//0.4.7 weak:optional
 memchr//2.2.1 libc//0.2.65 weak:optional
+memchr//2.2.1 quickcheck//0.8.5 weak:test
 memoffset//0.5.1 rustc_version//0.2.3
 mesalink//1.1.0 base64//0.10.1
 mesalink//1.1.0 bitflags//1.2.1
