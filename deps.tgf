@@ -73,6 +73,7 @@ libssh2-sys//0.2.13 libssh2-sys 0.2.13
 libz-sys//1.0.25 libz-sys 1.0.25
 linked-hash-map//0.5.2 linked-hash-map 0.5.2
 lock_api//0.3.1 lock_api 0.3.1
+log//0.3.9 log 0.3.9
 log//0.4.8 log 0.4.8
 maplit//1.0.2 maplit 1.0.2
 matches//0.1.8 matches 0.1.8
@@ -421,6 +422,7 @@ libz-sys//1.0.25 pkg-config//0.3.16
 lock_api//0.3.1 owning_ref//0.4.0 weak:optional
 lock_api//0.3.1 scopeguard//1.0.0 weak:optional
 lock_api//0.3.1 serde//1.0.101 weak:optional
+log//0.3.9 log//0.4.8
 log//0.4.8 cfg-if//0.1.10
 log//0.4.8 serde//1.0.101 weak:optional
 log//0.4.8 sval//0.4.7 weak:feature:kv_unstable_sval
