@@ -109,6 +109,7 @@ proc-macro2//0.4.27 proc-macro2 0.4.27
 proc-macro2//0.4.30 proc-macro2 0.4.30
 proc-macro2//1.0.5 proc-macro2 1.0.5
 quick-error//1.2.2 quick-error 1.2.2
+quickcheck//0.4.1 quickcheck 0.4.1
 quickcheck//0.8.5 quickcheck 0.8.5
 quote//0.3.15 quote 0.3.15
 quote//0.6.11 quote 0.6.11
@@ -513,6 +514,7 @@ proc-macro2//0.4.30 quote//0.6.13 weak:test
 proc-macro2//0.4.30 unicode-xid//0.1.0
 proc-macro2//1.0.5 quote//1.0.2 weak:test
 proc-macro2//1.0.5 unicode-xid//0.2.0
+quickcheck//0.4.1 rand//0.3.23
 quickcheck//0.8.5 env_logger//0.6.2 feature:default
 quickcheck//0.8.5 env_logger//0.6.2 weak:feature:regex
 quickcheck//0.8.5 env_logger//0.6.2 weak:feature:use_logging
