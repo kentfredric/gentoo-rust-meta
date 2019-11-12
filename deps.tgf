@@ -1,3 +1,4 @@
+aho-corasick//0.5.3 aho-corasick 0.5.3
 aho-corasick//0.7.6 aho-corasick 0.7.6
 arrayvec//0.4.12 arrayvec 0.4.12
 atty//0.2.13 atty 0.2.13
@@ -190,6 +191,7 @@ webpki-roots//0.17.0 webpki-roots 0.17.0
 webpki//0.21.0 webpki 0.21.0
 yaml-rust//0.4.3 yaml-rust 0.4.3
 #
+aho-corasick//0.5.3 memchr//0.1.11
 aho-corasick//0.7.6 doc-comment//0.3.1 weak:test
 aho-corasick//0.7.6 memchr//2.2.1
 arrayvec//0.4.12 nodrop//0.1.14
