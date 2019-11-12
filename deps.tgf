@@ -174,6 +174,7 @@ termcolor//1.0.5 termcolor 1.0.5
 termios//0.3.1 termios 0.3.1
 thread-id//2.0.0 thread-id 2.0.0
 thread-id//3.3.0 thread-id 3.3.0
+thread_local//0.2.7 thread_local 0.2.7
 thread_local//0.3.6 thread_local 0.3.6
 time//0.1.42 time 0.1.42
 toml//0.5.3 toml 0.5.3
@@ -723,6 +724,7 @@ termios//0.3.1 libc//0.2.65
 thread-id//2.0.0 kernel32-sys//0.2.2
 thread-id//2.0.0 libc//0.2.65
 thread-id//3.3.0 libc//0.2.65
+thread_local//0.2.7 thread-id//2.0.0
 thread_local//0.3.6 lazy_static//1.4.0
 time//0.1.42 libc//0.2.65
 toml//0.5.3 linked-hash-map//0.5.2 weak:feature:preserve_order
