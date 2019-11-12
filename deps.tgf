@@ -62,6 +62,7 @@ insta//0.9.0 insta 0.9.0
 itoa//0.4.4 itoa 0.4.4
 jemalloc-sys//0.3.2 jemalloc-sys 0.3.2
 jemallocator//0.3.2 jemallocator 0.3.2
+kernel32-sys//0.2.2 kernel32-sys 0.2.2
 lazy_static//1.4.0 lazy_static 1.4.0
 libc//0.2.50 libc 0.2.50
 libc//0.2.62 libc 0.2.62
@@ -381,6 +382,8 @@ jemalloc-sys//0.3.2 fs_extra//1.1.0
 jemalloc-sys//0.3.2 libc//0.2.65
 jemallocator//0.3.2 jemalloc-sys//0.3.2
 jemallocator//0.3.2 libc//0.2.65
+kernel32-sys//0.2.2 winapi-build//0.1.1
+kernel32-sys//0.2.2 winapi//0.2.8
 lazy_static//1.4.0 doc-comment//0.3.1 weak:test
 lazy_static//1.4.0 spin//0.5.2 weak:feature:spin_no_std
 lazy_static//1.4.0 spin//0.5.2 weak:optional
