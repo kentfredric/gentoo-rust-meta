@@ -191,6 +191,7 @@ walkdir//2.2.9 walkdir 2.2.9
 webpki-roots//0.17.0 webpki-roots 0.17.0
 webpki//0.21.0 webpki 0.21.0
 winapi-build//0.1.1 winapi-build 0.1.1
+winapi//0.2.8 winapi 0.2.8
 yaml-rust//0.4.3 yaml-rust 0.4.3
 #
 aho-corasick//0.5.3 memchr//0.1.11
