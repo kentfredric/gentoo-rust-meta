@@ -50,6 +50,7 @@ fake-simd//0.1.2 fake-simd 0.1.2
 fixedbitset//0.1.9 fixedbitset 0.1.9
 fs_extra//1.1.0 fs_extra 1.1.0
 generic-array//0.12.3 generic-array 0.12.3
+getopts//0.2.21 getopts 0.2.21
 getrandom//0.1.13 getrandom 0.1.13
 git2//0.6.11 git2 0.6.11
 glob//0.2.11 glob 0.2.11
@@ -336,6 +337,8 @@ failure_derive//0.1.6 syn//1.0.7
 failure_derive//0.1.6 synstructure//0.12.1
 generic-array//0.12.3 serde//1.0.101 weak:optional
 generic-array//0.12.3 typenum//1.11.2
+getopts//0.2.21 log//0.4.8 weak:test
+getopts//0.2.21 unicode-width//0.1.6
 getrandom//0.1.13 cfg-if//0.1.10
 getrandom//0.1.13 libc//0.2.65
 getrandom//0.1.13 log//0.4.8 weak:optional
