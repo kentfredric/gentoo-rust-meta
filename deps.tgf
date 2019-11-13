@@ -238,6 +238,11 @@ c2-chacha//0.2.3 ppv-lite86//0.2.6
 c2-chacha//0.2.3 stream-cipher//0.3.2 feature:default
 c2-chacha//0.2.3 stream-cipher//0.3.2 weak:feature:rustcrypto_api
 c2-chacha//0.2.3 stream-cipher//0.3.2 weak:optional
+cc//1.0.46 jobserver//0.1.17 weak:feature:parallel
+cc//1.0.46 jobserver//0.1.17 weak:optional
+cc//1.0.46 num_cpus//1.10.1 weak:feature:parallel
+cc//1.0.46 num_cpus//1.10.1 weak:optional
+cc//1.0.46 tempdir//0.3.7 weak:test
 chrono//0.4.9 bincode//0.8.0 weak:test
 chrono//0.4.9 doc-comment//0.3.1 weak:test
 chrono//0.4.9 libc//0.2.65
