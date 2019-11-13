@@ -72,6 +72,7 @@ jemallocator//0.3.2 jemallocator 0.3.2
 jobserver//0.1.17 jobserver 0.1.17
 kernel32-sys//0.2.2 kernel32-sys 0.2.2
 lazy_static//1.4.0 lazy_static 1.4.0
+lazycell//1.2.1 lazycell 1.2.1
 libc//0.2.50 libc 0.2.50
 libc//0.2.62 libc 0.2.62
 libc//0.2.65 libc 0.2.65
