@@ -304,6 +304,10 @@ curl-sys//0.4.23 openssl-sys//0.9.52 weak:feature:ssl
 curl-sys//0.4.23 openssl-sys//0.9.52 weak:feature:static-ssl
 curl-sys//0.4.23 openssl-sys//0.9.52 weak:optional
 curl-sys//0.4.23 pkg-config//0.3.16
+difference//2.0.0 getopts//0.2.21 weak:feature:bin
+difference//2.0.0 getopts//0.2.21 weak:optional
+difference//2.0.0 quickcheck//0.4.1 weak:test
+difference//2.0.0 term//0.2.14 weak:test
 digest//0.8.1 generic-array//0.12.3
 either//1.5.3 serde//1.0.101 weak:optional
 encoding//0.2.33 encoding-index-japanese//1.20141219.5

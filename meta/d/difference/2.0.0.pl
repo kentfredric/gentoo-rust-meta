@@ -3,12 +3,8 @@ use strict;
 use warnings;
 
 crate(
-    # TODO
-    # NOTE: Tests Restricted, Features, Binaries missing.
-    difference      => '2.0.0',
-    missing_tests   => 1,
-    missing_options => 1,
-    optional        => {
+    difference => '2.0.0',
+    optional   => {
         getopts => '^0.2',
     },
     test => {
