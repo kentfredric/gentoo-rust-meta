@@ -340,6 +340,20 @@ sub define_link {
 
 }
 
+sub link_tests {
+    my ($crate) = @_;
+    return 1 if $ENV{FORCE_DEPS};
+    return   if $ENV{MINIMAL};
+    return !$crate->has_problem('missing_tests');
+}
+
+sub link_options {
+    my ($crate) = @_;
+    return 1 if $ENV{FORCE_DEPS};
+    return   if $ENV{MINIMAL};
+    return !$crate->has_problem('missing_options');
+}
+
 sub resolve_deps {
     for my $crate ( $db->crates() ) {
         ident_for( $crate->name, $crate->version );
@@ -350,36 +364,19 @@ sub resolve_deps {
             next unless defined $resolved_version;
             $crate->link_to( $resolved_version, undef );
         }
-        if ( $ENV{FORCE_DEPS}
-            or ( !$ENV{MINIMAL} and !$crate->has_problem(qw( missing_tests )) )
-          )
-        {
+        if ( link_tests($crate) ) {
             for my $requirement ( $crate->test_requirements ) {
                 my $resolved_version = $requirement->resolve();
                 next unless defined $resolved_version;
                 $crate->link_to( $resolved_version, 'weak:test' );
             }
         }
-        if (
-            $ENV{FORCE_DEPS}
-            or (
-                (
-                        !$ENV{MINIMAL}
-                    and !$crate->has_problem(qw( missing_options ))
-                )
-            )
-          )
-        {
+        if ( link_options($crate) ) {
             for my $requirement ( $crate->optional_requirements ) {
                 my $resolved_version = $requirement->resolve();
                 next unless defined $resolved_version;
                 $crate->link_to( $resolved_version, 'weak:optional' );
             }
-        }
-        if ( $ENV{FORCE_DEPS}
-            or
-            ( !$ENV{MINIMAL} and !$crate->has_problem(qw( missing_options )) ) )
-        {
             for my $feature ( $crate->features ) {
                 next if $feature->name eq 'default';
                 for my $requirement ( $feature->dependencies ) {
@@ -395,14 +392,10 @@ sub resolve_deps {
             for my $requirement ( $feature->dependencies ) {
                 my $resolved_version = $requirement->resolve();
                 next unless defined $resolved_version;
-                next
-                  if !$ENV{FORCE_DEPS}
-                  and ($ENV{MINIMAL}
-                    or $crate->has_problem(qw( missing_options )) );
+                next unless link_options($crate);
                 $crate->link_to( $resolved_version,
                     'feature:' . $feature->name );
             }
-
         }
     }
 }
