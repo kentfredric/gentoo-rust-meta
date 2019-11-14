@@ -3,10 +3,8 @@ use strict;
 use warnings;
 
 crate(
-    scroll          => '0.9.2',
-    missing_options => 1,
-    missing_tests   => 1,
-    optional        => {
+    scroll   => '0.9.2',
+    optional => {
         scroll_derive => '^0.9',
     },
     test => {
