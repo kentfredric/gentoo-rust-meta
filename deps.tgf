@@ -53,6 +53,7 @@ fake-simd//0.1.2 fake-simd 0.1.2
 fallible-iterator//0.2.0 fallible-iterator 0.2.0
 findshlibs//0.5.0 findshlibs 0.5.0
 fixedbitset//0.1.9 fixedbitset 0.1.9
+flate2//1.0.13 flate2 1.0.13
 fs_extra//1.1.0 fs_extra 1.1.0
 futures//0.1.29 futures 0.1.29
 generic-array//0.12.3 generic-array 0.12.3
@@ -361,6 +362,10 @@ failure_derive//0.1.6 syn//1.0.7
 failure_derive//0.1.6 synstructure//0.12.1
 findshlibs//0.5.0 lazy_static//1.4.0
 findshlibs//0.5.0 libc//0.2.65
+flate2//1.0.13 cfg-if//0.1.10
+flate2//1.0.13 crc32fast//1.2.0
+flate2//1.0.13 futures//0.1.29
+flate2//1.0.13 libc//0.2.65
 generic-array//0.12.3 serde//1.0.101 weak:optional
 generic-array//0.12.3 typenum//1.11.2
 getopts//0.2.21 log//0.4.8 weak:test
