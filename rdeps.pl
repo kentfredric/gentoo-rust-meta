@@ -45,7 +45,12 @@ for my $key ( sort keys %simple_graph ) {
         my $has_reasons;
         for my $reason ( sort keys %{ $simple_graph{$key}{$dep} } ) {
             $has_reasons++;
-            printf "%s %s %s\n", $key, $dep, $reason;
+            if ( $reason eq 'required' ) {
+                printf "%s %s\n", $key, $dep;
+            }
+            else {
+                printf "%s %s %s\n", $key, $dep, $reason;
+            }
         }
         unless ($has_reasons) {
             printf "%s %s\n", $key, $dep;
@@ -359,7 +364,7 @@ sub resolve_deps {
         for my $requirement ( $crate->requirements ) {
             my $resolved_version = $requirement->resolve();
             next unless defined $resolved_version;
-            $crate->link_to( $resolved_version, undef );
+            $crate->link_to( $resolved_version, 'required' );
         }
         if ( link_tests($crate) ) {
             for my $requirement ( $crate->test_requirements ) {
