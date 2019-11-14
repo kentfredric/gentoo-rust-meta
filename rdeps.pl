@@ -356,9 +356,6 @@ sub link_options {
 
 sub resolve_deps {
     for my $crate ( $db->crates() ) {
-        ident_for( $crate->name, $crate->version );
-    }
-    for my $crate ( $db->crates() ) {
         for my $requirement ( $crate->requirements ) {
             my $resolved_version = $requirement->resolve();
             next unless defined $resolved_version;
