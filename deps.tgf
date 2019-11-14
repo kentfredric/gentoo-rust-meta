@@ -93,6 +93,7 @@ memchr//0.1.11 memchr 0.1.11
 memchr//2.2.1 memchr 2.2.1
 memoffset//0.5.1 memoffset 0.5.1
 mesalink//1.1.0 mesalink 1.1.0
+miniz_oxide//0.3.5 miniz_oxide 0.3.5
 no-panic//0.1.11 no-panic 0.1.11
 nodrop//0.1.14 nodrop 0.1.14
 num-integer//0.1.41 num-integer 0.1.41
@@ -492,6 +493,7 @@ mesalink//1.1.0 untrusted//0.7.0
 mesalink//1.1.0 walkdir//2.2.9
 mesalink//1.1.0 webpki-roots//0.17.0
 mesalink//1.1.0 webpki//0.21.0
+miniz_oxide//0.3.5 adler32//1.0.4
 no-panic//0.1.11 proc-macro2//1.0.5
 no-panic//0.1.11 quote//1.0.2
 no-panic//0.1.11 syn//1.0.7
