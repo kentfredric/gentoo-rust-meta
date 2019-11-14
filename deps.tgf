@@ -53,6 +53,7 @@ fallible-iterator//0.2.0 fallible-iterator 0.2.0
 findshlibs//0.5.0 findshlibs 0.5.0
 fixedbitset//0.1.9 fixedbitset 0.1.9
 fs_extra//1.1.0 fs_extra 1.1.0
+futures//0.1.29 futures 0.1.29
 generic-array//0.12.3 generic-array 0.12.3
 getopts//0.2.21 getopts 0.2.21
 getrandom//0.1.13 getrandom 0.1.13
