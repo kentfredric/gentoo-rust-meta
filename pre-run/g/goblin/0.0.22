@@ -1,0 +1,4 @@
+target: install
+  - ensure:
+    - package: =dev-rust/scroll-0.9*
+    - has_use: derive
