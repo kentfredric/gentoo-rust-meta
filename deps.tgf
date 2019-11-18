@@ -1,3 +1,4 @@
+addr2line//0.10.0 addr2line 0.10.0
 adler32//1.0.4 adler32 1.0.4
 aho-corasick//0.5.3 aho-corasick 0.5.3
 aho-corasick//0.7.6 aho-corasick 0.7.6
@@ -223,6 +224,11 @@ winapi-build//0.1.1 winapi-build 0.1.1
 winapi//0.2.8 winapi 0.2.8
 yaml-rust//0.4.3 yaml-rust 0.4.3
 #
+addr2line//0.10.0 fallible-iterator//0.2.0
+addr2line//0.10.0 gimli//0.19.0
+addr2line//0.10.0 intervaltree//0.2.4
+addr2line//0.10.0 lazycell//1.2.1
+addr2line//0.10.0 smallvec//0.6.10
 adler32//1.0.4 rand//0.4.6 weak:test
 aho-corasick//0.5.3 memchr//0.1.11
 aho-corasick//0.7.6 doc-comment//0.3.1 weak:test
