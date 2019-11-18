@@ -95,6 +95,7 @@ maplit//1.0.2 maplit 1.0.2
 matches//0.1.8 matches 0.1.8
 memchr//0.1.11 memchr 0.1.11
 memchr//2.2.1 memchr 2.2.1
+memmap//0.7.0 memmap 0.7.0
 memoffset//0.5.1 memoffset 0.5.1
 mesalink//1.1.0 mesalink 1.1.0
 miniz_oxide//0.3.5 miniz_oxide 0.3.5
@@ -517,6 +518,8 @@ log//0.4.8 sval//0.4.7 weak:optional
 memchr//0.1.11 libc//0.2.65
 memchr//2.2.1 libc//0.2.65 weak:optional
 memchr//2.2.1 quickcheck//0.8.5 weak:test
+memmap//0.7.0 libc//0.2.65
+memmap//0.7.0 tempdir//0.3.7 weak:test
 memoffset//0.5.1 rustc_version//0.2.3
 mesalink//1.1.0 base64//0.10.1
 mesalink//1.1.0 bitflags//1.2.1
