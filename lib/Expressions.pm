@@ -159,6 +159,9 @@ sub expr_to_fn {
     if ( $expr =~ /\A\^(0.[0-9]+)\z/ ) {
         return semver( $1, 0 );
     }
+    if ( $expr =~ /\A\^(0.0.[0-9]+)\z/ ) {
+        return semver( $1, 0 );
+    }
     if ( $expr =~ /\A\^(0.[0-9]+).([0-9][0-9.]*)\z/ ) {
         return semver( $1, $2 );
     }
