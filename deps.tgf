@@ -274,6 +274,9 @@ block-buffer//0.7.3 byte-tools//0.3.1
 block-buffer//0.7.3 byteorder//1.3.2
 block-buffer//0.7.3 generic-array//0.12.3
 block-padding//0.1.4 byte-tools//0.3.1
+byteorder//1.3.2 doc-comment//0.3.1 weak:test
+byteorder//1.3.2 quickcheck//0.8.5 weak:test
+byteorder//1.3.2 rand//0.6.5 weak:test
 c2-chacha//0.2.3 byteorder//1.3.2 feature:default
 c2-chacha//0.2.3 byteorder//1.3.2 weak:feature:rustcrypto_api
 c2-chacha//0.2.3 byteorder//1.3.2 weak:optional
