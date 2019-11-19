@@ -728,6 +728,7 @@ rand_jitter//0.1.4 rand_core//0.4.2
 rand_os//0.1.3 libc//0.2.65
 rand_os//0.1.3 rand_core//0.4.2
 rand_pcg//0.1.2 autocfg//0.1.6
+rand_pcg//0.1.2 bincode//1.2.0 weak:test
 rand_pcg//0.1.2 rand_core//0.4.2
 rand_pcg//0.1.2 serde//1.0.101 weak:feature:serde1
 rand_pcg//0.1.2 serde//1.0.101 weak:optional

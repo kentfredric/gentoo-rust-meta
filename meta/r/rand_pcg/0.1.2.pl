@@ -4,10 +4,8 @@ use warnings;
 
 crate(
     # TODO
-    # NOTE: Tests Restricted
-    rand_pcg      => '0.1.2',
-    missing_tests => 1,
-    requires      => {
+    rand_pcg => '0.1.2',
+    requires => {
         rand_core => '^0.4',
     },
     optional => {
