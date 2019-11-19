@@ -401,7 +401,9 @@ flate2//1.0.13 cfg-if//0.1.10
 flate2//1.0.13 crc32fast//1.2.0
 flate2//1.0.13 futures//0.1.29
 flate2//1.0.13 libc//0.2.65
+generic-array//0.12.3 bincode//1.2.0 weak:test
 generic-array//0.12.3 serde//1.0.101 weak:optional
+generic-array//0.12.3 serde_json//1.0.41 weak:test
 generic-array//0.12.3 typenum//1.11.2
 getopts//0.2.21 log//0.4.8 weak:test
 getopts//0.2.21 unicode-width//0.1.6

@@ -3,10 +3,7 @@ use strict;
 use warnings;
 
 crate(
-    # TODO
-    # NOTE: Tests restricted
     'generic-array' => '0.12.3',
-    missing_tests   => 1,
     requires        => {
         typenum => '^1.10',
     },
