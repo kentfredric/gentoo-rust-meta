@@ -3,12 +3,8 @@ use strict;
 use warnings;
 
 crate(
-    # TODO
-    # NOTE: Tests restricted, features missing
-    'sha-1'         => '0.8.1',
-    missing_tests   => 1,
-    missing_options => 1,
-    requires        => {
+    'sha-1'  => '0.8.1',
+    requires => {
         'block-buffer' => '^0.7',
         digest         => '^0.8',
         'fake-simd'    => '^0.1',

@@ -811,7 +811,10 @@ serde_yaml//0.8.11 yaml-rust//0.4.3
 sha-1//0.8.1 block-buffer//0.7.3
 sha-1//0.8.1 digest//0.8.1
 sha-1//0.8.1 fake-simd//0.1.2
+sha-1//0.8.1 hex-literal//0.1.4 weak:test
 sha-1//0.8.1 opaque-debug//0.2.3
+sha-1//0.8.1 sha1-asm//0.4.3 weak:feature:asm
+sha-1//0.8.1 sha1-asm//0.4.3 weak:optional
 sha1-asm//0.4.3 cc//1.0.46
 smallvec//0.6.10 bincode//1.2.0 weak:test
 smallvec//0.6.10 serde//1.0.101 weak:optional
