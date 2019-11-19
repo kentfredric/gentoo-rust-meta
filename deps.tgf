@@ -125,6 +125,7 @@ petgraph//0.4.13 petgraph 0.4.13
 pkg-config//0.3.16 pkg-config 0.3.16
 plain//0.2.3 plain 0.2.3
 ppv-lite86//0.2.6 ppv-lite86 0.2.6
+proc-macro-hack-impl//0.4.2 proc-macro-hack-impl 0.4.2
 proc-macro2//0.4.27 proc-macro2 0.4.27
 proc-macro2//0.4.30 proc-macro2 0.4.30
 proc-macro2//1.0.5 proc-macro2 1.0.5
