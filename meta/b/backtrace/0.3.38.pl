@@ -3,12 +3,8 @@ use strict;
 use warnings;
 
 crate(
-    # TODO
-    # NOTE: Tests restricted, features missing
-    backtrace       => '0.3.38',
-    missing_tests   => 1,
-    missing_options => 1,
-    optional        => {
+    backtrace => '0.3.38',
+    optional  => {
         addr2line       => '^0.10',
         'backtrace-sys' => '^0.1.17',
 
@@ -31,7 +27,9 @@ crate(
         'rustc-demangle' => '^0.1.4',
     },
     features => {
-        core              => [qw( rustc-std-workspace-core )],
+
+        # nightly
+        #  core              => [qw( rustc-std-workspace-core )],
         coresymbolication => [],
         dbghelp           => [],
         default           => [qw( std libunwind libbacktrace dladdr dbghelp )],

@@ -241,9 +241,25 @@ arrayvec//0.4.12 serde//1.0.101 weak:optional
 atty//0.2.13 libc//0.2.65
 backtrace-sys//0.1.31 cc//1.0.46
 backtrace-sys//0.1.31 libc//0.2.65
+backtrace//0.3.38 addr2line//0.10.0 weak:feature:gimli-symbolize
+backtrace//0.3.38 addr2line//0.10.0 weak:optional
+backtrace//0.3.38 backtrace-sys//0.1.31 feature:default
+backtrace//0.3.38 backtrace-sys//0.1.31 weak:feature:libbacktrace
+backtrace//0.3.38 backtrace-sys//0.1.31 weak:optional
 backtrace//0.3.38 cfg-if//0.1.10
+backtrace//0.3.38 cpp_demangle//0.2.13 weak:optional
+backtrace//0.3.38 findshlibs//0.5.0 weak:feature:gimli-symbolize
+backtrace//0.3.38 findshlibs//0.5.0 weak:optional
+backtrace//0.3.38 goblin//0.0.24 weak:feature:gimli-symbolize
+backtrace//0.3.38 goblin//0.0.24 weak:optional
 backtrace//0.3.38 libc//0.2.65
+backtrace//0.3.38 memmap//0.7.0 weak:feature:gimli-symbolize
+backtrace//0.3.38 memmap//0.7.0 weak:optional
 backtrace//0.3.38 rustc-demangle//0.1.16
+backtrace//0.3.38 rustc-serialize//0.3.24 weak:feature:serialize-rustc
+backtrace//0.3.38 rustc-serialize//0.3.24 weak:optional
+backtrace//0.3.38 serde//1.0.101 weak:feature:serialize-serde
+backtrace//0.3.38 serde//1.0.101 weak:optional
 base64//0.10.1 byteorder//1.3.2
 bincode//0.8.0 byteorder//1.3.2
 bincode//0.8.0 num-traits//0.1.43

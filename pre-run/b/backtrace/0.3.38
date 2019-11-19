@@ -1,0 +1,7 @@
+target: test
+  - ensure:
+    - package: =dev-rust/serde-1*
+    - has_use: derive
+  - ensure:
+    - package: =dev-rust/scroll-0.9*
+    - has_use: derive
