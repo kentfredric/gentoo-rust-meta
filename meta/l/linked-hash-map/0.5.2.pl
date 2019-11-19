@@ -3,11 +3,7 @@ use strict;
 use warnings;
 
 crate(
-    # TODO
-    # NOTE: Tests restricted, features missing
     'linked-hash-map' => '0.5.2',
-    missing_tests     => 1,
-    missing_options   => 1,
     optional          => {
 
         # nightly
