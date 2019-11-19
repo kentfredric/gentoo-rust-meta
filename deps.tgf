@@ -387,6 +387,7 @@ failure//0.1.6 backtrace//0.3.38 weak:optional
 failure//0.1.6 failure_derive//0.1.6 feature:default
 failure//0.1.6 failure_derive//0.1.6 weak:feature:derive
 failure//0.1.6 failure_derive//0.1.6 weak:optional
+failure_derive//0.1.6 failure//0.1.6 weak:test
 failure_derive//0.1.6 proc-macro2//1.0.5
 failure_derive//0.1.6 quote//1.0.2
 failure_derive//0.1.6 syn//1.0.7

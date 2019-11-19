@@ -3,10 +3,7 @@ use strict;
 use warnings;
 
 crate(
-    # TODO
-    # NOTE: Tests restricted
     failure_derive => '0.1.6',
-    missing_tests  => 1,
     requires       => {
         'proc-macro2' => '^1',
         quote         => '^1',
