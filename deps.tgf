@@ -734,6 +734,7 @@ rand_pcg//0.1.2 serde//1.0.101 weak:feature:serde1
 rand_pcg//0.1.2 serde//1.0.101 weak:optional
 rand_pcg//0.1.2 serde_derive//1.0.89 weak:feature:serde1
 rand_pcg//0.1.2 serde_derive//1.0.89 weak:optional
+rand_xorshift//0.1.1 bincode//1.2.0 weak:test
 rand_xorshift//0.1.1 rand_core//0.3.1
 rand_xorshift//0.1.1 serde//1.0.101 weak:feature:serde1
 rand_xorshift//0.1.1 serde//1.0.101 weak:optional

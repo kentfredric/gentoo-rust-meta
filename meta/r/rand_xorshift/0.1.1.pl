@@ -3,10 +3,7 @@ use strict;
 use warnings;
 
 crate(
-    # TODO
-    # NOTE: Tests Restricted
     rand_xorshift => '0.1.1',
-    missing_tests => 1,
     requires      => {
         rand_core => '>0.2, <=0.4.0',
     },
