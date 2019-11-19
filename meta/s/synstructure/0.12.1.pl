@@ -3,11 +3,8 @@ use strict;
 use warnings;
 
 crate(
-    # TODO
-    # NOTE: Tests restricted
-    synstructure  => '0.12.1',
-    missing_tests => 1,
-    requires      => {
+    synstructure => '0.12.1',
+    requires     => {
         'proc-macro2' => '^1',
         quote         => '^1',
         syn           => '^1',

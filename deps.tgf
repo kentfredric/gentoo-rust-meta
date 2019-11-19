@@ -853,6 +853,7 @@ synom//0.11.3 unicode-xid//0.0.4
 synstructure//0.12.1 proc-macro2//1.0.5
 synstructure//0.12.1 quote//1.0.2
 synstructure//0.12.1 syn//1.0.7
+synstructure//0.12.1 synstructure_test_traits//0.1.0 weak:test
 synstructure//0.12.1 unicode-xid//0.2.0
 tempdir//0.3.7 rand//0.4.6
 tempdir//0.3.7 remove_dir_all//0.5.2
