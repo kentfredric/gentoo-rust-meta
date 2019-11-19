@@ -196,6 +196,7 @@ syn//1.0.5 syn 1.0.5
 syn//1.0.7 syn 1.0.7
 synom//0.11.3 synom 0.11.3
 synstructure//0.12.1 synstructure 0.12.1
+synstructure_test_traits//0.1.0 synstructure_test_traits 0.1.0
 tempdir//0.3.7 tempdir 0.3.7
 term//0.2.14 term 0.2.14
 termcolor//1.0.5 termcolor 1.0.5
