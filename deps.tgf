@@ -953,3 +953,4 @@ webpki-roots//0.17.0 webpki//0.21.0
 webpki//0.21.0 ring//0.16.9
 webpki//0.21.0 untrusted//0.7.0
 yaml-rust//0.4.3 linked-hash-map//0.5.2
+yaml-rust//0.4.3 quickcheck//0.7.2 weak:test
