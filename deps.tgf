@@ -147,6 +147,7 @@ rand//0.6.5 rand 0.6.5
 rand//0.7.2 rand 0.7.2
 rand_chacha//0.1.1 rand_chacha 0.1.1
 rand_chacha//0.2.1 rand_chacha 0.2.1
+rand_core//0.2.2 rand_core 0.2.2
 rand_core//0.3.1 rand_core 0.3.1
 rand_core//0.4.2 rand_core 0.4.2
 rand_core//0.5.1 rand_core 0.5.1
@@ -694,6 +695,7 @@ rand_chacha//0.1.1 autocfg//0.1.6
 rand_chacha//0.1.1 rand_core//0.3.1
 rand_chacha//0.2.1 c2-chacha//0.2.3
 rand_chacha//0.2.1 rand_core//0.5.1
+rand_core//0.2.2 rand_core//0.3.1
 rand_core//0.3.1 rand_core//0.4.2
 rand_core//0.4.2 serde//1.0.101 weak:feature:serde1
 rand_core//0.4.2 serde//1.0.101 weak:optional
