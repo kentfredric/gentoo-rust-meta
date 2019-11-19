@@ -3,12 +3,8 @@ use strict;
 use warnings;
 
 crate(
-    # TODO
-    # NOTE: Tests restricted, features missing
-    rand_os         => '0.1.3',
-    missing_options => 1,
-    missing_tests   => 1,
-    optional        => {
+    rand_os  => '0.1.3',
+    optional => {
         log => '^0.4',
 
         # wasm
