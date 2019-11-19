@@ -3,11 +3,8 @@ use strict;
 use warnings;
 
 crate(
-    # TODO
-    # NOTE: Tests restricted
-    rand_isaac    => '0.1.1',
-    missing_tests => 1,
-    requires      => {
+    rand_isaac => '0.1.1',
+    requires   => {
         rand_core => '^0.3',
     },
     optional => {

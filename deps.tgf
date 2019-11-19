@@ -717,6 +717,7 @@ rand_core//0.5.1 getrandom//0.1.13 weak:optional
 rand_core//0.5.1 serde//1.0.101 weak:feature:serde1
 rand_core//0.5.1 serde//1.0.101 weak:optional
 rand_hc//0.1.0 rand_core//0.3.1
+rand_isaac//0.1.1 bincode//1.2.0 weak:test
 rand_isaac//0.1.1 rand_core//0.3.1
 rand_isaac//0.1.1 serde//1.0.101 weak:feature:serde1
 rand_isaac//0.1.1 serde//1.0.101 weak:optional

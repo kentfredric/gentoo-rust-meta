@@ -1,0 +1,8 @@
+target: test
+  - ensure:
+    - package: =dev-rust/rand_core-0.4*
+    - has_use: serde1
+  - ensure:
+    - package: =dev-rust/rand_core-0.3*
+    - has_use: serde1
+
