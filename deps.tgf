@@ -363,6 +363,8 @@ difference//2.0.0 getopts//0.2.21 weak:feature:bin
 difference//2.0.0 getopts//0.2.21 weak:optional
 difference//2.0.0 quickcheck//0.4.1 weak:test
 difference//2.0.0 term//0.2.14 weak:test
+digest//0.8.1 blobby//0.1.2 weak:feature:dev
+digest//0.8.1 blobby//0.1.2 weak:optional
 digest//0.8.1 generic-array//0.12.3
 either//1.5.3 serde//1.0.101 weak:optional
 encoding//0.2.33 encoding-index-japanese//1.20141219.5
