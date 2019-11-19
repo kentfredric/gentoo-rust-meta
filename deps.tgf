@@ -845,6 +845,8 @@ serde_test//1.0.102 serde_derive//1.0.89 weak:test
 serde_yaml//0.8.11 dtoa//0.4.4
 serde_yaml//0.8.11 linked-hash-map//0.5.2
 serde_yaml//0.8.11 serde//1.0.101
+serde_yaml//0.8.11 serde_derive//1.0.89 weak:test
+serde_yaml//0.8.11 unindent//0.1.5 weak:test
 serde_yaml//0.8.11 yaml-rust//0.4.3
 sha-1//0.8.1 block-buffer//0.7.3
 sha-1//0.8.1 digest//0.8.1

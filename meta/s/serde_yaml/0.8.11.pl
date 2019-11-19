@@ -4,10 +4,8 @@ use warnings;
 
 crate(
     # TODO
-    serde_yaml      => '0.8.11',
-    missing_tests   => 1,
-    missing_options => 1,
-    requires        => {
+    serde_yaml => '0.8.11',
+    requires   => {
         dtoa              => '^0.4',
         'linked-hash-map' => '^0.5',
         serde             => '^1.0.60',
