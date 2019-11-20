@@ -201,6 +201,7 @@ serde_yaml//0.8.11 serde_yaml 0.8.11
 sha-1//0.8.1 sha-1 0.8.1
 sha1-asm//0.4.3 sha1-asm 0.4.3
 sha1//0.6.0 sha1 0.6.0
+slog//2.5.2 slog 2.5.2
 smallvec//0.6.10 smallvec 0.6.10
 spin//0.5.2 spin 0.5.2
 stable_deref_trait//1.1.1 stable_deref_trait 1.1.1
