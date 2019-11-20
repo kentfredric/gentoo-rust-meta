@@ -1,0 +1,14 @@
+target: test
+  - ensure:
+    - package: =dev-rust/rand_core-0.4*
+    - has_use: serde1
+  - ensure:
+    - package: =dev-rust/rand_core-0.3*
+    - has_use: serde1
+  - ensure:
+    - package: =dev-rust/rand_isaac-0.1*
+    - has_use: serde1
+  - ensure:
+    - package: =dev-rust/rand_xorshift-0.1*
+    - has_use: serde1
+

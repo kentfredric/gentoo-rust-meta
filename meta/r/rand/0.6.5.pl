@@ -3,14 +3,12 @@ use strict;
 use warnings;
 
 crate(
-    # TODO
-    rand            => '0.6.5',
-    missing_tests   => 1,
-    missing_options => 1,
-    optional        => {
-        log         => '^0.4',
-        packed_simd => '^0.3',
-        rand_os     => '^0.1',
+    rand     => '0.6.5',
+    optional => {
+        log => '^0.4',
+
+        #  packed_simd => '^0.3', # nightlyty
+        rand_os => '^0.1',
     },
     requires => {
         rand_chacha   => '^0.1',
@@ -40,8 +38,9 @@ crate(
         # nightly => [qw( simd_support )],
         serde1 =>
           [qw( rand_core/serde1 rand_isaac/serde1 rand_xorshift/serde1 )],
-        simd_support => [qw( packed_simd )],
-        std          => [qw( rand_core/std alloc rand_os rand_jitter/std )],
+
+        # simd_support => [qw( packed_simd )],    # nightly
+        std => [qw( rand_core/std alloc rand_os rand_jitter/std )],
 
         # wasm-bindgen => [qw( rand_os/wasm-bindgen )],
       }
