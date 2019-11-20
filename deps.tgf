@@ -34,6 +34,7 @@ crossbeam-epoch//0.7.2 crossbeam-epoch 0.7.2
 crossbeam-queue//0.1.2 crossbeam-queue 0.1.2
 crossbeam-utils//0.6.6 crossbeam-utils 0.6.6
 curl-sys//0.4.23 curl-sys 0.4.23
+custom_derive//0.1.7 custom_derive 0.1.7
 difference//2.0.0 difference 2.0.0
 digest//0.8.1 digest 0.8.1
 doc-comment//0.3.1 doc-comment 0.3.1
@@ -371,6 +372,7 @@ curl-sys//0.4.23 openssl-sys//0.9.52 weak:feature:ssl
 curl-sys//0.4.23 openssl-sys//0.9.52 weak:feature:static-ssl
 curl-sys//0.4.23 openssl-sys//0.9.52 weak:optional
 curl-sys//0.4.23 pkg-config//0.3.16
+custom_derive//0.1.7 rustc-serialize//0.3.24 weak:test
 difference//2.0.0 getopts//0.2.21 weak:feature:bin
 difference//2.0.0 getopts//0.2.21 weak:optional
 difference//2.0.0 quickcheck//0.4.1 weak:test
