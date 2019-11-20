@@ -100,6 +100,7 @@ log//0.3.9 log 0.3.9
 log//0.4.8 log 0.4.8
 maplit//1.0.2 maplit 1.0.2
 matches//0.1.8 matches 0.1.8
+md5//0.6.1 md5 0.6.1
 memchr//0.1.11 memchr 0.1.11
 memchr//2.2.1 memchr 2.2.1
 memmap//0.7.0 memmap 0.7.0
