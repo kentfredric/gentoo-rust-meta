@@ -5,6 +5,7 @@ aho-corasick//0.7.6 aho-corasick 0.7.6
 arrayvec//0.4.12 arrayvec 0.4.12
 atty//0.2.13 atty 0.2.13
 autocfg//0.1.6 autocfg 0.1.6
+average//0.9.4 average 0.9.4
 backtrace-sys//0.1.31 backtrace-sys 0.1.31
 backtrace//0.3.38 backtrace 0.3.38
 base64//0.10.1 base64 0.10.1
@@ -254,6 +255,10 @@ arrayvec//0.4.12 nodrop//0.1.14
 arrayvec//0.4.12 serde//1.0.101 weak:feature:serde-1
 arrayvec//0.4.12 serde//1.0.101 weak:optional
 atty//0.2.13 libc//0.2.65
+average//0.9.4 conv//0.3.3
+average//0.9.4 float-ord//0.2.0
+average//0.9.4 num-integer//0.1.41
+average//0.9.4 num-traits//0.2.8
 backtrace-sys//0.1.31 cc//1.0.46
 backtrace-sys//0.1.31 libc//0.2.65
 backtrace//0.3.38 addr2line//0.10.0 weak:feature:gimli-symbolize
