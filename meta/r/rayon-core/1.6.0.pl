@@ -3,11 +3,8 @@ use strict;
 use warnings;
 
 crate(
-    # TODO
-    # NOTE: Tests restricted
-    'rayon-core'  => '1.6.0',
-    missing_tests => 1,
-    requires      => {
+    'rayon-core' => '1.6.0',
+    requires     => {
         'crossbeam-deque' => '^0.7',
         'crossbeam-queue' => '^0.1.2',
         'crossbeam-utils' => '^0.6.5',

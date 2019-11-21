@@ -1,0 +1,9 @@
+target: install
+  - ensure:
+    - package: =dev-rust/crossbeam-utils-0.6*
+    - has_use: std
+
+target: test
+  - ensure:
+    - package: =dev-rust/rand-0.6*
+    - has_use: std
