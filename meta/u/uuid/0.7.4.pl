@@ -3,12 +3,8 @@ use strict;
 use warnings;
 
 crate(
-    # TODO
-    # NOTE: Tests restricted, features missing
-    uuid            => '0.7.4',
-    missing_tests   => 1,
-    missing_options => 1,
-    optional        => {
+    uuid     => '0.7.4',
+    optional => {
         byteorder => '^1',
         md5       => '^0.6',
         rand      => '^0.6',
