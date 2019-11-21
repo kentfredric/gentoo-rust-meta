@@ -3,10 +3,7 @@ use strict;
 use warnings;
 
 crate(
-    # TODO
-    # NOTE: Tests restricted
-    arrayvec      => '0.4.12',
-    missing_tests => 1,
+    arrayvec => '0.4.12',
 
     requires => {
         nodrop => '^0.1.12',
@@ -15,7 +12,8 @@ crate(
         serde => '^1',
     },
     test => {
-        bencher    => '^0.1.4',
+
+        # bencher    => '^0.1.4', # benchmarks
         matches    => '^0.1',
         serde_test => '^1',
     },
