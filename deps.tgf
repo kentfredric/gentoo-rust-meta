@@ -707,7 +707,14 @@ rand//0.3.23 rand//0.4.6
 rand//0.4.6 libc//0.2.65 feature:default
 rand//0.4.6 libc//0.2.65 weak:feature:std
 rand//0.4.6 libc//0.2.65 weak:optional
+rand//0.5.6 bincode//1.2.0 weak:test
+rand//0.5.6 libc//0.2.65 feature:default
+rand//0.5.6 libc//0.2.65 weak:feature:std
+rand//0.5.6 libc//0.2.65 weak:optional
+rand//0.5.6 log//0.4.8 weak:optional
 rand//0.5.6 rand_core//0.3.1
+rand//0.5.6 serde//1.0.101 weak:optional
+rand//0.5.6 serde_derive//1.0.89 weak:optional
 rand//0.6.5 autocfg//0.1.6
 rand//0.6.5 average//0.9.4 weak:test
 rand//0.6.5 libc//0.2.65

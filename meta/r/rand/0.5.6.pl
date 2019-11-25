@@ -3,10 +3,8 @@ use strict;
 use warnings;
 
 crate(
-    rand            => '0.5.6',
-    missing_tests   => 1,
-    missing_options => 1,
-    optional        => {
+    rand     => '0.5.6',
+    optional => {
         log          => '^0.4',
         serde        => '^1',
         serde_derive => '^1',
