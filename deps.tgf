@@ -835,6 +835,7 @@ ron//0.4.1 serde_json//1.0.41 weak:test
 ron//0.5.1 base64//0.10.1
 ron//0.5.1 bitflags//1.2.1
 ron//0.5.1 serde//1.0.101
+rustc-serialize//0.3.24 rand//0.3.23 weak:test
 rustc_version//0.2.3 semver//0.9.0
 rustls//0.16.0 base64//0.10.1
 rustls//0.16.0 log//0.4.8 feature:default
