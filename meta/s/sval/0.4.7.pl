@@ -3,11 +3,8 @@ use strict;
 use warnings;
 
 crate(
-    # TODO
-    # NOTE: Tests restricted
-    sval          => '0.4.7',
-    missing_tests => 1,
-    optional      => {
+    sval     => '0.4.7',
+    optional => {
         serde       => '^1',
         smallvec    => '^0.6',
         sval_derive => '^0.4.7',
