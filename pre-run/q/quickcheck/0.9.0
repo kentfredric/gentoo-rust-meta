@@ -1,0 +1,15 @@
+target: install
+  - ensure:
+    - package: =dev-rust/rand_core-0.5*
+    - has_use: std
+  - ensure:
+    - package: =dev-rust/rand-0.7*
+    - has_use: std
+
+target: test
+  - ensure:
+    - package: =dev-rust/regex-1*
+    - has_use: perf-literal perf-cache
+  - ensure:
+    - package: =dev-rust/env_logger-0.6*
+    - has_use: regex
