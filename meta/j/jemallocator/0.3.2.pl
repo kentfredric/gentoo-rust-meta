@@ -3,15 +3,15 @@ use strict;
 use warnings;
 
 crate(
-    # TODO
-    jemallocator  => '0.3.2',
-    missing_tests => 1,
-    requires      => {
+    jemallocator => '0.3.2',
+    requires     => {
         'jemalloc-sys' => '^0.3.2',
         libc           => '^0.2.8',
     },
     test => {
-        paste => '^0.1',
+
+        #  paste => '^0.1', # benchmarks
+        'jemalloc-ctl' => '^0.3',
     },
     features => {
         alloc_trait        => [],
