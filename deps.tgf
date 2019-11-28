@@ -81,6 +81,7 @@ insta//0.11.0 insta 0.11.0
 insta//0.9.0 insta 0.9.0
 intervaltree//0.2.4 intervaltree 0.2.4
 itoa//0.4.4 itoa 0.4.4
+jemalloc-ctl//0.3.3 jemalloc-ctl 0.3.3
 jemalloc-sys//0.3.2 jemalloc-sys 0.3.2
 jemallocator//0.3.2 jemallocator 0.3.2
 jobserver//0.1.17 jobserver 0.1.17
@@ -539,6 +540,10 @@ insta//0.9.0 serde_json//1.0.41
 insta//0.9.0 serde_yaml//0.8.11
 insta//0.9.0 uuid//0.7.4
 intervaltree//0.2.4 smallvec//0.6.10
+jemalloc-ctl//0.3.3 jemalloc-sys//0.3.2
+jemalloc-ctl//0.3.3 jemallocator//0.3.2 weak:test
+jemalloc-ctl//0.3.3 libc//0.2.65
+jemalloc-ctl//0.3.3 paste//0.1.6
 jemalloc-sys//0.3.2 cc//1.0.46
 jemalloc-sys//0.3.2 fs_extra//1.1.0
 jemalloc-sys//0.3.2 libc//0.2.65
