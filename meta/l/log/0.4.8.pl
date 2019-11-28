@@ -3,11 +3,8 @@ use strict;
 use warnings;
 
 crate(
-    # TODO
-    # NOTE: Tests Restricted
-    log           => '0.4.8',
-    missing_tests => 1,
-    requires      => {
+    log      => '0.4.8',
+    requires => {
         'cfg-if' => '^0.1.2',
     },
     optional => {

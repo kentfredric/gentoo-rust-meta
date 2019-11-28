@@ -586,6 +586,7 @@ lock_api//0.3.1 serde//1.0.101 weak:optional
 log//0.3.9 log//0.4.8
 log//0.4.8 cfg-if//0.1.10
 log//0.4.8 serde//1.0.101 weak:optional
+log//0.4.8 serde_test//1.0.102 weak:test
 log//0.4.8 sval//0.4.7 weak:feature:kv_unstable_sval
 log//0.4.8 sval//0.4.7 weak:optional
 memchr//0.1.11 libc//0.2.65
