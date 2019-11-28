@@ -3,11 +3,8 @@ use strict;
 use warnings;
 
 crate(
-    # TODO
-    # NOTE: Tests restricted
-    webpki        => '0.21.0',
-    missing_tests => 1,
-    requires      => {
+    webpki   => '0.21.0',
+    requires => {
         ring      => '^0.16',
         untrusted => '^0.7',
     },

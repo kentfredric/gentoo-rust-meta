@@ -1049,6 +1049,7 @@ uuid//0.7.4 slog//2.5.2 weak:optional
 walkdir//2.2.9 doc-comment//0.3.1 weak:test
 walkdir//2.2.9 same-file//1.0.5
 webpki-roots//0.17.0 webpki//0.21.0
+webpki//0.21.0 base64//0.9.3 weak:test
 webpki//0.21.0 ring//0.16.9
 webpki//0.21.0 untrusted//0.7.0
 yaml-rust//0.4.3 linked-hash-map//0.5.2
