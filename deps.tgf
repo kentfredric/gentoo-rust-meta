@@ -873,11 +873,14 @@ ron//0.5.1 serde//1.0.101
 rustc-serialize//0.3.24 rand//0.3.23 weak:test
 rustc_version//0.2.3 semver//0.9.0
 rustls//0.16.0 base64//0.10.1
+rustls//0.16.0 env_logger//0.6.2 weak:test
 rustls//0.16.0 log//0.4.8 feature:default
 rustls//0.16.0 log//0.4.8 weak:feature:logging
 rustls//0.16.0 log//0.4.8 weak:optional
 rustls//0.16.0 ring//0.16.9
 rustls//0.16.0 sct//0.6.0
+rustls//0.16.0 tempfile//3.1.0 weak:test
+rustls//0.16.0 webpki-roots//0.17.0 weak:test
 rustls//0.16.0 webpki//0.21.0
 rustversion//0.1.4 proc-macro2//1.0.5
 rustversion//0.1.4 quote//1.0.2

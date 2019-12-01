@@ -3,11 +3,8 @@ use strict;
 use warnings;
 
 crate(
-    # TODO
-    # NOTE: Tests Restricted
-    rustls        => '0.16.0',
-    missing_tests => 1,
-    requires      => {
+    rustls   => '0.16.0',
+    requires => {
         base64 => '^0.10',
         ring   => '^0.16.5',
         sct    => '^0.6',
