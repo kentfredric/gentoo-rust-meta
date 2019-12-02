@@ -3,10 +3,8 @@ use strict;
 use warnings;
 
 crate(
-    # TODO
-    url           => '1.7.2',
-    missing_tests => 1,
-    optional      => {
+    url      => '1.7.2',
+    optional => {
         encoding          => '^0.2',
         heapsize          => '>=0.4.1, <0.5',
         'rustc-serialize' => '^0.3',
