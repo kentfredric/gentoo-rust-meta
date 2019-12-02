@@ -83,6 +83,7 @@ indexmap//1.3.0 indexmap 1.3.0
 insta//0.11.0 insta 0.11.0
 insta//0.9.0 insta 0.9.0
 intervaltree//0.2.4 intervaltree 0.2.4
+itertools//0.7.11 itertools 0.7.11
 itoa//0.1.1 itoa 0.1.1
 itoa//0.4.4 itoa 0.4.4
 jemalloc-ctl//0.3.3 jemalloc-ctl 0.3.3
@@ -557,6 +558,7 @@ insta//0.9.0 serde_json//1.0.41
 insta//0.9.0 serde_yaml//0.8.11
 insta//0.9.0 uuid//0.7.4
 intervaltree//0.2.4 smallvec//0.6.10
+itertools//0.7.11 either//1.5.3
 jemalloc-ctl//0.3.3 jemalloc-sys//0.3.2
 jemalloc-ctl//0.3.3 jemallocator//0.3.2 weak:test
 jemalloc-ctl//0.3.3 libc//0.2.65
