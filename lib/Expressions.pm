@@ -76,7 +76,10 @@ sub tilde {
     my $min = version->parse( ::expando_version("${v_prefix}.${v_suffix}") );
     my (@max) = split q/\./, $v_prefix;
     $max[-1]++;
-    my $max = version->parse( ::expando_version( join q[.], @max, $v_suffix ) );
+    my $zero_suffix = $v_suffix;
+    $zero_suffix =~ s/\d+/0/g;
+    my $max =
+      version->parse( ::expando_version( join q[.], @max, $zero_suffix ) );
     return sub {
         grep {
             my $v = version->parse($_);
