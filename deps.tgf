@@ -62,6 +62,7 @@ findshlibs//0.5.0 findshlibs 0.5.0
 fixedbitset//0.1.9 fixedbitset 0.1.9
 flate2//1.0.13 flate2 1.0.13
 float-ord//0.2.0 float-ord 0.2.0
+fnv//1.0.6 fnv 1.0.6
 fs_extra//1.1.0 fs_extra 1.1.0
 futures//0.1.29 futures 0.1.29
 generic-array//0.12.3 generic-array 0.12.3
