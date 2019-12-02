@@ -3,11 +3,8 @@ use strict;
 use warnings;
 
 crate(
-    # TODO
-    # NOTE: Tests restricted
-    bincode       => '1.2.0',
-    missing_tests => 1,
-    requires      => {
+    bincode  => '1.2.0',
+    requires => {
         byteorder => '^1.3',
         serde     => '^1.0.63',
     },
