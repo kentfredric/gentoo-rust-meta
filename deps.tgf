@@ -874,6 +874,8 @@ ron//0.4.1 serde_json//1.0.41 weak:test
 ron//0.5.1 base64//0.10.1
 ron//0.5.1 bitflags//1.2.1
 ron//0.5.1 serde//1.0.101
+ron//0.5.1 serde_bytes//0.10.4 weak:test
+ron//0.5.1 serde_json//1.0.41 weak:test
 rustc-serialize//0.3.24 rand//0.3.23 weak:test
 rustc-test//0.3.0 getopts//0.2.21
 rustc-test//0.3.0 libc//0.2.65
