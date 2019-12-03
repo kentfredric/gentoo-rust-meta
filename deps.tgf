@@ -633,6 +633,7 @@ log//0.4.8 serde_test//1.0.102 weak:test
 log//0.4.8 sval//0.4.7 weak:feature:kv_unstable_sval
 log//0.4.8 sval//0.4.7 weak:optional
 memchr//0.1.11 libc//0.2.65
+memchr//0.1.11 quickcheck//0.2.27 weak:test
 memchr//2.2.1 libc//0.2.65 weak:optional
 memchr//2.2.1 quickcheck//0.8.5 weak:test
 memmap//0.7.0 libc//0.2.65
