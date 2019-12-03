@@ -3,11 +3,8 @@ use strict;
 use warnings;
 
 crate(
-    # TODO
-    rand            => '0.7.2',
-    missing_tests   => 1,
-    missing_options => 1,
-    optional        => {
+    rand     => '0.7.2',
+    optional => {
         getrandom => '^0.1.1',
         log       => '^0.4.4',
 
@@ -29,11 +26,13 @@ crate(
         libc => '^0.2.22',
     },
     test => {
-        rand_hc       => '^0.2',
-        rand_isaac    => '^0.2',
-        rand_pcg      => '^0.2',
-        rand_xorshift => '^0.2',
-        rand_xoshiro  => '^0.4',
+        rand_hc => '^0.2',
+
+        # rand_isaac    => '^0.2', # benchmark
+        rand_pcg => '^0.2',
+
+        # rand_xorshift => '^0.2', # benchmark
+        # rand_xoshiro  => '^0.4', # benchmark
     },
     features => {
         alloc       => [qw( rand_core/alloc )],
