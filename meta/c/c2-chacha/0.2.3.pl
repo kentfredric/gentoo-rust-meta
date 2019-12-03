@@ -3,11 +3,8 @@ use strict;
 use warnings;
 
 crate(
-    # TODO
-    # Note: Tests restricted
-    'c2-chacha'   => '0.2.3',
-    missing_tests => 1,
-    requires      => {
+    'c2-chacha' => '0.2.3',
+    requires    => {
         'ppv-lite86' => '^0.2.6',
     },
     optional => {
