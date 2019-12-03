@@ -922,6 +922,8 @@ ref-cast-impl//0.2.7 syn//1.0.7
 ref-cast//0.2.7 ref-cast-impl//0.2.7
 ref-cast//0.2.7 rustversion//0.1.4 weak:test
 ref-cast//0.2.7 trybuild//1.0.17 weak:test
+regex-syntax//0.3.9 quickcheck//0.2.27 weak:test
+regex-syntax//0.3.9 rand//0.3.23 weak:test
 regex//0.1.80 aho-corasick//0.5.3
 regex//0.1.80 memchr//0.1.11
 regex//0.1.80 regex-syntax//0.3.9
