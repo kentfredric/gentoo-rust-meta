@@ -122,6 +122,7 @@ num-traits//0.1.43 num-traits 0.1.43
 num-traits//0.2.8 num-traits 0.2.8
 num_cpus//1.10.1 num_cpus 1.10.1
 object//0.12.0 object 0.12.0
+odds//0.2.26 odds 0.2.26
 opaque-debug//0.2.3 opaque-debug 0.2.3
 openssl-probe//0.1.2 openssl-probe 0.1.2
 openssl-src//111.6.0 openssl-src 111.6.0
