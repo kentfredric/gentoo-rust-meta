@@ -3,12 +3,8 @@ use strict;
 use warnings;
 
 crate(
-    # TODO
-    # NOTE: Missing tests and features
-    petgraph        => '0.4.13',
-    missing_tests   => 1,
-    missing_options => 1,
-    requires        => {
+    petgraph => '0.4.13',
+    requires => {
         fixedbitset => '^0.1.4',
     },
     optional => {
