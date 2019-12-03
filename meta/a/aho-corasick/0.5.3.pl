@@ -4,7 +4,6 @@ use warnings;
 
 crate(
     'aho-corasick' => '0.5.3',
-    missing_tests  => 1,
     requires       => {
         memchr => '^0.1.9',
     },
