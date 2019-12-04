@@ -260,6 +260,7 @@ toml//0.5.3 toml 0.5.3
 trybuild//1.0.17 trybuild 1.0.17
 typenum//1.11.2 typenum 1.11.2
 ucd-trie//0.1.2 ucd-trie 0.1.2
+ucd-util//0.1.5 ucd-util 0.1.5
 unicode-bidi//0.3.4 unicode-bidi 0.3.4
 unicode-normalization//0.1.8 unicode-normalization 0.1.8
 unicode-width//0.1.6 unicode-width 0.1.6
