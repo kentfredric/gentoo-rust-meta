@@ -19,6 +19,7 @@ block-buffer//0.7.3 block-buffer 0.7.3
 block-padding//0.1.4 block-padding 0.1.4
 byte-tools//0.3.1 byte-tools 0.3.1
 byteorder//1.3.2 byteorder 1.3.2
+bytes//0.4.12 bytes 0.4.12
 c2-chacha//0.2.3 c2-chacha 0.2.3
 cc//1.0.46 cc 1.0.46
 cfg-if//0.1.10 cfg-if 0.1.10
@@ -342,6 +343,11 @@ block-padding//0.1.4 byte-tools//0.3.1
 byteorder//1.3.2 doc-comment//0.3.1 weak:test
 byteorder//1.3.2 quickcheck//0.8.5 weak:test
 byteorder//1.3.2 rand//0.6.5 weak:test
+bytes//0.4.12 byteorder//1.3.2
+bytes//0.4.12 either//1.5.3 weak:optional
+bytes//0.4.12 iovec//0.1.4
+bytes//0.4.12 serde//1.0.101 weak:optional
+bytes//0.4.12 serde_test//1.0.102 weak:test
 c2-chacha//0.2.3 byteorder//1.3.2 feature:default
 c2-chacha//0.2.3 byteorder//1.3.2 weak:feature:rustcrypto_api
 c2-chacha//0.2.3 byteorder//1.3.2 weak:optional
