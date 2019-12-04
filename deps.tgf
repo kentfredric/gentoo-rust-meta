@@ -216,6 +216,7 @@ rustversion//0.1.4 rustversion 0.1.4
 ryu//1.0.1 ryu 1.0.1
 safemem//0.3.3 safemem 0.3.3
 same-file//1.0.5 same-file 1.0.5
+scoped-tls//0.1.2 scoped-tls 0.1.2
 scoped-tls//1.0.0 scoped-tls 1.0.0
 scopeguard//1.0.0 scopeguard 1.0.0
 scroll//0.9.2 scroll 0.9.2
