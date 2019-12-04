@@ -1,6 +1,7 @@
 addr2line//0.10.0 addr2line 0.10.0
 adler32//1.0.4 adler32 1.0.4
 aho-corasick//0.5.3 aho-corasick 0.5.3
+aho-corasick//0.6.10 aho-corasick 0.6.10
 aho-corasick//0.7.6 aho-corasick 0.7.6
 arrayvec//0.4.12 arrayvec 0.4.12
 atty//0.2.13 atty 0.2.13
@@ -286,6 +287,9 @@ adler32//1.0.4 rand//0.4.6 weak:test
 aho-corasick//0.5.3 memchr//0.1.11
 aho-corasick//0.5.3 quickcheck//0.2.27 weak:test
 aho-corasick//0.5.3 rand//0.3.23 weak:test
+aho-corasick//0.6.10 memchr//2.2.1
+aho-corasick//0.6.10 quickcheck//0.7.2 weak:test
+aho-corasick//0.6.10 rand//0.5.6 weak:test
 aho-corasick//0.7.6 doc-comment//0.3.1 weak:test
 aho-corasick//0.7.6 memchr//2.2.1
 arrayvec//0.4.12 matches//0.1.8 weak:test
