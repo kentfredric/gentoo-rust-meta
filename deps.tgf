@@ -266,6 +266,7 @@ time//0.1.42 time 0.1.42
 tokio-codec//0.1.1 tokio-codec 0.1.1
 tokio-current-thread//0.1.6 tokio-current-thread 0.1.6
 tokio-executor//0.1.9 tokio-executor 0.1.9
+tokio-fs//0.1.6 tokio-fs 0.1.6
 tokio-io//0.1.11 tokio-io 0.1.11
 tokio-threadpool//0.1.17 tokio-threadpool 0.1.17
 toml//0.5.3 toml 0.5.3
@@ -1180,6 +1181,9 @@ tokio-current-thread//0.1.6 futures//0.1.29
 tokio-current-thread//0.1.6 tokio-executor//0.1.9
 tokio-executor//0.1.9 crossbeam-utils//0.6.6
 tokio-executor//0.1.9 futures//0.1.29
+tokio-fs//0.1.6 futures//0.1.29
+tokio-fs//0.1.6 tokio-io//0.1.11
+tokio-fs//0.1.6 tokio-threadpool//0.1.17
 tokio-io//0.1.11 bytes//0.4.12
 tokio-io//0.1.11 futures//0.1.29
 tokio-io//0.1.11 log//0.4.8
