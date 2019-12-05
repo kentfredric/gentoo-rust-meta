@@ -270,6 +270,7 @@ tokio-fs//0.1.6 tokio-fs 0.1.6
 tokio-io//0.1.11 tokio-io 0.1.11
 tokio-reactor//0.1.11 tokio-reactor 0.1.11
 tokio-sync//0.1.7 tokio-sync 0.1.7
+tokio-tcp//0.1.3 tokio-tcp 0.1.3
 tokio-threadpool//0.1.17 tokio-threadpool 0.1.17
 toml//0.5.3 toml 0.5.3
 trybuild//1.0.17 trybuild 1.0.17
@@ -1203,6 +1204,12 @@ tokio-reactor//0.1.11 tokio-io//0.1.11
 tokio-reactor//0.1.11 tokio-sync//0.1.7
 tokio-sync//0.1.7 fnv//1.0.6
 tokio-sync//0.1.7 futures//0.1.29
+tokio-tcp//0.1.3 bytes//0.4.12
+tokio-tcp//0.1.3 futures//0.1.29
+tokio-tcp//0.1.3 iovec//0.1.4
+tokio-tcp//0.1.3 mio//0.6.21
+tokio-tcp//0.1.3 tokio-io//0.1.11
+tokio-tcp//0.1.3 tokio-reactor//0.1.11
 tokio-threadpool//0.1.17 crossbeam-deque//0.7.1
 tokio-threadpool//0.1.17 crossbeam-queue//0.1.2
 tokio-threadpool//0.1.17 crossbeam-utils//0.6.6
