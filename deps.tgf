@@ -272,6 +272,7 @@ tokio-reactor//0.1.11 tokio-reactor 0.1.11
 tokio-sync//0.1.7 tokio-sync 0.1.7
 tokio-tcp//0.1.3 tokio-tcp 0.1.3
 tokio-threadpool//0.1.17 tokio-threadpool 0.1.17
+tokio-timer//0.2.12 tokio-timer 0.2.12
 toml//0.5.3 toml 0.5.3
 trybuild//1.0.17 trybuild 1.0.17
 typenum//1.11.2 typenum 1.11.2
@@ -1221,6 +1222,10 @@ tokio-threadpool//0.1.17 num_cpus//1.10.1
 tokio-threadpool//0.1.17 rand//0.7.2 weak:test
 tokio-threadpool//0.1.17 slab//0.4.2
 tokio-threadpool//0.1.17 tokio-executor//0.1.9
+tokio-timer//0.2.12 crossbeam-utils//0.6.6
+tokio-timer//0.2.12 futures//0.1.29
+tokio-timer//0.2.12 slab//0.4.2
+tokio-timer//0.2.12 tokio-executor//0.1.9
 toml//0.5.3 linked-hash-map//0.5.2 weak:feature:preserve_order
 toml//0.5.3 linked-hash-map//0.5.2 weak:optional
 toml//0.5.3 serde//1.0.101
