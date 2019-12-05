@@ -267,6 +267,7 @@ tokio-codec//0.1.1 tokio-codec 0.1.1
 tokio-current-thread//0.1.6 tokio-current-thread 0.1.6
 tokio-executor//0.1.9 tokio-executor 0.1.9
 tokio-io//0.1.11 tokio-io 0.1.11
+tokio-threadpool//0.1.17 tokio-threadpool 0.1.17
 toml//0.5.3 toml 0.5.3
 trybuild//1.0.17 trybuild 1.0.17
 typenum//1.11.2 typenum 1.11.2
@@ -1182,6 +1183,17 @@ tokio-executor//0.1.9 futures//0.1.29
 tokio-io//0.1.11 bytes//0.4.12
 tokio-io//0.1.11 futures//0.1.29
 tokio-io//0.1.11 log//0.4.8
+tokio-threadpool//0.1.17 crossbeam-deque//0.7.1
+tokio-threadpool//0.1.17 crossbeam-queue//0.1.2
+tokio-threadpool//0.1.17 crossbeam-utils//0.6.6
+tokio-threadpool//0.1.17 env_logger//0.6.2 weak:test
+tokio-threadpool//0.1.17 futures//0.1.29
+tokio-threadpool//0.1.17 lazy_static//1.4.0
+tokio-threadpool//0.1.17 log//0.4.8
+tokio-threadpool//0.1.17 num_cpus//1.10.1
+tokio-threadpool//0.1.17 rand//0.7.2 weak:test
+tokio-threadpool//0.1.17 slab//0.4.2
+tokio-threadpool//0.1.17 tokio-executor//0.1.9
 toml//0.5.3 linked-hash-map//0.5.2 weak:feature:preserve_order
 toml//0.5.3 linked-hash-map//0.5.2 weak:optional
 toml//0.5.3 serde//1.0.101
