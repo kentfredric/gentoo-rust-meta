@@ -121,6 +121,7 @@ memmap//0.7.0 memmap 0.7.0
 memoffset//0.5.1 memoffset 0.5.1
 mesalink//1.1.0 mesalink 1.1.0
 miniz_oxide//0.3.5 miniz_oxide 0.3.5
+mio-uds//0.6.7 mio-uds 0.6.7
 mio//0.6.21 mio 0.6.21
 net2//0.2.33 net2 0.2.33
 no-panic//0.1.11 no-panic 0.1.11
@@ -695,6 +696,10 @@ mesalink//1.1.0 walkdir//2.2.9
 mesalink//1.1.0 webpki-roots//0.17.0
 mesalink//1.1.0 webpki//0.21.0
 miniz_oxide//0.3.5 adler32//1.0.4
+mio-uds//0.6.7 iovec//0.1.4
+mio-uds//0.6.7 libc//0.2.65
+mio-uds//0.6.7 mio//0.6.21
+mio-uds//0.6.7 tempdir//0.3.7 weak:test
 mio//0.6.21 cfg-if//0.1.10
 mio//0.6.21 iovec//0.1.4
 mio//0.6.21 libc//0.2.65
