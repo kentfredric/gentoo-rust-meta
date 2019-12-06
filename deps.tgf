@@ -275,6 +275,7 @@ tokio-tcp//0.1.3 tokio-tcp 0.1.3
 tokio-threadpool//0.1.17 tokio-threadpool 0.1.17
 tokio-timer//0.2.12 tokio-timer 0.2.12
 tokio-udp//0.1.5 tokio-udp 0.1.5
+tokio-uds//0.2.5 tokio-uds 0.2.5
 toml//0.5.3 toml 0.5.3
 trybuild//1.0.17 trybuild 1.0.17
 typenum//1.11.2 typenum 1.11.2
@@ -1240,6 +1241,16 @@ tokio-udp//0.1.5 mio//0.6.21
 tokio-udp//0.1.5 tokio-codec//0.1.1
 tokio-udp//0.1.5 tokio-io//0.1.11
 tokio-udp//0.1.5 tokio-reactor//0.1.11
+tokio-uds//0.2.5 bytes//0.4.12
+tokio-uds//0.2.5 futures//0.1.29
+tokio-uds//0.2.5 iovec//0.1.4
+tokio-uds//0.2.5 libc//0.2.65
+tokio-uds//0.2.5 log//0.4.8
+tokio-uds//0.2.5 mio-uds//0.6.7
+tokio-uds//0.2.5 mio//0.6.21
+tokio-uds//0.2.5 tokio-codec//0.1.1
+tokio-uds//0.2.5 tokio-io//0.1.11
+tokio-uds//0.2.5 tokio-reactor//0.1.11
 toml//0.5.3 linked-hash-map//0.5.2 weak:feature:preserve_order
 toml//0.5.3 linked-hash-map//0.5.2 weak:optional
 toml//0.5.3 serde//1.0.101
