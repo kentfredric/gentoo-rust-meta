@@ -276,6 +276,7 @@ tokio-threadpool//0.1.17 tokio-threadpool 0.1.17
 tokio-timer//0.2.12 tokio-timer 0.2.12
 tokio-udp//0.1.5 tokio-udp 0.1.5
 tokio-uds//0.2.5 tokio-uds 0.2.5
+tokio//0.1.22 tokio 0.1.22
 toml//0.5.3 toml 0.5.3
 tracing-core//0.1.7 tracing-core 0.1.7
 trybuild//1.0.17 trybuild 1.0.17
@@ -1252,6 +1253,61 @@ tokio-uds//0.2.5 mio//0.6.21
 tokio-uds//0.2.5 tokio-codec//0.1.1
 tokio-uds//0.2.5 tokio-io//0.1.11
 tokio-uds//0.2.5 tokio-reactor//0.1.11
+tokio//0.1.22 bytes//0.4.12
+tokio//0.1.22 env_logger//0.5.13 weak:test
+tokio//0.1.22 futures//0.1.29
+tokio//0.1.22 libc//0.2.65 weak:test
+tokio//0.1.22 mio//0.6.21 feature:default
+tokio//0.1.22 mio//0.6.21 weak:feature:reactor
+tokio//0.1.22 mio//0.6.21 weak:feature:rt-full
+tokio//0.1.22 mio//0.6.21 weak:optional
+tokio//0.1.22 num_cpus//1.10.1 feature:default
+tokio//0.1.22 num_cpus//1.10.1 weak:feature:rt-full
+tokio//0.1.22 num_cpus//1.10.1 weak:optional
+tokio//0.1.22 num_cpus//1.10.1 weak:test
+tokio//0.1.22 tokio-codec//0.1.1 feature:default
+tokio//0.1.22 tokio-codec//0.1.1 weak:feature:codec
+tokio//0.1.22 tokio-codec//0.1.1 weak:optional
+tokio//0.1.22 tokio-current-thread//0.1.6 feature:default
+tokio//0.1.22 tokio-current-thread//0.1.6 weak:feature:rt-full
+tokio//0.1.22 tokio-current-thread//0.1.6 weak:optional
+tokio//0.1.22 tokio-executor//0.1.9 feature:default
+tokio//0.1.22 tokio-executor//0.1.9 weak:feature:rt-full
+tokio//0.1.22 tokio-executor//0.1.9 weak:optional
+tokio//0.1.22 tokio-fs//0.1.6 feature:default
+tokio//0.1.22 tokio-fs//0.1.6 weak:feature:fs
+tokio//0.1.22 tokio-fs//0.1.6 weak:optional
+tokio//0.1.22 tokio-io//0.1.11 feature:default
+tokio//0.1.22 tokio-io//0.1.11 weak:feature:codec
+tokio//0.1.22 tokio-io//0.1.11 weak:feature:io
+tokio//0.1.22 tokio-io//0.1.11 weak:feature:reactor
+tokio//0.1.22 tokio-io//0.1.11 weak:feature:rt-full
+tokio//0.1.22 tokio-io//0.1.11 weak:optional
+tokio//0.1.22 tokio-reactor//0.1.11 feature:default
+tokio//0.1.22 tokio-reactor//0.1.11 weak:feature:reactor
+tokio//0.1.22 tokio-reactor//0.1.11 weak:feature:rt-full
+tokio//0.1.22 tokio-reactor//0.1.11 weak:optional
+tokio//0.1.22 tokio-sync//0.1.7 feature:default
+tokio//0.1.22 tokio-sync//0.1.7 weak:feature:sync
+tokio//0.1.22 tokio-sync//0.1.7 weak:optional
+tokio//0.1.22 tokio-tcp//0.1.3 feature:default
+tokio//0.1.22 tokio-tcp//0.1.3 weak:feature:tcp
+tokio//0.1.22 tokio-tcp//0.1.3 weak:optional
+tokio//0.1.22 tokio-threadpool//0.1.17 feature:default
+tokio//0.1.22 tokio-threadpool//0.1.17 weak:feature:rt-full
+tokio//0.1.22 tokio-threadpool//0.1.17 weak:optional
+tokio//0.1.22 tokio-timer//0.2.12 feature:default
+tokio//0.1.22 tokio-timer//0.2.12 weak:feature:rt-full
+tokio//0.1.22 tokio-timer//0.2.12 weak:feature:timer
+tokio//0.1.22 tokio-timer//0.2.12 weak:optional
+tokio//0.1.22 tokio-udp//0.1.5 feature:default
+tokio//0.1.22 tokio-udp//0.1.5 weak:feature:udp
+tokio//0.1.22 tokio-udp//0.1.5 weak:optional
+tokio//0.1.22 tokio-uds//0.2.5 feature:default
+tokio//0.1.22 tokio-uds//0.2.5 weak:feature:uds
+tokio//0.1.22 tokio-uds//0.2.5 weak:optional
+tokio//0.1.22 tracing-core//0.1.7 weak:feature:experimental-tracing
+tokio//0.1.22 tracing-core//0.1.7 weak:optional
 toml//0.5.3 linked-hash-map//0.5.2 weak:feature:preserve_order
 toml//0.5.3 linked-hash-map//0.5.2 weak:optional
 toml//0.5.3 serde//1.0.101
