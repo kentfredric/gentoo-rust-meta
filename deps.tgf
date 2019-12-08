@@ -3,6 +3,7 @@ adler32//1.0.4 adler32 1.0.4
 aho-corasick//0.5.3 aho-corasick 0.5.3
 aho-corasick//0.6.10 aho-corasick 0.6.10
 aho-corasick//0.7.6 aho-corasick 0.7.6
+arc-swap//0.4.4 arc-swap 0.4.4
 arrayvec//0.4.12 arrayvec 0.4.12
 atty//0.2.13 atty 0.2.13
 autocfg//0.1.6 autocfg 0.1.6
