@@ -274,6 +274,7 @@ tokio-executor//0.1.9 tokio-executor 0.1.9
 tokio-fs//0.1.6 tokio-fs 0.1.6
 tokio-io//0.1.11 tokio-io 0.1.11
 tokio-reactor//0.1.11 tokio-reactor 0.1.11
+tokio-signal//0.2.7 tokio-signal 0.2.7
 tokio-sync//0.1.7 tokio-sync 0.1.7
 tokio-tcp//0.1.3 tokio-tcp 0.1.3
 tokio-threadpool//0.1.17 tokio-threadpool 0.1.17
@@ -1240,6 +1241,15 @@ tokio-reactor//0.1.11 slab//0.4.2
 tokio-reactor//0.1.11 tokio-executor//0.1.9
 tokio-reactor//0.1.11 tokio-io//0.1.11
 tokio-reactor//0.1.11 tokio-sync//0.1.7
+tokio-signal//0.2.7 futures//0.1.29
+tokio-signal//0.2.7 libc//0.2.65
+tokio-signal//0.2.7 mio-uds//0.6.7
+tokio-signal//0.2.7 mio//0.6.21
+tokio-signal//0.2.7 signal-hook//0.1.12
+tokio-signal//0.2.7 tokio-executor//0.1.9
+tokio-signal//0.2.7 tokio-io//0.1.11
+tokio-signal//0.2.7 tokio-reactor//0.1.11
+tokio-signal//0.2.7 tokio//0.1.22 weak:test
 tokio-sync//0.1.7 fnv//1.0.6
 tokio-sync//0.1.7 futures//0.1.29
 tokio-tcp//0.1.3 bytes//0.4.12
