@@ -632,7 +632,13 @@ jemalloc-sys//0.3.2 libc//0.2.65
 jemallocator//0.3.2 jemalloc-ctl//0.3.3 weak:test
 jemallocator//0.3.2 jemalloc-sys//0.3.2
 jemallocator//0.3.2 libc//0.2.65
+jobserver//0.1.17 futures//0.1.29 weak:test
+jobserver//0.1.17 libc//0.2.65
 jobserver//0.1.17 log//0.4.8
+jobserver//0.1.17 num_cpus//1.10.1 weak:test
+jobserver//0.1.17 tempdir//0.3.7 weak:test
+jobserver//0.1.17 tokio-core//0.1.17 weak:test
+jobserver//0.1.17 tokio-process//0.2.4 weak:test
 kernel32-sys//0.2.2 winapi-build//0.1.1
 kernel32-sys//0.2.2 winapi//0.2.8
 lazy_static//1.4.0 doc-comment//0.3.1 weak:test
