@@ -68,6 +68,7 @@ fixedbitset//0.1.9 fixedbitset 0.1.9
 flate2//1.0.13 flate2 1.0.13
 float-ord//0.2.0 float-ord 0.2.0
 fnv//1.0.6 fnv 1.0.6
+fs2//0.2.5 fs2 0.2.5
 fs_extra//1.1.0 fs_extra 1.1.0
 futures//0.1.29 futures 0.1.29
 generic-array//0.12.3 generic-array 0.12.3
@@ -521,6 +522,10 @@ flate2//1.0.13 crc32fast//1.2.0
 flate2//1.0.13 futures//0.1.29
 flate2//1.0.13 libc//0.2.65
 float-ord//0.2.0 rand//0.3.23 weak:test
+fs2//0.2.5 kernel32-sys//0.2.2
+fs2//0.2.5 libc//0.2.65
+fs2//0.2.5 tempdir//0.3.7 weak:test
+fs2//0.2.5 winapi//0.2.8
 generic-array//0.12.3 bincode//1.2.0 weak:test
 generic-array//0.12.3 serde//1.0.101 weak:optional
 generic-array//0.12.3 serde_json//1.0.41 weak:test
