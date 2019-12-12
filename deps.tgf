@@ -5,6 +5,7 @@ aho-corasick//0.6.10 aho-corasick 0.6.10
 aho-corasick//0.7.6 aho-corasick 0.7.6
 arc-swap//0.4.4 arc-swap 0.4.4
 arrayvec//0.4.12 arrayvec 0.4.12
+atlatl//0.1.2 atlatl 0.1.2
 atty//0.2.13 atty 0.2.13
 autocfg//0.1.6 autocfg 0.1.6
 average//0.9.4 average 0.9.4
@@ -331,6 +332,13 @@ arrayvec//0.4.12 nodrop//0.1.14
 arrayvec//0.4.12 serde//1.0.101 weak:feature:serde-1
 arrayvec//0.4.12 serde//1.0.101 weak:optional
 arrayvec//0.4.12 serde_test//1.0.102 weak:test
+atlatl//0.1.2 fnv//1.0.6
+atlatl//0.1.2 fst//0.1.38 weak:test
+atlatl//0.1.2 lazy_static//1.4.0 weak:test
+atlatl//0.1.2 num-traits//0.2.8
+atlatl//0.1.2 quickcheck//0.7.2 weak:test
+atlatl//0.1.2 rand//0.5.6 weak:test
+atlatl//0.1.2 serde//1.0.101 weak:optional
 atty//0.2.13 libc//0.2.65
 average//0.9.4 conv//0.3.3
 average//0.9.4 float-ord//0.2.0
