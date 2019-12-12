@@ -159,6 +159,7 @@ pest_meta//2.1.2 pest_meta 2.1.2
 petgraph//0.4.13 petgraph 0.4.13
 pkg-config//0.3.16 pkg-config 0.3.16
 plain//0.2.3 plain 0.2.3
+pocket-resources//0.3.2 pocket-resources 0.3.2
 ppv-lite86//0.2.6 ppv-lite86 0.2.6
 proc-macro-hack-impl//0.4.2 proc-macro-hack-impl 0.4.2
 proc-macro-hack//0.4.2 proc-macro-hack 0.4.2
