@@ -169,6 +169,7 @@ proc-macro-hack//0.5.11 proc-macro-hack 0.5.11
 proc-macro2//0.4.27 proc-macro2 0.4.27
 proc-macro2//0.4.30 proc-macro2 0.4.30
 proc-macro2//1.0.5 proc-macro2 1.0.5
+pulldown-cmark//0.1.2 pulldown-cmark 0.1.2
 quick-error//1.2.2 quick-error 1.2.2
 quickcheck//0.2.27 quickcheck 0.2.27
 quickcheck//0.4.1 quickcheck 0.4.1
@@ -879,6 +880,9 @@ proc-macro2//0.4.30 quote//0.6.13 weak:test
 proc-macro2//0.4.30 unicode-xid//0.1.0
 proc-macro2//1.0.5 quote//1.0.2 weak:test
 proc-macro2//1.0.5 unicode-xid//0.2.0
+pulldown-cmark//0.1.2 bitflags//0.9.1
+pulldown-cmark//0.1.2 getopts//0.2.21 feature:default
+pulldown-cmark//0.1.2 getopts//0.2.21 weak:optional
 quickcheck//0.2.27 env_logger//0.3.5
 quickcheck//0.2.27 log//0.3.9
 quickcheck//0.2.27 rand//0.3.23
