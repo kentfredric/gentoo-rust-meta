@@ -295,6 +295,7 @@ tokio-timer//0.2.12 tokio-timer 0.2.12
 tokio-udp//0.1.5 tokio-udp 0.1.5
 tokio-uds//0.2.5 tokio-uds 0.2.5
 tokio//0.1.22 tokio 0.1.22
+toml//0.4.10 toml 0.4.10
 toml//0.5.3 toml 0.5.3
 tracing-core//0.1.7 tracing-core 0.1.7
 trybuild//1.0.17 trybuild 1.0.17
@@ -1429,6 +1430,8 @@ tokio//0.1.22 tokio-uds//0.2.5 weak:feature:uds
 tokio//0.1.22 tokio-uds//0.2.5 weak:optional
 tokio//0.1.22 tracing-core//0.1.7 weak:feature:experimental-tracing
 tokio//0.1.22 tracing-core//0.1.7 weak:optional
+toml//0.4.10 serde//1.0.101
+toml//0.4.10 serde_derive//1.0.89 weak:test
 toml//0.5.3 linked-hash-map//0.5.2 weak:feature:preserve_order
 toml//0.5.3 linked-hash-map//0.5.2 weak:optional
 toml//0.5.3 serde//1.0.101
