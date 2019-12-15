@@ -117,6 +117,7 @@ libnghttp2-sys//0.1.2 libnghttp2-sys 0.1.2
 libssh2-sys//0.2.13 libssh2-sys 0.2.13
 libz-sys//1.0.25 libz-sys 1.0.25
 linked-hash-map//0.5.2 linked-hash-map 0.5.2
+lipsum//0.6.0 lipsum 0.6.0
 lock_api//0.3.1 lock_api 0.3.1
 log//0.3.9 log 0.3.9
 log//0.4.8 log 0.4.8
@@ -735,6 +736,9 @@ linked-hash-map//0.5.2 serde//1.0.101 weak:feature:serde_impl
 linked-hash-map//0.5.2 serde//1.0.101 weak:optional
 linked-hash-map//0.5.2 serde_test//1.0.102 weak:feature:serde_impl
 linked-hash-map//0.5.2 serde_test//1.0.102 weak:optional
+lipsum//0.6.0 rand//0.6.5
+lipsum//0.6.0 rand_xorshift//0.1.1 weak:test
+lipsum//0.6.0 version-sync//0.6.0 weak:test
 lock_api//0.3.1 owning_ref//0.4.0 weak:optional
 lock_api//0.3.1 scopeguard//1.0.0 weak:optional
 lock_api//0.3.1 serde//1.0.101 weak:optional
