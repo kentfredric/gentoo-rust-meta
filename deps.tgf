@@ -117,6 +117,7 @@ libgit2-sys//0.6.19 libgit2-sys 0.6.19
 libnghttp2-sys//0.1.2 libnghttp2-sys 0.1.2
 libssh2-sys//0.2.13 libssh2-sys 0.2.13
 libz-sys//1.0.25 libz-sys 1.0.25
+linked-hash-map//0.3.0 linked-hash-map 0.3.0
 linked-hash-map//0.5.2 linked-hash-map 0.5.2
 lipsum//0.6.0 lipsum 0.6.0
 lock_api//0.3.1 lock_api 0.3.1
@@ -736,6 +737,10 @@ libssh2-sys//0.2.13 pkg-config//0.3.16
 libz-sys//1.0.25 cc//1.0.46
 libz-sys//1.0.25 libc//0.2.65
 libz-sys//1.0.25 pkg-config//0.3.16
+linked-hash-map//0.3.0 serde//0.8.23 weak:feature:serde_impl
+linked-hash-map//0.3.0 serde//0.8.23 weak:optional
+linked-hash-map//0.3.0 serde_test//0.8.23 weak:feature:serde_impl
+linked-hash-map//0.3.0 serde_test//0.8.23 weak:optional
 linked-hash-map//0.5.2 heapsize//0.4.2 weak:feature:heapsize_impl
 linked-hash-map//0.5.2 heapsize//0.4.2 weak:optional
 linked-hash-map//0.5.2 serde//1.0.101 weak:feature:serde_impl
