@@ -30,6 +30,7 @@ cc//1.0.46 cc 1.0.46
 cfg-if//0.1.10 cfg-if 0.1.10
 chrono//0.4.9 chrono 0.4.9
 ci_info//0.3.1 ci_info 0.3.1
+clap//2.33.0 clap 2.33.0
 clicolors-control//1.0.1 clicolors-control 1.0.1
 cmake//0.1.42 cmake 0.1.42
 console//0.7.7 console 0.7.7
@@ -446,6 +447,26 @@ ci_info//0.3.1 serde//1.0.101 weak:feature:serde-1
 ci_info//0.3.1 serde//1.0.101 weak:optional
 ci_info//0.3.1 serde_derive//1.0.89 weak:feature:serde-1
 ci_info//0.3.1 serde_derive//1.0.89 weak:optional
+clap//2.33.0 ansi_term//0.11.0 feature:default
+clap//2.33.0 ansi_term//0.11.0 weak:feature:color
+clap//2.33.0 ansi_term//0.11.0 weak:optional
+clap//2.33.0 atty//0.2.13 feature:default
+clap//2.33.0 atty//0.2.13 weak:feature:color
+clap//2.33.0 atty//0.2.13 weak:optional
+clap//2.33.0 bitflags//1.2.1
+clap//2.33.0 regex//1.3.1 weak:test
+clap//2.33.0 strsim//0.8.0 feature:default
+clap//2.33.0 strsim//0.8.0 weak:feature:suggestions
+clap//2.33.0 strsim//0.8.0 weak:optional
+clap//2.33.0 term_size//0.3.1 weak:feature:wrap_help
+clap//2.33.0 term_size//0.3.1 weak:optional
+clap//2.33.0 textwrap//0.11.0
+clap//2.33.0 unicode-width//0.1.6
+clap//2.33.0 vec_map//0.8.1 feature:default
+clap//2.33.0 vec_map//0.8.1 weak:optional
+clap//2.33.0 yaml-rust//0.3.5 weak:feature:doc
+clap//2.33.0 yaml-rust//0.3.5 weak:feature:yaml
+clap//2.33.0 yaml-rust//0.3.5 weak:optional
 clicolors-control//1.0.1 lazy_static//1.4.0
 clicolors-control//1.0.1 libc//0.2.65
 cmake//0.1.42 cc//1.0.46
