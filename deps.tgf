@@ -330,6 +330,7 @@ webpki-roots//0.17.0 webpki-roots 0.17.0
 webpki//0.21.0 webpki 0.21.0
 winapi-build//0.1.1 winapi-build 0.1.1
 winapi//0.2.8 winapi 0.2.8
+yaml-rust//0.3.5 yaml-rust 0.3.5
 yaml-rust//0.4.3 yaml-rust 0.4.3
 #
 addr2line//0.10.0 fallible-iterator//0.2.0
@@ -1518,5 +1519,7 @@ webpki-roots//0.17.0 webpki//0.21.0
 webpki//0.21.0 base64//0.9.3 weak:test
 webpki//0.21.0 ring//0.16.9
 webpki//0.21.0 untrusted//0.7.0
+yaml-rust//0.3.5 linked-hash-map//0.3.0 weak:feature:preserve_order
+yaml-rust//0.3.5 linked-hash-map//0.3.0 weak:optional
 yaml-rust//0.4.3 linked-hash-map//0.5.2
 yaml-rust//0.4.3 quickcheck//0.7.2 weak:test
