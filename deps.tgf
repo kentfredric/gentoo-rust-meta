@@ -261,6 +261,7 @@ spin//0.4.10 spin 0.4.10
 spin//0.5.2 spin 0.5.2
 stable_deref_trait//1.1.1 stable_deref_trait 1.1.1
 stream-cipher//0.3.2 stream-cipher 0.3.2
+strsim//0.8.0 strsim 0.8.0
 sval//0.4.7 sval 0.4.7
 sval_derive//0.4.7 sval_derive 0.4.7
 syn//0.11.11 syn 0.11.11
