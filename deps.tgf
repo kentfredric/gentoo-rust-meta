@@ -315,6 +315,7 @@ toml//0.4.10 toml 0.4.10
 toml//0.5.3 toml 0.5.3
 tracing-core//0.1.7 tracing-core 0.1.7
 trybuild//1.0.17 trybuild 1.0.17
+typed-arena//1.7.0 typed-arena 1.7.0
 typenum//1.11.2 typenum 1.11.2
 ucd-trie//0.1.2 ucd-trie 0.1.2
 ucd-util//0.1.5 ucd-util 0.1.5
