@@ -3,16 +3,14 @@ use strict;
 use warnings;
 
 crate(
-    flate2          => '1.0.13',
-    missing_tests   => 1,
-    missing_options => 1,
-    requires        => {
+    flate2   => '1.0.13',
+    requires => {
         'cfg-if'  => '^0.1.6',
         crc32fast => '^1.2.0',
-        futures   => '^0.1.25',
         libc      => '^0.2.65',
     },
     optional => {
+        futures       => '^0.1.25',
         'libz-sys'    => '^1.0.25',
         'miniz-sys'   => '^0.1.11',
         'miniz_oxide' => '^0.3.5',
