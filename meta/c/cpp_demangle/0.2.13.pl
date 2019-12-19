@@ -3,10 +3,8 @@ use strict;
 use warnings;
 
 crate(
-    cpp_demangle    => '0.2.13',
-    missing_tests   => 1,
-    missing_options => 1,
-    optional        => {
+    cpp_demangle => '0.2.13',
+    optional     => {
         afl => '^0.4.4',
     },
     requires => {
