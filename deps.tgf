@@ -508,6 +508,8 @@ crates-index//0.5.1 git2//0.6.11
 crates-index//0.5.1 glob//0.2.11
 crates-index//0.5.1 rustc-serialize//0.3.24
 crc32fast//1.2.0 cfg-if//0.1.10
+crc32fast//1.2.0 quickcheck//0.6.2 weak:test
+crc32fast//1.2.0 rand//0.4.6 weak:test
 crossbeam-channel//0.4.0 crossbeam-utils//0.7.0
 crossbeam-channel//0.4.0 num_cpus//1.10.1 weak:test
 crossbeam-channel//0.4.0 rand//0.6.5 weak:test
