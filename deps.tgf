@@ -40,6 +40,7 @@ conv//0.3.3 conv 0.3.3
 cpp_demangle//0.2.13 cpp_demangle 0.2.13
 crates-index//0.5.1 crates-index 0.5.1
 crc32fast//1.2.0 crc32fast 1.2.0
+crossbeam-channel//0.4.0 crossbeam-channel 0.4.0
 crossbeam-deque//0.7.1 crossbeam-deque 0.7.1
 crossbeam-epoch//0.7.2 crossbeam-epoch 0.7.2
 crossbeam-queue//0.1.2 crossbeam-queue 0.1.2
@@ -502,6 +503,10 @@ crates-index//0.5.1 git2//0.6.11
 crates-index//0.5.1 glob//0.2.11
 crates-index//0.5.1 rustc-serialize//0.3.24
 crc32fast//1.2.0 cfg-if//0.1.10
+crossbeam-channel//0.4.0 crossbeam-utils//0.7.0
+crossbeam-channel//0.4.0 num_cpus//1.10.1 weak:test
+crossbeam-channel//0.4.0 rand//0.6.5 weak:test
+crossbeam-channel//0.4.0 signal-hook//0.1.12 weak:test
 crossbeam-deque//0.7.1 crossbeam-epoch//0.7.2
 crossbeam-deque//0.7.1 crossbeam-utils//0.6.6
 crossbeam-deque//0.7.1 rand//0.6.5 weak:test
