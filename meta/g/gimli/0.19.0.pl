@@ -3,9 +3,8 @@ use strict;
 use warnings;
 
 crate(
-    gimli         => '0.19.0',
-    missing_tests => 1,
-    requires      => {
+    gimli    => '0.19.0',
+    requires => {
         arrayvec            => '^0.4.6',
         byteorder           => '^1',
         'fallible-iterator' => '^0.2.0',
@@ -22,7 +21,7 @@ crate(
         object           => '^0.12',
         rayon            => '^1',
         regex            => '^1',
-        'test-assembler' => '^1',
+        'test-assembler' => '^0.1.3',
         'typed-arena'    => '^1',
     },
     features => {
