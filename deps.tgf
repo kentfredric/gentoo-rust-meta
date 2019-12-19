@@ -43,6 +43,7 @@ crc32fast//1.2.0 crc32fast 1.2.0
 crossbeam-channel//0.4.0 crossbeam-channel 0.4.0
 crossbeam-deque//0.7.1 crossbeam-deque 0.7.1
 crossbeam-epoch//0.7.2 crossbeam-epoch 0.7.2
+crossbeam-epoch//0.8.0 crossbeam-epoch 0.8.0
 crossbeam-queue//0.1.2 crossbeam-queue 0.1.2
 crossbeam-utils//0.6.6 crossbeam-utils 0.6.6
 crossbeam-utils//0.7.0 crossbeam-utils 0.7.0
@@ -519,6 +520,15 @@ crossbeam-epoch//0.7.2 lazy_static//1.4.0 weak:optional
 crossbeam-epoch//0.7.2 memoffset//0.5.1
 crossbeam-epoch//0.7.2 rand//0.6.5 weak:test
 crossbeam-epoch//0.7.2 scopeguard//1.0.0
+crossbeam-epoch//0.8.0 autocfg//0.1.6
+crossbeam-epoch//0.8.0 cfg-if//0.1.10
+crossbeam-epoch//0.8.0 crossbeam-utils//0.7.0
+crossbeam-epoch//0.8.0 lazy_static//1.4.0 feature:default
+crossbeam-epoch//0.8.0 lazy_static//1.4.0 weak:feature:std
+crossbeam-epoch//0.8.0 lazy_static//1.4.0 weak:optional
+crossbeam-epoch//0.8.0 memoffset//0.5.1
+crossbeam-epoch//0.8.0 rand//0.6.5 weak:test
+crossbeam-epoch//0.8.0 scopeguard//1.0.0
 crossbeam-queue//0.1.2 crossbeam-utils//0.6.6
 crossbeam-queue//0.1.2 rand//0.6.5 weak:test
 crossbeam-utils//0.6.6 cfg-if//0.1.10
