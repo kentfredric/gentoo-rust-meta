@@ -44,6 +44,7 @@ crossbeam-deque//0.7.1 crossbeam-deque 0.7.1
 crossbeam-epoch//0.7.2 crossbeam-epoch 0.7.2
 crossbeam-queue//0.1.2 crossbeam-queue 0.1.2
 crossbeam-utils//0.6.6 crossbeam-utils 0.6.6
+crossbeam-utils//0.7.0 crossbeam-utils 0.7.0
 curl-sys//0.4.23 curl-sys 0.4.23
 custom_derive//0.1.7 custom_derive 0.1.7
 defmac//0.1.3 defmac 0.1.3
@@ -520,6 +521,12 @@ crossbeam-utils//0.6.6 lazy_static//1.4.0 feature:default
 crossbeam-utils//0.6.6 lazy_static//1.4.0 weak:feature:std
 crossbeam-utils//0.6.6 lazy_static//1.4.0 weak:optional
 crossbeam-utils//0.6.6 rand//0.6.5 weak:test
+crossbeam-utils//0.7.0 autocfg//0.1.6 weak:test
+crossbeam-utils//0.7.0 cfg-if//0.1.10
+crossbeam-utils//0.7.0 lazy_static//1.4.0 feature:default
+crossbeam-utils//0.7.0 lazy_static//1.4.0 weak:feature:std
+crossbeam-utils//0.7.0 lazy_static//1.4.0 weak:optional
+crossbeam-utils//0.7.0 rand//0.6.5 weak:test
 curl-sys//0.4.23 cc//1.0.46
 curl-sys//0.4.23 libc//0.2.65
 curl-sys//0.4.23 libnghttp2-sys//0.1.2 weak:feature:http2
