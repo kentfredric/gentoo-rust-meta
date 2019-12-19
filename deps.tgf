@@ -45,6 +45,7 @@ crossbeam-deque//0.7.1 crossbeam-deque 0.7.1
 crossbeam-epoch//0.7.2 crossbeam-epoch 0.7.2
 crossbeam-epoch//0.8.0 crossbeam-epoch 0.8.0
 crossbeam-queue//0.1.2 crossbeam-queue 0.1.2
+crossbeam-queue//0.2.0 crossbeam-queue 0.2.0
 crossbeam-utils//0.6.6 crossbeam-utils 0.6.6
 crossbeam-utils//0.7.0 crossbeam-utils 0.7.0
 curl-sys//0.4.23 curl-sys 0.4.23
@@ -531,6 +532,8 @@ crossbeam-epoch//0.8.0 rand//0.6.5 weak:test
 crossbeam-epoch//0.8.0 scopeguard//1.0.0
 crossbeam-queue//0.1.2 crossbeam-utils//0.6.6
 crossbeam-queue//0.1.2 rand//0.6.5 weak:test
+crossbeam-queue//0.2.0 crossbeam-utils//0.7.0
+crossbeam-queue//0.2.0 rand//0.6.5 weak:test
 crossbeam-utils//0.6.6 cfg-if//0.1.10
 crossbeam-utils//0.6.6 lazy_static//1.4.0 feature:default
 crossbeam-utils//0.6.6 lazy_static//1.4.0 weak:feature:std
