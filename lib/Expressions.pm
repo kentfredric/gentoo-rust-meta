@@ -132,6 +132,7 @@ sub any {
 
 sub expr_to_fn {
     my ( $expr, $package ) = @_;
+    die "Missing <package>" unless defined $package;
     if ( $expr =~ /\A\s*range_excl\(\s*([0-9.]+)\s*,\s*([0-9.]+)\s*\)\s*\z/ ) {
         return range_excl( $1, $2 );
     }
@@ -189,7 +190,7 @@ sub expr_to_fn {
             expr_to_fn( $2, $package ) );
     }
 
-    die "Cannot convert expression $expr to resolver for $package";
+    die "Cannot convert expression <<$expr>> to resolver for $package";
 }
 
 1;

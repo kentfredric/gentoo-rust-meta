@@ -35,7 +35,8 @@ sub requirement {
 sub requirement_fn {
     exists $_[0]->{requirement_fn}
       ? $_[0]->{requirement_fn}
-      : ( $_[0]->{requirement_fn} = ::expr_to_fn( $_[0]->requirement ) );
+      : ( $_[0]->{requirement_fn} =
+          ::expr_to_fn( $_[0]->requirement, $_[0]->crate ) );
 }
 
 sub apply_requirement {
