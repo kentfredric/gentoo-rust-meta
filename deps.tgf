@@ -254,6 +254,7 @@ sct//0.6.0 sct 0.6.0
 semver-parser//0.7.0 semver-parser 0.7.0
 semver-parser//0.9.0 semver-parser 0.9.0
 semver//0.9.0 semver 0.9.0
+serde-big-array//0.1.5 serde-big-array 0.1.5
 serde//0.8.23 serde 0.8.23
 serde//1.0.101 serde 1.0.101
 serde//1.0.89 serde 1.0.89
@@ -1296,6 +1297,9 @@ semver//0.9.0 serde//1.0.101 weak:optional
 semver//0.9.0 serde_derive//1.0.89 weak:test
 semver//0.9.0 serde_json//1.0.41 weak:test
 semver//0.9.0 tempdir//0.3.7 weak:test
+serde-big-array//0.1.5 serde//1.0.101
+serde-big-array//0.1.5 serde_derive//1.0.89
+serde-big-array//0.1.5 serde_json//1.0.41 weak:test
 serde//1.0.101 serde_derive//1.0.89 weak:feature:derive
 serde//1.0.101 serde_derive//1.0.89 weak:optional
 serde//1.0.101 serde_derive//1.0.89 weak:test
