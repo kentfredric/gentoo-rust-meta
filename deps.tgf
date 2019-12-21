@@ -345,10 +345,20 @@ xdg//2.2.0 xdg 2.2.0
 yaml-rust//0.3.5 yaml-rust 0.3.5
 yaml-rust//0.4.3 yaml-rust 0.4.3
 #
+addr2line//0.10.0 backtrace//0.3.38 weak:test
+addr2line//0.10.0 cpp_demangle//0.2.13 feature:default
+addr2line//0.10.0 cpp_demangle//0.2.13 weak:optional
 addr2line//0.10.0 fallible-iterator//0.2.0
+addr2line//0.10.0 findshlibs//0.5.0 weak:test
 addr2line//0.10.0 gimli//0.19.0
 addr2line//0.10.0 intervaltree//0.2.4
 addr2line//0.10.0 lazycell//1.2.1
+addr2line//0.10.0 memmap//0.7.0 weak:test
+addr2line//0.10.0 object//0.12.0 feature:default
+addr2line//0.10.0 object//0.12.0 weak:feature:std-object
+addr2line//0.10.0 object//0.12.0 weak:optional
+addr2line//0.10.0 rustc-demangle//0.1.16 feature:default
+addr2line//0.10.0 rustc-demangle//0.1.16 weak:optional
 addr2line//0.10.0 smallvec//0.6.10
 adler32//1.0.4 rand//0.4.6 weak:test
 afl//0.4.4 cc//1.0.46

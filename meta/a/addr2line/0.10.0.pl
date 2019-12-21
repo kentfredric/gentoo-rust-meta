@@ -3,10 +3,8 @@ use strict;
 use warnings;
 
 crate(
-    addr2line       => '0.10.0',
-    missing_tests   => 1,
-    missing_options => 1,
-    optional        => {
+    addr2line => '0.10.0',
+    optional  => {
         cpp_demangle     => '^0.2',
         object           => '^0.12',
         'rustc-demangle' => '^0.1',
@@ -21,10 +19,11 @@ crate(
     test => {
         backtrace => '^0.3.13',
 
-        # clap         => '^2', # example
-        findshlibs   => '^0.5',
-        memmap       => '^0.7',
-        'rustc-test' => '^0.3',
+        # clap         => '^2', # example + patched out test
+        findshlibs => '^0.5',
+        memmap     => '^0.7',
+
+        # 'rustc-test' => '^0.3', #patched out
     },
     features => {
         alloc        => [qw( gimli/alloc )],
