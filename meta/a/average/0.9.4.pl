@@ -3,10 +3,8 @@ use strict;
 use warnings;
 
 crate(
-    average         => '0.9.4',
-    missing_tests   => 1,
-    missing_options => 1,
-    requires        => {
+    average  => '0.9.4',
+    requires => {
         conv          => '^0.3',
         'float-ord'   => '^0.2',
         'num-integer' => '^0.1',

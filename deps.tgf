@@ -397,6 +397,16 @@ average//0.9.4 conv//0.3.3
 average//0.9.4 float-ord//0.2.0
 average//0.9.4 num-integer//0.1.41
 average//0.9.4 num-traits//0.2.8
+average//0.9.4 quantiles//0.7.1 weak:test
+average//0.9.4 rand//0.6.5 weak:test
+average//0.9.4 serde-big-array//0.1.5 weak:feature:serde1
+average//0.9.4 serde-big-array//0.1.5 weak:optional
+average//0.9.4 serde//1.0.101 weak:feature:serde1
+average//0.9.4 serde//1.0.101 weak:optional
+average//0.9.4 serde_derive//1.0.89 weak:feature:serde1
+average//0.9.4 serde_derive//1.0.89 weak:optional
+average//0.9.4 serde_json//1.0.41 weak:test
+average//0.9.4 streaming-stats//0.2.2 weak:test
 backtrace-sys//0.1.31 cc//1.0.46
 backtrace-sys//0.1.31 libc//0.2.65
 backtrace//0.3.38 addr2line//0.10.0 weak:feature:gimli-symbolize
