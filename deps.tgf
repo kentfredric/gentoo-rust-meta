@@ -184,6 +184,7 @@ proc-macro2//0.4.27 proc-macro2 0.4.27
 proc-macro2//0.4.30 proc-macro2 0.4.30
 proc-macro2//1.0.5 proc-macro2 1.0.5
 pulldown-cmark//0.1.2 pulldown-cmark 0.1.2
+quantiles//0.7.1 quantiles 0.7.1
 quick-error//1.2.2 quick-error 1.2.2
 quickcheck//0.2.24 quickcheck 0.2.24
 quickcheck//0.2.27 quickcheck 0.2.27
@@ -1023,6 +1024,11 @@ proc-macro2//1.0.5 unicode-xid//0.2.0
 pulldown-cmark//0.1.2 bitflags//0.9.1
 pulldown-cmark//0.1.2 getopts//0.2.21 feature:default
 pulldown-cmark//0.1.2 getopts//0.2.21 weak:optional
+quantiles//0.7.1 quickcheck//0.5.0 weak:test
+quantiles//0.7.1 serde//1.0.101 weak:feature:serde_support
+quantiles//0.7.1 serde//1.0.101 weak:optional
+quantiles//0.7.1 serde_derive//1.0.89 weak:feature:serde_support
+quantiles//0.7.1 serde_derive//1.0.89 weak:optional
 quickcheck//0.2.24 log//0.3.9
 quickcheck//0.2.24 rand//0.3.23
 quickcheck//0.2.27 env_logger//0.3.5
