@@ -81,6 +81,7 @@ fixedbitset//0.1.9 fixedbitset 0.1.9
 flate2//1.0.13 flate2 1.0.13
 float-ord//0.2.0 float-ord 0.2.0
 fnv//1.0.6 fnv 1.0.6
+foreign-types-shared//0.1.1 foreign-types-shared 0.1.1
 fs2//0.2.5 fs2 0.2.5
 fs_extra//1.1.0 fs_extra 1.1.0
 fst//0.1.38 fst 0.1.38
