@@ -162,6 +162,7 @@ opaque-debug//0.2.3 opaque-debug 0.2.3
 openssl-probe//0.1.2 openssl-probe 0.1.2
 openssl-src//111.6.0 openssl-src 111.6.0
 openssl-sys//0.9.52 openssl-sys 0.9.52
+openssl-sys//0.9.53 openssl-sys 0.9.53
 ordermap//0.3.5 ordermap 0.3.5
 owning_ref//0.4.0 owning_ref 0.4.0
 parity-wasm//0.38.0 parity-wasm 0.38.0
@@ -600,10 +601,10 @@ curl-sys//0.4.23 libnghttp2-sys//0.1.2 weak:feature:http2
 curl-sys//0.4.23 libnghttp2-sys//0.1.2 weak:optional
 curl-sys//0.4.23 libz-sys//1.0.25
 curl-sys//0.4.23 mesalink//1.1.0 weak:optional
-curl-sys//0.4.23 openssl-sys//0.9.52 feature:default
-curl-sys//0.4.23 openssl-sys//0.9.52 weak:feature:ssl
-curl-sys//0.4.23 openssl-sys//0.9.52 weak:feature:static-ssl
-curl-sys//0.4.23 openssl-sys//0.9.52 weak:optional
+curl-sys//0.4.23 openssl-sys//0.9.53 feature:default
+curl-sys//0.4.23 openssl-sys//0.9.53 weak:feature:ssl
+curl-sys//0.4.23 openssl-sys//0.9.53 weak:feature:static-ssl
+curl-sys//0.4.23 openssl-sys//0.9.53 weak:optional
 curl-sys//0.4.23 pkg-config//0.3.16
 custom_derive//0.1.7 rustc-serialize//0.3.24 weak:test
 demo-hack-impl//0.0.4 proc-macro-hack-impl//0.4.2
@@ -724,9 +725,9 @@ git2//0.6.11 libgit2-sys//0.6.19
 git2//0.6.11 openssl-probe//0.1.2 feature:default
 git2//0.6.11 openssl-probe//0.1.2 weak:feature:https
 git2//0.6.11 openssl-probe//0.1.2 weak:optional
-git2//0.6.11 openssl-sys//0.9.52 feature:default
-git2//0.6.11 openssl-sys//0.9.52 weak:feature:https
-git2//0.6.11 openssl-sys//0.9.52 weak:optional
+git2//0.6.11 openssl-sys//0.9.53 feature:default
+git2//0.6.11 openssl-sys//0.9.53 weak:feature:https
+git2//0.6.11 openssl-sys//0.9.53 weak:optional
 git2//0.6.11 tempdir//0.3.7 weak:optional
 git2//0.6.11 tempdir//0.3.7 weak:test
 git2//0.6.11 time//0.1.42 weak:test
@@ -858,15 +859,15 @@ libgit2-sys//0.6.19 libc//0.2.65
 libgit2-sys//0.6.19 libssh2-sys//0.2.13 weak:feature:ssh
 libgit2-sys//0.6.19 libssh2-sys//0.2.13 weak:optional
 libgit2-sys//0.6.19 libz-sys//1.0.25
-libgit2-sys//0.6.19 openssl-sys//0.9.52 weak:feature:https
-libgit2-sys//0.6.19 openssl-sys//0.9.52 weak:optional
+libgit2-sys//0.6.19 openssl-sys//0.9.53 weak:feature:https
+libgit2-sys//0.6.19 openssl-sys//0.9.53 weak:optional
 libgit2-sys//0.6.19 pkg-config//0.3.16
 libnghttp2-sys//0.1.2 cc//1.0.46
 libnghttp2-sys//0.1.2 libc//0.2.65
 libssh2-sys//0.2.13 cc//1.0.46
 libssh2-sys//0.2.13 libc//0.2.65
 libssh2-sys//0.2.13 libz-sys//1.0.25
-libssh2-sys//0.2.13 openssl-sys//0.9.52
+libssh2-sys//0.2.13 openssl-sys//0.9.53
 libssh2-sys//0.2.13 pkg-config//0.3.16
 libz-sys//1.0.25 cc//1.0.46
 libz-sys//1.0.25 libc//0.2.65
@@ -965,6 +966,12 @@ openssl-sys//0.9.52 libc//0.2.65
 openssl-sys//0.9.52 openssl-src//111.6.0 weak:feature:vendored
 openssl-sys//0.9.52 openssl-src//111.6.0 weak:optional
 openssl-sys//0.9.52 pkg-config//0.3.16
+openssl-sys//0.9.53 autocfg//0.1.6
+openssl-sys//0.9.53 cc//1.0.46
+openssl-sys//0.9.53 libc//0.2.65
+openssl-sys//0.9.53 openssl-src//111.6.0 weak:feature:vendored
+openssl-sys//0.9.53 openssl-src//111.6.0 weak:optional
+openssl-sys//0.9.53 pkg-config//0.3.16
 ordermap//0.3.5 fnv//1.0.6 weak:test
 ordermap//0.3.5 itertools//0.7.11 weak:test
 ordermap//0.3.5 quickcheck//0.6.2 weak:test
