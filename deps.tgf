@@ -279,6 +279,7 @@ sha1-asm//0.4.3 sha1-asm 0.4.3
 sha1//0.6.0 sha1 0.6.0
 signal-hook-registry//1.2.0 signal-hook-registry 1.2.0
 signal-hook//0.1.12 signal-hook 0.1.12
+siphasher//0.2.3 siphasher 0.2.3
 slab//0.4.2 slab 0.4.2
 slog//2.5.2 slog 2.5.2
 smallvec//0.6.10 smallvec 0.6.10
