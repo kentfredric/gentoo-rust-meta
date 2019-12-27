@@ -3,9 +3,8 @@ use strict;
 use warnings;
 
 crate(
-    sha1          => '0.6.0',
-    missing_tests => 1,
-    optional      => {
+    sha1     => '0.6.0',
+    optional => {
         serde => '^1.0',
     },
     test => {

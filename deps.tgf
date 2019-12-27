@@ -1376,7 +1376,10 @@ sha-1//0.8.1 opaque-debug//0.2.3
 sha-1//0.8.1 sha1-asm//0.4.3 weak:feature:asm
 sha-1//0.8.1 sha1-asm//0.4.3 weak:optional
 sha1-asm//0.4.3 cc//1.0.46
+sha1//0.6.0 openssl//0.10.26 weak:test
+sha1//0.6.0 rand//0.4.6 weak:test
 sha1//0.6.0 serde//1.0.101 weak:optional
+sha1//0.6.0 serde_json//1.0.41 weak:test
 signal-hook-registry//1.2.0 arc-swap//0.4.4
 signal-hook-registry//1.2.0 libc//0.2.65
 signal-hook//0.1.12 futures//0.1.29 weak:feature:tokio-support
