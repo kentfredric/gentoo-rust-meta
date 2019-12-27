@@ -112,6 +112,7 @@ insta//0.9.0 insta 0.9.0
 intervaltree//0.2.4 intervaltree 0.2.4
 iovec//0.1.4 iovec 0.1.4
 itertools//0.7.11 itertools 0.7.11
+itertools//0.8.2 itertools 0.8.2
 itoa//0.1.1 itoa 0.1.1
 itoa//0.4.4 itoa 0.4.4
 jemalloc-ctl//0.3.3 jemalloc-ctl 0.3.3
@@ -823,6 +824,10 @@ insta//0.9.0 uuid//0.7.4
 intervaltree//0.2.4 smallvec//0.6.10
 iovec//0.1.4 libc//0.2.65
 itertools//0.7.11 either//1.5.3
+itertools//0.8.2 either//1.5.3
+itertools//0.8.2 permutohedron//0.2.4 weak:test
+itertools//0.8.2 quickcheck//0.7.2 weak:test
+itertools//0.8.2 rand//0.6.5 weak:test
 jemalloc-ctl//0.3.3 jemalloc-sys//0.3.2
 jemalloc-ctl//0.3.3 jemallocator//0.3.2 weak:test
 jemalloc-ctl//0.3.3 libc//0.2.65
