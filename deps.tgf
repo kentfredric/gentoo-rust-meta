@@ -164,6 +164,7 @@ openssl-probe//0.1.2 openssl-probe 0.1.2
 openssl-src//111.6.0 openssl-src 111.6.0
 openssl-sys//0.9.52 openssl-sys 0.9.52
 openssl-sys//0.9.53 openssl-sys 0.9.53
+openssl//0.10.26 openssl 0.10.26
 ordermap//0.3.5 ordermap 0.3.5
 owning_ref//0.4.0 owning_ref 0.4.0
 parity-wasm//0.38.0 parity-wasm 0.38.0
@@ -973,6 +974,14 @@ openssl-sys//0.9.53 libc//0.2.65
 openssl-sys//0.9.53 openssl-src//111.6.0 weak:feature:vendored
 openssl-sys//0.9.53 openssl-src//111.6.0 weak:optional
 openssl-sys//0.9.53 pkg-config//0.3.16
+openssl//0.10.26 bitflags//1.2.1
+openssl//0.10.26 cfg-if//0.1.10
+openssl//0.10.26 foreign-types//0.3.2
+openssl//0.10.26 hex//0.3.2 weak:test
+openssl//0.10.26 lazy_static//1.4.0
+openssl//0.10.26 libc//0.2.65
+openssl//0.10.26 openssl-sys//0.9.53
+openssl//0.10.26 tempdir//0.3.7 weak:test
 ordermap//0.3.5 fnv//1.0.6 weak:test
 ordermap//0.3.5 itertools//0.7.11 weak:test
 ordermap//0.3.5 quickcheck//0.6.2 weak:test
