@@ -137,6 +137,7 @@ lipsum//0.6.0 lipsum 0.6.0
 lock_api//0.3.1 lock_api 0.3.1
 log//0.3.9 log 0.3.9
 log//0.4.8 log 0.4.8
+mac//0.1.1 mac 0.1.1
 maplit//1.0.2 maplit 1.0.2
 matches//0.1.8 matches 0.1.8
 md5//0.6.1 md5 0.6.1
