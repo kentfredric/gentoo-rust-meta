@@ -239,6 +239,7 @@ rayon//1.2.0 rayon 1.2.0
 ref-cast-impl//0.2.7 ref-cast-impl 0.2.7
 ref-cast//0.2.7 ref-cast 0.2.7
 regex-syntax//0.3.9 regex-syntax 0.3.9
+regex-syntax//0.4.2 regex-syntax 0.4.2
 regex-syntax//0.5.6 regex-syntax 0.5.6
 regex-syntax//0.6.12 regex-syntax 0.6.12
 regex//0.1.80 regex 0.1.80
@@ -1262,6 +1263,8 @@ ref-cast//0.2.7 rustversion//0.1.4 weak:test
 ref-cast//0.2.7 trybuild//1.0.17 weak:test
 regex-syntax//0.3.9 quickcheck//0.2.27 weak:test
 regex-syntax//0.3.9 rand//0.3.23 weak:test
+regex-syntax//0.4.2 quickcheck//0.6.2 weak:test
+regex-syntax//0.4.2 rand//0.4.6 weak:test
 regex-syntax//0.5.6 ucd-util//0.1.5
 regex//0.1.80 aho-corasick//0.5.3
 regex//0.1.80 lazy_static//0.1.16 weak:test
