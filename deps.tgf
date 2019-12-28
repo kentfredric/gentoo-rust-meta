@@ -196,6 +196,7 @@ proc-macro-hack//0.5.11 proc-macro-hack 0.5.11
 proc-macro2//0.4.27 proc-macro2 0.4.27
 proc-macro2//0.4.30 proc-macro2 0.4.30
 proc-macro2//1.0.5 proc-macro2 1.0.5
+proptest//0.7.2 proptest 0.7.2
 pulldown-cmark//0.1.2 pulldown-cmark 0.1.2
 quantiles//0.7.1 quantiles 0.7.1
 quick-error//1.2.2 quick-error 1.2.2
@@ -1080,6 +1081,30 @@ proc-macro2//0.4.30 quote//0.6.13 weak:test
 proc-macro2//0.4.30 unicode-xid//0.1.0
 proc-macro2//1.0.5 quote//1.0.2 weak:test
 proc-macro2//1.0.5 unicode-xid//0.2.0
+proptest//0.7.2 bit-set//0.5.1
+proptest//0.7.2 bitflags//1.2.1
+proptest//0.7.2 lazy_static//1.4.0
+proptest//0.7.2 num-traits//0.2.8
+proptest//0.7.2 quick-error//1.2.2 feature:default
+proptest//0.7.2 quick-error//1.2.2 weak:feature:fork
+proptest//0.7.2 quick-error//1.2.2 weak:feature:std
+proptest//0.7.2 quick-error//1.2.2 weak:feature:timeout
+proptest//0.7.2 quick-error//1.2.2 weak:optional
+proptest//0.7.2 rand//0.4.6
+proptest//0.7.2 regex-syntax//0.4.2 feature:default
+proptest//0.7.2 regex-syntax//0.4.2 weak:feature:fork
+proptest//0.7.2 regex-syntax//0.4.2 weak:feature:std
+proptest//0.7.2 regex-syntax//0.4.2 weak:feature:timeout
+proptest//0.7.2 regex-syntax//0.4.2 weak:optional
+proptest//0.7.2 regex//0.2.11 weak:test
+proptest//0.7.2 rusty-fork//0.2.2 feature:default
+proptest//0.7.2 rusty-fork//0.2.2 weak:feature:fork
+proptest//0.7.2 rusty-fork//0.2.2 weak:feature:timeout
+proptest//0.7.2 rusty-fork//0.2.2 weak:optional
+proptest//0.7.2 tempfile//3.1.0 feature:default
+proptest//0.7.2 tempfile//3.1.0 weak:feature:fork
+proptest//0.7.2 tempfile//3.1.0 weak:feature:timeout
+proptest//0.7.2 tempfile//3.1.0 weak:optional
 pulldown-cmark//0.1.2 bitflags//0.9.1
 pulldown-cmark//0.1.2 getopts//0.2.21 feature:default
 pulldown-cmark//0.1.2 getopts//0.2.21 weak:optional
