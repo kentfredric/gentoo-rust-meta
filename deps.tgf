@@ -255,6 +255,7 @@ rustc-serialize//0.3.24 rustc-serialize 0.3.24
 rustc-std-workspace-core//1.0.0 rustc-std-workspace-core 1.0.0
 rustc-test//0.3.0 rustc-test 0.3.0
 rustc_version//0.2.3 rustc_version 0.2.3
+rustfix//0.4.6 rustfix 0.4.6
 rustls//0.16.0 rustls 0.16.0
 rustversion//0.1.4 rustversion 0.1.4
 rusty-fork//0.2.2 rusty-fork 0.2.2
@@ -1350,6 +1351,11 @@ rustc-test//0.3.0 rustc_version//0.2.3
 rustc-test//0.3.0 term//0.4.6
 rustc-test//0.3.0 time//0.1.42
 rustc_version//0.2.3 semver//0.9.0
+rustfix//0.4.6 failure//0.1.6
+rustfix//0.4.6 log//0.4.8
+rustfix//0.4.6 proptest//0.7.2 weak:test
+rustfix//0.4.6 serde//1.0.101
+rustfix//0.4.6 serde_json//1.0.41
 rustls//0.16.0 base64//0.10.1
 rustls//0.16.0 env_logger//0.6.2 weak:test
 rustls//0.16.0 log//0.4.8 feature:default
