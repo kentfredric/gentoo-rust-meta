@@ -76,6 +76,7 @@ failure//0.1.6 failure 0.1.6
 failure_derive//0.1.6 failure_derive 0.1.6
 fake-simd//0.1.2 fake-simd 0.1.2
 fallible-iterator//0.2.0 fallible-iterator 0.2.0
+filetime//0.2.8 filetime 0.2.8
 findshlibs//0.5.0 findshlibs 0.5.0
 fixedbitset//0.1.9 fixedbitset 0.1.9
 flate2//1.0.13 flate2 1.0.13
@@ -668,6 +669,9 @@ failure_derive//0.1.6 proc-macro2//1.0.5
 failure_derive//0.1.6 quote//1.0.2
 failure_derive//0.1.6 syn//1.0.7
 failure_derive//0.1.6 synstructure//0.12.1
+filetime//0.2.8 cfg-if//0.1.10
+filetime//0.2.8 libc//0.2.65
+filetime//0.2.8 tempfile//3.1.0 weak:test
 findshlibs//0.5.0 lazy_static//1.4.0
 findshlibs//0.5.0 libc//0.2.65
 flate2//1.0.13 cfg-if//0.1.10
