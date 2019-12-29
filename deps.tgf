@@ -189,6 +189,7 @@ pest_generator//2.1.1 pest_generator 2.1.1
 pest_meta//2.1.2 pest_meta 2.1.2
 petgraph//0.4.13 petgraph 0.4.13
 phf//0.7.24 phf 0.7.24
+phf_codegen//0.7.24 phf_codegen 0.7.24
 phf_generator//0.7.24 phf_generator 0.7.24
 phf_macros//0.7.24 phf_macros 0.7.24
 phf_shared//0.7.24 phf_shared 0.7.24
@@ -1096,6 +1097,8 @@ petgraph//0.4.13 serde_derive//1.0.89 weak:optional
 phf//0.7.24 phf_macros//0.7.24 weak:feature:macros
 phf//0.7.24 phf_macros//0.7.24 weak:optional
 phf//0.7.24 phf_shared//0.7.24
+phf_codegen//0.7.24 phf_generator//0.7.24
+phf_codegen//0.7.24 phf_shared//0.7.24
 phf_generator//0.7.24 phf_shared//0.7.24
 phf_generator//0.7.24 rand//0.6.5
 phf_macros//0.7.24 compiletest_rs//0.3.26 weak:test
