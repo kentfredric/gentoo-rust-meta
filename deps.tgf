@@ -188,6 +188,7 @@ pest_derive//2.1.0 pest_derive 2.1.0
 pest_generator//2.1.1 pest_generator 2.1.1
 pest_meta//2.1.2 pest_meta 2.1.2
 petgraph//0.4.13 petgraph 0.4.13
+phf_generator//0.7.24 phf_generator 0.7.24
 phf_shared//0.7.24 phf_shared 0.7.24
 pkg-config//0.3.16 pkg-config 0.3.16
 plain//0.2.3 plain 0.2.3
@@ -1090,6 +1091,8 @@ petgraph//0.4.13 serde//1.0.101 weak:feature:serde-1
 petgraph//0.4.13 serde//1.0.101 weak:optional
 petgraph//0.4.13 serde_derive//1.0.89 weak:feature:serde-1
 petgraph//0.4.13 serde_derive//1.0.89 weak:optional
+phf_generator//0.7.24 phf_shared//0.7.24
+phf_generator//0.7.24 rand//0.6.5
 phf_shared//0.7.24 siphasher//0.2.3
 phf_shared//0.7.24 unicase//1.4.2 weak:optional
 pkg-config//0.3.16 lazy_static//1.4.0 weak:test
