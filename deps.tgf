@@ -318,6 +318,7 @@ term_size//0.3.1 term_size 0.3.1
 termcolor//1.0.5 termcolor 1.0.5
 termios//0.3.1 termios 0.3.1
 test-assembler//0.1.5 test-assembler 0.1.5
+tester//0.6.0 tester 0.6.0
 textwrap//0.11.0 textwrap 0.11.0
 thread-id//2.0.0 thread-id 2.0.0
 thread-id//3.3.0 thread-id 3.3.0
@@ -1538,6 +1539,9 @@ term//0.6.1 dirs//2.0.2
 term_size//0.3.1 libc//0.2.65
 termios//0.3.1 libc//0.2.65
 test-assembler//0.1.5 byteorder//0.5.3
+tester//0.6.0 getopts//0.2.21
+tester//0.6.0 libc//0.2.65
+tester//0.6.0 term//0.6.1
 textwrap//0.11.0 hyphenation//0.7.1 weak:optional
 textwrap//0.11.0 term_size//0.3.1 weak:optional
 textwrap//0.11.0 unicode-width//0.1.6
