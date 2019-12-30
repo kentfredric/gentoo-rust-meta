@@ -159,6 +159,7 @@ miniz_oxide//0.3.5 miniz_oxide 0.3.5
 mio-uds//0.6.7 mio-uds 0.6.7
 mio//0.6.21 mio 0.6.21
 net2//0.2.33 net2 0.2.33
+new_debug_unreachable//1.0.3 new_debug_unreachable 1.0.3
 no-panic//0.1.11 no-panic 0.1.11
 nodrop//0.1.14 nodrop 0.1.14
 num-integer//0.1.41 num-integer 0.1.41
