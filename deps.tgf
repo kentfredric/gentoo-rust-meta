@@ -306,6 +306,7 @@ spin//0.5.2 spin 0.5.2
 stable_deref_trait//1.1.1 stable_deref_trait 1.1.1
 stream-cipher//0.3.2 stream-cipher 0.3.2
 streaming-stats//0.2.2 streaming-stats 0.2.2
+string_cache_shared//0.3.0 string_cache_shared 0.3.0
 strsim//0.8.0 strsim 0.8.0
 sval//0.4.7 sval 0.4.7
 sval_derive//0.4.7 sval_derive 0.4.7
