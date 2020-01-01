@@ -323,6 +323,7 @@ synstructure//0.12.1 synstructure 0.12.1
 synstructure_test_traits//0.1.0 synstructure_test_traits 0.1.0
 tempdir//0.3.7 tempdir 0.3.7
 tempfile//3.1.0 tempfile 3.1.0
+tendril//0.4.1 tendril 0.4.1
 term//0.2.14 term 0.2.14
 term//0.4.6 term 0.4.6
 term//0.6.1 term 0.6.1
@@ -1593,6 +1594,12 @@ tempfile//3.1.0 cfg-if//0.1.10
 tempfile//3.1.0 libc//0.2.65
 tempfile//3.1.0 rand//0.7.2
 tempfile//3.1.0 remove_dir_all//0.5.2
+tendril//0.4.1 encoding//0.2.33 weak:optional
+tendril//0.4.1 encoding_rs//0.8.22 weak:optional
+tendril//0.4.1 futf//0.1.4
+tendril//0.4.1 mac//0.1.1
+tendril//0.4.1 rand//0.4.6 weak:test
+tendril//0.4.1 utf-8//0.7.5
 term//0.2.14 kernel32-sys//0.2.2
 term//0.2.14 winapi//0.2.8
 term//0.6.1 dirs//2.0.2
