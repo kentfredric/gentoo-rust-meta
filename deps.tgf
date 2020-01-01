@@ -72,6 +72,7 @@ encoding-index-simpchinese//1.20141219.5 encoding-index-simpchinese 1.20141219.5
 encoding-index-singlebyte//1.20141219.5 encoding-index-singlebyte 1.20141219.5
 encoding-index-tradchinese//1.20141219.5 encoding-index-tradchinese 1.20141219.5
 encoding//0.2.33 encoding 0.2.33
+encoding_rs//0.8.22 encoding_rs 0.8.22
 enum_to_u8_slice_derive//0.1.1 enum_to_u8_slice_derive 0.1.1
 env_logger//0.3.5 env_logger 0.3.5
 env_logger//0.4.3 env_logger 0.4.3
@@ -676,6 +677,11 @@ encoding//0.2.33 encoding-index-korean//1.20141219.5
 encoding//0.2.33 encoding-index-simpchinese//1.20141219.5
 encoding//0.2.33 encoding-index-singlebyte//1.20141219.5
 encoding//0.2.33 encoding-index-tradchinese//1.20141219.5
+encoding_rs//0.8.22 bincode//1.2.0 weak:test
+encoding_rs//0.8.22 cfg-if//0.1.10
+encoding_rs//0.8.22 serde//1.0.101 weak:optional
+encoding_rs//0.8.22 serde_derive//1.0.89 weak:test
+encoding_rs//0.8.22 serde_json//1.0.41 weak:test
 enum_to_u8_slice_derive//0.1.1 quote//0.3.15
 enum_to_u8_slice_derive//0.1.1 syn//0.11.11
 env_logger//0.3.5 log//0.3.9
