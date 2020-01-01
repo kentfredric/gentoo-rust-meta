@@ -148,6 +148,7 @@ log//0.3.9 log 0.3.9
 log//0.4.8 log 0.4.8
 mac//0.1.1 mac 0.1.1
 maplit//1.0.2 maplit 1.0.2
+markup5ever//0.7.5 markup5ever 0.7.5
 matches//0.1.8 matches 0.1.8
 md5//0.6.1 md5 0.6.1
 memchr//0.1.11 memchr 0.1.11
@@ -965,6 +966,14 @@ log//0.4.8 serde//1.0.101 weak:optional
 log//0.4.8 serde_test//1.0.102 weak:test
 log//0.4.8 sval//0.4.7 weak:feature:kv_unstable_sval
 log//0.4.8 sval//0.4.7 weak:optional
+markup5ever//0.7.5 phf//0.7.24
+markup5ever//0.7.5 phf_codegen//0.7.24
+markup5ever//0.7.5 serde//1.0.101
+markup5ever//0.7.5 serde_derive//1.0.89
+markup5ever//0.7.5 serde_json//1.0.41
+markup5ever//0.7.5 string_cache//0.7.5
+markup5ever//0.7.5 string_cache_codegen//0.4.4
+markup5ever//0.7.5 tendril//0.4.1
 memchr//0.1.11 libc//0.2.65
 memchr//0.1.11 quickcheck//0.2.27 weak:test
 memchr//2.2.1 libc//0.2.65 weak:optional
