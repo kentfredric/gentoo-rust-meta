@@ -3,10 +3,8 @@ use strict;
 use warnings;
 
 crate(
-    slog            => '2.5.2',
-    missing_options => 1,
-    missing_tests   => 1,
-    optional        => {
+    slog     => '2.5.2',
+    optional => {
         'erased-serde' => '^0.3',
     },
     features => {
