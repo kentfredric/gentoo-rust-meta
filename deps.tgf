@@ -125,6 +125,7 @@ insta//0.11.0 insta 0.11.0
 insta//0.9.0 insta 0.9.0
 intervaltree//0.2.4 intervaltree 0.2.4
 iovec//0.1.4 iovec 0.1.4
+itertools//0.5.10 itertools 0.5.10
 itertools//0.7.11 itertools 0.7.11
 itertools//0.8.2 itertools 0.8.2
 itoa//0.1.1 itoa 0.1.1
@@ -918,6 +919,9 @@ insta//0.9.0 serde_yaml//0.8.11
 insta//0.9.0 uuid//0.7.4
 intervaltree//0.2.4 smallvec//0.6.10
 iovec//0.1.4 libc//0.2.65
+itertools//0.5.10 either//1.5.3
+itertools//0.5.10 permutohedron//0.2.4 weak:test
+itertools//0.5.10 quickcheck//0.4.1 weak:test
 itertools//0.7.11 either//1.5.3
 itertools//0.7.11 permutohedron//0.2.4 weak:test
 itertools//0.7.11 quickcheck//0.5.0 weak:test
