@@ -4,7 +4,6 @@ use warnings;
 
 crate(
     'proc-macro-hack' => '0.5.11',
-    missing_tests     => 1,
     requires          => {
         'proc-macro2' => '^1',
         quote         => '^1',

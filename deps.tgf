@@ -1169,6 +1169,8 @@ pkg-config//0.3.16 lazy_static//1.4.0 weak:test
 proc-macro-hack//0.4.2 demo-hack-impl//0.0.4 weak:test
 proc-macro-hack//0.4.2 demo-hack//0.0.4 weak:test
 proc-macro-hack//0.4.2 proc-macro-hack-impl//0.4.2
+proc-macro-hack//0.5.11 demo-hack-impl//0.0.5 weak:test
+proc-macro-hack//0.5.11 demo-hack//0.0.5 weak:test
 proc-macro-hack//0.5.11 proc-macro2//1.0.5
 proc-macro-hack//0.5.11 quote//1.0.2
 proc-macro-hack//0.5.11 syn//1.0.7
