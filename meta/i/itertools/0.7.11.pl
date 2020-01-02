@@ -3,9 +3,8 @@ use strict;
 use warnings;
 
 crate(
-    itertools     => '0.7.11',
-    missing_tests => 1,
-    requires      => {
+    itertools => '0.7.11',
+    requires  => {
         either => '^1',
     },
     test => {
