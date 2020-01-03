@@ -1713,6 +1713,7 @@ tokio-current-thread//0.1.6 futures//0.1.29
 tokio-current-thread//0.1.6 tokio-executor//0.1.9
 tokio-executor//0.1.9 crossbeam-utils//0.6.6
 tokio-executor//0.1.9 futures//0.1.29
+tokio-executor//0.1.9 tokio//0.1.22 weak:test
 tokio-fs//0.1.6 futures//0.1.29
 tokio-fs//0.1.6 tokio-io//0.1.11
 tokio-fs//0.1.6 tokio-threadpool//0.1.17
