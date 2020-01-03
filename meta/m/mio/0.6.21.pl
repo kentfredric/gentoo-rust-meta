@@ -3,9 +3,8 @@ use strict;
 use warnings;
 
 crate(
-    mio           => '0.6.21',
-    missing_tests => 1,
-    requires      => {
+    mio      => '0.6.21',
+    requires => {
         'cfg-if' => '^0.1.9',
         iovec    => '^0.1.1',
         log      => '^0.4',
