@@ -1715,8 +1715,13 @@ tokio-executor//0.1.9 crossbeam-utils//0.6.6
 tokio-executor//0.1.9 futures//0.1.29
 tokio-executor//0.1.9 tokio//0.1.22 weak:test
 tokio-fs//0.1.6 futures//0.1.29
+tokio-fs//0.1.6 rand//0.6.5 weak:test
+tokio-fs//0.1.6 tempdir//0.3.7 weak:test
+tokio-fs//0.1.6 tempfile//3.1.0 weak:test
 tokio-fs//0.1.6 tokio-io//0.1.11
+tokio-fs//0.1.6 tokio-io//0.1.11 weak:test
 tokio-fs//0.1.6 tokio-threadpool//0.1.17
+tokio-fs//0.1.6 tokio//0.1.22 weak:test
 tokio-io//0.1.11 bytes//0.4.12
 tokio-io//0.1.11 futures//0.1.29
 tokio-io//0.1.11 log//0.4.8

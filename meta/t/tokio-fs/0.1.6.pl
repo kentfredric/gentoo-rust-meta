@@ -3,9 +3,8 @@ use strict;
 use warnings;
 
 crate(
-    'tokio-fs'    => '0.1.6',
-    missing_tests => 1,
-    requires      => {
+    'tokio-fs' => '0.1.6',
+    requires   => {
         futures            => '^0.1.21',
         'tokio-io'         => '^0.1.6',
         'tokio-threadpool' => '^0.1.3',
