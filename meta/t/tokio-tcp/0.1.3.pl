@@ -3,9 +3,8 @@ use strict;
 use warnings;
 
 crate(
-    'tokio-tcp'   => '0.1.3',
-    missing_tests => 1,
-    requires      => {
+    'tokio-tcp' => '0.1.3',
+    requires    => {
         bytes           => '^0.4',
         futures         => '^0.1.19',
         iovec           => '^0.1',

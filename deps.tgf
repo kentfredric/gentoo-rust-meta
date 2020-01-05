@@ -1783,11 +1783,13 @@ tokio-sync//0.1.7 loom//0.1.1 weak:test
 tokio-sync//0.1.7 tokio-mock-task//0.1.1 weak:test
 tokio-sync//0.1.7 tokio//0.1.22 weak:test
 tokio-tcp//0.1.3 bytes//0.4.12
+tokio-tcp//0.1.3 env_logger//0.5.13 weak:test
 tokio-tcp//0.1.3 futures//0.1.29
 tokio-tcp//0.1.3 iovec//0.1.4
 tokio-tcp//0.1.3 mio//0.6.21
 tokio-tcp//0.1.3 tokio-io//0.1.11
 tokio-tcp//0.1.3 tokio-reactor//0.1.11
+tokio-tcp//0.1.3 tokio//0.1.22 weak:test
 tokio-threadpool//0.1.17 crossbeam-deque//0.7.1
 tokio-threadpool//0.1.17 crossbeam-queue//0.1.2
 tokio-threadpool//0.1.17 crossbeam-utils//0.6.6
