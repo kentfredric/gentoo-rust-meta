@@ -154,6 +154,7 @@ lipsum//0.6.0 lipsum 0.6.0
 lock_api//0.3.1 lock_api 0.3.1
 log//0.3.9 log 0.3.9
 log//0.4.8 log 0.4.8
+loom//0.1.1 loom 0.1.1
 mac//0.1.1 mac 0.1.1
 maplit//1.0.2 maplit 1.0.2
 markup5ever//0.7.5 markup5ever 0.7.5
@@ -1010,6 +1011,16 @@ log//0.4.8 serde//1.0.101 weak:optional
 log//0.4.8 serde_test//1.0.102 weak:test
 log//0.4.8 sval//0.4.7 weak:feature:kv_unstable_sval
 log//0.4.8 sval//0.4.7 weak:optional
+loom//0.1.1 cfg-if//0.1.10
+loom//0.1.1 futures//0.1.29 weak:optional
+loom//0.1.1 generator//0.6.19 weak:optional
+loom//0.1.1 scoped-tls//0.1.2
+loom//0.1.1 serde//1.0.101 weak:feature:checkpoint
+loom//0.1.1 serde//1.0.101 weak:optional
+loom//0.1.1 serde_derive//1.0.89 weak:feature:checkpoint
+loom//0.1.1 serde_derive//1.0.89 weak:optional
+loom//0.1.1 serde_json//1.0.41 weak:feature:checkpoint
+loom//0.1.1 serde_json//1.0.41 weak:optional
 markup5ever//0.7.5 phf//0.7.24
 markup5ever//0.7.5 phf_codegen//0.7.24
 markup5ever//0.7.5 serde//1.0.101
