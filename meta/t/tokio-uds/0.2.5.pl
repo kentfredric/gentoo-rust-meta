@@ -3,9 +3,8 @@ use strict;
 use warnings;
 
 crate(
-    'tokio-uds'   => '0.2.5',
-    missing_tests => 1,
-    requires      => {
+    'tokio-uds' => '0.2.5',
+    requires    => {
         bytes           => '^0.4.8',
         futures         => '^0.1.21',
         iovec           => '^0.1.2',

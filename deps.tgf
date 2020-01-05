@@ -1823,9 +1823,11 @@ tokio-uds//0.2.5 libc//0.2.65
 tokio-uds//0.2.5 log//0.4.8
 tokio-uds//0.2.5 mio-uds//0.6.7
 tokio-uds//0.2.5 mio//0.6.21
+tokio-uds//0.2.5 tempfile//3.1.0 weak:test
 tokio-uds//0.2.5 tokio-codec//0.1.1
 tokio-uds//0.2.5 tokio-io//0.1.11
 tokio-uds//0.2.5 tokio-reactor//0.1.11
+tokio-uds//0.2.5 tokio//0.1.22 weak:test
 tokio//0.1.22 bytes//0.4.12
 tokio//0.1.22 env_logger//0.5.13 weak:test
 tokio//0.1.22 futures//0.1.29
