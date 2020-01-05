@@ -170,6 +170,7 @@ miniz-sys//0.1.12 miniz-sys 0.1.12
 miniz_oxide//0.3.5 miniz_oxide 0.3.5
 mio-uds//0.6.7 mio-uds 0.6.7
 mio//0.6.21 mio 0.6.21
+model//0.1.2 model 0.1.2
 net2//0.2.33 net2 0.2.33
 new_debug_unreachable//1.0.3 new_debug_unreachable 1.0.3
 no-panic//0.1.11 no-panic 0.1.11
@@ -1076,6 +1077,8 @@ mio//0.6.21 log//0.4.8
 mio//0.6.21 net2//0.2.33
 mio//0.6.21 slab//0.4.2
 mio//0.6.21 tempdir//0.3.7 weak:test
+model//0.1.2 permutohedron//0.2.4
+model//0.1.2 proptest//0.8.7
 net2//0.2.33 cfg-if//0.1.10
 net2//0.2.33 libc//0.2.65
 no-panic//0.1.11 proc-macro2//1.0.5
