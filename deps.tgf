@@ -1803,8 +1803,11 @@ tokio-threadpool//0.1.17 slab//0.4.2
 tokio-threadpool//0.1.17 tokio-executor//0.1.9
 tokio-timer//0.2.12 crossbeam-utils//0.6.6
 tokio-timer//0.2.12 futures//0.1.29
+tokio-timer//0.2.12 rand//0.7.2 weak:test
 tokio-timer//0.2.12 slab//0.4.2
 tokio-timer//0.2.12 tokio-executor//0.1.9
+tokio-timer//0.2.12 tokio-mock-task//0.1.1 weak:test
+tokio-timer//0.2.12 tokio//0.1.22 weak:test
 tokio-udp//0.1.5 bytes//0.4.12
 tokio-udp//0.1.5 env_logger//0.5.13 weak:test
 tokio-udp//0.1.5 futures//0.1.29

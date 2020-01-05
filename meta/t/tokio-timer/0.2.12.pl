@@ -4,7 +4,6 @@ use warnings;
 
 crate(
     'tokio-timer' => '0.2.12',
-    missing_tests => 1,
     requires      => {
         'crossbeam-utils' => '^0.6.0',
         futures           => '^0.1.19',
