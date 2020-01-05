@@ -1779,6 +1779,9 @@ tokio-signal//0.2.7 tokio-reactor//0.1.11
 tokio-signal//0.2.7 tokio//0.1.22 weak:test
 tokio-sync//0.1.7 fnv//1.0.6
 tokio-sync//0.1.7 futures//0.1.29
+tokio-sync//0.1.7 loom//0.1.1 weak:test
+tokio-sync//0.1.7 tokio-mock-task//0.1.1 weak:test
+tokio-sync//0.1.7 tokio//0.1.22 weak:test
 tokio-tcp//0.1.3 bytes//0.4.12
 tokio-tcp//0.1.3 futures//0.1.29
 tokio-tcp//0.1.3 iovec//0.1.4

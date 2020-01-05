@@ -3,9 +3,8 @@ use strict;
 use warnings;
 
 crate(
-    'tokio-sync'  => '0.1.7',
-    missing_tests => 1,
-    requires      => {
+    'tokio-sync' => '0.1.7',
+    requires     => {
         fnv     => '^1.0.6',
         futures => '^0.1.19',
     },
