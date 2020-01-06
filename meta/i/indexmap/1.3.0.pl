@@ -3,10 +3,7 @@ use strict;
 use warnings;
 
 crate(
-    # TODO
-    # NOTE: Tests restricted
     indexmap       => '1.3.0',
-    missing_tests  => 1,
     build_requires => {
         autocfg => '^0.1.6',
     },
@@ -16,7 +13,7 @@ crate(
     },
     test => {
         fnv         => '^1.0',
-        itertools   => '^1.0',
+        itertools   => '^0.8',
         lazy_static => '^1.3',
         quickcheck  => '^0.8',
         rand        => '^0.6',
