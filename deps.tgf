@@ -438,6 +438,13 @@ aho-corasick//0.6.10 quickcheck//0.7.2 weak:test
 aho-corasick//0.6.10 rand//0.5.6 weak:test
 aho-corasick//0.7.6 doc-comment//0.3.1 weak:test
 aho-corasick//0.7.6 memchr//2.2.1
+arc-swap//0.4.4 crossbeam-utils//0.6.6 weak:test
+arc-swap//0.4.4 itertools//0.8.2 weak:test
+arc-swap//0.4.4 model//0.1.2 weak:test
+arc-swap//0.4.4 num_cpus//1.10.1 weak:test
+arc-swap//0.4.4 once_cell//1.2.0 weak:test
+arc-swap//0.4.4 proptest//0.8.7 weak:test
+arc-swap//0.4.4 version-sync//0.8.1 weak:test
 arrayvec//0.4.12 matches//0.1.8 weak:test
 arrayvec//0.4.12 nodrop//0.1.14
 arrayvec//0.4.12 serde//1.0.101 weak:feature:serde-1

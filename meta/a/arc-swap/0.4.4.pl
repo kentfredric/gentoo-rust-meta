@@ -3,9 +3,8 @@ use strict;
 use warnings;
 
 crate(
-    'arc-swap'    => '0.4.4',
-    missing_tests => 1,
-    test          => {
+    'arc-swap' => '0.4.4',
+    test       => {
         'crossbeam-utils' => '~0.6',
         itertools         => '~0.8',
         model             => '~0.1',
