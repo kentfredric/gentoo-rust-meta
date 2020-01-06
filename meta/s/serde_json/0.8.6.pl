@@ -3,10 +3,8 @@ use strict;
 use warnings;
 
 crate(
-    serde_json      => '0.8.6',
-    missing_options => 1,
-    missing_tests   => 1,
-    requires        => {
+    serde_json => '0.8.6',
+    requires   => {
         serde        => '^0.8.13',
         'num-traits' => '~0.1.32',
         itoa         => '^0.1',
