@@ -144,6 +144,7 @@ lazycell//1.2.1 lazycell 1.2.1
 libc//0.2.50 libc 0.2.50
 libc//0.2.62 libc 0.2.62
 libc//0.2.65 libc 0.2.65
+libc//0.2.66 libc 0.2.66
 libgit2-sys//0.6.19 libgit2-sys 0.6.19
 libnghttp2-sys//0.1.2 libnghttp2-sys 0.1.2
 libssh2-sys//0.2.13 libssh2-sys 0.2.13
@@ -457,7 +458,7 @@ atlatl//0.1.2 num-traits//0.2.8
 atlatl//0.1.2 quickcheck//0.7.2 weak:test
 atlatl//0.1.2 rand//0.5.6 weak:test
 atlatl//0.1.2 serde//1.0.101 weak:optional
-atty//0.2.13 libc//0.2.65
+atty//0.2.13 libc//0.2.66
 average//0.9.4 conv//0.3.3
 average//0.9.4 float-ord//0.2.0
 average//0.9.4 num-integer//0.1.41
@@ -473,7 +474,7 @@ average//0.9.4 serde_derive//1.0.89 weak:optional
 average//0.9.4 serde_json//1.0.41 weak:test
 average//0.9.4 streaming-stats//0.2.2 weak:test
 backtrace-sys//0.1.31 cc//1.0.46
-backtrace-sys//0.1.31 libc//0.2.65
+backtrace-sys//0.1.31 libc//0.2.66
 backtrace//0.3.38 addr2line//0.10.0 weak:feature:gimli-symbolize
 backtrace//0.3.38 addr2line//0.10.0 weak:optional
 backtrace//0.3.38 backtrace-sys//0.1.31 feature:default
@@ -485,7 +486,7 @@ backtrace//0.3.38 findshlibs//0.5.0 weak:feature:gimli-symbolize
 backtrace//0.3.38 findshlibs//0.5.0 weak:optional
 backtrace//0.3.38 goblin//0.0.24 weak:feature:gimli-symbolize
 backtrace//0.3.38 goblin//0.0.24 weak:optional
-backtrace//0.3.38 libc//0.2.65
+backtrace//0.3.38 libc//0.2.66
 backtrace//0.3.38 memmap//0.7.0 weak:feature:gimli-symbolize
 backtrace//0.3.38 memmap//0.7.0 weak:optional
 backtrace//0.3.38 rustc-demangle//0.1.16
@@ -543,7 +544,7 @@ cc//1.0.46 num_cpus//1.10.1 weak:optional
 cc//1.0.46 tempdir//0.3.7 weak:test
 chrono//0.4.9 bincode//0.8.0 weak:test
 chrono//0.4.9 doc-comment//0.3.1 weak:test
-chrono//0.4.9 libc//0.2.65
+chrono//0.4.9 libc//0.2.66
 chrono//0.4.9 num-integer//0.1.41
 chrono//0.4.9 num-iter//0.1.39 weak:test
 chrono//0.4.9 num-traits//0.2.8
@@ -579,12 +580,12 @@ clap//2.33.0 yaml-rust//0.3.5 weak:feature:doc
 clap//2.33.0 yaml-rust//0.3.5 weak:feature:yaml
 clap//2.33.0 yaml-rust//0.3.5 weak:optional
 clicolors-control//1.0.1 lazy_static//1.4.0
-clicolors-control//1.0.1 libc//0.2.65
+clicolors-control//1.0.1 libc//0.2.66
 cmake//0.1.42 cc//1.0.46
 compiletest_rs//0.3.26 diff//0.1.11
 compiletest_rs//0.3.26 filetime//0.2.8
 compiletest_rs//0.3.26 getopts//0.2.21
-compiletest_rs//0.3.26 libc//0.2.65
+compiletest_rs//0.3.26 libc//0.2.66
 compiletest_rs//0.3.26 log//0.4.8
 compiletest_rs//0.3.26 regex//1.3.1
 compiletest_rs//0.3.26 rustfix//0.4.6
@@ -597,14 +598,14 @@ compiletest_rs//0.3.26 tester//0.6.0
 console//0.7.7 atty//0.2.13
 console//0.7.7 clicolors-control//1.0.1
 console//0.7.7 lazy_static//1.4.0
-console//0.7.7 libc//0.2.65
+console//0.7.7 libc//0.2.66
 console//0.7.7 parking_lot//0.9.0
 console//0.7.7 regex//1.3.1
 console//0.7.7 termios//0.3.1
 console//0.7.7 unicode-width//0.1.6
 console//0.8.0 clicolors-control//1.0.1
 console//0.8.0 lazy_static//1.4.0
-console//0.8.0 libc//0.2.65
+console//0.8.0 libc//0.2.66
 console//0.8.0 regex//1.3.1
 console//0.8.0 termios//0.3.1
 console//0.8.0 unicode-width//0.1.6
@@ -675,7 +676,7 @@ crossbeam//0.7.3 crossbeam-queue//0.2.0 weak:optional
 crossbeam//0.7.3 crossbeam-utils//0.7.0
 crossbeam//0.7.3 rand//0.6.5 weak:test
 curl-sys//0.4.23 cc//1.0.46
-curl-sys//0.4.23 libc//0.2.65
+curl-sys//0.4.23 libc//0.2.66
 curl-sys//0.4.23 libnghttp2-sys//0.1.2 weak:feature:http2
 curl-sys//0.4.23 libnghttp2-sys//0.1.2 weak:optional
 curl-sys//0.4.23 libz-sys//1.0.25
@@ -702,7 +703,7 @@ digest//0.8.1 blobby//0.1.2 weak:feature:dev
 digest//0.8.1 blobby//0.1.2 weak:optional
 digest//0.8.1 generic-array//0.12.3
 dirs-sys//0.3.4 cfg-if//0.1.10
-dirs-sys//0.3.4 libc//0.2.65
+dirs-sys//0.3.4 libc//0.2.66
 dirs//2.0.2 cfg-if//0.1.10
 dirs//2.0.2 dirs-sys//0.3.4
 either//1.5.3 serde//1.0.101 weak:optional
@@ -755,16 +756,16 @@ failure_derive//0.1.6 quote//1.0.2
 failure_derive//0.1.6 syn//1.0.7
 failure_derive//0.1.6 synstructure//0.12.1
 filetime//0.2.8 cfg-if//0.1.10
-filetime//0.2.8 libc//0.2.65
+filetime//0.2.8 libc//0.2.66
 filetime//0.2.8 tempfile//3.1.0 weak:test
 findshlibs//0.5.0 lazy_static//1.4.0
-findshlibs//0.5.0 libc//0.2.65
+findshlibs//0.5.0 libc//0.2.66
 flate2//1.0.13 cfg-if//0.1.10
 flate2//1.0.13 crc32fast//1.2.0
 flate2//1.0.13 futures//0.1.29 weak:feature:tokio
 flate2//1.0.13 futures//0.1.29 weak:optional
 flate2//1.0.13 futures//0.1.29 weak:test
-flate2//1.0.13 libc//0.2.65
+flate2//1.0.13 libc//0.2.66
 flate2//1.0.13 libz-sys//1.0.25 weak:feature:zlib
 flate2//1.0.13 libz-sys//1.0.25 weak:optional
 flate2//1.0.13 miniz-sys//0.1.12 weak:optional
@@ -781,7 +782,7 @@ flate2//1.0.13 tokio-threadpool//0.1.17 weak:test
 float-ord//0.2.0 rand//0.3.23 weak:test
 foreign-types//0.3.2 foreign-types-shared//0.1.1
 fs2//0.2.5 kernel32-sys//0.2.2
-fs2//0.2.5 libc//0.2.65
+fs2//0.2.5 libc//0.2.66
 fs2//0.2.5 tempdir//0.3.7 weak:test
 fs2//0.2.5 winapi//0.2.8
 fst//0.1.38 byteorder//0.5.3
@@ -797,7 +798,7 @@ fst//0.1.38 utf8-ranges//0.1.3
 futf//0.1.4 mac//0.1.1
 futf//0.1.4 new_debug_unreachable//1.0.3
 generator//0.6.19 cc//1.0.46
-generator//0.6.19 libc//0.2.65
+generator//0.6.19 libc//0.2.66
 generator//0.6.19 log//0.4.8
 generator//0.6.19 rustc_version//0.2.3
 generic-array//0.12.3 bincode//1.2.0 weak:test
@@ -807,7 +808,7 @@ generic-array//0.12.3 typenum//1.11.2
 getopts//0.2.21 log//0.4.8 weak:test
 getopts//0.2.21 unicode-width//0.1.6
 getrandom//0.1.13 cfg-if//0.1.10
-getrandom//0.1.13 libc//0.2.65
+getrandom//0.1.13 libc//0.2.66
 getrandom//0.1.13 log//0.4.8 weak:optional
 gimli//0.19.0 arrayvec//0.4.12
 gimli//0.19.0 byteorder//1.3.2
@@ -826,7 +827,7 @@ gimli//0.19.0 stable_deref_trait//1.1.1
 gimli//0.19.0 test-assembler//0.1.5 weak:test
 gimli//0.19.0 typed-arena//1.7.0 weak:test
 git2//0.6.11 bitflags//0.9.1
-git2//0.6.11 libc//0.2.65
+git2//0.6.11 libc//0.2.66
 git2//0.6.11 libgit2-sys//0.6.19
 git2//0.6.11 openssl-probe//0.1.2 feature:default
 git2//0.6.11 openssl-probe//0.1.2 weak:feature:https
@@ -943,7 +944,7 @@ insta//0.9.0 serde_json//1.0.41
 insta//0.9.0 serde_yaml//0.8.11
 insta//0.9.0 uuid//0.7.4
 intervaltree//0.2.4 smallvec//0.6.10
-iovec//0.1.4 libc//0.2.65
+iovec//0.1.4 libc//0.2.66
 itertools//0.5.10 either//1.5.3
 itertools//0.5.10 permutohedron//0.2.4 weak:test
 itertools//0.5.10 quickcheck//0.4.1 weak:test
@@ -956,16 +957,16 @@ itertools//0.8.2 quickcheck//0.7.2 weak:test
 itertools//0.8.2 rand//0.6.5 weak:test
 jemalloc-ctl//0.3.3 jemalloc-sys//0.3.2
 jemalloc-ctl//0.3.3 jemallocator//0.3.2 weak:test
-jemalloc-ctl//0.3.3 libc//0.2.65
+jemalloc-ctl//0.3.3 libc//0.2.66
 jemalloc-ctl//0.3.3 paste//0.1.6
 jemalloc-sys//0.3.2 cc//1.0.46
 jemalloc-sys//0.3.2 fs_extra//1.1.0
-jemalloc-sys//0.3.2 libc//0.2.65
+jemalloc-sys//0.3.2 libc//0.2.66
 jemallocator//0.3.2 jemalloc-ctl//0.3.3 weak:test
 jemallocator//0.3.2 jemalloc-sys//0.3.2
-jemallocator//0.3.2 libc//0.2.65
+jemallocator//0.3.2 libc//0.2.66
 jobserver//0.1.17 futures//0.1.29 weak:test
-jobserver//0.1.17 libc//0.2.65
+jobserver//0.1.17 libc//0.2.66
 jobserver//0.1.17 log//0.4.8
 jobserver//0.1.17 num_cpus//1.10.1 weak:test
 jobserver//0.1.17 tempdir//0.3.7 weak:test
@@ -985,11 +986,13 @@ libc//0.2.62 rustc-std-workspace-core//1.0.0 weak:feature:rustc-dep-of-std
 libc//0.2.62 rustc-std-workspace-core//1.0.0 weak:optional
 libc//0.2.65 rustc-std-workspace-core//1.0.0 weak:feature:rustc-dep-of-std
 libc//0.2.65 rustc-std-workspace-core//1.0.0 weak:optional
+libc//0.2.66 rustc-std-workspace-core//1.0.0 weak:feature:rustc-dep-of-std
+libc//0.2.66 rustc-std-workspace-core//1.0.0 weak:optional
 libgit2-sys//0.6.19 cc//1.0.46
 libgit2-sys//0.6.19 cmake//0.1.42
 libgit2-sys//0.6.19 curl-sys//0.4.23 weak:feature:curl
 libgit2-sys//0.6.19 curl-sys//0.4.23 weak:optional
-libgit2-sys//0.6.19 libc//0.2.65
+libgit2-sys//0.6.19 libc//0.2.66
 libgit2-sys//0.6.19 libssh2-sys//0.2.13 weak:feature:ssh
 libgit2-sys//0.6.19 libssh2-sys//0.2.13 weak:optional
 libgit2-sys//0.6.19 libz-sys//1.0.25
@@ -997,14 +1000,14 @@ libgit2-sys//0.6.19 openssl-sys//0.9.53 weak:feature:https
 libgit2-sys//0.6.19 openssl-sys//0.9.53 weak:optional
 libgit2-sys//0.6.19 pkg-config//0.3.16
 libnghttp2-sys//0.1.2 cc//1.0.46
-libnghttp2-sys//0.1.2 libc//0.2.65
+libnghttp2-sys//0.1.2 libc//0.2.66
 libssh2-sys//0.2.13 cc//1.0.46
-libssh2-sys//0.2.13 libc//0.2.65
+libssh2-sys//0.2.13 libc//0.2.66
 libssh2-sys//0.2.13 libz-sys//1.0.25
 libssh2-sys//0.2.13 openssl-sys//0.9.53
 libssh2-sys//0.2.13 pkg-config//0.3.16
 libz-sys//1.0.25 cc//1.0.46
-libz-sys//1.0.25 libc//0.2.65
+libz-sys//1.0.25 libc//0.2.66
 libz-sys//1.0.25 pkg-config//0.3.16
 linked-hash-map//0.3.0 serde//0.8.23 weak:feature:serde_impl
 linked-hash-map//0.3.0 serde//0.8.23 weak:optional
@@ -1046,16 +1049,16 @@ markup5ever//0.7.5 serde_json//1.0.41
 markup5ever//0.7.5 string_cache//0.7.5
 markup5ever//0.7.5 string_cache_codegen//0.4.4
 markup5ever//0.7.5 tendril//0.4.1
-memchr//0.1.11 libc//0.2.65
+memchr//0.1.11 libc//0.2.66
 memchr//0.1.11 quickcheck//0.2.27 weak:test
-memchr//2.2.1 libc//0.2.65 weak:optional
+memchr//2.2.1 libc//0.2.66 weak:optional
 memchr//2.2.1 quickcheck//0.8.5 weak:test
 memmap//0.4.0 fs2//0.2.5
 memmap//0.4.0 kernel32-sys//0.2.2
-memmap//0.4.0 libc//0.2.65
+memmap//0.4.0 libc//0.2.66
 memmap//0.4.0 tempdir//0.3.7 weak:test
 memmap//0.4.0 winapi//0.2.8
-memmap//0.7.0 libc//0.2.65
+memmap//0.7.0 libc//0.2.66
 memmap//0.7.0 tempdir//0.3.7 weak:test
 memoffset//0.5.1 rustc_version//0.2.3
 mesalink//1.1.0 base64//0.10.1
@@ -1065,7 +1068,7 @@ mesalink//1.1.0 env_logger//0.6.2
 mesalink//1.1.0 jemallocator//0.3.2 weak:feature:jemalloc_allocator
 mesalink//1.1.0 jemallocator//0.3.2 weak:optional
 mesalink//1.1.0 lazy_static//1.4.0
-mesalink//1.1.0 libc//0.2.65
+mesalink//1.1.0 libc//0.2.66
 mesalink//1.1.0 log//0.4.8 weak:test
 mesalink//1.1.0 parking_lot//0.9.0
 mesalink//1.1.0 ring//0.16.9
@@ -1076,17 +1079,17 @@ mesalink//1.1.0 walkdir//2.2.9
 mesalink//1.1.0 webpki-roots//0.17.0
 mesalink//1.1.0 webpki//0.21.0
 miniz-sys//0.1.12 cc//1.0.46
-miniz-sys//0.1.12 libc//0.2.65
+miniz-sys//0.1.12 libc//0.2.66
 miniz_oxide//0.3.5 adler32//1.0.4
 mio-uds//0.6.7 iovec//0.1.4
-mio-uds//0.6.7 libc//0.2.65
+mio-uds//0.6.7 libc//0.2.66
 mio-uds//0.6.7 mio//0.6.21
 mio-uds//0.6.7 tempdir//0.3.7 weak:test
 mio//0.6.21 bytes//0.3.0 weak:test
 mio//0.6.21 cfg-if//0.1.10
 mio//0.6.21 env_logger//0.4.3 weak:test
 mio//0.6.21 iovec//0.1.4
-mio//0.6.21 libc//0.2.65
+mio//0.6.21 libc//0.2.66
 mio//0.6.21 log//0.4.8
 mio//0.6.21 net2//0.2.33
 mio//0.6.21 slab//0.4.2
@@ -1094,7 +1097,7 @@ mio//0.6.21 tempdir//0.3.7 weak:test
 model//0.1.2 permutohedron//0.2.4
 model//0.1.2 proptest//0.8.7
 net2//0.2.33 cfg-if//0.1.10
-net2//0.2.33 libc//0.2.65
+net2//0.2.33 libc//0.2.66
 no-panic//0.1.11 proc-macro2//1.0.5
 no-panic//0.1.11 quote//1.0.2
 no-panic//0.1.11 syn//1.0.7
@@ -1106,7 +1109,7 @@ num-iter//0.1.39 num-traits//0.2.8
 num-traits//0.1.43 num-traits//0.2.8
 num-traits//0.2.8 autocfg//0.1.6
 num_cpus//1.10.1 doc-comment//0.3.1 weak:test
-num_cpus//1.10.1 libc//0.2.65
+num_cpus//1.10.1 libc//0.2.66
 object//0.12.0 flate2//1.0.13 feature:default
 object//0.12.0 flate2//1.0.13 weak:feature:compression
 object//0.12.0 flate2//1.0.13 weak:optional
@@ -1123,13 +1126,13 @@ once_cell//1.2.0 regex//1.3.1 weak:test
 openssl-src//111.6.0 cc//1.0.46
 openssl-sys//0.9.52 autocfg//0.1.6
 openssl-sys//0.9.52 cc//1.0.46
-openssl-sys//0.9.52 libc//0.2.65
+openssl-sys//0.9.52 libc//0.2.66
 openssl-sys//0.9.52 openssl-src//111.6.0 weak:feature:vendored
 openssl-sys//0.9.52 openssl-src//111.6.0 weak:optional
 openssl-sys//0.9.52 pkg-config//0.3.16
 openssl-sys//0.9.53 autocfg//0.1.6
 openssl-sys//0.9.53 cc//1.0.46
-openssl-sys//0.9.53 libc//0.2.65
+openssl-sys//0.9.53 libc//0.2.66
 openssl-sys//0.9.53 openssl-src//111.6.0 weak:feature:vendored
 openssl-sys//0.9.53 openssl-src//111.6.0 weak:optional
 openssl-sys//0.9.53 pkg-config//0.3.16
@@ -1138,7 +1141,7 @@ openssl//0.10.26 cfg-if//0.1.10
 openssl//0.10.26 foreign-types//0.3.2
 openssl//0.10.26 hex//0.3.2 weak:test
 openssl//0.10.26 lazy_static//1.4.0
-openssl//0.10.26 libc//0.2.65
+openssl//0.10.26 libc//0.2.66
 openssl//0.10.26 openssl-sys//0.9.53
 openssl//0.10.26 tempdir//0.3.7 weak:test
 ordermap//0.3.5 fnv//1.0.6 weak:test
@@ -1157,7 +1160,7 @@ parking_lot//0.9.0 rustc_version//0.2.3
 parking_lot_core//0.6.2 backtrace//0.3.38 weak:feature:deadlock_detection
 parking_lot_core//0.6.2 backtrace//0.3.38 weak:optional
 parking_lot_core//0.6.2 cfg-if//0.1.10
-parking_lot_core//0.6.2 libc//0.2.65
+parking_lot_core//0.6.2 libc//0.2.66
 parking_lot_core//0.6.2 petgraph//0.4.13 weak:feature:deadlock_detection
 parking_lot_core//0.6.2 petgraph//0.4.13 weak:optional
 parking_lot_core//0.6.2 rustc_version//0.2.3
@@ -1352,22 +1355,22 @@ quote//0.6.13 proc-macro2//0.4.30
 quote//1.0.2 proc-macro2//1.0.5
 quote//1.0.2 rustversion//0.1.4 weak:test
 quote//1.0.2 trybuild//1.0.17 weak:test
-rand//0.3.23 libc//0.2.65
+rand//0.3.23 libc//0.2.66
 rand//0.3.23 rand//0.4.6
-rand//0.4.6 libc//0.2.65 feature:default
-rand//0.4.6 libc//0.2.65 weak:feature:std
-rand//0.4.6 libc//0.2.65 weak:optional
+rand//0.4.6 libc//0.2.66 feature:default
+rand//0.4.6 libc//0.2.66 weak:feature:std
+rand//0.4.6 libc//0.2.66 weak:optional
 rand//0.5.6 bincode//1.2.0 weak:test
-rand//0.5.6 libc//0.2.65 feature:default
-rand//0.5.6 libc//0.2.65 weak:feature:std
-rand//0.5.6 libc//0.2.65 weak:optional
+rand//0.5.6 libc//0.2.66 feature:default
+rand//0.5.6 libc//0.2.66 weak:feature:std
+rand//0.5.6 libc//0.2.66 weak:optional
 rand//0.5.6 log//0.4.8 weak:optional
 rand//0.5.6 rand_core//0.3.1
 rand//0.5.6 serde//1.0.101 weak:optional
 rand//0.5.6 serde_derive//1.0.89 weak:optional
 rand//0.6.5 autocfg//0.1.6
 rand//0.6.5 average//0.9.4 weak:test
-rand//0.6.5 libc//0.2.65
+rand//0.6.5 libc//0.2.66
 rand//0.6.5 log//0.4.8 weak:optional
 rand//0.6.5 rand_chacha//0.1.1
 rand//0.6.5 rand_core//0.4.2
@@ -1384,7 +1387,7 @@ rand//0.7.2 getrandom//0.1.13 feature:default
 rand//0.7.2 getrandom//0.1.13 weak:feature:f_getrandom
 rand//0.7.2 getrandom//0.1.13 weak:feature:std
 rand//0.7.2 getrandom//0.1.13 weak:optional
-rand//0.7.2 libc//0.2.65
+rand//0.7.2 libc//0.2.66
 rand//0.7.2 log//0.4.8 weak:optional
 rand//0.7.2 rand_chacha//0.2.1
 rand//0.7.2 rand_core//0.5.1
@@ -1422,7 +1425,7 @@ rand_isaac//0.2.0 serde_derive//1.0.89 weak:feature:serde1
 rand_isaac//0.2.0 serde_derive//1.0.89 weak:optional
 rand_jitter//0.1.4 log//0.4.8 weak:optional
 rand_jitter//0.1.4 rand_core//0.4.2
-rand_os//0.1.3 libc//0.2.65
+rand_os//0.1.3 libc//0.2.66
 rand_os//0.1.3 log//0.4.8 weak:optional
 rand_os//0.1.3 rand_core//0.4.2
 rand_pcg//0.1.2 autocfg//0.1.6
@@ -1457,7 +1460,7 @@ rayon-core//1.6.0 crossbeam-deque//0.7.1
 rayon-core//1.6.0 crossbeam-queue//0.1.2
 rayon-core//1.6.0 crossbeam-utils//0.6.6
 rayon-core//1.6.0 lazy_static//1.4.0
-rayon-core//1.6.0 libc//0.2.65 weak:test
+rayon-core//1.6.0 libc//0.2.66 weak:test
 rayon-core//1.6.0 num_cpus//1.10.1
 rayon-core//1.6.0 rand//0.6.5 weak:test
 rayon-core//1.6.0 rand_xorshift//0.1.1 weak:test
@@ -1516,7 +1519,7 @@ regex//1.3.1 thread_local//0.3.6 weak:optional
 remove_dir_all//0.5.2 doc-comment//0.3.1 weak:test
 ring//0.16.9 cc//1.0.46
 ring//0.16.9 lazy_static//1.4.0
-ring//0.16.9 libc//0.2.65
+ring//0.16.9 libc//0.2.66
 ring//0.16.9 spin//0.5.2
 ring//0.16.9 untrusted//0.7.0
 ron//0.4.1 base64//0.10.1
@@ -1531,7 +1534,7 @@ ron//0.5.1 serde_bytes//0.10.4 weak:test
 ron//0.5.1 serde_json//1.0.41 weak:test
 rustc-serialize//0.3.24 rand//0.3.23 weak:test
 rustc-test//0.3.0 getopts//0.2.21
-rustc-test//0.3.0 libc//0.2.65
+rustc-test//0.3.0 libc//0.2.66
 rustc-test//0.3.0 rustc-serialize//0.3.24
 rustc-test//0.3.0 rustc_version//0.2.3
 rustc-test//0.3.0 term//0.4.6
@@ -1640,12 +1643,12 @@ sha1//0.6.0 rand//0.4.6 weak:test
 sha1//0.6.0 serde//1.0.101 weak:optional
 sha1//0.6.0 serde_json//1.0.41 weak:test
 signal-hook-registry//1.2.0 arc-swap//0.4.4
-signal-hook-registry//1.2.0 libc//0.2.65
+signal-hook-registry//1.2.0 libc//0.2.66
 signal-hook-registry//1.2.0 signal-hook//0.1.12 weak:test
 signal-hook-registry//1.2.0 version-sync//0.8.1 weak:test
 signal-hook//0.1.12 futures//0.1.29 weak:feature:tokio-support
 signal-hook//0.1.12 futures//0.1.29 weak:optional
-signal-hook//0.1.12 libc//0.2.65
+signal-hook//0.1.12 libc//0.2.66
 signal-hook//0.1.12 mio//0.6.21 weak:feature:mio-support
 signal-hook//0.1.12 mio//0.6.21 weak:feature:tokio-support
 signal-hook//0.1.12 mio//0.6.21 weak:optional
@@ -1735,7 +1738,7 @@ synstructure//0.12.1 unicode-xid//0.2.0
 tempdir//0.3.7 rand//0.4.6
 tempdir//0.3.7 remove_dir_all//0.5.2
 tempfile//3.1.0 cfg-if//0.1.10
-tempfile//3.1.0 libc//0.2.65
+tempfile//3.1.0 libc//0.2.66
 tempfile//3.1.0 rand//0.7.2
 tempfile//3.1.0 remove_dir_all//0.5.2
 tendril//0.4.1 encoding//0.2.33 weak:optional
@@ -1747,22 +1750,22 @@ tendril//0.4.1 utf-8//0.7.5
 term//0.2.14 kernel32-sys//0.2.2
 term//0.2.14 winapi//0.2.8
 term//0.6.1 dirs//2.0.2
-term_size//0.3.1 libc//0.2.65
-termios//0.3.1 libc//0.2.65
+term_size//0.3.1 libc//0.2.66
+termios//0.3.1 libc//0.2.66
 test-assembler//0.1.5 byteorder//0.5.3
 tester//0.6.0 getopts//0.2.21
-tester//0.6.0 libc//0.2.65
+tester//0.6.0 libc//0.2.66
 tester//0.6.0 term//0.6.1
 textwrap//0.11.0 hyphenation//0.7.1 weak:optional
 textwrap//0.11.0 term_size//0.3.1 weak:optional
 textwrap//0.11.0 unicode-width//0.1.6
 textwrap//0.11.0 version-sync//0.6.0 weak:test
 thread-id//2.0.0 kernel32-sys//0.2.2
-thread-id//2.0.0 libc//0.2.65
-thread-id//3.3.0 libc//0.2.65
+thread-id//2.0.0 libc//0.2.66
+thread-id//3.3.0 libc//0.2.66
 thread_local//0.2.7 thread-id//2.0.0
 thread_local//0.3.6 lazy_static//1.4.0
-time//0.1.42 libc//0.2.65
+time//0.1.42 libc//0.2.66
 time//0.1.42 log//0.4.8 weak:test
 time//0.1.42 rustc-serialize//0.3.24 weak:optional
 tokio-codec//0.1.1 bytes//0.4.12
@@ -1772,7 +1775,7 @@ tokio-core//0.1.17 bytes//0.4.12
 tokio-core//0.1.17 env_logger//0.4.3 weak:test
 tokio-core//0.1.17 futures//0.1.29
 tokio-core//0.1.17 iovec//0.1.4
-tokio-core//0.1.17 libc//0.2.65 weak:test
+tokio-core//0.1.17 libc//0.2.66 weak:test
 tokio-core//0.1.17 log//0.4.8
 tokio-core//0.1.17 mio//0.6.21
 tokio-core//0.1.17 scoped-tls//0.1.2
@@ -1803,7 +1806,7 @@ tokio-process//0.2.4 crossbeam-queue//0.1.2
 tokio-process//0.2.4 failure//0.1.6 weak:test
 tokio-process//0.2.4 futures//0.1.29
 tokio-process//0.2.4 lazy_static//1.4.0
-tokio-process//0.2.4 libc//0.2.65
+tokio-process//0.2.4 libc//0.2.66
 tokio-process//0.2.4 log//0.4.8
 tokio-process//0.2.4 log//0.4.8 weak:test
 tokio-process//0.2.4 mio//0.6.21
@@ -1824,7 +1827,7 @@ tokio-reactor//0.1.11 tokio-executor//0.1.9
 tokio-reactor//0.1.11 tokio-io//0.1.11
 tokio-reactor//0.1.11 tokio-sync//0.1.7
 tokio-signal//0.2.7 futures//0.1.29
-tokio-signal//0.2.7 libc//0.2.65
+tokio-signal//0.2.7 libc//0.2.66
 tokio-signal//0.2.7 mio-uds//0.6.7
 tokio-signal//0.2.7 mio//0.6.21
 tokio-signal//0.2.7 signal-hook//0.1.12
@@ -1874,7 +1877,7 @@ tokio-udp//0.1.5 tokio-reactor//0.1.11
 tokio-uds//0.2.5 bytes//0.4.12
 tokio-uds//0.2.5 futures//0.1.29
 tokio-uds//0.2.5 iovec//0.1.4
-tokio-uds//0.2.5 libc//0.2.65
+tokio-uds//0.2.5 libc//0.2.66
 tokio-uds//0.2.5 log//0.4.8
 tokio-uds//0.2.5 mio-uds//0.6.7
 tokio-uds//0.2.5 mio//0.6.21
@@ -1886,7 +1889,7 @@ tokio-uds//0.2.5 tokio//0.1.22 weak:test
 tokio//0.1.22 bytes//0.4.12
 tokio//0.1.22 env_logger//0.5.13 weak:test
 tokio//0.1.22 futures//0.1.29
-tokio//0.1.22 libc//0.2.65 weak:test
+tokio//0.1.22 libc//0.2.66 weak:test
 tokio//0.1.22 mio//0.6.21 feature:default
 tokio//0.1.22 mio//0.6.21 weak:feature:reactor
 tokio//0.1.22 mio//0.6.21 weak:feature:rt-full
@@ -2008,7 +2011,7 @@ version-sync//0.8.1 semver-parser//0.9.0
 version-sync//0.8.1 syn//0.15.29
 version-sync//0.8.1 toml//0.5.3
 version-sync//0.8.1 url//1.7.2
-wait-timeout//0.2.0 libc//0.2.65
+wait-timeout//0.2.0 libc//0.2.66
 walkdir//2.2.9 doc-comment//0.3.1 weak:test
 walkdir//2.2.9 same-file//1.0.5
 webpki-roots//0.17.0 webpki//0.21.0
