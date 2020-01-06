@@ -3,12 +3,8 @@ use strict;
 use warnings;
 
 crate(
-    # TODO
-    # NOTE: Tests restricted, missing features
-    time            => '0.1.42',
-    missing_tests   => 1,
-    missing_options => 1,
-    requires        => {
+    time     => '0.1.42',
+    requires => {
         libc => '^0.2.1',
 
         # windows
