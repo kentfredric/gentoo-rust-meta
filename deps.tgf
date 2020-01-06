@@ -1644,6 +1644,8 @@ signal-hook//0.1.12 mio//0.6.21 weak:optional
 signal-hook//0.1.12 signal-hook-registry//1.2.0
 signal-hook//0.1.12 tokio-reactor//0.1.11 weak:feature:tokio-support
 signal-hook//0.1.12 tokio-reactor//0.1.11 weak:optional
+signal-hook//0.1.12 tokio//0.1.22 weak:test
+signal-hook//0.1.12 version-sync//0.8.1 weak:test
 slog//2.5.2 erased-serde//0.3.9 weak:feature:nested-values
 slog//2.5.2 erased-serde//0.3.9 weak:optional
 smallvec//0.6.10 bincode//1.2.0 weak:test

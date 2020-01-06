@@ -4,7 +4,6 @@ use warnings;
 
 crate(
     'signal-hook' => '0.1.12',
-    missing_tests => 1,
     optional      => {
         futures         => '~0.1',
         mio             => '~0.6',
