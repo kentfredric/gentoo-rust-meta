@@ -226,6 +226,7 @@ precomputed-hash//0.1.1 precomputed-hash 0.1.1
 proc-macro-hack-impl//0.4.2 proc-macro-hack-impl 0.4.2
 proc-macro-hack//0.4.2 proc-macro-hack 0.4.2
 proc-macro-hack//0.5.11 proc-macro-hack 0.5.11
+proc-macro-nested//0.1.3 proc-macro-nested 0.1.3
 proc-macro2//0.4.27 proc-macro2 0.4.27
 proc-macro2//0.4.30 proc-macro2 0.4.30
 proc-macro2//1.0.5 proc-macro2 1.0.5
