@@ -217,6 +217,7 @@ phf_codegen//0.7.24 phf_codegen 0.7.24
 phf_generator//0.7.24 phf_generator 0.7.24
 phf_macros//0.7.24 phf_macros 0.7.24
 phf_shared//0.7.24 phf_shared 0.7.24
+pin-utils//0.1.0.4 pin-utils 0.1.0.4
 pkg-config//0.3.16 pkg-config 0.3.16
 plain//0.2.3 plain 0.2.3
 pocket-resources//0.3.2 pocket-resources 0.3.2
