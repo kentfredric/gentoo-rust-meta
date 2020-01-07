@@ -7,6 +7,7 @@ aho-corasick//0.7.6 aho-corasick 0.7.6
 ansi_term//0.11.0 ansi_term 0.11.0
 arc-swap//0.4.4 arc-swap 0.4.4
 arrayvec//0.4.12 arrayvec 0.4.12
+assert_matches//1.3.0 assert_matches 1.3.0
 atlatl//0.1.2 atlatl 0.1.2
 atty//0.2.13 atty 0.2.13
 autocfg//0.1.6 autocfg 0.1.6
