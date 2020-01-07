@@ -102,6 +102,7 @@ futf//0.1.4 futf 0.1.4
 futures-channel//0.3.1 futures-channel 0.3.1
 futures-core//0.3.1 futures-core 0.3.1
 futures-io//0.3.1 futures-io 0.3.1
+futures-macro//0.3.1 futures-macro 0.3.1
 futures-sink//0.3.1 futures-sink 0.3.1
 futures-task//0.3.1 futures-task 0.3.1
 futures//0.1.29 futures 0.1.29
@@ -812,6 +813,10 @@ futf//0.1.4 new_debug_unreachable//1.0.3
 futures-channel//0.3.1 futures-core//0.3.1
 futures-channel//0.3.1 futures-sink//0.3.1 weak:feature:sink
 futures-channel//0.3.1 futures-sink//0.3.1 weak:optional
+futures-macro//0.3.1 proc-macro-hack//0.5.11
+futures-macro//0.3.1 proc-macro2//1.0.7
+futures-macro//0.3.1 quote//1.0.2
+futures-macro//0.3.1 syn//1.0.7
 generator//0.6.19 cc//1.0.46
 generator//0.6.19 libc//0.2.66
 generator//0.6.19 log//0.4.8
