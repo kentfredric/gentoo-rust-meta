@@ -279,6 +279,7 @@ rand_xoshiro//0.4.0 rand_xoshiro 0.4.0
 rayon-core//1.6.0 rayon-core 1.6.0
 rayon//1.2.0 rayon 1.2.0
 ref-cast-impl//0.2.7 ref-cast-impl 0.2.7
+ref-cast-impl//1.0.0 ref-cast-impl 1.0.0
 ref-cast//0.2.7 ref-cast 0.2.7
 regex-syntax//0.3.9 regex-syntax 0.3.9
 regex-syntax//0.4.2 regex-syntax 0.4.2
@@ -1568,6 +1569,9 @@ rayon//1.2.0 rayon-core//1.6.0
 ref-cast-impl//0.2.7 proc-macro2//1.0.7
 ref-cast-impl//0.2.7 quote//1.0.2
 ref-cast-impl//0.2.7 syn//1.0.7
+ref-cast-impl//1.0.0 proc-macro2//1.0.7
+ref-cast-impl//1.0.0 quote//1.0.2
+ref-cast-impl//1.0.0 syn//1.0.7
 ref-cast//0.2.7 ref-cast-impl//0.2.7
 ref-cast//0.2.7 rustversion//0.1.4 weak:test
 ref-cast//0.2.7 trybuild//1.0.17 weak:test
