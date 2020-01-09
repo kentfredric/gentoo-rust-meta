@@ -5,6 +5,7 @@ aho-corasick//0.5.3 aho-corasick 0.5.3
 aho-corasick//0.6.10 aho-corasick 0.6.10
 aho-corasick//0.7.6 aho-corasick 0.7.6
 ansi_term//0.11.0 ansi_term 0.11.0
+anyhow//1.0.26 anyhow 1.0.26
 arc-swap//0.4.4 arc-swap 0.4.4
 arrayvec//0.4.12 arrayvec 0.4.12
 assert_matches//1.3.0 assert_matches 1.3.0
@@ -461,6 +462,10 @@ aho-corasick//0.6.10 quickcheck//0.7.2 weak:test
 aho-corasick//0.6.10 rand//0.5.6 weak:test
 aho-corasick//0.7.6 doc-comment//0.3.1 weak:test
 aho-corasick//0.7.6 memchr//2.2.1
+anyhow//1.0.26 futures//0.3.1 weak:test
+anyhow//1.0.26 rustversion//1.0.1 weak:test
+anyhow//1.0.26 thiserror//1.0.6 weak:test
+anyhow//1.0.26 trybuild//1.0.17 weak:test
 arc-swap//0.4.4 crossbeam-utils//0.6.6 weak:test
 arc-swap//0.4.4 itertools//0.8.2 weak:test
 arc-swap//0.4.4 model//0.1.2 weak:test
