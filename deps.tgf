@@ -281,6 +281,7 @@ rayon//1.2.0 rayon 1.2.0
 ref-cast-impl//0.2.7 ref-cast-impl 0.2.7
 ref-cast-impl//1.0.0 ref-cast-impl 1.0.0
 ref-cast//0.2.7 ref-cast 0.2.7
+ref-cast//1.0.0 ref-cast 1.0.0
 regex-syntax//0.3.9 regex-syntax 0.3.9
 regex-syntax//0.4.2 regex-syntax 0.4.2
 regex-syntax//0.5.6 regex-syntax 0.5.6
@@ -370,6 +371,7 @@ test-assembler//0.1.5 test-assembler 0.1.5
 tester//0.6.0 tester 0.6.0
 textwrap//0.11.0 textwrap 0.11.0
 thiserror-impl//1.0.6 thiserror-impl 1.0.6
+thiserror//1.0.6 thiserror 1.0.6
 thread-id//2.0.0 thread-id 2.0.0
 thread-id//3.3.0 thread-id 3.3.0
 thread_local//0.2.7 thread_local 0.2.7
@@ -1575,6 +1577,9 @@ ref-cast-impl//1.0.0 syn//1.0.7
 ref-cast//0.2.7 ref-cast-impl//0.2.7
 ref-cast//0.2.7 rustversion//0.1.4 weak:test
 ref-cast//0.2.7 trybuild//1.0.17 weak:test
+ref-cast//1.0.0 ref-cast-impl//1.0.0
+ref-cast//1.0.0 rustversion//1.0.1 weak:test
+ref-cast//1.0.0 trybuild//1.0.17 weak:test
 regex-syntax//0.3.9 quickcheck//0.2.27 weak:test
 regex-syntax//0.3.9 rand//0.3.23 weak:test
 regex-syntax//0.4.2 quickcheck//0.6.2 weak:test
@@ -1880,6 +1885,7 @@ textwrap//0.11.0 version-sync//0.6.0 weak:test
 thiserror-impl//1.0.6 proc-macro2//1.0.7
 thiserror-impl//1.0.6 quote//1.0.2
 thiserror-impl//1.0.6 syn//1.0.7
+thiserror//1.0.6 thiserror-impl//1.0.6
 thread-id//2.0.0 kernel32-sys//0.2.2
 thread-id//2.0.0 libc//0.2.66
 thread-id//3.3.0 libc//0.2.66
