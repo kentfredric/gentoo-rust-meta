@@ -173,6 +173,7 @@ lock_api//0.3.1 lock_api 0.3.1
 log//0.3.9 log 0.3.9
 log//0.4.8 log 0.4.8
 loom//0.1.1 loom 0.1.1
+loom//0.2.14 loom 0.2.14
 mac//0.1.1 mac 0.1.1
 maplit//1.0.2 maplit 1.0.2
 markup5ever//0.7.5 markup5ever 0.7.5
@@ -1173,6 +1174,15 @@ loom//0.1.1 serde_derive//1.0.104 weak:feature:checkpoint
 loom//0.1.1 serde_derive//1.0.104 weak:optional
 loom//0.1.1 serde_json//1.0.41 weak:feature:checkpoint
 loom//0.1.1 serde_json//1.0.41 weak:optional
+loom//0.2.14 cfg-if//0.1.10
+loom//0.2.14 futures-util//0.3.1 weak:feature:futures
+loom//0.2.14 futures-util//0.3.1 weak:optional
+loom//0.2.14 generator//0.6.19
+loom//0.2.14 scoped-tls//0.1.2
+loom//0.2.14 serde//1.0.104 weak:feature:checkpoint
+loom//0.2.14 serde//1.0.104 weak:optional
+loom//0.2.14 serde_json//1.0.41 weak:feature:checkpoint
+loom//0.2.14 serde_json//1.0.41 weak:optional
 markup5ever//0.7.5 phf//0.7.24
 markup5ever//0.7.5 phf_codegen//0.7.24
 markup5ever//0.7.5 serde//1.0.104
