@@ -27,6 +27,7 @@ bitflags//1.2.1 bitflags 1.2.1
 blobby//0.1.2 blobby 0.1.2
 block-buffer//0.7.3 block-buffer 0.7.3
 block-padding//0.1.4 block-padding 0.1.4
+brotli-sys//0.3.2 brotli-sys 0.3.2
 byte-tools//0.3.1 byte-tools 0.3.1
 byteorder//0.5.3 byteorder 0.5.3
 byteorder//1.3.2 byteorder 1.3.2
@@ -551,6 +552,8 @@ block-buffer//0.7.3 byte-tools//0.3.1
 block-buffer//0.7.3 byteorder//1.3.2
 block-buffer//0.7.3 generic-array//0.12.3
 block-padding//0.1.4 byte-tools//0.3.1
+brotli-sys//0.3.2 cc//1.0.46
+brotli-sys//0.3.2 libc//0.2.66
 byteorder//0.5.3 quickcheck//0.2.27 weak:test
 byteorder//0.5.3 rand//0.3.23 weak:test
 byteorder//1.3.2 doc-comment//0.3.1 weak:test
