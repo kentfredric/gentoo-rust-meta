@@ -3,9 +3,8 @@ use strict;
 use warnings;
 
 crate(
-    thiserror     => '1.0.6',
-    missing_tests => 1,
-    requires      => {
+    thiserror => '1.0.6',
+    requires  => {
         'thiserror-impl' => '=1.0.6',
     },
     test => {
