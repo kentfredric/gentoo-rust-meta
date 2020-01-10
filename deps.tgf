@@ -237,6 +237,7 @@ phf_codegen//0.7.24 phf_codegen 0.7.24
 phf_generator//0.7.24 phf_generator 0.7.24
 phf_macros//0.7.24 phf_macros 0.7.24
 phf_shared//0.7.24 phf_shared 0.7.24
+pin-project-lite//0.1.2 pin-project-lite 0.1.2
 pin-utils//0.1.0.4 pin-utils 0.1.0.4
 pkg-config//0.3.16 pkg-config 0.3.16
 plain//0.2.3 plain 0.2.3
@@ -1413,6 +1414,8 @@ phf_macros//0.7.24 quote//0.6.13
 phf_macros//0.7.24 syn//0.15.44
 phf_shared//0.7.24 siphasher//0.2.3
 phf_shared//0.7.24 unicase//1.4.2 weak:optional
+pin-project-lite//0.1.2 rustversion//1.0.1 weak:test
+pin-project-lite//0.1.2 trybuild//1.0.17 weak:test
 pkg-config//0.3.16 lazy_static//1.4.0 weak:test
 proc-macro-hack//0.4.2 demo-hack-impl//0.0.4 weak:test
 proc-macro-hack//0.4.2 demo-hack//0.0.4 weak:test
