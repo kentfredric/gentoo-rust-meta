@@ -35,6 +35,7 @@ byteorder//1.3.2 byteorder 1.3.2
 bytes//0.3.0 bytes 0.3.0
 bytes//0.4.12 bytes 0.4.12
 bytes//0.5.3 bytes 0.5.3
+bzip2-sys//0.1.7 bzip2-sys 0.1.7
 c2-chacha//0.2.3 c2-chacha 0.2.3
 cc//1.0.46 cc 1.0.46
 cfg-if//0.1.10 cfg-if 0.1.10
@@ -575,6 +576,8 @@ bytes//0.4.12 serde_test//1.0.102 weak:test
 bytes//0.5.3 loom//0.2.14 weak:test
 bytes//0.5.3 serde//1.0.104 weak:optional
 bytes//0.5.3 serde_test//1.0.102 weak:test
+bzip2-sys//0.1.7 cc//1.0.46
+bzip2-sys//0.1.7 libc//0.2.66
 c2-chacha//0.2.3 byteorder//1.3.2 feature:default
 c2-chacha//0.2.3 byteorder//1.3.2 weak:feature:rustcrypto_api
 c2-chacha//0.2.3 byteorder//1.3.2 weak:optional
