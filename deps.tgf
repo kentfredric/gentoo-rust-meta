@@ -393,6 +393,7 @@ thread-id//3.3.0 thread-id 3.3.0
 thread_local//0.2.7 thread_local 0.2.7
 thread_local//0.3.6 thread_local 0.3.6
 time//0.1.42 time 0.1.42
+timebomb//0.1.2 timebomb 0.1.2
 tokio-codec//0.1.1 tokio-codec 0.1.1
 tokio-core//0.1.17 tokio-core 0.1.17
 tokio-current-thread//0.1.6 tokio-current-thread 0.1.6
@@ -1988,6 +1989,7 @@ thread_local//0.3.6 lazy_static//1.4.0
 time//0.1.42 libc//0.2.66
 time//0.1.42 log//0.4.8 weak:test
 time//0.1.42 rustc-serialize//0.3.24 weak:optional
+timebomb//0.1.2 pulse//0.5.3
 tokio-codec//0.1.1 bytes//0.4.12
 tokio-codec//0.1.1 futures//0.1.29
 tokio-codec//0.1.1 tokio-io//0.1.11
