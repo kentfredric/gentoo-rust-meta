@@ -200,6 +200,7 @@ net2//0.2.33 net2 0.2.33
 new_debug_unreachable//1.0.3 new_debug_unreachable 1.0.3
 no-panic//0.1.11 no-panic 0.1.11
 nodrop//0.1.14 nodrop 0.1.14
+ntest//0.3.3 ntest 0.3.3
 ntest_test_cases//0.3.4 ntest_test_cases 0.3.4
 ntest_timeout//0.3.3 ntest_timeout 0.3.3
 num-integer//0.1.41 num-integer 0.1.41
@@ -1275,6 +1276,12 @@ net2//0.2.33 libc//0.2.66
 no-panic//0.1.11 proc-macro2//1.0.7
 no-panic//0.1.11 quote//1.0.2
 no-panic//0.1.11 syn//1.0.7
+ntest//0.3.3 ntest_test_cases//0.3.4
+ntest//0.3.3 ntest_test_cases//0.3.4 weak:test
+ntest//0.3.3 ntest_timeout//0.3.3
+ntest//0.3.3 ntest_timeout//0.3.3 weak:test
+ntest//0.3.3 timebomb//0.1.2
+ntest//0.3.3 timebomb//0.1.2 weak:test
 ntest_test_cases//0.3.4 proc-macro2//1.0.7
 ntest_test_cases//0.3.4 quote//1.0.2
 ntest_test_cases//0.3.4 syn//1.0.7
