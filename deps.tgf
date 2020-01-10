@@ -201,6 +201,7 @@ new_debug_unreachable//1.0.3 new_debug_unreachable 1.0.3
 no-panic//0.1.11 no-panic 0.1.11
 nodrop//0.1.14 nodrop 0.1.14
 ntest_test_cases//0.3.4 ntest_test_cases 0.3.4
+ntest_timeout//0.3.3 ntest_timeout 0.3.3
 num-integer//0.1.41 num-integer 0.1.41
 num-iter//0.1.39 num-iter 0.1.39
 num-traits//0.1.43 num-traits 0.1.43
@@ -1277,6 +1278,10 @@ no-panic//0.1.11 syn//1.0.7
 ntest_test_cases//0.3.4 proc-macro2//1.0.7
 ntest_test_cases//0.3.4 quote//1.0.2
 ntest_test_cases//0.3.4 syn//1.0.7
+ntest_timeout//0.3.3 proc-macro2//1.0.7
+ntest_timeout//0.3.3 quote//1.0.2
+ntest_timeout//0.3.3 syn//1.0.7
+ntest_timeout//0.3.3 timebomb//0.1.2
 num-integer//0.1.41 autocfg//0.1.6
 num-integer//0.1.41 num-traits//0.2.8
 num-iter//0.1.39 autocfg//0.1.6
