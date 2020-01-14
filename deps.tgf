@@ -359,6 +359,7 @@ serde_yaml//0.8.11 serde_yaml 0.8.11
 sha-1//0.8.1 sha-1 0.8.1
 sha1-asm//0.4.3 sha1-asm 0.4.3
 sha1//0.6.0 sha1 0.6.0
+shlex//0.1.1 shlex 0.1.1
 signal-hook-registry//1.2.0 signal-hook-registry 1.2.0
 signal-hook//0.1.12 signal-hook 0.1.12
 siphasher//0.2.3 siphasher 0.2.3
