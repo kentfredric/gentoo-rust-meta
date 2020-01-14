@@ -40,6 +40,7 @@ bzip2-sys//0.1.7 bzip2-sys 0.1.7
 bzip2//0.3.3 bzip2 0.3.3
 c2-chacha//0.2.3 c2-chacha 0.2.3
 cc//1.0.46 cc 1.0.46
+cexpr//0.3.6 cexpr 0.3.6
 cfg-if//0.1.10 cfg-if 0.1.10
 chrono//0.4.9 chrono 0.4.9
 ci_info//0.3.1 ci_info 0.3.1
@@ -617,6 +618,8 @@ cc//1.0.46 jobserver//0.1.17 weak:optional
 cc//1.0.46 num_cpus//1.10.1 weak:feature:parallel
 cc//1.0.46 num_cpus//1.10.1 weak:optional
 cc//1.0.46 tempdir//0.3.7 weak:test
+cexpr//0.3.6 clang-sys//0.28.1 weak:test
+cexpr//0.3.6 nom//4.2.3
 chrono//0.4.9 bincode//0.8.0 weak:test
 chrono//0.4.9 doc-comment//0.3.1 weak:test
 chrono//0.4.9 libc//0.2.66
