@@ -229,6 +229,7 @@ parking_lot_core//0.6.2 parking_lot_core 0.6.2
 partial-io//0.2.5 partial-io 0.2.5
 paste-impl//0.1.6 paste-impl 0.1.6
 paste//0.1.6 paste 0.1.6
+peeking_take_while//0.1.2 peeking_take_while 0.1.2
 percent-encoding//1.0.1 percent-encoding 1.0.1
 permutohedron//0.2.4 permutohedron 0.2.4
 pest//2.1.2 pest 2.1.2
