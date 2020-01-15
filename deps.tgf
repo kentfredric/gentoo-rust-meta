@@ -464,6 +464,7 @@ winapi//0.2.8 winapi 0.2.8
 xdg//2.2.0 xdg 2.2.0
 yaml-rust//0.3.5 yaml-rust 0.3.5
 yaml-rust//0.4.3 yaml-rust 0.4.3
+zstd-sys//1.4.15 zstd-sys 1.4.15
 #
 addr2line//0.10.0 backtrace//0.3.38 weak:test
 addr2line//0.10.0 cpp_demangle//0.2.13 feature:default
@@ -2367,3 +2368,8 @@ yaml-rust//0.3.5 linked-hash-map//0.3.0 weak:feature:preserve_order
 yaml-rust//0.3.5 linked-hash-map//0.3.0 weak:optional
 yaml-rust//0.4.3 linked-hash-map//0.5.2
 yaml-rust//0.4.3 quickcheck//0.7.2 weak:test
+zstd-sys//1.4.15 bindgen//0.51.1
+zstd-sys//1.4.15 cc//1.0.46
+zstd-sys//1.4.15 glob//0.3.0
+zstd-sys//1.4.15 libc//0.2.66
+zstd-sys//1.4.15 pkg-config//0.3.16
