@@ -141,6 +141,7 @@ hex-literal//0.1.4 hex-literal 0.1.4
 hex-literal//0.2.1 hex-literal 0.2.1
 hex//0.3.2 hex 0.3.2
 html5ever//0.22.5 html5ever 0.22.5
+humansize//1.1.0 humansize 1.1.0
 humantime//1.3.0 humantime 1.3.0
 hyphenation//0.7.1 hyphenation 0.7.1
 hyphenation_commons//0.7.1 hyphenation_commons 0.7.1
