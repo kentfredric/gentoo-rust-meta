@@ -205,6 +205,7 @@ miniz_oxide//0.3.5 miniz_oxide 0.3.5
 mio-uds//0.6.7 mio-uds 0.6.7
 mio//0.6.21 mio 0.6.21
 model//0.1.2 model 0.1.2
+native-tls//0.2.3 native-tls 0.2.3
 net2//0.2.33 net2 0.2.33
 new_debug_unreachable//1.0.3 new_debug_unreachable 1.0.3
 no-panic//0.1.11 no-panic 0.1.11
@@ -1379,6 +1380,11 @@ mio//0.6.21 slab//0.4.2
 mio//0.6.21 tempdir//0.3.7 weak:test
 model//0.1.2 permutohedron//0.2.4
 model//0.1.2 proptest//0.8.7
+native-tls//0.2.3 hex//0.3.2 weak:test
+native-tls//0.2.3 log//0.4.8
+native-tls//0.2.3 openssl-probe//0.1.2
+native-tls//0.2.3 openssl-sys//0.9.53
+native-tls//0.2.3 openssl//0.10.26
 net2//0.2.33 cfg-if//0.1.10
 net2//0.2.33 libc//0.2.66
 no-panic//0.1.11 proc-macro2//1.0.7
