@@ -97,6 +97,7 @@ env_logger//0.4.3 env_logger 0.4.3
 env_logger//0.5.13 env_logger 0.5.13
 env_logger//0.6.2 env_logger 0.6.2
 erased-serde//0.3.9 erased-serde 0.3.9
+error-chain//0.12.1 error-chain 0.12.1
 failure//0.1.6 failure 0.1.6
 failure_derive//0.1.6 failure_derive 0.1.6
 fake-simd//0.1.2 fake-simd 0.1.2
@@ -918,6 +919,9 @@ erased-serde//0.3.9 serde//1.0.104
 erased-serde//0.3.9 serde_cbor//0.9.0 weak:test
 erased-serde//0.3.9 serde_derive//1.0.104 weak:test
 erased-serde//0.3.9 serde_json//1.0.41 weak:test
+error-chain//0.12.1 backtrace//0.3.38 feature:default
+error-chain//0.12.1 backtrace//0.3.38 weak:optional
+error-chain//0.12.1 version_check//0.1.5
 failure//0.1.6 backtrace//0.3.38 feature:default
 failure//0.1.6 backtrace//0.3.38 weak:feature:std
 failure//0.1.6 backtrace//0.3.38 weak:optional
