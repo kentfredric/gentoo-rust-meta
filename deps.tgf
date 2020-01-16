@@ -255,6 +255,7 @@ plain//0.2.3 plain 0.2.3
 pocket-resources//0.3.2 pocket-resources 0.3.2
 ppv-lite86//0.2.6 ppv-lite86 0.2.6
 precomputed-hash//0.1.1 precomputed-hash 0.1.1
+pretty_assertions//0.6.1 pretty_assertions 0.6.1
 proc-macro-hack-impl//0.4.2 proc-macro-hack-impl 0.4.2
 proc-macro-hack//0.4.2 proc-macro-hack 0.4.2
 proc-macro-hack//0.5.11 proc-macro-hack 0.5.11
@@ -1534,6 +1535,8 @@ phf_shared//0.7.24 unicase//1.4.2 weak:optional
 pin-project-lite//0.1.2 rustversion//1.0.1 weak:test
 pin-project-lite//0.1.2 trybuild//1.0.17 weak:test
 pkg-config//0.3.16 lazy_static//1.4.0 weak:test
+pretty_assertions//0.6.1 ansi_term//0.11.0
+pretty_assertions//0.6.1 difference//2.0.0
 proc-macro-hack//0.4.2 demo-hack-impl//0.0.4 weak:test
 proc-macro-hack//0.4.2 demo-hack//0.0.4 weak:test
 proc-macro-hack//0.4.2 proc-macro-hack-impl//0.4.2
