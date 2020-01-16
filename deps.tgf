@@ -329,6 +329,7 @@ ring//0.14.6 ring 0.14.6
 ring//0.16.9 ring 0.16.9
 ron//0.4.1 ron 0.4.1
 ron//0.5.1 ron 0.5.1
+rspec//1.0.0.3 rspec 1.0.0.3
 rustc-demangle//0.1.16 rustc-demangle 0.1.16
 rustc-hash//1.0.1 rustc-hash 1.0.1
 rustc-serialize//0.3.24 rustc-serialize 0.3.24
