@@ -320,6 +320,7 @@ regex//0.1.80 regex 0.1.80
 regex//0.2.11 regex 0.2.11
 regex//1.3.1 regex 1.3.1
 remove_dir_all//0.5.2 remove_dir_all 0.5.2
+ring//0.14.6 ring 0.14.6
 ring//0.16.9 ring 0.16.9
 ron//0.4.1 ron 0.4.1
 ron//0.5.1 ron 0.5.1
@@ -1869,6 +1870,11 @@ regex//1.3.1 thread_local//0.3.6 weak:feature:perf
 regex//1.3.1 thread_local//0.3.6 weak:feature:perf-cache
 regex//1.3.1 thread_local//0.3.6 weak:optional
 remove_dir_all//0.5.2 doc-comment//0.3.1 weak:test
+ring//0.14.6 cc//1.0.46
+ring//0.14.6 lazy_static//1.4.0
+ring//0.14.6 libc//0.2.66
+ring//0.14.6 spin//0.5.2
+ring//0.14.6 untrusted//0.6.2
 ring//0.16.9 cc//1.0.46
 ring//0.16.9 lazy_static//1.4.0
 ring//0.16.9 libc//0.2.66
