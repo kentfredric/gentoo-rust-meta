@@ -445,6 +445,7 @@ unicode-xid//0.0.4 unicode-xid 0.0.4
 unicode-xid//0.1.0 unicode-xid 0.1.0
 unicode-xid//0.2.0 unicode-xid 0.2.0
 unindent//0.1.5 unindent 0.1.5
+untrusted//0.6.2 untrusted 0.6.2
 untrusted//0.7.0 untrusted 0.7.0
 url//1.7.2 url 1.7.2
 utf-8//0.7.5 utf-8 0.7.5
