@@ -143,6 +143,7 @@ hex-literal-impl//0.1.2 hex-literal-impl 0.1.2
 hex-literal-impl//0.2.1 hex-literal-impl 0.2.1
 hex-literal//0.1.4 hex-literal 0.1.4
 hex-literal//0.2.1 hex-literal 0.2.1
+hex//0.2.0 hex 0.2.0
 hex//0.3.2 hex 0.3.2
 html5ever//0.22.5 html5ever 0.22.5
 http-body//0.3.1 http-body 0.3.1
