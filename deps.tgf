@@ -430,6 +430,7 @@ tokio-current-thread//0.1.6 tokio-current-thread 0.1.6
 tokio-executor//0.1.9 tokio-executor 0.1.9
 tokio-fs//0.1.6 tokio-fs 0.1.6
 tokio-io//0.1.11 tokio-io 0.1.11
+tokio-macros//0.2.3 tokio-macros 0.2.3
 tokio-mock-task//0.1.1 tokio-mock-task 0.1.1
 tokio-process//0.2.4 tokio-process 0.2.4
 tokio-reactor//0.1.11 tokio-reactor 0.1.11
@@ -2258,6 +2259,8 @@ tokio-io//0.1.11 bytes//0.4.12
 tokio-io//0.1.11 futures//0.1.29
 tokio-io//0.1.11 log//0.4.8
 tokio-io//0.1.11 tokio-current-thread//0.1.6 weak:test
+tokio-macros//0.2.3 quote//1.0.2
+tokio-macros//0.2.3 syn//1.0.7
 tokio-mock-task//0.1.1 futures//0.1.29
 tokio-process//0.2.4 crossbeam-queue//0.1.2
 tokio-process//0.2.4 failure//0.1.6 weak:test
