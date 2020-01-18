@@ -437,6 +437,7 @@ tokio-reactor//0.1.11 tokio-reactor 0.1.11
 tokio-signal//0.2.7 tokio-signal 0.2.7
 tokio-sync//0.1.7 tokio-sync 0.1.7
 tokio-tcp//0.1.3 tokio-tcp 0.1.3
+tokio-test//0.2.0 tokio-test 0.2.0
 tokio-threadpool//0.1.17 tokio-threadpool 0.1.17
 tokio-timer//0.2.12 tokio-timer 0.2.12
 tokio-udp//0.1.5 tokio-udp 0.1.5
@@ -2310,6 +2311,11 @@ tokio-tcp//0.1.3 mio//0.6.21
 tokio-tcp//0.1.3 tokio-io//0.1.11
 tokio-tcp//0.1.3 tokio-reactor//0.1.11
 tokio-tcp//0.1.3 tokio//0.1.22 weak:test
+tokio-test//0.2.0 bytes//0.5.3
+tokio-test//0.2.0 futures-core//0.3.1
+tokio-test//0.2.0 futures-util//0.3.1 weak:test
+tokio-test//0.2.0 tokio//0.2.9
+tokio-test//0.2.0 tokio//0.2.9 weak:test
 tokio-threadpool//0.1.17 crossbeam-deque//0.7.1
 tokio-threadpool//0.1.17 crossbeam-queue//0.1.2
 tokio-threadpool//0.1.17 crossbeam-utils//0.6.6
