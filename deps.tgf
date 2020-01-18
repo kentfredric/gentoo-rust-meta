@@ -2262,6 +2262,7 @@ tokio-io//0.1.11 log//0.4.8
 tokio-io//0.1.11 tokio-current-thread//0.1.6 weak:test
 tokio-macros//0.2.3 quote//1.0.2
 tokio-macros//0.2.3 syn//1.0.7
+tokio-macros//0.2.3 tokio//0.2.9 weak:test
 tokio-mock-task//0.1.1 futures//0.1.29
 tokio-process//0.2.4 crossbeam-queue//0.1.2
 tokio-process//0.2.4 failure//0.1.6 weak:test
