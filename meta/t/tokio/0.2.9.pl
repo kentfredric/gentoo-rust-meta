@@ -38,9 +38,8 @@ my %windows = (
     }
 );
 crate(
-    tokio         => '0.2.9',
-    missing_tests => 1,
-    requires      => {
+    tokio    => '0.2.9',
+    requires => {
         bytes              => '^0.5.0',
         'pin-project-lite' => '^0.1.1',
     },
