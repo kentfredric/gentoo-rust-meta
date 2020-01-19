@@ -444,6 +444,7 @@ tokio-threadpool//0.1.17 tokio-threadpool 0.1.17
 tokio-timer//0.2.12 tokio-timer 0.2.12
 tokio-udp//0.1.5 tokio-udp 0.1.5
 tokio-uds//0.2.5 tokio-uds 0.2.5
+tokio-util//0.2.0 tokio-util 0.2.0
 tokio//0.1.22 tokio 0.1.22
 tokio//0.2.9 tokio 0.2.9
 toml//0.4.10 toml 0.4.10
@@ -2369,6 +2370,15 @@ tokio-uds//0.2.5 tokio-codec//0.1.1
 tokio-uds//0.2.5 tokio-io//0.1.11
 tokio-uds//0.2.5 tokio-reactor//0.1.11
 tokio-uds//0.2.5 tokio//0.1.22 weak:test
+tokio-util//0.2.0 bytes//0.5.3
+tokio-util//0.2.0 futures-core//0.3.1
+tokio-util//0.2.0 futures-sink//0.3.1
+tokio-util//0.2.0 futures//0.3.1 weak:test
+tokio-util//0.2.0 log//0.4.8
+tokio-util//0.2.0 pin-project-lite//0.1.2
+tokio-util//0.2.0 tokio-test//0.2.0 weak:test
+tokio-util//0.2.0 tokio//0.2.9
+tokio-util//0.2.0 tokio//0.2.9 weak:test
 tokio//0.1.22 bytes//0.4.12
 tokio//0.1.22 env_logger//0.5.13 weak:test
 tokio//0.1.22 futures//0.1.29
