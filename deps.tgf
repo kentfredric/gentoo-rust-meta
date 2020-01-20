@@ -261,6 +261,7 @@ phf_shared//0.7.24 phf_shared 0.7.24
 pico-sys//0.0.1 pico-sys 0.0.1
 pin-project-internal//0.4.6 pin-project-internal 0.4.6
 pin-project-lite//0.1.2 pin-project-lite 0.1.2
+pin-project//0.4.6 pin-project 0.4.6
 pin-utils//0.1.0.4 pin-utils 0.1.0.4
 pkg-config//0.3.16 pkg-config 0.3.16
 plain//0.2.3 plain 0.2.3
@@ -1623,6 +1624,7 @@ pin-project-internal//0.4.6 quote//1.0.2
 pin-project-internal//0.4.6 syn//1.0.7
 pin-project-lite//0.1.2 rustversion//1.0.1 weak:test
 pin-project-lite//0.1.2 trybuild//1.0.17 weak:test
+pin-project//0.4.6 pin-project-internal//0.4.6
 pkg-config//0.3.16 lazy_static//1.4.0 weak:test
 pretty_assertions//0.6.1 ansi_term//0.11.0
 pretty_assertions//0.6.1 difference//2.0.0
