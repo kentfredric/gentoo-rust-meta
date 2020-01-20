@@ -319,6 +319,7 @@ rand_xorshift//0.2.0 rand_xorshift 0.2.0
 rand_xoshiro//0.1.0 rand_xoshiro 0.1.0
 rand_xoshiro//0.4.0 rand_xoshiro 0.4.0
 rayon-core//1.6.0 rayon-core 1.6.0
+rayon//0.8.2 rayon 0.8.2
 rayon//1.2.0 rayon 1.2.0
 ref-cast-impl//0.2.7 ref-cast-impl 0.2.7
 ref-cast-impl//1.0.0 ref-cast-impl 1.0.0
@@ -1913,6 +1914,7 @@ rayon-core//1.6.0 num_cpus//1.10.1
 rayon-core//1.6.0 rand//0.6.5 weak:test
 rayon-core//1.6.0 rand_xorshift//0.1.1 weak:test
 rayon-core//1.6.0 scoped-tls//1.0.0 weak:test
+rayon//0.8.2 rayon-core//1.6.0
 rayon//1.2.0 crossbeam-deque//0.7.1
 rayon//1.2.0 doc-comment//0.3.1 weak:test
 rayon//1.2.0 either//1.5.3
