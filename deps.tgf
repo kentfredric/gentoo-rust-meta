@@ -126,6 +126,7 @@ futures-test//0.3.1 futures-test 0.3.1
 futures-util//0.3.1 futures-util 0.3.1
 futures//0.1.29 futures 0.1.29
 futures//0.3.1 futures 0.3.1
+gcc//0.3.55 gcc 0.3.55
 generator//0.6.19 generator 0.6.19
 generic-array//0.12.3 generic-array 0.12.3
 getopts//0.2.21 getopts 0.2.21
@@ -1072,6 +1073,9 @@ futures//0.3.1 futures-task//0.3.1
 futures//0.3.1 futures-util//0.3.1
 futures//0.3.1 pin-utils//0.1.0.4 weak:test
 futures//0.3.1 tokio//0.1.22 weak:test
+gcc//0.3.55 rayon//0.8.2 weak:feature:parallel
+gcc//0.3.55 rayon//0.8.2 weak:optional
+gcc//0.3.55 tempdir//0.3.7 weak:test
 generator//0.6.19 cc//1.0.46
 generator//0.6.19 libc//0.2.66
 generator//0.6.19 log//0.4.8
