@@ -471,6 +471,7 @@ toml//0.5.3 toml 0.5.3
 tower-service//0.3.0 tower-service 0.3.0
 tracing-attributes//0.1.6 tracing-attributes 0.1.6
 tracing-core//0.1.7 tracing-core 0.1.7
+tracing-core//0.1.9 tracing-core 0.1.9
 try-lock//0.2.2 try-lock 0.2.2
 trybuild//1.0.17 trybuild 1.0.17
 typed-arena//1.7.0 typed-arena 1.7.0
@@ -2558,8 +2559,8 @@ tokio//0.1.22 tokio-udp//0.1.5 weak:optional
 tokio//0.1.22 tokio-uds//0.2.5 feature:default
 tokio//0.1.22 tokio-uds//0.2.5 weak:feature:uds
 tokio//0.1.22 tokio-uds//0.2.5 weak:optional
-tokio//0.1.22 tracing-core//0.1.7 weak:feature:experimental-tracing
-tokio//0.1.22 tracing-core//0.1.7 weak:optional
+tokio//0.1.22 tracing-core//0.1.9 weak:feature:experimental-tracing
+tokio//0.1.22 tracing-core//0.1.9 weak:optional
 tokio//0.2.9 bytes//0.5.3
 tokio//0.2.9 fnv//1.0.6 weak:feature:full
 tokio//0.2.9 fnv//1.0.6 weak:feature:sync
@@ -2635,6 +2636,9 @@ tracing-attributes//0.1.6 quote//1.0.2
 tracing-attributes//0.1.6 syn//1.0.7
 tracing-core//0.1.7 lazy_static//1.4.0
 tracing-core//0.1.7 spin//0.5.2
+tracing-core//0.1.9 lazy_static//1.4.0 feature:default
+tracing-core//0.1.9 lazy_static//1.4.0 weak:feature:std
+tracing-core//0.1.9 lazy_static//1.4.0 weak:optional
 trybuild//1.0.17 glob//0.3.0
 trybuild//1.0.17 lazy_static//1.4.0
 trybuild//1.0.17 serde//1.0.104
