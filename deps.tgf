@@ -130,6 +130,7 @@ futures-sink-preview//0.3.0.19 futures-sink-preview 0.3.0.19
 futures-sink//0.3.1 futures-sink 0.3.1
 futures-task//0.3.1 futures-task 0.3.1
 futures-test//0.3.1 futures-test 0.3.1
+futures-util-preview//0.3.0.19 futures-util-preview 0.3.0.19
 futures-util//0.3.1 futures-util 0.3.1
 futures//0.1.29 futures 0.1.29
 futures//0.3.1 futures 0.3.1
@@ -1056,6 +1057,43 @@ futures-test//0.3.1 futures-io//0.3.1
 futures-test//0.3.1 futures-task//0.3.1
 futures-test//0.3.1 futures-util//0.3.1
 futures-test//0.3.1 pin-utils//0.1.0.4
+futures-util-preview//0.3.0.19 futures-channel-preview//0.3.0.19 weak:feature:channel
+futures-util-preview//0.3.0.19 futures-channel-preview//0.3.0.19 weak:optional
+futures-util-preview//0.3.0.19 futures-core-preview//0.3.0.19
+futures-util-preview//0.3.0.19 futures-io-preview//0.3.0.19 weak:feature:io
+futures-util-preview//0.3.0.19 futures-io-preview//0.3.0.19 weak:feature:io-compat
+futures-util-preview//0.3.0.19 futures-io-preview//0.3.0.19 weak:feature:read_initializer
+futures-util-preview//0.3.0.19 futures-io-preview//0.3.0.19 weak:optional
+futures-util-preview//0.3.0.19 futures-join-macro-preview//0.3.0.19 weak:feature:join-macro
+futures-util-preview//0.3.0.19 futures-join-macro-preview//0.3.0.19 weak:optional
+futures-util-preview//0.3.0.19 futures-select-macro-preview//0.3.0.19 weak:feature:select-macro
+futures-util-preview//0.3.0.19 futures-select-macro-preview//0.3.0.19 weak:optional
+futures-util-preview//0.3.0.19 futures-sink-preview//0.3.0.19 weak:feature:sink
+futures-util-preview//0.3.0.19 futures-sink-preview//0.3.0.19 weak:optional
+futures-util-preview//0.3.0.19 futures//0.1.29 weak:feature:compat
+futures-util-preview//0.3.0.19 futures//0.1.29 weak:feature:io-compat
+futures-util-preview//0.3.0.19 futures//0.1.29 weak:optional
+futures-util-preview//0.3.0.19 memchr//2.2.1 weak:feature:io
+futures-util-preview//0.3.0.19 memchr//2.2.1 weak:feature:io-compat
+futures-util-preview//0.3.0.19 memchr//2.2.1 weak:feature:read_initializer
+futures-util-preview//0.3.0.19 memchr//2.2.1 weak:optional
+futures-util-preview//0.3.0.19 pin-utils//0.1.0.4 weak:optional
+futures-util-preview//0.3.0.19 proc-macro-hack//0.5.11 weak:feature:join-macro
+futures-util-preview//0.3.0.19 proc-macro-hack//0.5.11 weak:feature:select-macro
+futures-util-preview//0.3.0.19 proc-macro-hack//0.5.11 weak:optional
+futures-util-preview//0.3.0.19 proc-macro-nested//0.1.3 weak:feature:join-macro
+futures-util-preview//0.3.0.19 proc-macro-nested//0.1.3 weak:feature:select-macro
+futures-util-preview//0.3.0.19 proc-macro-nested//0.1.3 weak:optional
+futures-util-preview//0.3.0.19 slab//0.4.2 feature:default
+futures-util-preview//0.3.0.19 slab//0.4.2 weak:feature:channel
+futures-util-preview//0.3.0.19 slab//0.4.2 weak:feature:compat
+futures-util-preview//0.3.0.19 slab//0.4.2 weak:feature:io
+futures-util-preview//0.3.0.19 slab//0.4.2 weak:feature:io-compat
+futures-util-preview//0.3.0.19 slab//0.4.2 weak:feature:read_initializer
+futures-util-preview//0.3.0.19 slab//0.4.2 weak:feature:std
+futures-util-preview//0.3.0.19 slab//0.4.2 weak:optional
+futures-util-preview//0.3.0.19 tokio-io//0.1.11 weak:feature:io-compat
+futures-util-preview//0.3.0.19 tokio-io//0.1.11 weak:optional
 futures-util//0.3.1 futures-channel//0.3.1 weak:feature:channel
 futures-util//0.3.1 futures-channel//0.3.1 weak:optional
 futures-util//0.3.1 futures-core//0.3.1
