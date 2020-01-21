@@ -123,6 +123,7 @@ futures-core//0.3.1 futures-core 0.3.1
 futures-executor//0.3.1 futures-executor 0.3.1
 futures-io-preview//0.3.0.19 futures-io-preview 0.3.0.19
 futures-io//0.3.1 futures-io 0.3.1
+futures-join-macro-preview//0.3.0.19 futures-join-macro-preview 0.3.0.19
 futures-macro//0.3.1 futures-macro 0.3.1
 futures-sink-preview//0.3.0.19 futures-sink-preview 0.3.0.19
 futures-sink//0.3.1 futures-sink 0.3.1
@@ -1036,6 +1037,10 @@ futures-executor//0.3.1 futures-task//0.3.1
 futures-executor//0.3.1 futures-util//0.3.1
 futures-executor//0.3.1 num_cpus//1.10.1 weak:feature:thread-pool
 futures-executor//0.3.1 num_cpus//1.10.1 weak:optional
+futures-join-macro-preview//0.3.0.19 proc-macro-hack//0.5.11
+futures-join-macro-preview//0.3.0.19 proc-macro2//1.0.7
+futures-join-macro-preview//0.3.0.19 quote//1.0.2
+futures-join-macro-preview//0.3.0.19 syn//1.0.7
 futures-macro//0.3.1 proc-macro-hack//0.5.11
 futures-macro//0.3.1 proc-macro2//1.0.7
 futures-macro//0.3.1 quote//1.0.2
