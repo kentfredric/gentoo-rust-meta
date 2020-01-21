@@ -472,6 +472,7 @@ tower-service//0.3.0 tower-service 0.3.0
 tracing-attributes//0.1.6 tracing-attributes 0.1.6
 tracing-core//0.1.7 tracing-core 0.1.7
 tracing-core//0.1.9 tracing-core 0.1.9
+tracing//0.1.12 tracing 0.1.12
 try-lock//0.2.2 try-lock 0.2.2
 trybuild//1.0.17 trybuild 1.0.17
 typed-arena//1.7.0 typed-arena 1.7.0
@@ -2639,6 +2640,13 @@ tracing-core//0.1.7 spin//0.5.2
 tracing-core//0.1.9 lazy_static//1.4.0 feature:default
 tracing-core//0.1.9 lazy_static//1.4.0 weak:feature:std
 tracing-core//0.1.9 lazy_static//1.4.0 weak:optional
+tracing//0.1.12 cfg-if//0.1.10
+tracing//0.1.12 futures//0.1.29 weak:test
+tracing//0.1.12 log//0.4.8 weak:feature:log-always
+tracing//0.1.12 log//0.4.8 weak:optional
+tracing//0.1.12 log//0.4.8 weak:test
+tracing//0.1.12 tracing-attributes//0.1.6
+tracing//0.1.12 tracing-core//0.1.9
 trybuild//1.0.17 glob//0.3.0
 trybuild//1.0.17 lazy_static//1.4.0
 trybuild//1.0.17 serde//1.0.104
