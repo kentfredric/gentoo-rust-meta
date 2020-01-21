@@ -469,6 +469,7 @@ tokio//0.2.9 tokio 0.2.9
 toml//0.4.10 toml 0.4.10
 toml//0.5.3 toml 0.5.3
 tower-service//0.3.0 tower-service 0.3.0
+tracing-attributes//0.1.6 tracing-attributes 0.1.6
 tracing-core//0.1.7 tracing-core 0.1.7
 try-lock//0.2.2 try-lock 0.2.2
 trybuild//1.0.17 trybuild 1.0.17
@@ -2630,6 +2631,8 @@ toml//0.5.3 serde//1.0.104
 toml//0.5.3 serde_derive//1.0.104 weak:test
 toml//0.5.3 serde_json//1.0.41 weak:test
 tower-service//0.3.0 http//0.1.21 weak:test
+tracing-attributes//0.1.6 quote//1.0.2
+tracing-attributes//0.1.6 syn//1.0.7
 tracing-core//0.1.7 lazy_static//1.4.0
 tracing-core//0.1.7 spin//0.5.2
 trybuild//1.0.17 glob//0.3.0
