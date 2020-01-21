@@ -122,6 +122,7 @@ futures-core//0.3.1 futures-core 0.3.1
 futures-executor//0.3.1 futures-executor 0.3.1
 futures-io//0.3.1 futures-io 0.3.1
 futures-macro//0.3.1 futures-macro 0.3.1
+futures-sink-preview//0.3.0.19 futures-sink-preview 0.3.0.19
 futures-sink//0.3.1 futures-sink 0.3.1
 futures-task//0.3.1 futures-task 0.3.1
 futures-test//0.3.1 futures-test 0.3.1
