@@ -456,6 +456,7 @@ tokio-reactor//0.1.11 tokio-reactor 0.1.11
 tokio-rustls//0.12.2 tokio-rustls 0.12.2
 tokio-signal//0.2.7 tokio-signal 0.2.7
 tokio-sync//0.1.7 tokio-sync 0.1.7
+tokio-sync//0.2.0.6 tokio-sync 0.2.0.6
 tokio-tcp//0.1.3 tokio-tcp 0.1.3
 tokio-test//0.2.0 tokio-test 0.2.0
 tokio-threadpool//0.1.17 tokio-threadpool 0.1.17
@@ -2438,6 +2439,11 @@ tokio-sync//0.1.7 futures//0.1.29
 tokio-sync//0.1.7 loom//0.1.1 weak:test
 tokio-sync//0.1.7 tokio-mock-task//0.1.1 weak:test
 tokio-sync//0.1.7 tokio//0.1.22 weak:test
+tokio-sync//0.2.0.6 fnv//1.0.6
+tokio-sync//0.2.0.6 futures-core-preview//0.3.0.19
+tokio-sync//0.2.0.6 futures-sink-preview//0.3.0.19 weak:feature:async-traits
+tokio-sync//0.2.0.6 futures-sink-preview//0.3.0.19 weak:optional
+tokio-sync//0.2.0.6 futures-util-preview//0.3.0.19
 tokio-tcp//0.1.3 bytes//0.4.12
 tokio-tcp//0.1.3 env_logger//0.5.13 weak:test
 tokio-tcp//0.1.3 futures//0.1.29
