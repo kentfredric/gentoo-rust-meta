@@ -4,7 +4,6 @@ use warnings;
 
 crate(
     'tracing-attributes' => '0.1.6',
-    missing_tests        => 1,
     requires             => {
         quote => '^1',
         syn   => '^1',

@@ -2636,6 +2636,8 @@ toml//0.5.3 serde_json//1.0.41 weak:test
 tower-service//0.3.0 http//0.1.21 weak:test
 tracing-attributes//0.1.6 quote//1.0.2
 tracing-attributes//0.1.6 syn//1.0.7
+tracing-attributes//0.1.6 tracing-futures//0.2.1 weak:test
+tracing-attributes//0.1.6 tracing//0.1.12 weak:test
 tracing-core//0.1.7 lazy_static//1.4.0
 tracing-core//0.1.7 spin//0.5.2
 tracing-core//0.1.9 lazy_static//1.4.0 feature:default
