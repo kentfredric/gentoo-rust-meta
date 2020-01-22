@@ -508,6 +508,7 @@ version_check//0.9.1 version_check 0.9.1
 wait-timeout//0.2.0 wait-timeout 0.2.0
 walkdir//1.0.7 walkdir 1.0.7
 walkdir//2.2.9 walkdir 2.2.9
+want//0.3.0 want 0.3.0
 webpki-roots//0.17.0 webpki-roots 0.17.0
 webpki-roots//0.18.0 webpki-roots 0.18.0
 webpki//0.21.0 webpki 0.21.0
@@ -2769,6 +2770,10 @@ walkdir//1.0.7 quickcheck//0.4.1 weak:test
 walkdir//1.0.7 same-file//0.1.3
 walkdir//2.2.9 doc-comment//0.3.1 weak:test
 walkdir//2.2.9 same-file//1.0.5
+want//0.3.0 log//0.4.8
+want//0.3.0 tokio-executor//0.2.0.6 weak:test
+want//0.3.0 tokio-sync//0.2.0.6 weak:test
+want//0.3.0 try-lock//0.2.2
 webpki-roots//0.17.0 webpki//0.21.0
 webpki-roots//0.18.0 webpki//0.21.0
 webpki//0.21.0 base64//0.9.3 weak:test
