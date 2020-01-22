@@ -447,6 +447,7 @@ tokio-codec//0.1.1 tokio-codec 0.1.1
 tokio-core//0.1.17 tokio-core 0.1.17
 tokio-current-thread//0.1.6 tokio-current-thread 0.1.6
 tokio-executor//0.1.9 tokio-executor 0.1.9
+tokio-executor//0.2.0.6 tokio-executor 0.2.0.6
 tokio-fs//0.1.6 tokio-fs 0.1.6
 tokio-io//0.1.11 tokio-io 0.1.11
 tokio-macros//0.2.3 tokio-macros 0.2.3
@@ -2379,6 +2380,28 @@ tokio-current-thread//0.1.6 tokio-executor//0.1.9
 tokio-executor//0.1.9 crossbeam-utils//0.6.6
 tokio-executor//0.1.9 futures//0.1.29
 tokio-executor//0.1.9 tokio//0.1.22 weak:test
+tokio-executor//0.2.0.6 crossbeam-channel//0.3.9 weak:feature:current-thread
+tokio-executor//0.2.0.6 crossbeam-channel//0.3.9 weak:optional
+tokio-executor//0.2.0.6 crossbeam-deque//0.7.1 weak:feature:threadpool
+tokio-executor//0.2.0.6 crossbeam-deque//0.7.1 weak:optional
+tokio-executor//0.2.0.6 crossbeam-queue//0.1.2 weak:feature:threadpool
+tokio-executor//0.2.0.6 crossbeam-queue//0.1.2 weak:optional
+tokio-executor//0.2.0.6 crossbeam-utils//0.6.6 weak:feature:threadpool
+tokio-executor//0.2.0.6 crossbeam-utils//0.6.6 weak:optional
+tokio-executor//0.2.0.6 futures-core-preview//0.3.0.19 weak:feature:threadpool
+tokio-executor//0.2.0.6 futures-core-preview//0.3.0.19 weak:optional
+tokio-executor//0.2.0.6 futures-util-preview//0.3.0.19
+tokio-executor//0.2.0.6 lazy_static//1.4.0 weak:feature:blocking
+tokio-executor//0.2.0.6 lazy_static//1.4.0 weak:feature:threadpool
+tokio-executor//0.2.0.6 lazy_static//1.4.0 weak:optional
+tokio-executor//0.2.0.6 num_cpus//1.10.1 weak:feature:threadpool
+tokio-executor//0.2.0.6 num_cpus//1.10.1 weak:optional
+tokio-executor//0.2.0.6 slab//0.4.2 weak:feature:threadpool
+tokio-executor//0.2.0.6 slab//0.4.2 weak:optional
+tokio-executor//0.2.0.6 tokio-sync//0.2.0.6 weak:feature:blocking
+tokio-executor//0.2.0.6 tokio-sync//0.2.0.6 weak:feature:threadpool
+tokio-executor//0.2.0.6 tokio-sync//0.2.0.6 weak:optional
+tokio-executor//0.2.0.6 tracing//0.1.12 weak:optional
 tokio-fs//0.1.6 futures//0.1.29
 tokio-fs//0.1.6 rand//0.6.5 weak:test
 tokio-fs//0.1.6 tempdir//0.3.7 weak:test
