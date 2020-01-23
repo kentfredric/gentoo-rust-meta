@@ -355,6 +355,7 @@ regex//0.1.80 regex 0.1.80
 regex//0.2.11 regex 0.2.11
 regex//1.3.1 regex 1.3.1
 remove_dir_all//0.5.2 remove_dir_all 0.5.2
+reqwest//0.10.0 reqwest 0.10.0
 ring//0.14.6 ring 0.14.6
 ring//0.16.9 ring 0.16.9
 rle-decode-fast//1.0.1 rle-decode-fast 1.0.1
@@ -2135,6 +2136,62 @@ regex//1.3.1 thread_local//0.3.6 weak:feature:perf
 regex//1.3.1 thread_local//0.3.6 weak:feature:perf-cache
 regex//1.3.1 thread_local//0.3.6 weak:optional
 remove_dir_all//0.5.2 doc-comment//0.3.1 weak:test
+reqwest//0.10.0 async-compression//0.2.0 weak:feature:gzip
+reqwest//0.10.0 async-compression//0.2.0 weak:optional
+reqwest//0.10.0 base64//0.11.0
+reqwest//0.10.0 bytes//0.5.3
+reqwest//0.10.0 cookie//0.12.0 weak:feature:cookies
+reqwest//0.10.0 cookie//0.12.0 weak:optional
+reqwest//0.10.0 cookie_store//0.10.0 weak:feature:cookies
+reqwest//0.10.0 cookie_store//0.10.0 weak:optional
+reqwest//0.10.0 doc-comment//0.3.1 weak:test
+reqwest//0.10.0 encoding_rs//0.8.22
+reqwest//0.10.0 env_logger//0.6.2 weak:test
+reqwest//0.10.0 futures-core//0.3.1
+reqwest//0.10.0 futures-util//0.3.1
+reqwest//0.10.0 http-body//0.3.1
+reqwest//0.10.0 http//0.2.0
+reqwest//0.10.0 hyper-rustls//0.19.1 weak:feature:rust-tls
+reqwest//0.10.0 hyper-rustls//0.19.1 weak:optional
+reqwest//0.10.0 hyper-tls//0.4.1 feature:default
+reqwest//0.10.0 hyper-tls//0.4.1 weak:feature:default-tls
+reqwest//0.10.0 hyper-tls//0.4.1 weak:feature:f_native-tls
+reqwest//0.10.0 hyper-tls//0.4.1 weak:feature:native-tls-vendored
+reqwest//0.10.0 hyper-tls//0.4.1 weak:optional
+reqwest//0.10.0 hyper//0.13.1
+reqwest//0.10.0 hyper//0.13.1 weak:test
+reqwest//0.10.0 lazy_static//1.4.0
+reqwest//0.10.0 libflate//0.1.27 weak:test
+reqwest//0.10.0 log//0.4.8
+reqwest//0.10.0 mime//0.3.16
+reqwest//0.10.0 mime_guess//2.0.1
+reqwest//0.10.0 native-tls//0.2.3 feature:default
+reqwest//0.10.0 native-tls//0.2.3 weak:feature:default-tls
+reqwest//0.10.0 native-tls//0.2.3 weak:feature:f_native-tls
+reqwest//0.10.0 native-tls//0.2.3 weak:feature:native-tls-vendored
+reqwest//0.10.0 native-tls//0.2.3 weak:optional
+reqwest//0.10.0 percent-encoding//2.1.0
+reqwest//0.10.0 pin-project-lite//0.1.2
+reqwest//0.10.0 rustls//0.16.0 weak:feature:rust-tls
+reqwest//0.10.0 rustls//0.16.0 weak:optional
+reqwest//0.10.0 serde//1.0.104
+reqwest//0.10.0 serde//1.0.104 weak:test
+reqwest//0.10.0 serde_json//1.0.41 weak:feature:json
+reqwest//0.10.0 serde_json//1.0.41 weak:optional
+reqwest//0.10.0 serde_urlencoded//0.6.1
+reqwest//0.10.0 time//0.1.42
+reqwest//0.10.0 tokio-rustls//0.12.2 weak:feature:rust-tls
+reqwest//0.10.0 tokio-rustls//0.12.2 weak:optional
+reqwest//0.10.0 tokio-tls//0.3.0 feature:default
+reqwest//0.10.0 tokio-tls//0.3.0 weak:feature:default-tls
+reqwest//0.10.0 tokio-tls//0.3.0 weak:feature:f_native-tls
+reqwest//0.10.0 tokio-tls//0.3.0 weak:feature:native-tls-vendored
+reqwest//0.10.0 tokio-tls//0.3.0 weak:optional
+reqwest//0.10.0 tokio//0.2.9
+reqwest//0.10.0 tokio//0.2.9 weak:test
+reqwest//0.10.0 url//2.1.1
+reqwest//0.10.0 webpki-roots//0.17.0 weak:feature:rust-tls
+reqwest//0.10.0 webpki-roots//0.17.0 weak:optional
 ring//0.14.6 cc//1.0.46
 ring//0.14.6 lazy_static//1.4.0
 ring//0.14.6 libc//0.2.66
