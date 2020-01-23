@@ -222,6 +222,7 @@ memmap//0.7.0 memmap 0.7.0
 memoffset//0.5.1 memoffset 0.5.1
 mesalink//1.1.0 mesalink 1.1.0
 mime//0.3.16 mime 0.3.16
+mime_guess//2.0.1 mime_guess 2.0.1
 miniz-sys//0.1.12 miniz-sys 0.1.12
 miniz_oxide//0.3.5 miniz_oxide 0.3.5
 mio-uds//0.6.7 mio-uds 0.6.7
@@ -1577,6 +1578,8 @@ mesalink//1.1.0 untrusted//0.7.0
 mesalink//1.1.0 walkdir//2.2.9
 mesalink//1.1.0 webpki-roots//0.17.0
 mesalink//1.1.0 webpki//0.21.0
+mime_guess//2.0.1 mime//0.3.16
+mime_guess//2.0.1 unicase//2.6.0
 miniz-sys//0.1.12 cc//1.0.46
 miniz-sys//0.1.12 libc//0.2.66
 miniz_oxide//0.3.5 adler32//1.0.4
