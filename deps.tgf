@@ -443,6 +443,7 @@ synstructure//0.12.1 synstructure 0.12.1
 synstructure_test_traits//0.1.0 synstructure_test_traits 0.1.0
 take_mut//0.2.2 take_mut 0.2.2
 tar//0.4.26 tar 0.4.26
+target-lexicon//0.10.0 target-lexicon 0.10.0
 tempdir//0.3.7 tempdir 0.3.7
 tempfile//3.1.0 tempfile 3.1.0
 tendril//0.4.1 tendril 0.4.1
