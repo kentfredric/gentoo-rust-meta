@@ -10,7 +10,6 @@ my %missing = (
 );
 crate(
     scroll_derive => '0.10.1',
-    missing_tests => 1,
     requires      => {
         'proc-macro2' => '^1',
         quote         => '^1',
