@@ -421,6 +421,7 @@ siphasher//0.2.3 siphasher 0.2.3
 slab//0.4.2 slab 0.4.2
 slog//2.5.2 slog 2.5.2
 smallvec//0.6.10 smallvec 0.6.10
+smallvec//1.1.0 smallvec 1.1.0
 spin//0.4.10 spin 0.4.10
 spin//0.5.2 spin 0.5.2
 spmc//0.3.0 spmc 0.3.0
@@ -2414,6 +2415,8 @@ slog//2.5.2 erased-serde//0.3.9 weak:feature:nested-values
 slog//2.5.2 erased-serde//0.3.9 weak:optional
 smallvec//0.6.10 bincode//1.2.0 weak:test
 smallvec//0.6.10 serde//1.0.104 weak:optional
+smallvec//1.1.0 bincode//1.2.0 weak:test
+smallvec//1.1.0 serde//1.0.104 weak:optional
 spmc//0.3.0 loom//0.2.14 weak:test
 stream-cipher//0.3.2 blobby//0.1.2 weak:feature:dev
 stream-cipher//0.3.2 blobby//0.1.2 weak:optional
