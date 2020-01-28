@@ -19,6 +19,7 @@ atom//0.3.5 atom 0.3.5
 atty//0.2.13 atty 0.2.13
 atty//0.2.14 atty 0.2.14
 autocfg//0.1.6 autocfg 0.1.6
+average//0.10.3 average 0.10.3
 average//0.9.4 average 0.9.4
 backtrace-sys//0.1.31 backtrace-sys 0.1.31
 backtrace//0.3.38 backtrace 0.3.38
@@ -676,6 +677,22 @@ atlatl//0.1.2 rand//0.5.6 weak:test
 atlatl//0.1.2 serde//1.0.104 weak:optional
 atty//0.2.13 libc//0.2.66
 atty//0.2.14 libc//0.2.66
+average//0.10.3 conv//0.3.3
+average//0.10.3 float-ord//0.2.0
+average//0.10.3 num-traits//0.2.8
+average//0.10.3 proptest//0.9.4 weak:test
+average//0.10.3 quantiles//0.7.1 weak:test
+average//0.10.3 rand//0.7.2 weak:test
+average//0.10.3 rand_distr//0.2.2 weak:test
+average//0.10.3 rand_xoshiro//0.3.1 weak:test
+average//0.10.3 serde-big-array//0.1.5 weak:feature:serde1
+average//0.10.3 serde-big-array//0.1.5 weak:optional
+average//0.10.3 serde//1.0.104 weak:feature:serde1
+average//0.10.3 serde//1.0.104 weak:optional
+average//0.10.3 serde_derive//1.0.104 weak:feature:serde1
+average//0.10.3 serde_derive//1.0.104 weak:optional
+average//0.10.3 serde_json//1.0.41 weak:test
+average//0.10.3 streaming-stats//0.2.2 weak:test
 average//0.9.4 conv//0.3.3
 average//0.9.4 float-ord//0.2.0
 average//0.9.4 num-integer//0.1.41
