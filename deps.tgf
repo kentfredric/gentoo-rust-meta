@@ -338,6 +338,7 @@ rand_core//0.2.2 rand_core 0.2.2
 rand_core//0.3.1 rand_core 0.3.1
 rand_core//0.4.2 rand_core 0.4.2
 rand_core//0.5.1 rand_core 0.5.1
+rand_distr//0.2.2 rand_distr 0.2.2
 rand_hc//0.1.0 rand_hc 0.1.0
 rand_hc//0.2.0 rand_hc 0.2.0
 rand_isaac//0.1.1 rand_isaac 0.1.1
@@ -2115,6 +2116,7 @@ rand_core//0.5.1 getrandom//0.1.13 weak:feature:std
 rand_core//0.5.1 getrandom//0.1.13 weak:optional
 rand_core//0.5.1 serde//1.0.104 weak:feature:serde1
 rand_core//0.5.1 serde//1.0.104 weak:optional
+rand_distr//0.2.2 rand//0.7.2
 rand_hc//0.1.0 rand_core//0.3.1
 rand_hc//0.2.0 rand_core//0.5.1
 rand_isaac//0.1.1 bincode//1.2.0 weak:test
