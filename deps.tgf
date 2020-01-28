@@ -1,4 +1,5 @@
 addr2line//0.10.0 addr2line 0.10.0
+addr2line//0.11.0 addr2line 0.11.0
 adler32//1.0.4 adler32 1.0.4
 afl//0.4.4 afl 0.4.4
 aho-corasick//0.5.3 aho-corasick 0.5.3
@@ -564,6 +565,22 @@ addr2line//0.10.0 object//0.12.0 weak:optional
 addr2line//0.10.0 rustc-demangle//0.1.16 feature:default
 addr2line//0.10.0 rustc-demangle//0.1.16 weak:optional
 addr2line//0.10.0 smallvec//0.6.10
+addr2line//0.11.0 backtrace//0.3.38 weak:test
+addr2line//0.11.0 clap//2.33.0 weak:test
+addr2line//0.11.0 cpp_demangle//0.2.13 feature:default
+addr2line//0.11.0 cpp_demangle//0.2.13 weak:optional
+addr2line//0.11.0 fallible-iterator//0.2.0
+addr2line//0.11.0 findshlibs//0.5.0 weak:test
+addr2line//0.11.0 gimli//0.20.0
+addr2line//0.11.0 lazycell//1.2.1
+addr2line//0.11.0 memmap//0.7.0 weak:test
+addr2line//0.11.0 object//0.17.0 feature:default
+addr2line//0.11.0 object//0.17.0 weak:feature:std-object
+addr2line//0.11.0 object//0.17.0 weak:optional
+addr2line//0.11.0 rustc-demangle//0.1.16 feature:default
+addr2line//0.11.0 rustc-demangle//0.1.16 weak:optional
+addr2line//0.11.0 rustc-test//0.3.0 weak:test
+addr2line//0.11.0 smallvec//1.1.0
 adler32//1.0.4 rand//0.4.6 weak:test
 afl//0.4.4 cc//1.0.46
 afl//0.4.4 clap//2.33.0
