@@ -3,9 +3,8 @@ use strict;
 use warnings;
 
 crate(
-    rand_distr    => '0.2.2',
-    missing_tests => 1,
-    requires      => {
+    rand_distr => '0.2.2',
+    requires   => {
         rand => '^0.7',
     },
     test => {
