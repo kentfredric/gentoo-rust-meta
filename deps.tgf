@@ -76,6 +76,7 @@ crc32fast//1.2.0 crc32fast 1.2.0
 crossbeam-channel//0.3.9 crossbeam-channel 0.3.9
 crossbeam-channel//0.4.0 crossbeam-channel 0.4.0
 crossbeam-deque//0.7.1 crossbeam-deque 0.7.1
+crossbeam-deque//0.7.2 crossbeam-deque 0.7.2
 crossbeam-epoch//0.7.2 crossbeam-epoch 0.7.2
 crossbeam-epoch//0.8.0 crossbeam-epoch 0.8.0
 crossbeam-queue//0.1.2 crossbeam-queue 0.1.2
@@ -1012,6 +1013,9 @@ crossbeam-channel//0.4.0 signal-hook//0.1.12 weak:test
 crossbeam-deque//0.7.1 crossbeam-epoch//0.7.2
 crossbeam-deque//0.7.1 crossbeam-utils//0.6.6
 crossbeam-deque//0.7.1 rand//0.6.5 weak:test
+crossbeam-deque//0.7.2 crossbeam-epoch//0.8.0
+crossbeam-deque//0.7.2 crossbeam-utils//0.7.0
+crossbeam-deque//0.7.2 rand//0.6.5 weak:test
 crossbeam-epoch//0.7.2 arrayvec//0.4.12
 crossbeam-epoch//0.7.2 cfg-if//0.1.10
 crossbeam-epoch//0.7.2 crossbeam-utils//0.6.6
@@ -1049,9 +1053,9 @@ crossbeam//0.7.3 cfg-if//0.1.10
 crossbeam//0.7.3 crossbeam-channel//0.4.0 feature:default
 crossbeam//0.7.3 crossbeam-channel//0.4.0 weak:feature:std
 crossbeam//0.7.3 crossbeam-channel//0.4.0 weak:optional
-crossbeam//0.7.3 crossbeam-deque//0.7.1 feature:default
-crossbeam//0.7.3 crossbeam-deque//0.7.1 weak:feature:std
-crossbeam//0.7.3 crossbeam-deque//0.7.1 weak:optional
+crossbeam//0.7.3 crossbeam-deque//0.7.2 feature:default
+crossbeam//0.7.3 crossbeam-deque//0.7.2 weak:feature:std
+crossbeam//0.7.3 crossbeam-deque//0.7.2 weak:optional
 crossbeam//0.7.3 crossbeam-epoch//0.8.0
 crossbeam//0.7.3 crossbeam-queue//0.2.0 feature:default
 crossbeam//0.7.3 crossbeam-queue//0.2.0 weak:feature:std
@@ -2263,7 +2267,7 @@ rand_xoshiro//0.4.0 bincode//1.2.1 weak:test
 rand_xoshiro//0.4.0 rand_core//0.5.1
 rand_xoshiro//0.4.0 serde//1.0.104 weak:feature:serde1
 rand_xoshiro//0.4.0 serde//1.0.104 weak:optional
-rayon-core//1.6.0 crossbeam-deque//0.7.1
+rayon-core//1.6.0 crossbeam-deque//0.7.2
 rayon-core//1.6.0 crossbeam-queue//0.1.2
 rayon-core//1.6.0 crossbeam-utils//0.6.6
 rayon-core//1.6.0 lazy_static//1.4.0
@@ -2273,7 +2277,7 @@ rayon-core//1.6.0 rand//0.6.5 weak:test
 rayon-core//1.6.0 rand_xorshift//0.1.1 weak:test
 rayon-core//1.6.0 scoped-tls//1.0.0 weak:test
 rayon//0.8.2 rayon-core//1.6.0
-rayon//1.2.0 crossbeam-deque//0.7.1
+rayon//1.2.0 crossbeam-deque//0.7.2
 rayon//1.2.0 doc-comment//0.3.1 weak:test
 rayon//1.2.0 either//1.5.3
 rayon//1.2.0 lazy_static//1.4.0 weak:test
@@ -2755,8 +2759,8 @@ tokio-executor//0.1.9 futures//0.1.29
 tokio-executor//0.1.9 tokio//0.1.22 weak:test
 tokio-executor//0.2.0.6 crossbeam-channel//0.3.9 weak:feature:current-thread
 tokio-executor//0.2.0.6 crossbeam-channel//0.3.9 weak:optional
-tokio-executor//0.2.0.6 crossbeam-deque//0.7.1 weak:feature:threadpool
-tokio-executor//0.2.0.6 crossbeam-deque//0.7.1 weak:optional
+tokio-executor//0.2.0.6 crossbeam-deque//0.7.2 weak:feature:threadpool
+tokio-executor//0.2.0.6 crossbeam-deque//0.7.2 weak:optional
 tokio-executor//0.2.0.6 crossbeam-queue//0.1.2 weak:feature:threadpool
 tokio-executor//0.2.0.6 crossbeam-queue//0.1.2 weak:optional
 tokio-executor//0.2.0.6 crossbeam-utils//0.6.6 weak:feature:threadpool
@@ -2857,7 +2861,7 @@ tokio-test//0.2.0 futures-core//0.3.1
 tokio-test//0.2.0 futures-util//0.3.1 weak:test
 tokio-test//0.2.0 tokio//0.2.9
 tokio-test//0.2.0 tokio//0.2.9 weak:test
-tokio-threadpool//0.1.17 crossbeam-deque//0.7.1
+tokio-threadpool//0.1.17 crossbeam-deque//0.7.2
 tokio-threadpool//0.1.17 crossbeam-queue//0.1.2
 tokio-threadpool//0.1.17 crossbeam-utils//0.6.6
 tokio-threadpool//0.1.17 env_logger//0.6.2 weak:test
