@@ -87,6 +87,7 @@ crossbeam-utils//0.7.0 crossbeam-utils 0.7.0
 crossbeam//0.7.3 crossbeam 0.7.3
 ct-logs//0.6.0 ct-logs 0.6.0
 curl-sys//0.4.23 curl-sys 0.4.23
+curl-sys//0.4.25 curl-sys 0.4.25
 custom_derive//0.1.7 custom_derive 0.1.7
 defmac//0.1.3 defmac 0.1.3
 demo-hack-impl//0.0.4 demo-hack-impl 0.0.4
@@ -1078,6 +1079,17 @@ curl-sys//0.4.23 openssl-sys//0.9.53 weak:feature:ssl
 curl-sys//0.4.23 openssl-sys//0.9.53 weak:feature:static-ssl
 curl-sys//0.4.23 openssl-sys//0.9.53 weak:optional
 curl-sys//0.4.23 pkg-config//0.3.16
+curl-sys//0.4.25 cc//1.0.46
+curl-sys//0.4.25 libc//0.2.66
+curl-sys//0.4.25 libnghttp2-sys//0.1.2 weak:feature:http2
+curl-sys//0.4.25 libnghttp2-sys//0.1.2 weak:optional
+curl-sys//0.4.25 libz-sys//1.0.25
+curl-sys//0.4.25 mesalink//1.1.0 weak:optional
+curl-sys//0.4.25 openssl-sys//0.9.53 feature:default
+curl-sys//0.4.25 openssl-sys//0.9.53 weak:feature:ssl
+curl-sys//0.4.25 openssl-sys//0.9.53 weak:feature:static-ssl
+curl-sys//0.4.25 openssl-sys//0.9.53 weak:optional
+curl-sys//0.4.25 pkg-config//0.3.16
 custom_derive//0.1.7 rustc-serialize//0.3.24 weak:test
 demo-hack-impl//0.0.4 proc-macro-hack-impl//0.4.2
 demo-hack-impl//0.0.5 proc-macro-hack//0.5.11
@@ -1662,8 +1674,8 @@ libflate//0.1.27 rle-decode-fast//1.0.1
 libflate//0.1.27 take_mut//0.2.2
 libgit2-sys//0.6.19 cc//1.0.46
 libgit2-sys//0.6.19 cmake//0.1.42
-libgit2-sys//0.6.19 curl-sys//0.4.23 weak:feature:curl
-libgit2-sys//0.6.19 curl-sys//0.4.23 weak:optional
+libgit2-sys//0.6.19 curl-sys//0.4.25 weak:feature:curl
+libgit2-sys//0.6.19 curl-sys//0.4.25 weak:optional
 libgit2-sys//0.6.19 libc//0.2.66
 libgit2-sys//0.6.19 libssh2-sys//0.2.13 weak:feature:ssh
 libgit2-sys//0.6.19 libssh2-sys//0.2.13 weak:optional
