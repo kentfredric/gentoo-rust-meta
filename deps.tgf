@@ -90,6 +90,7 @@ curl-sys//0.4.23 curl-sys 0.4.23
 curl-sys//0.4.25 curl-sys 0.4.25
 custom_derive//0.1.7 custom_derive 0.1.7
 defmac//0.1.3 defmac 0.1.3
+defmac//0.2.1 defmac 0.2.1
 demo-hack-impl//0.0.4 demo-hack-impl 0.0.4
 demo-hack-impl//0.0.5 demo-hack-impl 0.0.5
 demo-hack//0.0.4 demo-hack 0.0.4
