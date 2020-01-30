@@ -50,6 +50,7 @@ byteorder//1.3.2 byteorder 1.3.2
 bytes//0.3.0 bytes 0.3.0
 bytes//0.4.12 bytes 0.4.12
 bytes//0.5.3 bytes 0.5.3
+bytes//0.5.4 bytes 0.5.4
 bzip2-sys//0.1.7 bzip2-sys 0.1.7
 bzip2//0.3.3 bzip2 0.3.3
 c2-chacha//0.2.3 c2-chacha 0.2.3
@@ -641,10 +642,10 @@ async-compression//0.2.0 brotli2//0.3.2 weak:feature:all
 async-compression//0.2.0 brotli2//0.3.2 weak:feature:all-algorithms
 async-compression//0.2.0 brotli2//0.3.2 weak:feature:brotli
 async-compression//0.2.0 brotli2//0.3.2 weak:optional
-async-compression//0.2.0 bytes//0.5.3 weak:feature:all
-async-compression//0.2.0 bytes//0.5.3 weak:feature:all-implementations
-async-compression//0.2.0 bytes//0.5.3 weak:feature:stream
-async-compression//0.2.0 bytes//0.5.3 weak:optional
+async-compression//0.2.0 bytes//0.5.4 weak:feature:all
+async-compression//0.2.0 bytes//0.5.4 weak:feature:all-implementations
+async-compression//0.2.0 bytes//0.5.4 weak:feature:stream
+async-compression//0.2.0 bytes//0.5.4 weak:optional
 async-compression//0.2.0 bzip2//0.3.3 weak:feature:all
 async-compression//0.2.0 bzip2//0.3.3 weak:feature:all-algorithms
 async-compression//0.2.0 bzip2//0.3.3 weak:optional
@@ -860,6 +861,9 @@ bytes//0.4.12 serde_test//1.0.102 weak:test
 bytes//0.5.3 loom//0.2.14 weak:test
 bytes//0.5.3 serde//1.0.104 weak:optional
 bytes//0.5.3 serde_test//1.0.102 weak:test
+bytes//0.5.4 loom//0.2.14 weak:test
+bytes//0.5.4 serde//1.0.104 weak:optional
+bytes//0.5.4 serde_test//1.0.102 weak:test
 bzip2-sys//0.1.7 cc//1.0.46
 bzip2-sys//0.1.7 libc//0.2.66
 bzip2//0.3.3 bzip2-sys//0.1.7
@@ -1401,7 +1405,7 @@ goblin//0.1.3 log//0.4.8 weak:feature:std
 goblin//0.1.3 log//0.4.8 weak:optional
 goblin//0.1.3 plain//0.2.3
 goblin//0.1.3 scroll//0.10.1
-h2//0.2.1 bytes//0.5.3
+h2//0.2.1 bytes//0.5.4
 h2//0.2.1 env_logger//0.5.13 weak:test
 h2//0.2.1 fnv//1.0.6
 h2//0.2.1 futures-core//0.3.1
@@ -1443,7 +1447,7 @@ html5ever//0.22.5 proc-macro2//0.4.30
 html5ever//0.22.5 quote//0.6.13
 html5ever//0.22.5 rustc-serialize//0.3.24 weak:test
 html5ever//0.22.5 rustc-test//0.3.0 weak:test
-http-body//0.3.1 bytes//0.5.3
+http-body//0.3.1 bytes//0.5.4
 http-body//0.3.1 http//0.2.0
 http//0.1.21 bytes//0.4.12
 http//0.1.21 doc-comment//0.3.1 weak:test
@@ -1455,7 +1459,7 @@ http//0.1.21 rand//0.4.6 weak:test
 http//0.1.21 seahash//3.0.6 weak:test
 http//0.1.21 serde//1.0.104 weak:test
 http//0.1.21 serde_json//1.0.41 weak:test
-http//0.2.0 bytes//0.5.3
+http//0.2.0 bytes//0.5.4
 http//0.2.0 doc-comment//0.3.1 weak:test
 http//0.2.0 fnv//1.0.6
 http//0.2.0 indexmap//1.3.0 weak:test
@@ -1469,7 +1473,7 @@ httparse//1.3.4 pico-sys//0.0.1 weak:test
 humantime//1.3.0 quick-error//1.2.2
 humantime//1.3.0 rand//0.4.6 weak:test
 humantime//1.3.0 time//0.1.42 weak:test
-hyper-rustls//0.19.1 bytes//0.5.3
+hyper-rustls//0.19.1 bytes//0.5.4
 hyper-rustls//0.19.1 ct-logs//0.6.0 feature:default
 hyper-rustls//0.19.1 ct-logs//0.6.0 weak:feature:tokio-runtime
 hyper-rustls//0.19.1 ct-logs//0.6.0 weak:optional
@@ -1483,13 +1487,13 @@ hyper-rustls//0.19.1 tokio-rustls//0.12.2
 hyper-rustls//0.19.1 tokio//0.2.9
 hyper-rustls//0.19.1 tokio//0.2.9 weak:test
 hyper-rustls//0.19.1 webpki//0.21.0
-hyper-tls//0.4.1 bytes//0.5.3
+hyper-tls//0.4.1 bytes//0.5.4
 hyper-tls//0.4.1 hyper//0.13.1
 hyper-tls//0.4.1 native-tls//0.2.3
 hyper-tls//0.4.1 tokio-tls//0.3.0
 hyper-tls//0.4.1 tokio//0.2.9
 hyper-tls//0.4.1 tokio//0.2.9 weak:test
-hyper//0.13.1 bytes//0.5.3
+hyper//0.13.1 bytes//0.5.4
 hyper//0.13.1 futures-channel//0.3.1
 hyper//0.13.1 futures-core//0.3.1
 hyper//0.13.1 futures-util//0.3.1
@@ -2330,7 +2334,7 @@ remove_dir_all//0.5.2 doc-comment//0.3.1 weak:test
 reqwest//0.10.0 async-compression//0.2.0 weak:feature:gzip
 reqwest//0.10.0 async-compression//0.2.0 weak:optional
 reqwest//0.10.0 base64//0.11.0
-reqwest//0.10.0 bytes//0.5.3
+reqwest//0.10.0 bytes//0.5.4
 reqwest//0.10.0 cookie//0.12.0 weak:feature:cookies
 reqwest//0.10.0 cookie//0.12.0 weak:optional
 reqwest//0.10.0 cookie_store//0.10.0 weak:feature:cookies
@@ -2811,8 +2815,8 @@ tokio-reactor//0.1.11 slab//0.4.2
 tokio-reactor//0.1.11 tokio-executor//0.1.9
 tokio-reactor//0.1.11 tokio-io//0.1.11
 tokio-reactor//0.1.11 tokio-sync//0.1.7
-tokio-rustls//0.12.2 bytes//0.5.3 weak:feature:unstable
-tokio-rustls//0.12.2 bytes//0.5.3 weak:optional
+tokio-rustls//0.12.2 bytes//0.5.4 weak:feature:unstable
+tokio-rustls//0.12.2 bytes//0.5.4 weak:optional
 tokio-rustls//0.12.2 futures-core//0.3.1
 tokio-rustls//0.12.2 futures-util//0.3.1 weak:test
 tokio-rustls//0.12.2 lazy_static//1.4.0 weak:test
@@ -2848,7 +2852,7 @@ tokio-tcp//0.1.3 mio//0.6.21
 tokio-tcp//0.1.3 tokio-io//0.1.11
 tokio-tcp//0.1.3 tokio-reactor//0.1.11
 tokio-tcp//0.1.3 tokio//0.1.22 weak:test
-tokio-test//0.2.0 bytes//0.5.3
+tokio-test//0.2.0 bytes//0.5.4
 tokio-test//0.2.0 futures-core//0.3.1
 tokio-test//0.2.0 futures-util//0.3.1 weak:test
 tokio-test//0.2.0 tokio//0.2.9
@@ -2898,7 +2902,7 @@ tokio-uds//0.2.5 tokio-codec//0.1.1
 tokio-uds//0.2.5 tokio-io//0.1.11
 tokio-uds//0.2.5 tokio-reactor//0.1.11
 tokio-uds//0.2.5 tokio//0.1.22 weak:test
-tokio-util//0.2.0 bytes//0.5.3
+tokio-util//0.2.0 bytes//0.5.4
 tokio-util//0.2.0 futures-core//0.3.1
 tokio-util//0.2.0 futures-sink//0.3.1
 tokio-util//0.2.0 futures//0.3.1 weak:test
@@ -2962,7 +2966,7 @@ tokio//0.1.22 tokio-uds//0.2.5 weak:feature:uds
 tokio//0.1.22 tokio-uds//0.2.5 weak:optional
 tokio//0.1.22 tracing-core//0.1.9 weak:feature:experimental-tracing
 tokio//0.1.22 tracing-core//0.1.9 weak:optional
-tokio//0.2.9 bytes//0.5.3
+tokio//0.2.9 bytes//0.5.4
 tokio//0.2.9 fnv//1.0.6 weak:feature:full
 tokio//0.2.9 fnv//1.0.6 weak:feature:sync
 tokio//0.2.9 fnv//1.0.6 weak:optional
