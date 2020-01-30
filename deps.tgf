@@ -81,6 +81,7 @@ crossbeam-epoch//0.7.2 crossbeam-epoch 0.7.2
 crossbeam-epoch//0.8.0 crossbeam-epoch 0.8.0
 crossbeam-queue//0.1.2 crossbeam-queue 0.1.2
 crossbeam-queue//0.2.0 crossbeam-queue 0.2.0
+crossbeam-queue//0.2.1 crossbeam-queue 0.2.1
 crossbeam-utils//0.6.6 crossbeam-utils 0.6.6
 crossbeam-utils//0.7.0 crossbeam-utils 0.7.0
 crossbeam//0.7.3 crossbeam 0.7.3
@@ -1038,6 +1039,9 @@ crossbeam-queue//0.1.2 crossbeam-utils//0.6.6
 crossbeam-queue//0.1.2 rand//0.6.5 weak:test
 crossbeam-queue//0.2.0 crossbeam-utils//0.7.0
 crossbeam-queue//0.2.0 rand//0.6.5 weak:test
+crossbeam-queue//0.2.1 cfg-if//0.1.10
+crossbeam-queue//0.2.1 crossbeam-utils//0.7.0
+crossbeam-queue//0.2.1 rand//0.6.5 weak:test
 crossbeam-utils//0.6.6 cfg-if//0.1.10
 crossbeam-utils//0.6.6 lazy_static//1.4.0 feature:default
 crossbeam-utils//0.6.6 lazy_static//1.4.0 weak:feature:std
@@ -1057,9 +1061,9 @@ crossbeam//0.7.3 crossbeam-deque//0.7.2 feature:default
 crossbeam//0.7.3 crossbeam-deque//0.7.2 weak:feature:std
 crossbeam//0.7.3 crossbeam-deque//0.7.2 weak:optional
 crossbeam//0.7.3 crossbeam-epoch//0.8.0
-crossbeam//0.7.3 crossbeam-queue//0.2.0 feature:default
-crossbeam//0.7.3 crossbeam-queue//0.2.0 weak:feature:std
-crossbeam//0.7.3 crossbeam-queue//0.2.0 weak:optional
+crossbeam//0.7.3 crossbeam-queue//0.2.1 feature:default
+crossbeam//0.7.3 crossbeam-queue//0.2.1 weak:feature:std
+crossbeam//0.7.3 crossbeam-queue//0.2.1 weak:optional
 crossbeam//0.7.3 crossbeam-utils//0.7.0
 crossbeam//0.7.3 rand//0.6.5 weak:test
 ct-logs//0.6.0 sct//0.6.0
