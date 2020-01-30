@@ -22,6 +22,7 @@ autocfg//0.1.6 autocfg 0.1.6
 average//0.10.3 average 0.10.3
 average//0.9.4 average 0.9.4
 backtrace-sys//0.1.31 backtrace-sys 0.1.31
+backtrace-sys//0.1.32 backtrace-sys 0.1.32
 backtrace//0.3.38 backtrace 0.3.38
 base64//0.10.1 base64 0.10.1
 base64//0.11.0 base64 0.11.0
@@ -709,11 +710,13 @@ average//0.9.4 serde_json//1.0.41 weak:test
 average//0.9.4 streaming-stats//0.2.2 weak:test
 backtrace-sys//0.1.31 cc//1.0.46
 backtrace-sys//0.1.31 libc//0.2.66
+backtrace-sys//0.1.32 cc//1.0.46
+backtrace-sys//0.1.32 libc//0.2.66
 backtrace//0.3.38 addr2line//0.10.0 weak:feature:gimli-symbolize
 backtrace//0.3.38 addr2line//0.10.0 weak:optional
-backtrace//0.3.38 backtrace-sys//0.1.31 feature:default
-backtrace//0.3.38 backtrace-sys//0.1.31 weak:feature:libbacktrace
-backtrace//0.3.38 backtrace-sys//0.1.31 weak:optional
+backtrace//0.3.38 backtrace-sys//0.1.32 feature:default
+backtrace//0.3.38 backtrace-sys//0.1.32 weak:feature:libbacktrace
+backtrace//0.3.38 backtrace-sys//0.1.32 weak:optional
 backtrace//0.3.38 cfg-if//0.1.10
 backtrace//0.3.38 cpp_demangle//0.2.13 weak:optional
 backtrace//0.3.38 findshlibs//0.5.0 weak:feature:gimli-symbolize
