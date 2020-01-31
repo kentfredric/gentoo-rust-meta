@@ -455,6 +455,7 @@ strsim//0.8.0 strsim 0.8.0
 sval//0.4.7 sval 0.4.7
 sval_derive//0.4.7 sval_derive 0.4.7
 syn//0.11.11 syn 0.11.11
+syn//0.14.9 syn 0.14.9
 syn//0.15.29 syn 0.15.29
 syn//0.15.44 syn 0.15.44
 syn//1.0.13 syn 1.0.13
@@ -2628,6 +2629,12 @@ syn//0.11.11 synom//0.11.3 weak:optional
 syn//0.11.11 unicode-xid//0.0.4 feature:default
 syn//0.11.11 unicode-xid//0.0.4 weak:feature:parsing
 syn//0.11.11 unicode-xid//0.0.4 weak:optional
+syn//0.14.9 proc-macro2//0.4.30
+syn//0.14.9 quote//0.6.13 feature:default
+syn//0.14.9 quote//0.6.13 weak:feature:printing
+syn//0.14.9 quote//0.6.13 weak:feature:proc-macro
+syn//0.14.9 quote//0.6.13 weak:optional
+syn//0.14.9 unicode-xid//0.1.0 weak:optional
 syn//0.15.29 proc-macro2//0.4.30
 syn//0.15.29 quote//0.6.13 feature:default
 syn//0.15.29 quote//0.6.13 weak:feature:printing
