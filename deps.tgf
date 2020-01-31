@@ -96,6 +96,7 @@ demo-hack-impl//0.0.5 demo-hack-impl 0.0.5
 demo-hack//0.0.4 demo-hack 0.0.4
 demo-hack//0.0.5 demo-hack 0.0.5
 diff//0.1.11 diff 0.1.11
+diff//0.1.12 diff 0.1.12
 difference//2.0.0 difference 2.0.0
 digest//0.8.1 digest 0.8.1
 dirs-sys//0.3.4 dirs-sys 0.3.4
@@ -791,7 +792,7 @@ bindgen//0.51.1 clang-sys//0.28.1
 bindgen//0.51.1 clap//2.33.0 feature:default
 bindgen//0.51.1 clap//2.33.0 weak:optional
 bindgen//0.51.1 clap//2.33.0 weak:test
-bindgen//0.51.1 diff//0.1.11 weak:test
+bindgen//0.51.1 diff//0.1.12 weak:test
 bindgen//0.51.1 env_logger//0.6.2 feature:default
 bindgen//0.51.1 env_logger//0.6.2 weak:feature:logging
 bindgen//0.51.1 env_logger//0.6.2 weak:optional
@@ -815,7 +816,7 @@ bindgen//0.52.0 clang-sys//0.28.1
 bindgen//0.52.0 clap//2.33.0 feature:default
 bindgen//0.52.0 clap//2.33.0 weak:optional
 bindgen//0.52.0 clap//2.33.0 weak:test
-bindgen//0.52.0 diff//0.1.11 weak:test
+bindgen//0.52.0 diff//0.1.12 weak:test
 bindgen//0.52.0 env_logger//0.7.1 feature:default
 bindgen//0.52.0 env_logger//0.7.1 weak:feature:logging
 bindgen//0.52.0 env_logger//0.7.1 weak:optional
@@ -941,7 +942,7 @@ clap//2.33.0 yaml-rust//0.3.5 weak:optional
 clicolors-control//1.0.1 lazy_static//1.4.0
 clicolors-control//1.0.1 libc//0.2.66
 cmake//0.1.42 cc//1.0.46
-compiletest_rs//0.3.26 diff//0.1.11
+compiletest_rs//0.3.26 diff//0.1.12
 compiletest_rs//0.3.26 filetime//0.2.8
 compiletest_rs//0.3.26 getopts//0.2.21
 compiletest_rs//0.3.26 libc//0.2.66
@@ -999,7 +1000,7 @@ cookie_store//0.10.0 url//2.1.1
 cpp_demangle//0.2.13 afl//0.4.4 weak:feature:fuzz
 cpp_demangle//0.2.13 afl//0.4.4 weak:optional
 cpp_demangle//0.2.13 cfg-if//0.1.10
-cpp_demangle//0.2.13 diff//0.1.11 weak:test
+cpp_demangle//0.2.13 diff//0.1.12 weak:test
 cpp_demangle//0.2.13 glob//0.3.0
 crates-index//0.5.1 git2//0.6.11
 crates-index//0.5.1 glob//0.2.11
@@ -1102,6 +1103,8 @@ demo-hack//0.0.4 demo-hack-impl//0.0.4
 demo-hack//0.0.4 proc-macro-hack//0.4.2
 demo-hack//0.0.5 demo-hack-impl//0.0.5
 demo-hack//0.0.5 proc-macro-hack//0.5.11
+diff//0.1.12 quickcheck//0.9.0 weak:test
+diff//0.1.12 speculate//0.1.2 weak:test
 difference//2.0.0 getopts//0.2.21 weak:feature:bin
 difference//2.0.0 getopts//0.2.21 weak:optional
 difference//2.0.0 quickcheck//0.4.1 weak:test
