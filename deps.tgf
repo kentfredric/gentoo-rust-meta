@@ -442,6 +442,7 @@ slab//0.4.2 slab 0.4.2
 slog//2.5.2 slog 2.5.2
 smallvec//0.6.10 smallvec 0.6.10
 smallvec//1.1.0 smallvec 1.1.0
+speculate//0.1.2 speculate 0.1.2
 spin//0.4.10 spin 0.4.10
 spin//0.5.2 spin 0.5.2
 spmc//0.3.0 spmc 0.3.0
@@ -2590,6 +2591,10 @@ smallvec//0.6.10 bincode//1.2.1 weak:test
 smallvec//0.6.10 serde//1.0.104 weak:optional
 smallvec//1.1.0 bincode//1.2.1 weak:test
 smallvec//1.1.0 serde//1.0.104 weak:optional
+speculate//0.1.2 proc-macro2//0.4.30
+speculate//0.1.2 quote//0.6.13
+speculate//0.1.2 syn//0.14.9
+speculate//0.1.2 unicode-xid//0.1.0
 spmc//0.3.0 loom//0.2.14 weak:test
 stream-cipher//0.3.2 blobby//0.1.2 weak:feature:dev
 stream-cipher//0.3.2 blobby//0.1.2 weak:optional
