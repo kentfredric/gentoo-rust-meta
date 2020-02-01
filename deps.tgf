@@ -104,6 +104,7 @@ dirs//2.0.2 dirs 2.0.2
 doc-comment//0.3.1 doc-comment 0.3.1
 dtoa//0.2.2 dtoa 0.2.2
 dtoa//0.4.4 dtoa 0.4.4
+dtoa//0.4.5 dtoa 0.4.5
 either//1.5.3 either 1.5.3
 encoding-index-japanese//1.20141219.5 encoding-index-japanese 1.20141219.5
 encoding-index-korean//1.20141219.5 encoding-index-korean 1.20141219.5
@@ -2550,12 +2551,12 @@ serde_test//0.8.23 serde//0.8.23
 serde_test//1.0.102 serde//1.0.104
 serde_test//1.0.102 serde//1.0.104 weak:test
 serde_test//1.0.102 serde_derive//1.0.104 weak:test
-serde_urlencoded//0.6.1 dtoa//0.4.4
+serde_urlencoded//0.6.1 dtoa//0.4.5
 serde_urlencoded//0.6.1 itoa//0.4.4
 serde_urlencoded//0.6.1 serde//1.0.104
 serde_urlencoded//0.6.1 serde_derive//1.0.104 weak:test
 serde_urlencoded//0.6.1 url//2.1.1
-serde_yaml//0.8.11 dtoa//0.4.4
+serde_yaml//0.8.11 dtoa//0.4.5
 serde_yaml//0.8.11 linked-hash-map//0.5.2
 serde_yaml//0.8.11 serde//1.0.104
 serde_yaml//0.8.11 serde_derive//1.0.104 weak:test
