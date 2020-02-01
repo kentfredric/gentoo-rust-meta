@@ -129,6 +129,7 @@ fallible-iterator//0.2.0 fallible-iterator 0.2.0
 filetime//0.2.8 filetime 0.2.8
 findshlibs//0.5.0 findshlibs 0.5.0
 fixedbitset//0.1.9 fixedbitset 0.1.9
+fixedbitset//0.2.0 fixedbitset 0.2.0
 flate2//1.0.13 flate2 1.0.13
 float-ord//0.2.0 float-ord 0.2.0
 fnv//1.0.6 fnv 1.0.6
