@@ -119,6 +119,7 @@ env_logger//0.4.3 env_logger 0.4.3
 env_logger//0.5.13 env_logger 0.5.13
 env_logger//0.6.2 env_logger 0.6.2
 env_logger//0.7.1 env_logger 0.7.1
+erased-serde//0.3.10 erased-serde 0.3.10
 erased-serde//0.3.9 erased-serde 0.3.9
 error-chain//0.12.1 error-chain 0.12.1
 failure//0.1.6 failure 0.1.6
@@ -1160,6 +1161,10 @@ env_logger//0.7.1 regex//1.3.1 feature:default
 env_logger//0.7.1 regex//1.3.1 weak:optional
 env_logger//0.7.1 termcolor//1.0.5 feature:default
 env_logger//0.7.1 termcolor//1.0.5 weak:optional
+erased-serde//0.3.10 serde//1.0.104
+erased-serde//0.3.10 serde_cbor//0.9.0 weak:test
+erased-serde//0.3.10 serde_derive//1.0.104 weak:test
+erased-serde//0.3.10 serde_json//1.0.41 weak:test
 erased-serde//0.3.9 serde//1.0.104
 erased-serde//0.3.9 serde_cbor//0.9.0 weak:test
 erased-serde//0.3.9 serde_derive//1.0.104 weak:test
@@ -2589,8 +2594,8 @@ signal-hook//0.1.12 tokio-reactor//0.1.11 weak:feature:tokio-support
 signal-hook//0.1.12 tokio-reactor//0.1.11 weak:optional
 signal-hook//0.1.12 tokio//0.1.22 weak:test
 signal-hook//0.1.12 version-sync//0.8.1 weak:test
-slog//2.5.2 erased-serde//0.3.9 weak:feature:nested-values
-slog//2.5.2 erased-serde//0.3.9 weak:optional
+slog//2.5.2 erased-serde//0.3.10 weak:feature:nested-values
+slog//2.5.2 erased-serde//0.3.10 weak:optional
 smallvec//0.6.10 bincode//1.2.1 weak:test
 smallvec//0.6.10 serde//1.0.104 weak:optional
 smallvec//1.1.0 bincode//1.2.1 weak:test
