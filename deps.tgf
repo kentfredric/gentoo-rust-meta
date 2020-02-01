@@ -135,6 +135,7 @@ float-ord//0.2.0 float-ord 0.2.0
 fnv//1.0.6 fnv 1.0.6
 foreign-types-macros//0.2.0 foreign-types-macros 0.2.0
 foreign-types-shared//0.1.1 foreign-types-shared 0.1.1
+foreign-types-shared//0.3.0 foreign-types-shared 0.3.0
 foreign-types//0.3.2 foreign-types 0.3.2
 fs2//0.2.5 fs2 0.2.5
 fs_extra//1.1.0 fs_extra 1.1.0
