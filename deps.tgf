@@ -228,6 +228,7 @@ libc//0.2.62 libc 0.2.62
 libc//0.2.65 libc 0.2.65
 libc//0.2.66 libc 0.2.66
 libflate//0.1.27 libflate 0.1.27
+libgit2-sys//0.10.0 libgit2-sys 0.10.0
 libgit2-sys//0.6.19 libgit2-sys 0.6.19
 libloading//0.5.2 libloading 0.5.2
 libnghttp2-sys//0.1.2 libnghttp2-sys 0.1.2
@@ -1713,6 +1714,14 @@ libflate//0.1.27 adler32//1.0.4
 libflate//0.1.27 crc32fast//1.2.0
 libflate//0.1.27 rle-decode-fast//1.0.1
 libflate//0.1.27 take_mut//0.2.2
+libgit2-sys//0.10.0 cc//1.0.46
+libgit2-sys//0.10.0 libc//0.2.66
+libgit2-sys//0.10.0 libssh2-sys//0.2.13 weak:feature:ssh
+libgit2-sys//0.10.0 libssh2-sys//0.2.13 weak:optional
+libgit2-sys//0.10.0 libz-sys//1.0.25
+libgit2-sys//0.10.0 openssl-sys//0.9.53 weak:feature:https
+libgit2-sys//0.10.0 openssl-sys//0.9.53 weak:optional
+libgit2-sys//0.10.0 pkg-config//0.3.16
 libgit2-sys//0.6.19 cc//1.0.46
 libgit2-sys//0.6.19 cmake//0.1.42
 libgit2-sys//0.6.19 curl-sys//0.4.25 weak:feature:curl
