@@ -165,6 +165,7 @@ futures//0.3.1 futures 0.3.1
 gcc//0.3.55 gcc 0.3.55
 generator//0.6.19 generator 0.6.19
 generic-array//0.12.3 generic-array 0.12.3
+generic-array//0.13.2 generic-array 0.13.2
 getopts//0.2.21 getopts 0.2.21
 getrandom//0.1.13 getrandom 0.1.13
 gimli//0.19.0 gimli 0.19.0
@@ -1368,6 +1369,10 @@ generic-array//0.12.3 bincode//1.2.1 weak:test
 generic-array//0.12.3 serde//1.0.104 weak:optional
 generic-array//0.12.3 serde_json//1.0.41 weak:test
 generic-array//0.12.3 typenum//1.11.2
+generic-array//0.13.2 bincode//1.2.1 weak:test
+generic-array//0.13.2 serde//1.0.104 weak:optional
+generic-array//0.13.2 serde_json//1.0.41 weak:test
+generic-array//0.13.2 typenum//1.11.2
 getopts//0.2.21 log//0.4.8 weak:test
 getopts//0.2.21 unicode-width//0.1.6
 getrandom//0.1.13 cfg-if//0.1.10
