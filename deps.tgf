@@ -324,6 +324,7 @@ ppv-lite86//0.2.6 ppv-lite86 0.2.6
 precomputed-hash//0.1.1 precomputed-hash 0.1.1
 pretty_assertions//0.6.1 pretty_assertions 0.6.1
 pretty_env_logger//0.3.1 pretty_env_logger 0.3.1
+pretty_env_logger//0.4.0 pretty_env_logger 0.4.0
 proc-macro-hack-impl//0.4.2 proc-macro-hack-impl 0.4.2
 proc-macro-hack//0.4.2 proc-macro-hack 0.4.2
 proc-macro-hack//0.5.11 proc-macro-hack 0.5.11
@@ -2066,6 +2067,8 @@ pretty_assertions//0.6.1 difference//2.0.0
 pretty_env_logger//0.3.1 chrono//0.4.9
 pretty_env_logger//0.3.1 env_logger//0.6.2
 pretty_env_logger//0.3.1 log//0.4.8
+pretty_env_logger//0.4.0 env_logger//0.7.1
+pretty_env_logger//0.4.0 log//0.4.8
 proc-macro-hack//0.4.2 demo-hack-impl//0.0.4 weak:test
 proc-macro-hack//0.4.2 demo-hack//0.0.4 weak:test
 proc-macro-hack//0.4.2 proc-macro-hack-impl//0.4.2
