@@ -200,6 +200,7 @@ humantime//2.0.0 humantime 2.0.0
 hyper-rustls//0.19.1 hyper-rustls 0.19.1
 hyper-tls//0.4.1 hyper-tls 0.4.1
 hyper//0.13.1 hyper 0.13.1
+hyper//0.13.2 hyper 0.13.2
 hyphenation//0.7.1 hyphenation 0.7.1
 hyphenation_commons//0.7.1 hyphenation_commons 0.7.1
 idna//0.1.5 idna 0.1.5
@@ -1576,7 +1577,7 @@ hyper-rustls//0.19.1 ct-logs//0.6.0 feature:default
 hyper-rustls//0.19.1 ct-logs//0.6.0 weak:feature:tokio-runtime
 hyper-rustls//0.19.1 ct-logs//0.6.0 weak:optional
 hyper-rustls//0.19.1 futures-util//0.3.1
-hyper-rustls//0.19.1 hyper//0.13.1
+hyper-rustls//0.19.1 hyper//0.13.2
 hyper-rustls//0.19.1 rustls-native-certs//0.1.0 feature:default
 hyper-rustls//0.19.1 rustls-native-certs//0.1.0 weak:feature:tokio-runtime
 hyper-rustls//0.19.1 rustls-native-certs//0.1.0 weak:optional
@@ -1586,7 +1587,7 @@ hyper-rustls//0.19.1 tokio//0.2.9
 hyper-rustls//0.19.1 tokio//0.2.9 weak:test
 hyper-rustls//0.19.1 webpki//0.21.0
 hyper-tls//0.4.1 bytes//0.5.4
-hyper-tls//0.4.1 hyper//0.13.1
+hyper-tls//0.4.1 hyper//0.13.2
 hyper-tls//0.4.1 native-tls//0.2.3
 hyper-tls//0.4.1 tokio-tls//0.3.0
 hyper-tls//0.4.1 tokio//0.2.9
@@ -1615,6 +1616,31 @@ hyper//0.13.1 tokio//0.2.9 weak:test
 hyper//0.13.1 tower-service//0.3.0
 hyper//0.13.1 url//1.7.2 weak:test
 hyper//0.13.1 want//0.3.0
+hyper//0.13.2 bytes//0.5.4
+hyper//0.13.2 futures-channel//0.3.1
+hyper//0.13.2 futures-core//0.3.1
+hyper//0.13.2 futures-util//0.3.1
+hyper//0.13.2 futures-util//0.3.1 weak:test
+hyper//0.13.2 h2//0.2.1
+hyper//0.13.2 http-body//0.3.1
+hyper//0.13.2 http//0.2.0
+hyper//0.13.2 httparse//1.3.4
+hyper//0.13.2 itoa//0.4.4
+hyper//0.13.2 log//0.4.8
+hyper//0.13.2 net2//0.2.33 feature:default
+hyper//0.13.2 net2//0.2.33 weak:feature:runtime
+hyper//0.13.2 net2//0.2.33 weak:feature:tcp
+hyper//0.13.2 net2//0.2.33 weak:optional
+hyper//0.13.2 pin-project//0.4.6
+hyper//0.13.2 pretty_env_logger//0.4.0 weak:test
+hyper//0.13.2 time//0.1.42
+hyper//0.13.2 tokio-test//0.2.0 weak:test
+hyper//0.13.2 tokio//0.2.9
+hyper//0.13.2 tokio//0.2.9 weak:test
+hyper//0.13.2 tower-service//0.3.0
+hyper//0.13.2 tower-util//0.3.0 weak:test
+hyper//0.13.2 url//1.7.2 weak:test
+hyper//0.13.2 want//0.3.0
 hyphenation//0.7.1 atlatl//0.1.2
 hyphenation//0.7.1 bincode//1.2.1
 hyphenation//0.7.1 hyphenation_commons//0.7.1
@@ -2463,8 +2489,8 @@ reqwest//0.10.0 hyper-tls//0.4.1 weak:feature:default-tls
 reqwest//0.10.0 hyper-tls//0.4.1 weak:feature:f_native-tls
 reqwest//0.10.0 hyper-tls//0.4.1 weak:feature:native-tls-vendored
 reqwest//0.10.0 hyper-tls//0.4.1 weak:optional
-reqwest//0.10.0 hyper//0.13.1
-reqwest//0.10.0 hyper//0.13.1 weak:test
+reqwest//0.10.0 hyper//0.13.2
+reqwest//0.10.0 hyper//0.13.2 weak:test
 reqwest//0.10.0 lazy_static//1.4.0
 reqwest//0.10.0 libflate//0.1.27 weak:test
 reqwest//0.10.0 log//0.4.8
