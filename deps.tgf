@@ -535,6 +535,7 @@ toml//0.4.10 toml 0.4.10
 toml//0.5.3 toml 0.5.3
 tower-layer//0.3.0 tower-layer 0.3.0
 tower-service//0.3.0 tower-service 0.3.0
+tower-test//0.3.0 tower-test 0.3.0
 tracing-attributes//0.1.6 tracing-attributes 0.1.6
 tracing-core//0.1.7 tracing-core 0.1.7
 tracing-core//0.1.9 tracing-core 0.1.9
@@ -3156,6 +3157,13 @@ toml//0.5.3 serde_derive//1.0.104 weak:test
 toml//0.5.3 serde_json//1.0.41 weak:test
 tower-layer//0.3.0 tower-service//0.3.0 weak:test
 tower-service//0.3.0 http//0.1.21 weak:test
+tower-test//0.3.0 futures-util//0.3.1
+tower-test//0.3.0 pin-project//0.4.6
+tower-test//0.3.0 tokio-test//0.2.0
+tower-test//0.3.0 tokio//0.2.9
+tower-test//0.3.0 tokio//0.2.9 weak:test
+tower-test//0.3.0 tower-layer//0.3.0
+tower-test//0.3.0 tower-service//0.3.0
 tracing-attributes//0.1.6 quote//1.0.2
 tracing-attributes//0.1.6 syn//1.0.14
 tracing-attributes//0.1.6 tracing-futures//0.2.1 weak:test
