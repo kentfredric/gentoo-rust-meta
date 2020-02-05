@@ -164,6 +164,7 @@ futures//0.1.29 futures 0.1.29
 futures//0.3.1 futures 0.3.1
 gcc//0.3.55 gcc 0.3.55
 generator//0.6.19 generator 0.6.19
+generator//0.6.20 generator 0.6.20
 generic-array//0.12.3 generic-array 0.12.3
 generic-array//0.13.2 generic-array 0.13.2
 getopts//0.2.21 getopts 0.2.21
@@ -1375,6 +1376,10 @@ generator//0.6.19 cc//1.0.46
 generator//0.6.19 libc//0.2.66
 generator//0.6.19 log//0.4.8
 generator//0.6.19 rustc_version//0.2.3
+generator//0.6.20 cc//1.0.46
+generator//0.6.20 libc//0.2.66
+generator//0.6.20 log//0.4.8
+generator//0.6.20 rustc_version//0.2.3
 generic-array//0.12.3 bincode//1.2.1 weak:test
 generic-array//0.12.3 serde//1.0.104 weak:optional
 generic-array//0.12.3 serde_json//1.0.41 weak:test
@@ -1830,7 +1835,7 @@ log//0.4.8 sval//0.4.7 weak:feature:kv_unstable_sval
 log//0.4.8 sval//0.4.7 weak:optional
 loom//0.1.1 cfg-if//0.1.10
 loom//0.1.1 futures//0.1.29 weak:optional
-loom//0.1.1 generator//0.6.19 weak:optional
+loom//0.1.1 generator//0.6.20 weak:optional
 loom//0.1.1 scoped-tls//0.1.2
 loom//0.1.1 serde//1.0.104 weak:feature:checkpoint
 loom//0.1.1 serde//1.0.104 weak:optional
@@ -1841,7 +1846,7 @@ loom//0.1.1 serde_json//1.0.41 weak:optional
 loom//0.2.14 cfg-if//0.1.10
 loom//0.2.14 futures-util//0.3.1 weak:feature:futures
 loom//0.2.14 futures-util//0.3.1 weak:optional
-loom//0.2.14 generator//0.6.19
+loom//0.2.14 generator//0.6.20
 loom//0.2.14 scoped-tls//0.1.2
 loom//0.2.14 serde//1.0.104 weak:feature:checkpoint
 loom//0.2.14 serde//1.0.104 weak:optional
