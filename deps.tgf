@@ -19,6 +19,7 @@ atom//0.3.5 atom 0.3.5
 atty//0.2.13 atty 0.2.13
 atty//0.2.14 atty 0.2.14
 autocfg//0.1.6 autocfg 0.1.6
+autocfg//1.0.0 autocfg 1.0.0
 average//0.10.3 average 0.10.3
 average//0.9.4 average 0.9.4
 backtrace-sys//0.1.31 backtrace-sys 0.1.31
