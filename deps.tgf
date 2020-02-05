@@ -536,6 +536,7 @@ toml//0.5.3 toml 0.5.3
 tower-layer//0.3.0 tower-layer 0.3.0
 tower-service//0.3.0 tower-service 0.3.0
 tower-test//0.3.0 tower-test 0.3.0
+tower-util//0.3.0 tower-util 0.3.0
 tracing-attributes//0.1.6 tracing-attributes 0.1.6
 tracing-core//0.1.7 tracing-core 0.1.7
 tracing-core//0.1.9 tracing-core 0.1.9
@@ -3164,6 +3165,15 @@ tower-test//0.3.0 tokio//0.2.9
 tower-test//0.3.0 tokio//0.2.9 weak:test
 tower-test//0.3.0 tower-layer//0.3.0
 tower-test//0.3.0 tower-service//0.3.0
+tower-util//0.3.0 futures-core//0.3.1
+tower-util//0.3.0 futures-util//0.3.1 feature:default
+tower-util//0.3.0 futures-util//0.3.1 weak:feature:call-all
+tower-util//0.3.0 futures-util//0.3.1 weak:optional
+tower-util//0.3.0 pin-project//0.4.6
+tower-util//0.3.0 tokio-test//0.2.0 weak:test
+tower-util//0.3.0 tokio//0.2.9 weak:test
+tower-util//0.3.0 tower-service//0.3.0
+tower-util//0.3.0 tower-test//0.3.0 weak:test
 tracing-attributes//0.1.6 quote//1.0.2
 tracing-attributes//0.1.6 syn//1.0.14
 tracing-attributes//0.1.6 tracing-futures//0.2.1 weak:test
