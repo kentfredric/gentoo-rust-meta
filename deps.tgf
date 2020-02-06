@@ -483,6 +483,7 @@ stable_deref_trait//1.1.1 stable_deref_trait 1.1.1
 stream-cipher//0.3.2 stream-cipher 0.3.2
 streaming-stats//0.2.2 streaming-stats 0.2.2
 string_cache//0.7.5 string_cache 0.7.5
+string_cache//0.8.0 string_cache 0.8.0
 string_cache_codegen//0.4.4 string_cache_codegen 0.4.4
 string_cache_shared//0.3.0 string_cache_shared 0.3.0
 strsim//0.8.0 strsim 0.8.0
@@ -2798,6 +2799,11 @@ string_cache//0.7.5 serde//1.0.104
 string_cache//0.7.5 string_cache_codegen//0.4.4
 string_cache//0.7.5 string_cache_codegen//0.4.4 weak:test
 string_cache//0.7.5 string_cache_shared//0.3.0
+string_cache//0.8.0 lazy_static//1.4.0
+string_cache//0.8.0 new_debug_unreachable//1.0.3
+string_cache//0.8.0 phf_shared//0.8.0
+string_cache//0.8.0 precomputed-hash//0.1.1
+string_cache//0.8.0 serde//1.0.104
 string_cache_codegen//0.4.4 phf_generator//0.7.24
 string_cache_codegen//0.4.4 phf_shared//0.7.24
 string_cache_codegen//0.4.4 proc-macro2//1.0.8
