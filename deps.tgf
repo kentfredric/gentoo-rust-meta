@@ -227,6 +227,7 @@ jemalloc-ctl//0.3.3 jemalloc-ctl 0.3.3
 jemalloc-sys//0.3.2 jemalloc-sys 0.3.2
 jemallocator//0.3.2 jemallocator 0.3.2
 jobserver//0.1.17 jobserver 0.1.17
+jobserver//0.1.21 jobserver 0.1.21
 kernel32-sys//0.2.2 kernel32-sys 0.2.2
 lazy_static//0.1.16 lazy_static 0.1.16
 lazy_static//0.2.11 lazy_static 0.2.11
@@ -917,8 +918,8 @@ c2-chacha//0.2.3 ppv-lite86//0.2.6
 c2-chacha//0.2.3 stream-cipher//0.3.2 feature:default
 c2-chacha//0.2.3 stream-cipher//0.3.2 weak:feature:rustcrypto_api
 c2-chacha//0.2.3 stream-cipher//0.3.2 weak:optional
-cc//1.0.46 jobserver//0.1.17 weak:feature:parallel
-cc//1.0.46 jobserver//0.1.17 weak:optional
+cc//1.0.46 jobserver//0.1.21 weak:feature:parallel
+cc//1.0.46 jobserver//0.1.21 weak:optional
 cc//1.0.46 num_cpus//1.10.1 weak:feature:parallel
 cc//1.0.46 num_cpus//1.10.1 weak:optional
 cc//1.0.46 tempdir//0.3.7 weak:test
@@ -1789,6 +1790,12 @@ jobserver//0.1.17 num_cpus//1.10.1 weak:test
 jobserver//0.1.17 tempdir//0.3.7 weak:test
 jobserver//0.1.17 tokio-core//0.1.17 weak:test
 jobserver//0.1.17 tokio-process//0.2.4 weak:test
+jobserver//0.1.21 futures//0.1.29 weak:test
+jobserver//0.1.21 libc//0.2.66
+jobserver//0.1.21 num_cpus//1.10.1 weak:test
+jobserver//0.1.21 tempdir//0.3.7 weak:test
+jobserver//0.1.21 tokio-core//0.1.17 weak:test
+jobserver//0.1.21 tokio-process//0.2.4 weak:test
 kernel32-sys//0.2.2 winapi-build//0.1.1
 kernel32-sys//0.2.2 winapi//0.2.8
 lazy_static//1.1.0 spin//0.4.10 weak:feature:spin_no_std
