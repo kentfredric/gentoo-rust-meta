@@ -322,6 +322,7 @@ phf_codegen//0.7.24 phf_codegen 0.7.24
 phf_generator//0.7.24 phf_generator 0.7.24
 phf_generator//0.8.0 phf_generator 0.8.0
 phf_macros//0.7.24 phf_macros 0.7.24
+phf_macros//0.8.0 phf_macros 0.8.0
 phf_shared//0.7.24 phf_shared 0.7.24
 phf_shared//0.8.0 phf_shared 0.8.0
 pico-sys//0.0.1 pico-sys 0.0.1
@@ -2135,6 +2136,12 @@ phf_macros//0.7.24 phf_shared//0.7.24
 phf_macros//0.7.24 proc-macro2//0.4.30
 phf_macros//0.7.24 quote//0.6.13
 phf_macros//0.7.24 syn//0.15.44
+phf_macros//0.8.0 phf_generator//0.8.0
+phf_macros//0.8.0 phf_shared//0.8.0
+phf_macros//0.8.0 proc-macro-hack//0.5.11
+phf_macros//0.8.0 proc-macro2//1.0.8
+phf_macros//0.8.0 quote//1.0.2
+phf_macros//0.8.0 syn//1.0.14
 phf_shared//0.7.24 siphasher//0.2.3
 phf_shared//0.7.24 unicase//1.4.2 weak:optional
 phf_shared//0.8.0 siphasher//0.3.1
