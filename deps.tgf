@@ -257,6 +257,7 @@ loom//0.1.1 loom 0.1.1
 loom//0.2.14 loom 0.2.14
 mac//0.1.1 mac 0.1.1
 maplit//1.0.2 maplit 1.0.2
+markup5ever//0.10.0 markup5ever 0.10.0
 markup5ever//0.7.5 markup5ever 0.7.5
 matches//0.1.8 matches 0.1.8
 md5//0.6.1 md5 0.6.1
@@ -1905,6 +1906,15 @@ loom//0.2.14 serde//1.0.104 weak:feature:checkpoint
 loom//0.2.14 serde//1.0.104 weak:optional
 loom//0.2.14 serde_json//1.0.41 weak:feature:checkpoint
 loom//0.2.14 serde_json//1.0.41 weak:optional
+markup5ever//0.10.0 log//0.4.8
+markup5ever//0.10.0 phf//0.8.0
+markup5ever//0.10.0 phf_codegen//0.8.0
+markup5ever//0.10.0 serde//1.0.104
+markup5ever//0.10.0 serde_derive//1.0.104
+markup5ever//0.10.0 serde_json//1.0.41
+markup5ever//0.10.0 string_cache//0.8.0
+markup5ever//0.10.0 string_cache_codegen//0.5.1
+markup5ever//0.10.0 tendril//0.4.1
 markup5ever//0.7.5 phf//0.7.24
 markup5ever//0.7.5 phf_codegen//0.7.24
 markup5ever//0.7.5 serde//1.0.104
