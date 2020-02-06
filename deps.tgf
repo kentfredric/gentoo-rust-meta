@@ -322,6 +322,7 @@ phf_codegen//0.7.24 phf_codegen 0.7.24
 phf_generator//0.7.24 phf_generator 0.7.24
 phf_macros//0.7.24 phf_macros 0.7.24
 phf_shared//0.7.24 phf_shared 0.7.24
+phf_shared//0.8.0 phf_shared 0.8.0
 pico-sys//0.0.1 pico-sys 0.0.1
 pin-project-internal//0.4.6 pin-project-internal 0.4.6
 pin-project-lite//0.1.2 pin-project-lite 0.1.2
@@ -2133,6 +2134,8 @@ phf_macros//0.7.24 quote//0.6.13
 phf_macros//0.7.24 syn//0.15.44
 phf_shared//0.7.24 siphasher//0.2.3
 phf_shared//0.7.24 unicase//1.4.2 weak:optional
+phf_shared//0.8.0 siphasher//0.3.1
+phf_shared//0.8.0 unicase//2.6.0 weak:optional
 pico-sys//0.0.1 gcc//0.3.55
 pico-sys//0.0.1 libc//0.2.66
 pin-project-internal//0.4.6 proc-macro2//1.0.8
