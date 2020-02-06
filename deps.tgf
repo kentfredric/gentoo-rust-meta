@@ -320,6 +320,7 @@ petgraph//0.4.13 petgraph 0.4.13
 phf//0.7.24 phf 0.7.24
 phf//0.8.0 phf 0.8.0
 phf_codegen//0.7.24 phf_codegen 0.7.24
+phf_codegen//0.8.0 phf_codegen 0.8.0
 phf_generator//0.7.24 phf_generator 0.7.24
 phf_generator//0.8.0 phf_generator 0.8.0
 phf_macros//0.7.24 phf_macros 0.7.24
@@ -2132,6 +2133,8 @@ phf//0.8.0 proc-macro-hack//0.5.11 weak:feature:macros
 phf//0.8.0 proc-macro-hack//0.5.11 weak:optional
 phf_codegen//0.7.24 phf_generator//0.7.24
 phf_codegen//0.7.24 phf_shared//0.7.24
+phf_codegen//0.8.0 phf_generator//0.8.0
+phf_codegen//0.8.0 phf_shared//0.8.0
 phf_generator//0.7.24 phf_shared//0.7.24
 phf_generator//0.7.24 rand//0.6.5
 phf_generator//0.8.0 phf_shared//0.8.0
