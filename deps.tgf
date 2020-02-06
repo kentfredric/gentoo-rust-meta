@@ -244,6 +244,7 @@ libgit2-sys//0.6.19 libgit2-sys 0.6.19
 libloading//0.5.2 libloading 0.5.2
 libnghttp2-sys//0.1.2 libnghttp2-sys 0.1.2
 libssh2-sys//0.2.13 libssh2-sys 0.2.13
+libssh2-sys//0.2.14 libssh2-sys 0.2.14
 libz-sys//1.0.25 libz-sys 1.0.25
 linked-hash-map//0.3.0 linked-hash-map 0.3.0
 linked-hash-map//0.5.2 linked-hash-map 0.5.2
@@ -1818,8 +1819,8 @@ libflate//0.1.27 rle-decode-fast//1.0.1
 libflate//0.1.27 take_mut//0.2.2
 libgit2-sys//0.10.0 cc//1.0.46
 libgit2-sys//0.10.0 libc//0.2.66
-libgit2-sys//0.10.0 libssh2-sys//0.2.13 weak:feature:ssh
-libgit2-sys//0.10.0 libssh2-sys//0.2.13 weak:optional
+libgit2-sys//0.10.0 libssh2-sys//0.2.14 weak:feature:ssh
+libgit2-sys//0.10.0 libssh2-sys//0.2.14 weak:optional
 libgit2-sys//0.10.0 libz-sys//1.0.25
 libgit2-sys//0.10.0 openssl-sys//0.9.53 weak:feature:https
 libgit2-sys//0.10.0 openssl-sys//0.9.53 weak:optional
@@ -1829,8 +1830,8 @@ libgit2-sys//0.6.19 cmake//0.1.42
 libgit2-sys//0.6.19 curl-sys//0.4.25 weak:feature:curl
 libgit2-sys//0.6.19 curl-sys//0.4.25 weak:optional
 libgit2-sys//0.6.19 libc//0.2.66
-libgit2-sys//0.6.19 libssh2-sys//0.2.13 weak:feature:ssh
-libgit2-sys//0.6.19 libssh2-sys//0.2.13 weak:optional
+libgit2-sys//0.6.19 libssh2-sys//0.2.14 weak:feature:ssh
+libgit2-sys//0.6.19 libssh2-sys//0.2.14 weak:optional
 libgit2-sys//0.6.19 libz-sys//1.0.25
 libgit2-sys//0.6.19 openssl-sys//0.9.53 weak:feature:https
 libgit2-sys//0.6.19 openssl-sys//0.9.53 weak:optional
@@ -1843,6 +1844,11 @@ libssh2-sys//0.2.13 libc//0.2.66
 libssh2-sys//0.2.13 libz-sys//1.0.25
 libssh2-sys//0.2.13 openssl-sys//0.9.53
 libssh2-sys//0.2.13 pkg-config//0.3.16
+libssh2-sys//0.2.14 cc//1.0.46
+libssh2-sys//0.2.14 libc//0.2.66
+libssh2-sys//0.2.14 libz-sys//1.0.25
+libssh2-sys//0.2.14 openssl-sys//0.9.53
+libssh2-sys//0.2.14 pkg-config//0.3.16
 libz-sys//1.0.25 cc//1.0.46
 libz-sys//1.0.25 libc//0.2.66
 libz-sys//1.0.25 pkg-config//0.3.16
