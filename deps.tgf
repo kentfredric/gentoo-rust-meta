@@ -490,6 +490,7 @@ spin//0.4.10 spin 0.4.10
 spin//0.5.2 spin 0.5.2
 spmc//0.3.0 spmc 0.3.0
 stable_deref_trait//1.1.1 stable_deref_trait 1.1.1
+static_assertions//0.3.4 static_assertions 0.3.4
 stream-cipher//0.3.2 stream-cipher 0.3.2
 streaming-stats//0.2.2 streaming-stats 0.2.2
 string_cache//0.7.5 string_cache 0.7.5
