@@ -9,6 +9,7 @@ aho-corasick//0.7.6 aho-corasick 0.7.6
 ansi_term//0.11.0 ansi_term 0.11.0
 ansi_term//0.12.1 ansi_term 0.12.1
 anyhow//1.0.26 anyhow 1.0.26
+approx//0.3.2 approx 0.3.2
 arc-swap//0.4.4 arc-swap 0.4.4
 arrayvec//0.4.12 arrayvec 0.4.12
 arrayvec//0.5.1 arrayvec 0.5.1
@@ -676,6 +677,8 @@ anyhow//1.0.26 futures//0.3.1 weak:test
 anyhow//1.0.26 rustversion//1.0.1 weak:test
 anyhow//1.0.26 thiserror//1.0.6 weak:test
 anyhow//1.0.26 trybuild//1.0.17 weak:test
+approx//0.3.2 num-complex//0.2.4 weak:optional
+approx//0.3.2 num-traits//0.2.11
 arc-swap//0.4.4 crossbeam-utils//0.6.6 weak:test
 arc-swap//0.4.4 itertools//0.8.2 weak:test
 arc-swap//0.4.4 model//0.1.2 weak:test
