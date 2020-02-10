@@ -289,6 +289,7 @@ new_debug_unreachable//1.0.4 new_debug_unreachable 1.0.4
 no-panic//0.1.11 no-panic 0.1.11
 nodrop//0.1.14 nodrop 0.1.14
 nom//4.2.3 nom 4.2.3
+nom//5.1.0 nom 5.1.0
 ntest//0.3.3 ntest 0.3.3
 ntest_test_cases//0.3.4 ntest_test_cases 0.3.4
 ntest_timeout//0.3.3 ntest_timeout 0.3.3
@@ -2023,6 +2024,17 @@ nom//4.2.3 regex//1.3.1 weak:feature:regexp
 nom//4.2.3 regex//1.3.1 weak:feature:regexp_macros
 nom//4.2.3 regex//1.3.1 weak:optional
 nom//4.2.3 version_check//0.1.5
+nom//5.1.0 doc-comment//0.3.1 weak:test
+nom//5.1.0 lazy_static//1.4.0 weak:feature:regexp_macros
+nom//5.1.0 lazy_static//1.4.0 weak:optional
+nom//5.1.0 lexical-core//0.4.6 feature:default
+nom//5.1.0 lexical-core//0.4.6 weak:feature:lexical
+nom//5.1.0 lexical-core//0.4.6 weak:optional
+nom//5.1.0 memchr//2.3.0
+nom//5.1.0 regex//1.3.1 weak:feature:regexp
+nom//5.1.0 regex//1.3.1 weak:feature:regexp_macros
+nom//5.1.0 regex//1.3.1 weak:optional
+nom//5.1.0 version_check//0.1.5
 ntest//0.3.3 ntest_test_cases//0.3.4
 ntest//0.3.3 ntest_test_cases//0.3.4 weak:test
 ntest//0.3.3 ntest_timeout//0.3.3
