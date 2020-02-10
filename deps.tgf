@@ -293,6 +293,7 @@ nom//4.2.3 nom 4.2.3
 nom//5.1.0 nom 5.1.0
 ntest//0.3.3 ntest 0.3.3
 ntest_test_cases//0.3.4 ntest_test_cases 0.3.4
+ntest_test_cases//0.5.1 ntest_test_cases 0.5.1
 ntest_timeout//0.3.3 ntest_timeout 0.3.3
 num-complex//0.2.4 num-complex 0.2.4
 num-integer//0.1.41 num-integer 0.1.41
@@ -2049,6 +2050,9 @@ ntest//0.3.3 timebomb//0.1.2 weak:test
 ntest_test_cases//0.3.4 proc-macro2//1.0.8
 ntest_test_cases//0.3.4 quote//1.0.2
 ntest_test_cases//0.3.4 syn//1.0.14
+ntest_test_cases//0.5.1 proc-macro2//1.0.8
+ntest_test_cases//0.5.1 quote//1.0.2
+ntest_test_cases//0.5.1 syn//1.0.14
 ntest_timeout//0.3.3 proc-macro2//1.0.8
 ntest_timeout//0.3.3 quote//1.0.2
 ntest_timeout//0.3.3 syn//1.0.14
