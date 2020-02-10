@@ -235,6 +235,7 @@ lazy_static//0.2.11 lazy_static 0.2.11
 lazy_static//1.1.0 lazy_static 1.1.0
 lazy_static//1.4.0 lazy_static 1.4.0
 lazycell//1.2.1 lazycell 1.2.1
+lexical-core//0.4.6 lexical-core 0.4.6
 libc//0.2.50 libc 0.2.50
 libc//0.2.62 libc 0.2.62
 libc//0.2.65 libc 0.2.65
@@ -1827,6 +1828,19 @@ lazy_static//1.1.0 version_check//0.1.5
 lazy_static//1.4.0 doc-comment//0.3.1 weak:test
 lazy_static//1.4.0 spin//0.5.2 weak:feature:spin_no_std
 lazy_static//1.4.0 spin//0.5.2 weak:optional
+lexical-core//0.4.6 approx//0.3.2 weak:test
+lexical-core//0.4.6 arrayvec//0.4.12 feature:default
+lexical-core//0.4.6 arrayvec//0.4.12 weak:feature:correct
+lexical-core//0.4.6 arrayvec//0.4.12 weak:optional
+lexical-core//0.4.6 cfg-if//0.1.10
+lexical-core//0.4.6 dtoa//0.4.5 weak:feature:grisu3
+lexical-core//0.4.6 dtoa//0.4.5 weak:optional
+lexical-core//0.4.6 proptest//0.9.4 weak:test
+lexical-core//0.4.6 quickcheck//0.8.5 weak:test
+lexical-core//0.4.6 rustc_version//0.2.3
+lexical-core//0.4.6 ryu//1.0.1 feature:default
+lexical-core//0.4.6 ryu//1.0.1 weak:optional
+lexical-core//0.4.6 static_assertions//0.3.4
 libc//0.2.50 rustc-std-workspace-core//1.0.0 weak:feature:rustc-dep-of-std
 libc//0.2.50 rustc-std-workspace-core//1.0.0 weak:optional
 libc//0.2.62 rustc-std-workspace-core//1.0.0 weak:feature:rustc-dep-of-std
