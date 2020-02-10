@@ -295,6 +295,7 @@ ntest//0.3.3 ntest 0.3.3
 ntest_test_cases//0.3.4 ntest_test_cases 0.3.4
 ntest_test_cases//0.5.1 ntest_test_cases 0.5.1
 ntest_timeout//0.3.3 ntest_timeout 0.3.3
+ntest_timeout//0.5.1 ntest_timeout 0.5.1
 num-complex//0.2.4 num-complex 0.2.4
 num-integer//0.1.41 num-integer 0.1.41
 num-iter//0.1.39 num-iter 0.1.39
@@ -2057,6 +2058,9 @@ ntest_timeout//0.3.3 proc-macro2//1.0.8
 ntest_timeout//0.3.3 quote//1.0.2
 ntest_timeout//0.3.3 syn//1.0.14
 ntest_timeout//0.3.3 timebomb//0.1.2
+ntest_timeout//0.5.1 proc-macro2//1.0.8
+ntest_timeout//0.5.1 quote//1.0.2
+ntest_timeout//0.5.1 syn//1.0.14
 num-complex//0.2.4 autocfg//1.0.0
 num-complex//0.2.4 num-traits//0.2.11
 num-complex//0.2.4 rand//0.5.6 weak:optional
