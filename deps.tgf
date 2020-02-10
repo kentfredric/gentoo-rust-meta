@@ -290,6 +290,7 @@ nom//4.2.3 nom 4.2.3
 ntest//0.3.3 ntest 0.3.3
 ntest_test_cases//0.3.4 ntest_test_cases 0.3.4
 ntest_timeout//0.3.3 ntest_timeout 0.3.3
+num-complex//0.2.4 num-complex 0.2.4
 num-integer//0.1.41 num-integer 0.1.41
 num-iter//0.1.39 num-iter 0.1.39
 num-traits//0.1.43 num-traits 0.1.43
@@ -2017,6 +2018,10 @@ ntest_timeout//0.3.3 proc-macro2//1.0.8
 ntest_timeout//0.3.3 quote//1.0.2
 ntest_timeout//0.3.3 syn//1.0.14
 ntest_timeout//0.3.3 timebomb//0.1.2
+num-complex//0.2.4 autocfg//1.0.0
+num-complex//0.2.4 num-traits//0.2.11
+num-complex//0.2.4 rand//0.5.6 weak:optional
+num-complex//0.2.4 serde//1.0.104 weak:optional
 num-integer//0.1.41 autocfg//0.1.6
 num-integer//0.1.41 num-traits//0.2.11
 num-iter//0.1.39 autocfg//0.1.6
