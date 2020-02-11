@@ -301,6 +301,7 @@ num-complex//0.2.4 num-complex 0.2.4
 num-integer//0.1.41 num-integer 0.1.41
 num-integer//0.1.42 num-integer 0.1.42
 num-iter//0.1.39 num-iter 0.1.39
+num-iter//0.1.40 num-iter 0.1.40
 num-traits//0.1.43 num-traits 0.1.43
 num-traits//0.2.11 num-traits 0.2.11
 num-traits//0.2.8 num-traits 0.2.8
@@ -960,7 +961,7 @@ chrono//0.4.9 bincode//0.8.0 weak:test
 chrono//0.4.9 doc-comment//0.3.1 weak:test
 chrono//0.4.9 libc//0.2.66
 chrono//0.4.9 num-integer//0.1.42
-chrono//0.4.9 num-iter//0.1.39 weak:test
+chrono//0.4.9 num-iter//0.1.40 weak:test
 chrono//0.4.9 num-traits//0.2.11
 chrono//0.4.9 rustc-serialize//0.3.24 weak:optional
 chrono//0.4.9 serde//1.0.104 weak:optional
@@ -2079,6 +2080,9 @@ num-integer//0.1.42 num-traits//0.2.11
 num-iter//0.1.39 autocfg//0.1.6
 num-iter//0.1.39 num-integer//0.1.42
 num-iter//0.1.39 num-traits//0.2.11
+num-iter//0.1.40 autocfg//1.0.0
+num-iter//0.1.40 num-integer//0.1.42
+num-iter//0.1.40 num-traits//0.2.11
 num-traits//0.1.43 num-traits//0.2.11
 num-traits//0.2.11 autocfg//1.0.0
 num-traits//0.2.11 libm//0.2.1
