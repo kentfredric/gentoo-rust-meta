@@ -299,6 +299,7 @@ ntest_timeout//0.3.3 ntest_timeout 0.3.3
 ntest_timeout//0.5.1 ntest_timeout 0.5.1
 num-complex//0.2.4 num-complex 0.2.4
 num-integer//0.1.41 num-integer 0.1.41
+num-integer//0.1.42 num-integer 0.1.42
 num-iter//0.1.39 num-iter 0.1.39
 num-traits//0.1.43 num-traits 0.1.43
 num-traits//0.2.11 num-traits 0.2.11
@@ -767,7 +768,7 @@ average//0.10.3 serde_json//1.0.41 weak:test
 average//0.10.3 streaming-stats//0.2.2 weak:test
 average//0.9.4 conv//0.3.3
 average//0.9.4 float-ord//0.2.0
-average//0.9.4 num-integer//0.1.41
+average//0.9.4 num-integer//0.1.42
 average//0.9.4 num-traits//0.2.11
 average//0.9.4 quantiles//0.7.1 weak:test
 average//0.9.4 rand//0.6.5 weak:test
@@ -958,7 +959,7 @@ cexpr//0.3.6 nom//4.2.3
 chrono//0.4.9 bincode//0.8.0 weak:test
 chrono//0.4.9 doc-comment//0.3.1 weak:test
 chrono//0.4.9 libc//0.2.66
-chrono//0.4.9 num-integer//0.1.41
+chrono//0.4.9 num-integer//0.1.42
 chrono//0.4.9 num-iter//0.1.39 weak:test
 chrono//0.4.9 num-traits//0.2.11
 chrono//0.4.9 rustc-serialize//0.3.24 weak:optional
@@ -2073,8 +2074,10 @@ num-complex//0.2.4 rand//0.5.6 weak:optional
 num-complex//0.2.4 serde//1.0.104 weak:optional
 num-integer//0.1.41 autocfg//0.1.6
 num-integer//0.1.41 num-traits//0.2.11
+num-integer//0.1.42 autocfg//1.0.0
+num-integer//0.1.42 num-traits//0.2.11
 num-iter//0.1.39 autocfg//0.1.6
-num-iter//0.1.39 num-integer//0.1.41
+num-iter//0.1.39 num-integer//0.1.42
 num-iter//0.1.39 num-traits//0.2.11
 num-traits//0.1.43 num-traits//0.2.11
 num-traits//0.2.11 autocfg//1.0.0
