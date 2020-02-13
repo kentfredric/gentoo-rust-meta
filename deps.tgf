@@ -588,6 +588,7 @@ typed-arena//1.7.0 typed-arena 1.7.0
 typenum//1.11.2 typenum 1.11.2
 ucd-trie//0.1.2 ucd-trie 0.1.2
 ucd-util//0.1.5 ucd-util 0.1.5
+unchecked-index//0.2.2 unchecked-index 0.2.2
 unicase//1.4.2 unicase 1.4.2
 unicase//2.6.0 unicase 2.6.0
 unicode-bidi//0.3.4 unicode-bidi 0.3.4
