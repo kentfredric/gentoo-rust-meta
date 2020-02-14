@@ -310,6 +310,7 @@ num_cpus//1.12.0 num_cpus 1.12.0
 object//0.12.0 object 0.12.0
 object//0.17.0 object 0.17.0
 odds//0.2.26 odds 0.2.26
+odds//0.3.1 odds 0.3.1
 once_cell//1.2.0 once_cell 1.2.0
 opaque-debug//0.2.3 opaque-debug 0.2.3
 openssl-probe//0.1.2 openssl-probe 0.1.2
@@ -2118,6 +2119,11 @@ object//0.17.0 scroll//0.10.1
 object//0.17.0 target-lexicon//0.10.0
 object//0.17.0 uuid//0.8.1
 odds//0.2.26 itertools//0.5.10 weak:test
+odds//0.3.1 itertools//0.7.11 weak:test
+odds//0.3.1 quickcheck//0.4.1 weak:test
+odds//0.3.1 rawpointer//0.1.0
+odds//0.3.1 rawslice//0.1.0
+odds//0.3.1 unchecked-index//0.2.2
 once_cell//1.2.0 crossbeam-utils//0.6.6 weak:test
 once_cell//1.2.0 parking_lot//0.9.0 weak:optional
 once_cell//1.2.0 regex//1.3.1 weak:test
