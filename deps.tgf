@@ -312,6 +312,7 @@ object//0.17.0 object 0.17.0
 odds//0.2.26 odds 0.2.26
 odds//0.3.1 odds 0.3.1
 once_cell//1.2.0 once_cell 1.2.0
+once_cell//1.3.1 once_cell 1.3.1
 opaque-debug//0.2.3 opaque-debug 0.2.3
 openssl-probe//0.1.2 openssl-probe 0.1.2
 openssl-src//111.6.0 openssl-src 111.6.0
@@ -697,7 +698,7 @@ arc-swap//0.4.4 crossbeam-utils//0.6.6 weak:test
 arc-swap//0.4.4 itertools//0.8.2 weak:test
 arc-swap//0.4.4 model//0.1.2 weak:test
 arc-swap//0.4.4 num_cpus//1.12.0 weak:test
-arc-swap//0.4.4 once_cell//1.2.0 weak:test
+arc-swap//0.4.4 once_cell//1.3.1 weak:test
 arc-swap//0.4.4 proptest//0.8.7 weak:test
 arc-swap//0.4.4 version-sync//0.8.1 weak:test
 arrayvec//0.4.12 matches//0.1.8 weak:test
@@ -2127,6 +2128,9 @@ odds//0.3.1 unchecked-index//0.2.2
 once_cell//1.2.0 crossbeam-utils//0.6.6 weak:test
 once_cell//1.2.0 parking_lot//0.9.0 weak:optional
 once_cell//1.2.0 regex//1.3.1 weak:test
+once_cell//1.3.1 crossbeam-utils//0.6.6 weak:test
+once_cell//1.3.1 parking_lot//0.9.0 weak:optional
+once_cell//1.3.1 regex//1.3.1 weak:test
 openssl-src//111.6.0 cc//1.0.46
 openssl-sys//0.9.52 autocfg//0.1.6
 openssl-sys//0.9.52 cc//1.0.46
