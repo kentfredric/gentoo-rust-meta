@@ -316,6 +316,7 @@ once_cell//1.3.1 once_cell 1.3.1
 opaque-debug//0.2.3 opaque-debug 0.2.3
 openssl-probe//0.1.2 openssl-probe 0.1.2
 openssl-src//111.6.0 openssl-src 111.6.0
+openssl-src//111.6.1 openssl-src 111.6.1
 openssl-sys//0.9.52 openssl-sys 0.9.52
 openssl-sys//0.9.53 openssl-sys 0.9.53
 openssl-sys//0.9.54 openssl-sys 0.9.54
@@ -2134,23 +2135,24 @@ once_cell//1.3.1 crossbeam-utils//0.6.6 weak:test
 once_cell//1.3.1 parking_lot//0.9.0 weak:optional
 once_cell//1.3.1 regex//1.3.1 weak:test
 openssl-src//111.6.0 cc//1.0.46
+openssl-src//111.6.1 cc//1.0.46
 openssl-sys//0.9.52 autocfg//0.1.6
 openssl-sys//0.9.52 cc//1.0.46
 openssl-sys//0.9.52 libc//0.2.66
-openssl-sys//0.9.52 openssl-src//111.6.0 weak:feature:vendored
-openssl-sys//0.9.52 openssl-src//111.6.0 weak:optional
+openssl-sys//0.9.52 openssl-src//111.6.1 weak:feature:vendored
+openssl-sys//0.9.52 openssl-src//111.6.1 weak:optional
 openssl-sys//0.9.52 pkg-config//0.3.16
 openssl-sys//0.9.53 autocfg//0.1.6
 openssl-sys//0.9.53 cc//1.0.46
 openssl-sys//0.9.53 libc//0.2.66
-openssl-sys//0.9.53 openssl-src//111.6.0 weak:feature:vendored
-openssl-sys//0.9.53 openssl-src//111.6.0 weak:optional
+openssl-sys//0.9.53 openssl-src//111.6.1 weak:feature:vendored
+openssl-sys//0.9.53 openssl-src//111.6.1 weak:optional
 openssl-sys//0.9.53 pkg-config//0.3.16
 openssl-sys//0.9.54 autocfg//1.0.0
 openssl-sys//0.9.54 cc//1.0.46
 openssl-sys//0.9.54 libc//0.2.66
-openssl-sys//0.9.54 openssl-src//111.6.0 weak:feature:vendored
-openssl-sys//0.9.54 openssl-src//111.6.0 weak:optional
+openssl-sys//0.9.54 openssl-src//111.6.1 weak:feature:vendored
+openssl-sys//0.9.54 openssl-src//111.6.1 weak:optional
 openssl-sys//0.9.54 pkg-config//0.3.16
 openssl//0.10.26 bitflags//1.2.1
 openssl//0.10.26 cfg-if//0.1.10
