@@ -320,6 +320,7 @@ openssl-sys//0.9.52 openssl-sys 0.9.52
 openssl-sys//0.9.53 openssl-sys 0.9.53
 openssl-sys//0.9.54 openssl-sys 0.9.54
 openssl//0.10.26 openssl 0.10.26
+openssl//0.10.28 openssl 0.10.28
 ordermap//0.3.5 ordermap 0.3.5
 owning_ref//0.4.0 owning_ref 0.4.0
 parity-wasm//0.38.0 parity-wasm 0.38.0
@@ -2024,7 +2025,7 @@ native-tls//0.2.3 hex//0.3.2 weak:test
 native-tls//0.2.3 log//0.4.8
 native-tls//0.2.3 openssl-probe//0.1.2
 native-tls//0.2.3 openssl-sys//0.9.54
-native-tls//0.2.3 openssl//0.10.26
+native-tls//0.2.3 openssl//0.10.28
 net2//0.2.33 cfg-if//0.1.10
 net2//0.2.33 libc//0.2.66
 no-panic//0.1.11 proc-macro2//1.0.8
@@ -2159,6 +2160,14 @@ openssl//0.10.26 lazy_static//1.4.0
 openssl//0.10.26 libc//0.2.66
 openssl//0.10.26 openssl-sys//0.9.54
 openssl//0.10.26 tempdir//0.3.7 weak:test
+openssl//0.10.28 bitflags//1.2.1
+openssl//0.10.28 cfg-if//0.1.10
+openssl//0.10.28 foreign-types//0.3.2
+openssl//0.10.28 hex//0.3.2 weak:test
+openssl//0.10.28 lazy_static//1.4.0
+openssl//0.10.28 libc//0.2.66
+openssl//0.10.28 openssl-sys//0.9.54
+openssl//0.10.28 tempdir//0.3.7 weak:test
 ordermap//0.3.5 fnv//1.0.6 weak:test
 ordermap//0.3.5 itertools//0.7.11 weak:test
 ordermap//0.3.5 quickcheck//0.6.2 weak:test
@@ -2867,7 +2876,7 @@ sha-1//0.8.1 opaque-debug//0.2.3
 sha-1//0.8.1 sha1-asm//0.4.3 weak:feature:asm
 sha-1//0.8.1 sha1-asm//0.4.3 weak:optional
 sha1-asm//0.4.3 cc//1.0.46
-sha1//0.6.0 openssl//0.10.26 weak:test
+sha1//0.6.0 openssl//0.10.28 weak:test
 sha1//0.6.0 rand//0.4.6 weak:test
 sha1//0.6.0 serde//1.0.104 weak:optional
 sha1//0.6.0 serde_json//1.0.41 weak:test
@@ -3222,7 +3231,7 @@ tokio-tls//0.3.0 cfg-if//0.1.10 weak:test
 tokio-tls//0.3.0 env_logger//0.6.2 weak:test
 tokio-tls//0.3.0 futures//0.3.1 weak:test
 tokio-tls//0.3.0 native-tls//0.2.3
-tokio-tls//0.3.0 openssl//0.10.26 weak:test
+tokio-tls//0.3.0 openssl//0.10.28 weak:test
 tokio-tls//0.3.0 tokio//0.2.9
 tokio-tls//0.3.0 tokio//0.2.9 weak:test
 tokio-udp//0.1.5 bytes//0.4.12
