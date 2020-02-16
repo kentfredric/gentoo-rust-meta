@@ -318,6 +318,7 @@ openssl-probe//0.1.2 openssl-probe 0.1.2
 openssl-src//111.6.0 openssl-src 111.6.0
 openssl-sys//0.9.52 openssl-sys 0.9.52
 openssl-sys//0.9.53 openssl-sys 0.9.53
+openssl-sys//0.9.54 openssl-sys 0.9.54
 openssl//0.10.26 openssl 0.10.26
 ordermap//0.3.5 ordermap 0.3.5
 owning_ref//0.4.0 owning_ref 0.4.0
@@ -1142,10 +1143,10 @@ curl-sys//0.4.23 libnghttp2-sys//0.1.2 weak:feature:http2
 curl-sys//0.4.23 libnghttp2-sys//0.1.2 weak:optional
 curl-sys//0.4.23 libz-sys//1.0.25
 curl-sys//0.4.23 mesalink//1.1.0 weak:optional
-curl-sys//0.4.23 openssl-sys//0.9.53 feature:default
-curl-sys//0.4.23 openssl-sys//0.9.53 weak:feature:ssl
-curl-sys//0.4.23 openssl-sys//0.9.53 weak:feature:static-ssl
-curl-sys//0.4.23 openssl-sys//0.9.53 weak:optional
+curl-sys//0.4.23 openssl-sys//0.9.54 feature:default
+curl-sys//0.4.23 openssl-sys//0.9.54 weak:feature:ssl
+curl-sys//0.4.23 openssl-sys//0.9.54 weak:feature:static-ssl
+curl-sys//0.4.23 openssl-sys//0.9.54 weak:optional
 curl-sys//0.4.23 pkg-config//0.3.16
 curl-sys//0.4.25 cc//1.0.46
 curl-sys//0.4.25 libc//0.2.66
@@ -1153,10 +1154,10 @@ curl-sys//0.4.25 libnghttp2-sys//0.1.2 weak:feature:http2
 curl-sys//0.4.25 libnghttp2-sys//0.1.2 weak:optional
 curl-sys//0.4.25 libz-sys//1.0.25
 curl-sys//0.4.25 mesalink//1.1.0 weak:optional
-curl-sys//0.4.25 openssl-sys//0.9.53 feature:default
-curl-sys//0.4.25 openssl-sys//0.9.53 weak:feature:ssl
-curl-sys//0.4.25 openssl-sys//0.9.53 weak:feature:static-ssl
-curl-sys//0.4.25 openssl-sys//0.9.53 weak:optional
+curl-sys//0.4.25 openssl-sys//0.9.54 feature:default
+curl-sys//0.4.25 openssl-sys//0.9.54 weak:feature:ssl
+curl-sys//0.4.25 openssl-sys//0.9.54 weak:feature:static-ssl
+curl-sys//0.4.25 openssl-sys//0.9.54 weak:optional
 curl-sys//0.4.25 pkg-config//0.3.16
 custom_derive//0.1.7 rustc-serialize//0.3.24 weak:test
 demo-hack-impl//0.0.4 proc-macro-hack-impl//0.4.2
@@ -1479,10 +1480,10 @@ git2//0.11.0 log//0.4.8
 git2//0.11.0 openssl-probe//0.1.2 feature:default
 git2//0.11.0 openssl-probe//0.1.2 weak:feature:https
 git2//0.11.0 openssl-probe//0.1.2 weak:optional
-git2//0.11.0 openssl-sys//0.9.53 feature:default
-git2//0.11.0 openssl-sys//0.9.53 weak:feature:https
-git2//0.11.0 openssl-sys//0.9.53 weak:feature:vendored-openssl
-git2//0.11.0 openssl-sys//0.9.53 weak:optional
+git2//0.11.0 openssl-sys//0.9.54 feature:default
+git2//0.11.0 openssl-sys//0.9.54 weak:feature:https
+git2//0.11.0 openssl-sys//0.9.54 weak:feature:vendored-openssl
+git2//0.11.0 openssl-sys//0.9.54 weak:optional
 git2//0.11.0 tempfile//3.1.0 weak:test
 git2//0.11.0 thread-id//3.3.0 weak:test
 git2//0.11.0 time//0.1.42 weak:test
@@ -1493,9 +1494,9 @@ git2//0.6.11 libgit2-sys//0.6.19
 git2//0.6.11 openssl-probe//0.1.2 feature:default
 git2//0.6.11 openssl-probe//0.1.2 weak:feature:https
 git2//0.6.11 openssl-probe//0.1.2 weak:optional
-git2//0.6.11 openssl-sys//0.9.53 feature:default
-git2//0.6.11 openssl-sys//0.9.53 weak:feature:https
-git2//0.6.11 openssl-sys//0.9.53 weak:optional
+git2//0.6.11 openssl-sys//0.9.54 feature:default
+git2//0.6.11 openssl-sys//0.9.54 weak:feature:https
+git2//0.6.11 openssl-sys//0.9.54 weak:optional
 git2//0.6.11 tempdir//0.3.7 weak:optional
 git2//0.6.11 tempdir//0.3.7 weak:test
 git2//0.6.11 time//0.1.42 weak:test
@@ -1871,8 +1872,8 @@ libgit2-sys//0.10.0 libc//0.2.66
 libgit2-sys//0.10.0 libssh2-sys//0.2.14 weak:feature:ssh
 libgit2-sys//0.10.0 libssh2-sys//0.2.14 weak:optional
 libgit2-sys//0.10.0 libz-sys//1.0.25
-libgit2-sys//0.10.0 openssl-sys//0.9.53 weak:feature:https
-libgit2-sys//0.10.0 openssl-sys//0.9.53 weak:optional
+libgit2-sys//0.10.0 openssl-sys//0.9.54 weak:feature:https
+libgit2-sys//0.10.0 openssl-sys//0.9.54 weak:optional
 libgit2-sys//0.10.0 pkg-config//0.3.16
 libgit2-sys//0.6.19 cc//1.0.46
 libgit2-sys//0.6.19 cmake//0.1.42
@@ -1882,8 +1883,8 @@ libgit2-sys//0.6.19 libc//0.2.66
 libgit2-sys//0.6.19 libssh2-sys//0.2.14 weak:feature:ssh
 libgit2-sys//0.6.19 libssh2-sys//0.2.14 weak:optional
 libgit2-sys//0.6.19 libz-sys//1.0.25
-libgit2-sys//0.6.19 openssl-sys//0.9.53 weak:feature:https
-libgit2-sys//0.6.19 openssl-sys//0.9.53 weak:optional
+libgit2-sys//0.6.19 openssl-sys//0.9.54 weak:feature:https
+libgit2-sys//0.6.19 openssl-sys//0.9.54 weak:optional
 libgit2-sys//0.6.19 pkg-config//0.3.16
 libloading//0.5.2 cc//1.0.46
 libm//0.2.1 no-panic//0.1.12 weak:test
@@ -1892,12 +1893,12 @@ libnghttp2-sys//0.1.2 libc//0.2.66
 libssh2-sys//0.2.13 cc//1.0.46
 libssh2-sys//0.2.13 libc//0.2.66
 libssh2-sys//0.2.13 libz-sys//1.0.25
-libssh2-sys//0.2.13 openssl-sys//0.9.53
+libssh2-sys//0.2.13 openssl-sys//0.9.54
 libssh2-sys//0.2.13 pkg-config//0.3.16
 libssh2-sys//0.2.14 cc//1.0.46
 libssh2-sys//0.2.14 libc//0.2.66
 libssh2-sys//0.2.14 libz-sys//1.0.25
-libssh2-sys//0.2.14 openssl-sys//0.9.53
+libssh2-sys//0.2.14 openssl-sys//0.9.54
 libssh2-sys//0.2.14 pkg-config//0.3.16
 libz-sys//1.0.25 cc//1.0.46
 libz-sys//1.0.25 libc//0.2.66
@@ -2022,7 +2023,7 @@ model//0.1.2 proptest//0.8.7
 native-tls//0.2.3 hex//0.3.2 weak:test
 native-tls//0.2.3 log//0.4.8
 native-tls//0.2.3 openssl-probe//0.1.2
-native-tls//0.2.3 openssl-sys//0.9.53
+native-tls//0.2.3 openssl-sys//0.9.54
 native-tls//0.2.3 openssl//0.10.26
 net2//0.2.33 cfg-if//0.1.10
 net2//0.2.33 libc//0.2.66
@@ -2144,13 +2145,19 @@ openssl-sys//0.9.53 libc//0.2.66
 openssl-sys//0.9.53 openssl-src//111.6.0 weak:feature:vendored
 openssl-sys//0.9.53 openssl-src//111.6.0 weak:optional
 openssl-sys//0.9.53 pkg-config//0.3.16
+openssl-sys//0.9.54 autocfg//1.0.0
+openssl-sys//0.9.54 cc//1.0.46
+openssl-sys//0.9.54 libc//0.2.66
+openssl-sys//0.9.54 openssl-src//111.6.0 weak:feature:vendored
+openssl-sys//0.9.54 openssl-src//111.6.0 weak:optional
+openssl-sys//0.9.54 pkg-config//0.3.16
 openssl//0.10.26 bitflags//1.2.1
 openssl//0.10.26 cfg-if//0.1.10
 openssl//0.10.26 foreign-types//0.3.2
 openssl//0.10.26 hex//0.3.2 weak:test
 openssl//0.10.26 lazy_static//1.4.0
 openssl//0.10.26 libc//0.2.66
-openssl//0.10.26 openssl-sys//0.9.53
+openssl//0.10.26 openssl-sys//0.9.54
 openssl//0.10.26 tempdir//0.3.7 weak:test
 ordermap//0.3.5 fnv//1.0.6 weak:test
 ordermap//0.3.5 itertools//0.7.11 weak:test
