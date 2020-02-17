@@ -357,6 +357,7 @@ phf_shared//0.7.24 phf_shared 0.7.24
 phf_shared//0.8.0 phf_shared 0.8.0
 pico-sys//0.0.1 pico-sys 0.0.1
 pin-project-internal//0.4.6 pin-project-internal 0.4.6
+pin-project-internal//0.4.8 pin-project-internal 0.4.8
 pin-project-lite//0.1.2 pin-project-lite 0.1.2
 pin-project//0.4.6 pin-project 0.4.6
 pin-utils//0.1.0.4 pin-utils 0.1.0.4
@@ -2320,6 +2321,9 @@ pico-sys//0.0.1 libc//0.2.66
 pin-project-internal//0.4.6 proc-macro2//1.0.8
 pin-project-internal//0.4.6 quote//1.0.2
 pin-project-internal//0.4.6 syn//1.0.14
+pin-project-internal//0.4.8 proc-macro2//1.0.8
+pin-project-internal//0.4.8 quote//1.0.2
+pin-project-internal//0.4.8 syn//1.0.14
 pin-project-lite//0.1.2 rustversion//1.0.1 weak:test
 pin-project-lite//0.1.2 trybuild//1.0.17 weak:test
 pin-project//0.4.6 pin-project-internal//0.4.6
