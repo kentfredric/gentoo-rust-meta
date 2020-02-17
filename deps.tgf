@@ -359,6 +359,7 @@ pico-sys//0.0.1 pico-sys 0.0.1
 pin-project-internal//0.4.6 pin-project-internal 0.4.6
 pin-project-internal//0.4.8 pin-project-internal 0.4.8
 pin-project-lite//0.1.2 pin-project-lite 0.1.2
+pin-project-lite//0.1.4 pin-project-lite 0.1.4
 pin-project//0.4.6 pin-project 0.4.6
 pin-project//0.4.8 pin-project 0.4.8
 pin-utils//0.1.0.4 pin-utils 0.1.0.4
@@ -745,7 +746,7 @@ async-compression//0.2.0 futures-test//0.3.1 weak:test
 async-compression//0.2.0 futures//0.3.1 weak:test
 async-compression//0.2.0 memchr//2.3.0
 async-compression//0.2.0 ntest//0.3.3 weak:test
-async-compression//0.2.0 pin-project-lite//0.1.2
+async-compression//0.2.0 pin-project-lite//0.1.4
 async-compression//0.2.0 proptest-derive//0.1.2 weak:test
 async-compression//0.2.0 proptest//0.9.4 weak:test
 async-compression//0.2.0 rand//0.7.2 weak:test
@@ -2327,6 +2328,8 @@ pin-project-internal//0.4.8 quote//1.0.2
 pin-project-internal//0.4.8 syn//1.0.14
 pin-project-lite//0.1.2 rustversion//1.0.1 weak:test
 pin-project-lite//0.1.2 trybuild//1.0.17 weak:test
+pin-project-lite//0.1.4 rustversion//1.0.1 weak:test
+pin-project-lite//0.1.4 trybuild//1.0.17 weak:test
 pin-project//0.4.6 pin-project-internal//0.4.6
 pin-project//0.4.8 pin-project-internal//0.4.8
 pkg-config//0.3.16 lazy_static//1.4.0 weak:test
@@ -2743,7 +2746,7 @@ reqwest//0.10.0 native-tls//0.2.3 weak:feature:f_native-tls
 reqwest//0.10.0 native-tls//0.2.3 weak:feature:native-tls-vendored
 reqwest//0.10.0 native-tls//0.2.3 weak:optional
 reqwest//0.10.0 percent-encoding//2.1.0
-reqwest//0.10.0 pin-project-lite//0.1.2
+reqwest//0.10.0 pin-project-lite//0.1.4
 reqwest//0.10.0 rustls//0.16.0 weak:feature:rust-tls
 reqwest//0.10.0 rustls//0.16.0 weak:optional
 reqwest//0.10.0 serde//1.0.104
@@ -3303,7 +3306,7 @@ tokio-util//0.2.0 futures-core//0.3.1
 tokio-util//0.2.0 futures-sink//0.3.1
 tokio-util//0.2.0 futures//0.3.1 weak:test
 tokio-util//0.2.0 log//0.4.8
-tokio-util//0.2.0 pin-project-lite//0.1.2
+tokio-util//0.2.0 pin-project-lite//0.1.4
 tokio-util//0.2.0 tokio-test//0.2.0 weak:test
 tokio-util//0.2.0 tokio//0.2.9
 tokio-util//0.2.0 tokio//0.2.9 weak:test
@@ -3411,7 +3414,7 @@ tokio//0.2.9 mio//0.6.21 weak:optional
 tokio//0.2.9 num_cpus//1.12.0 weak:feature:full
 tokio//0.2.9 num_cpus//1.12.0 weak:feature:rt-threaded
 tokio//0.2.9 num_cpus//1.12.0 weak:optional
-tokio//0.2.9 pin-project-lite//0.1.2
+tokio//0.2.9 pin-project-lite//0.1.4
 tokio//0.2.9 proptest//0.9.4 weak:test
 tokio//0.2.9 signal-hook-registry//1.2.0 weak:feature:full
 tokio//0.2.9 signal-hook-registry//1.2.0 weak:feature:process
