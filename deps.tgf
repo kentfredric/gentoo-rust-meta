@@ -360,6 +360,7 @@ pin-project-internal//0.4.6 pin-project-internal 0.4.6
 pin-project-internal//0.4.8 pin-project-internal 0.4.8
 pin-project-lite//0.1.2 pin-project-lite 0.1.2
 pin-project//0.4.6 pin-project 0.4.6
+pin-project//0.4.8 pin-project 0.4.8
 pin-utils//0.1.0.4 pin-utils 0.1.0.4
 pkg-config//0.3.16 pkg-config 0.3.16
 plain//0.2.3 plain 0.2.3
@@ -1663,7 +1664,7 @@ hyper//0.13.1 net2//0.2.33 feature:default
 hyper//0.13.1 net2//0.2.33 weak:feature:runtime
 hyper//0.13.1 net2//0.2.33 weak:feature:tcp
 hyper//0.13.1 net2//0.2.33 weak:optional
-hyper//0.13.1 pin-project//0.4.6
+hyper//0.13.1 pin-project//0.4.8
 hyper//0.13.1 pretty_env_logger//0.3.1 weak:test
 hyper//0.13.1 time//0.1.42
 hyper//0.13.1 tokio-test//0.2.0 weak:test
@@ -1687,7 +1688,7 @@ hyper//0.13.2 net2//0.2.33 feature:default
 hyper//0.13.2 net2//0.2.33 weak:feature:runtime
 hyper//0.13.2 net2//0.2.33 weak:feature:tcp
 hyper//0.13.2 net2//0.2.33 weak:optional
-hyper//0.13.2 pin-project//0.4.6
+hyper//0.13.2 pin-project//0.4.8
 hyper//0.13.2 pretty_env_logger//0.4.0 weak:test
 hyper//0.13.2 time//0.1.42
 hyper//0.13.2 tokio-test//0.2.0 weak:test
@@ -2327,6 +2328,7 @@ pin-project-internal//0.4.8 syn//1.0.14
 pin-project-lite//0.1.2 rustversion//1.0.1 weak:test
 pin-project-lite//0.1.2 trybuild//1.0.17 weak:test
 pin-project//0.4.6 pin-project-internal//0.4.6
+pin-project//0.4.8 pin-project-internal//0.4.8
 pkg-config//0.3.16 lazy_static//1.4.0 weak:test
 pretty_assertions//0.6.1 ansi_term//0.11.0
 pretty_assertions//0.6.1 difference//2.0.0
@@ -3433,7 +3435,7 @@ toml//0.5.3 serde_json//1.0.41 weak:test
 tower-layer//0.3.0 tower-service//0.3.0 weak:test
 tower-service//0.3.0 http//0.1.21 weak:test
 tower-test//0.3.0 futures-util//0.3.1
-tower-test//0.3.0 pin-project//0.4.6
+tower-test//0.3.0 pin-project//0.4.8
 tower-test//0.3.0 tokio-test//0.2.0
 tower-test//0.3.0 tokio//0.2.9
 tower-test//0.3.0 tokio//0.2.9 weak:test
@@ -3443,7 +3445,7 @@ tower-util//0.3.0 futures-core//0.3.1
 tower-util//0.3.0 futures-util//0.3.1 feature:default
 tower-util//0.3.0 futures-util//0.3.1 weak:feature:call-all
 tower-util//0.3.0 futures-util//0.3.1 weak:optional
-tower-util//0.3.0 pin-project//0.4.6
+tower-util//0.3.0 pin-project//0.4.8
 tower-util//0.3.0 tokio-test//0.2.0 weak:test
 tower-util//0.3.0 tokio//0.2.9 weak:test
 tower-util//0.3.0 tower-service//0.3.0
@@ -3461,10 +3463,10 @@ tracing-futures//0.2.1 futures-task//0.3.1 weak:feature:futures-03
 tracing-futures//0.2.1 futures-task//0.3.1 weak:optional
 tracing-futures//0.2.1 futures//0.3.1 weak:feature:futures-03
 tracing-futures//0.2.1 futures//0.3.1 weak:optional
-tracing-futures//0.2.1 pin-project//0.4.6 feature:default
-tracing-futures//0.2.1 pin-project//0.4.6 weak:feature:futures-03
-tracing-futures//0.2.1 pin-project//0.4.6 weak:feature:std-future
-tracing-futures//0.2.1 pin-project//0.4.6 weak:optional
+tracing-futures//0.2.1 pin-project//0.4.8 feature:default
+tracing-futures//0.2.1 pin-project//0.4.8 weak:feature:futures-03
+tracing-futures//0.2.1 pin-project//0.4.8 weak:feature:std-future
+tracing-futures//0.2.1 pin-project//0.4.8 weak:optional
 tracing-futures//0.2.1 tokio-executor//0.1.9 weak:optional
 tracing-futures//0.2.1 tokio//0.1.22 weak:optional
 tracing-futures//0.2.1 tokio//0.1.22 weak:test
