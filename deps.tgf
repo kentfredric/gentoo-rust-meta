@@ -22,7 +22,6 @@ autocfg//0.1.6 autocfg 0.1.6
 autocfg//1.0.0 autocfg 1.0.0
 average//0.10.3 average 0.10.3
 average//0.9.4 average 0.9.4
-backtrace-sys//0.1.31 backtrace-sys 0.1.31
 backtrace-sys//0.1.32 backtrace-sys 0.1.32
 backtrace//0.3.38 backtrace 0.3.38
 backtrace//0.3.42 backtrace 0.3.42
@@ -796,8 +795,6 @@ average//0.9.4 serde_derive//1.0.104 weak:feature:serde1
 average//0.9.4 serde_derive//1.0.104 weak:optional
 average//0.9.4 serde_json//1.0.41 weak:test
 average//0.9.4 streaming-stats//0.2.2 weak:test
-backtrace-sys//0.1.31 cc//1.0.46
-backtrace-sys//0.1.31 libc//0.2.66
 backtrace-sys//0.1.32 cc//1.0.46
 backtrace-sys//0.1.32 libc//0.2.66
 backtrace//0.3.38 addr2line//0.10.0 weak:feature:gimli-symbolize
