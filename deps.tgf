@@ -70,7 +70,6 @@ crates-index//0.5.1 crates-index 0.5.1
 crc32fast//1.2.0 crc32fast 1.2.0
 crossbeam-channel//0.3.9 crossbeam-channel 0.3.9
 crossbeam-channel//0.4.0 crossbeam-channel 0.4.0
-crossbeam-deque//0.7.1 crossbeam-deque 0.7.1
 crossbeam-deque//0.7.2 crossbeam-deque 0.7.2
 crossbeam-epoch//0.7.2 crossbeam-epoch 0.7.2
 crossbeam-epoch//0.8.0 crossbeam-epoch 0.8.0
@@ -1039,9 +1038,6 @@ crossbeam-channel//0.4.0 crossbeam-utils//0.7.0
 crossbeam-channel//0.4.0 num_cpus//1.12.0 weak:test
 crossbeam-channel//0.4.0 rand//0.6.5 weak:test
 crossbeam-channel//0.4.0 signal-hook//0.1.12 weak:test
-crossbeam-deque//0.7.1 crossbeam-epoch//0.7.2
-crossbeam-deque//0.7.1 crossbeam-utils//0.6.6
-crossbeam-deque//0.7.1 rand//0.6.5 weak:test
 crossbeam-deque//0.7.2 crossbeam-epoch//0.8.0
 crossbeam-deque//0.7.2 crossbeam-utils//0.7.0
 crossbeam-deque//0.7.2 rand//0.6.5 weak:test
