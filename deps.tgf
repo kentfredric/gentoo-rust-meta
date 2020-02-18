@@ -45,7 +45,6 @@ byteorder//0.5.3 byteorder 0.5.3
 byteorder//1.3.2 byteorder 1.3.2
 bytes//0.3.0 bytes 0.3.0
 bytes//0.4.12 bytes 0.4.12
-bytes//0.5.3 bytes 0.5.3
 bytes//0.5.4 bytes 0.5.4
 bzip2-sys//0.1.7 bzip2-sys 0.1.7
 bzip2//0.3.3 bzip2 0.3.3
@@ -892,9 +891,6 @@ bytes//0.4.12 either//1.5.3 weak:optional
 bytes//0.4.12 iovec//0.1.4
 bytes//0.4.12 serde//1.0.104 weak:optional
 bytes//0.4.12 serde_test//1.0.102 weak:test
-bytes//0.5.3 loom//0.2.14 weak:test
-bytes//0.5.3 serde//1.0.104 weak:optional
-bytes//0.5.3 serde_test//1.0.102 weak:test
 bytes//0.5.4 loom//0.2.14 weak:test
 bytes//0.5.4 serde//1.0.104 weak:optional
 bytes//0.5.4 serde_test//1.0.102 weak:test
