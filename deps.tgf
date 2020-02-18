@@ -385,6 +385,7 @@ proptest-derive//0.1.2 proptest-derive 0.1.2
 proptest//0.7.2 proptest 0.7.2
 proptest//0.8.7 proptest 0.8.7
 proptest//0.9.4 proptest 0.9.4
+proptest//0.9.5 proptest 0.9.5
 publicsuffix//1.5.4 publicsuffix 1.5.4
 pulldown-cmark//0.1.2 pulldown-cmark 0.1.2
 pulldown-cmark//0.4.1 pulldown-cmark 0.4.1
@@ -749,7 +750,7 @@ async-compression//0.2.0 memchr//2.3.0
 async-compression//0.2.0 ntest//0.3.3 weak:test
 async-compression//0.2.0 pin-project-lite//0.1.4
 async-compression//0.2.0 proptest-derive//0.1.2 weak:test
-async-compression//0.2.0 proptest//0.9.4 weak:test
+async-compression//0.2.0 proptest//0.9.5 weak:test
 async-compression//0.2.0 rand//0.7.2 weak:test
 async-compression//0.2.0 timebomb//0.1.2 weak:test
 async-compression//0.2.0 zstd-safe//2.0.3 weak:feature:f_zstd
@@ -770,7 +771,7 @@ atty//0.2.14 libc//0.2.66
 average//0.10.3 conv//0.3.3
 average//0.10.3 float-ord//0.2.0
 average//0.10.3 num-traits//0.2.11
-average//0.10.3 proptest//0.9.4 weak:test
+average//0.10.3 proptest//0.9.5 weak:test
 average//0.10.3 quantiles//0.7.1 weak:test
 average//0.10.3 rand//0.7.2 weak:test
 average//0.10.3 rand_distr//0.2.2 weak:test
@@ -1859,7 +1860,7 @@ lexical-core//0.4.6 arrayvec//0.4.12 weak:optional
 lexical-core//0.4.6 cfg-if//0.1.10
 lexical-core//0.4.6 dtoa//0.4.5 weak:feature:grisu3
 lexical-core//0.4.6 dtoa//0.4.5 weak:optional
-lexical-core//0.4.6 proptest//0.9.4 weak:test
+lexical-core//0.4.6 proptest//0.9.5 weak:test
 lexical-core//0.4.6 quickcheck//0.8.5 weak:test
 lexical-core//0.4.6 rustc_version//0.2.3
 lexical-core//0.4.6 ryu//1.0.1 feature:default
@@ -2360,7 +2361,7 @@ proc-macro2//1.0.7 unicode-xid//0.2.0
 proc-macro2//1.0.8 quote//1.0.2 weak:test
 proc-macro2//1.0.8 unicode-xid//0.2.0
 proptest-derive//0.1.2 proc-macro2//0.4.30
-proptest-derive//0.1.2 proptest//0.9.4 weak:test
+proptest-derive//0.1.2 proptest//0.9.5 weak:test
 proptest-derive//0.1.2 quote//0.6.13
 proptest-derive//0.1.2 syn//0.15.44
 proptest//0.7.2 bit-set//0.5.1
@@ -2451,6 +2452,44 @@ proptest//0.9.4 tempfile//3.1.0 weak:feature:default-code-coverage
 proptest//0.9.4 tempfile//3.1.0 weak:feature:fork
 proptest//0.9.4 tempfile//3.1.0 weak:feature:timeout
 proptest//0.9.4 tempfile//3.1.0 weak:optional
+proptest//0.9.5 bit-set//0.5.1 feature:default
+proptest//0.9.5 bit-set//0.5.1 weak:feature:default-code-coverage
+proptest//0.9.5 bit-set//0.5.1 weak:optional
+proptest//0.9.5 bitflags//1.2.1
+proptest//0.9.5 byteorder//1.3.2
+proptest//0.9.5 lazy_static//1.4.0 feature:default
+proptest//0.9.5 lazy_static//1.4.0 weak:feature:default-code-coverage
+proptest//0.9.5 lazy_static//1.4.0 weak:feature:fork
+proptest//0.9.5 lazy_static//1.4.0 weak:feature:std
+proptest//0.9.5 lazy_static//1.4.0 weak:feature:timeout
+proptest//0.9.5 lazy_static//1.4.0 weak:optional
+proptest//0.9.5 num-traits//0.2.11
+proptest//0.9.5 quick-error//1.2.2 feature:default
+proptest//0.9.5 quick-error//1.2.2 weak:feature:default-code-coverage
+proptest//0.9.5 quick-error//1.2.2 weak:feature:fork
+proptest//0.9.5 quick-error//1.2.2 weak:feature:std
+proptest//0.9.5 quick-error//1.2.2 weak:feature:timeout
+proptest//0.9.5 quick-error//1.2.2 weak:optional
+proptest//0.9.5 rand//0.6.5
+proptest//0.9.5 rand_chacha//0.1.1
+proptest//0.9.5 rand_xorshift//0.1.1
+proptest//0.9.5 regex-syntax//0.6.12 feature:default
+proptest//0.9.5 regex-syntax//0.6.12 weak:feature:default-code-coverage
+proptest//0.9.5 regex-syntax//0.6.12 weak:feature:fork
+proptest//0.9.5 regex-syntax//0.6.12 weak:feature:std
+proptest//0.9.5 regex-syntax//0.6.12 weak:feature:timeout
+proptest//0.9.5 regex-syntax//0.6.12 weak:optional
+proptest//0.9.5 regex//1.3.1 weak:test
+proptest//0.9.5 rusty-fork//0.2.2 feature:default
+proptest//0.9.5 rusty-fork//0.2.2 weak:feature:default-code-coverage
+proptest//0.9.5 rusty-fork//0.2.2 weak:feature:fork
+proptest//0.9.5 rusty-fork//0.2.2 weak:feature:timeout
+proptest//0.9.5 rusty-fork//0.2.2 weak:optional
+proptest//0.9.5 tempfile//3.1.0 feature:default
+proptest//0.9.5 tempfile//3.1.0 weak:feature:default-code-coverage
+proptest//0.9.5 tempfile//3.1.0 weak:feature:fork
+proptest//0.9.5 tempfile//3.1.0 weak:feature:timeout
+proptest//0.9.5 tempfile//3.1.0 weak:optional
 publicsuffix//1.5.4 error-chain//0.12.1
 publicsuffix//1.5.4 idna//0.2.0
 publicsuffix//1.5.4 lazy_static//1.4.0
@@ -3417,7 +3456,7 @@ tokio//0.2.9 num_cpus//1.12.0 weak:feature:full
 tokio//0.2.9 num_cpus//1.12.0 weak:feature:rt-threaded
 tokio//0.2.9 num_cpus//1.12.0 weak:optional
 tokio//0.2.9 pin-project-lite//0.1.4
-tokio//0.2.9 proptest//0.9.4 weak:test
+tokio//0.2.9 proptest//0.9.5 weak:test
 tokio//0.2.9 signal-hook-registry//1.2.0 weak:feature:full
 tokio//0.2.9 signal-hook-registry//1.2.0 weak:feature:process
 tokio//0.2.9 signal-hook-registry//1.2.0 weak:feature:signal
