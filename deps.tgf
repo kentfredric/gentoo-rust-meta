@@ -86,7 +86,6 @@ demo-hack-impl//0.0.4 demo-hack-impl 0.0.4
 demo-hack-impl//0.0.5 demo-hack-impl 0.0.5
 demo-hack//0.0.4 demo-hack 0.0.4
 demo-hack//0.0.5 demo-hack 0.0.5
-diff//0.1.11 diff 0.1.11
 diff//0.1.12 diff 0.1.12
 difference//2.0.0 difference 2.0.0
 digest//0.8.1 digest 0.8.1
