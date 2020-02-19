@@ -468,7 +468,6 @@ serde-big-array//0.1.5 serde-big-array 0.1.5
 serde//0.8.23 serde 0.8.23
 serde//1.0.101 serde 1.0.101
 serde//1.0.104 serde 1.0.104
-serde//1.0.89 serde 1.0.89
 serde_bytes//0.10.4 serde_bytes 0.10.4
 serde_bytes//0.11.2 serde_bytes 0.11.2
 serde_cbor//0.9.0 serde_cbor 0.9.0
@@ -2802,9 +2801,6 @@ serde//1.0.101 serde_derive//1.0.104 weak:test
 serde//1.0.104 serde_derive//1.0.104 weak:feature:derive
 serde//1.0.104 serde_derive//1.0.104 weak:optional
 serde//1.0.104 serde_derive//1.0.104 weak:test
-serde//1.0.89 serde_derive//1.0.104 weak:feature:derive
-serde//1.0.89 serde_derive//1.0.104 weak:optional
-serde//1.0.89 serde_derive//1.0.104 weak:test
 serde_bytes//0.10.4 bincode//0.8.0 weak:test
 serde_bytes//0.10.4 serde//1.0.104
 serde_bytes//0.10.4 serde_derive//1.0.104 weak:test
