@@ -556,6 +556,7 @@ tokio-threadpool//0.1.17 tokio-threadpool 0.1.17
 tokio-timer//0.2.12 tokio-timer 0.2.12
 tokio-tls//0.3.0 tokio-tls 0.3.0
 tokio-udp//0.1.5 tokio-udp 0.1.5
+tokio-udp//0.1.6 tokio-udp 0.1.6
 tokio-uds//0.2.5 tokio-uds 0.2.5
 tokio-util//0.2.0 tokio-util 0.2.0
 tokio//0.1.22 tokio 0.1.22
@@ -3169,6 +3170,14 @@ tokio-udp//0.1.5 mio//0.6.21
 tokio-udp//0.1.5 tokio-codec//0.1.1
 tokio-udp//0.1.5 tokio-io//0.1.11
 tokio-udp//0.1.5 tokio-reactor//0.1.11
+tokio-udp//0.1.6 bytes//0.4.12
+tokio-udp//0.1.6 env_logger//0.6.2 weak:test
+tokio-udp//0.1.6 futures//0.1.29
+tokio-udp//0.1.6 log//0.4.8
+tokio-udp//0.1.6 mio//0.6.21
+tokio-udp//0.1.6 tokio-codec//0.1.1
+tokio-udp//0.1.6 tokio-io//0.1.11
+tokio-udp//0.1.6 tokio-reactor//0.1.11
 tokio-uds//0.2.5 bytes//0.4.12
 tokio-uds//0.2.5 futures//0.1.29
 tokio-uds//0.2.5 iovec//0.1.4
@@ -3237,9 +3246,9 @@ tokio//0.1.22 tokio-timer//0.2.12 feature:default
 tokio//0.1.22 tokio-timer//0.2.12 weak:feature:rt-full
 tokio//0.1.22 tokio-timer//0.2.12 weak:feature:timer
 tokio//0.1.22 tokio-timer//0.2.12 weak:optional
-tokio//0.1.22 tokio-udp//0.1.5 feature:default
-tokio//0.1.22 tokio-udp//0.1.5 weak:feature:udp
-tokio//0.1.22 tokio-udp//0.1.5 weak:optional
+tokio//0.1.22 tokio-udp//0.1.6 feature:default
+tokio//0.1.22 tokio-udp//0.1.6 weak:feature:udp
+tokio//0.1.22 tokio-udp//0.1.6 weak:optional
 tokio//0.1.22 tokio-uds//0.2.5 feature:default
 tokio//0.1.22 tokio-uds//0.2.5 weak:feature:uds
 tokio//0.1.22 tokio-uds//0.2.5 weak:optional
