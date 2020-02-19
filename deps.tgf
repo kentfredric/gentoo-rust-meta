@@ -5,6 +5,7 @@ afl//0.5.2 afl 0.5.2
 aho-corasick//0.5.3 aho-corasick 0.5.3
 aho-corasick//0.6.10 aho-corasick 0.6.10
 aho-corasick//0.7.6 aho-corasick 0.7.6
+aho-corasick//0.7.8 aho-corasick 0.7.8
 ansi_term//0.11.0 ansi_term 0.11.0
 ansi_term//0.12.1 ansi_term 0.12.1
 anyhow//1.0.26 anyhow 1.0.26
@@ -654,6 +655,8 @@ aho-corasick//0.6.10 quickcheck//0.7.2 weak:test
 aho-corasick//0.6.10 rand//0.5.6 weak:test
 aho-corasick//0.7.6 doc-comment//0.3.1 weak:test
 aho-corasick//0.7.6 memchr//2.3.0
+aho-corasick//0.7.8 doc-comment//0.3.1 weak:test
+aho-corasick//0.7.8 memchr//2.3.0
 ansi_term//0.12.1 doc-comment//0.3.1 weak:test
 ansi_term//0.12.1 regex//1.3.1 weak:test
 ansi_term//0.12.1 serde//1.0.104 weak:feature:derive_serde_style
@@ -2625,10 +2628,10 @@ regex//0.2.11 rand//0.4.6 weak:test
 regex//0.2.11 regex-syntax//0.5.6
 regex//0.2.11 thread_local//0.3.6
 regex//0.2.11 utf8-ranges//1.0.4
-regex//1.3.1 aho-corasick//0.7.6 feature:default
-regex//1.3.1 aho-corasick//0.7.6 weak:feature:perf
-regex//1.3.1 aho-corasick//0.7.6 weak:feature:perf-literal
-regex//1.3.1 aho-corasick//0.7.6 weak:optional
+regex//1.3.1 aho-corasick//0.7.8 feature:default
+regex//1.3.1 aho-corasick//0.7.8 weak:feature:perf
+regex//1.3.1 aho-corasick//0.7.8 weak:feature:perf-literal
+regex//1.3.1 aho-corasick//0.7.8 weak:optional
 regex//1.3.1 doc-comment//0.3.1 weak:test
 regex//1.3.1 lazy_static//1.4.0 weak:test
 regex//1.3.1 memchr//2.3.0 feature:default
