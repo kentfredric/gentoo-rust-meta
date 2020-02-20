@@ -16,7 +16,6 @@ crates-index 0.5.1 -> 0.13.4
 curl-sys 0.4.25 -> 0.4.26
 futures 0.3.1 -> 0.3.4
 futures-channel 0.3.1 -> 0.3.4
-futures-core 0.3.1 -> 0.3.4
 futures-executor 0.3.1 -> 0.3.4
 futures-io 0.3.1 -> 0.3.4
 futures-macro 0.3.1 -> 0.3.4
