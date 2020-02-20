@@ -548,6 +548,7 @@ tokio-codec//0.1.1 tokio-codec 0.1.1
 tokio-codec//0.1.2 tokio-codec 0.1.2
 tokio-core//0.1.17 tokio-core 0.1.17
 tokio-current-thread//0.1.6 tokio-current-thread 0.1.6
+tokio-executor//0.1.10 tokio-executor 0.1.10
 tokio-executor//0.1.9 tokio-executor 0.1.9
 tokio-executor//0.2.0.6 tokio-executor 0.2.0.6
 tokio-fs//0.1.6 tokio-fs 0.1.6
@@ -3080,13 +3081,16 @@ tokio-core//0.1.17 libc//0.2.66 weak:test
 tokio-core//0.1.17 log//0.4.8
 tokio-core//0.1.17 mio//0.6.21
 tokio-core//0.1.17 scoped-tls//0.1.2
-tokio-core//0.1.17 tokio-executor//0.1.9
+tokio-core//0.1.17 tokio-executor//0.1.10
 tokio-core//0.1.17 tokio-io//0.1.11
 tokio-core//0.1.17 tokio-reactor//0.1.11
 tokio-core//0.1.17 tokio-timer//0.2.12
 tokio-core//0.1.17 tokio//0.1.22
 tokio-current-thread//0.1.6 futures//0.1.29
-tokio-current-thread//0.1.6 tokio-executor//0.1.9
+tokio-current-thread//0.1.6 tokio-executor//0.1.10
+tokio-executor//0.1.10 crossbeam-utils//0.7.0
+tokio-executor//0.1.10 futures//0.1.29
+tokio-executor//0.1.10 tokio//0.1.22 weak:test
 tokio-executor//0.1.9 crossbeam-utils//0.6.6
 tokio-executor//0.1.9 futures//0.1.29
 tokio-executor//0.1.9 tokio//0.1.22 weak:test
@@ -3153,7 +3157,7 @@ tokio-reactor//0.1.11 num_cpus//1.12.0
 tokio-reactor//0.1.11 num_cpus//1.12.0 weak:test
 tokio-reactor//0.1.11 parking_lot//0.9.0
 tokio-reactor//0.1.11 slab//0.4.2
-tokio-reactor//0.1.11 tokio-executor//0.1.9
+tokio-reactor//0.1.11 tokio-executor//0.1.10
 tokio-reactor//0.1.11 tokio-io//0.1.11
 tokio-reactor//0.1.11 tokio-sync//0.1.7
 tokio-rustls//0.12.2 bytes//0.5.4 weak:feature:unstable
@@ -3171,7 +3175,7 @@ tokio-signal//0.2.7 libc//0.2.66
 tokio-signal//0.2.7 mio-uds//0.6.7
 tokio-signal//0.2.7 mio//0.6.21
 tokio-signal//0.2.7 signal-hook//0.1.12
-tokio-signal//0.2.7 tokio-executor//0.1.9
+tokio-signal//0.2.7 tokio-executor//0.1.10
 tokio-signal//0.2.7 tokio-io//0.1.11
 tokio-signal//0.2.7 tokio-reactor//0.1.11
 tokio-signal//0.2.7 tokio//0.1.22 weak:test
@@ -3208,7 +3212,7 @@ tokio-threadpool//0.1.17 log//0.4.8
 tokio-threadpool//0.1.17 num_cpus//1.12.0
 tokio-threadpool//0.1.17 rand//0.7.2 weak:test
 tokio-threadpool//0.1.17 slab//0.4.2
-tokio-threadpool//0.1.17 tokio-executor//0.1.9
+tokio-threadpool//0.1.17 tokio-executor//0.1.10
 tokio-threadpool//0.1.18 crossbeam-deque//0.7.2
 tokio-threadpool//0.1.18 crossbeam-queue//0.2.1
 tokio-threadpool//0.1.18 crossbeam-utils//0.7.0
@@ -3219,12 +3223,12 @@ tokio-threadpool//0.1.18 log//0.4.8
 tokio-threadpool//0.1.18 num_cpus//1.12.0
 tokio-threadpool//0.1.18 rand//0.7.2 weak:test
 tokio-threadpool//0.1.18 slab//0.4.2
-tokio-threadpool//0.1.18 tokio-executor//0.1.9
+tokio-threadpool//0.1.18 tokio-executor//0.1.10
 tokio-timer//0.2.12 crossbeam-utils//0.6.6
 tokio-timer//0.2.12 futures//0.1.29
 tokio-timer//0.2.12 rand//0.7.2 weak:test
 tokio-timer//0.2.12 slab//0.4.2
-tokio-timer//0.2.12 tokio-executor//0.1.9
+tokio-timer//0.2.12 tokio-executor//0.1.10
 tokio-timer//0.2.12 tokio-mock-task//0.1.1 weak:test
 tokio-timer//0.2.12 tokio//0.1.22 weak:test
 tokio-tls//0.3.0 cfg-if//0.1.10 weak:test
@@ -3301,9 +3305,9 @@ tokio//0.1.22 tokio-codec//0.1.2 weak:optional
 tokio//0.1.22 tokio-current-thread//0.1.6 feature:default
 tokio//0.1.22 tokio-current-thread//0.1.6 weak:feature:rt-full
 tokio//0.1.22 tokio-current-thread//0.1.6 weak:optional
-tokio//0.1.22 tokio-executor//0.1.9 feature:default
-tokio//0.1.22 tokio-executor//0.1.9 weak:feature:rt-full
-tokio//0.1.22 tokio-executor//0.1.9 weak:optional
+tokio//0.1.22 tokio-executor//0.1.10 feature:default
+tokio//0.1.22 tokio-executor//0.1.10 weak:feature:rt-full
+tokio//0.1.22 tokio-executor//0.1.10 weak:optional
 tokio//0.1.22 tokio-fs//0.1.6 feature:default
 tokio//0.1.22 tokio-fs//0.1.6 weak:feature:fs
 tokio//0.1.22 tokio-fs//0.1.6 weak:optional
@@ -3443,7 +3447,7 @@ tracing-futures//0.2.1 pin-project//0.4.8 feature:default
 tracing-futures//0.2.1 pin-project//0.4.8 weak:feature:futures-03
 tracing-futures//0.2.1 pin-project//0.4.8 weak:feature:std-future
 tracing-futures//0.2.1 pin-project//0.4.8 weak:optional
-tracing-futures//0.2.1 tokio-executor//0.1.9 weak:optional
+tracing-futures//0.2.1 tokio-executor//0.1.10 weak:optional
 tracing-futures//0.2.1 tokio//0.1.22 weak:optional
 tracing-futures//0.2.1 tokio//0.1.22 weak:test
 tracing-futures//0.2.1 tracing//0.1.12
