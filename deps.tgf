@@ -2,6 +2,7 @@ addr2line//0.11.0 addr2line 0.11.0
 adler32//1.0.4 adler32 1.0.4
 afl//0.4.4 afl 0.4.4
 afl//0.5.2 afl 0.5.2
+afl//0.6.0 afl 0.6.0
 aho-corasick//0.5.3 aho-corasick 0.5.3
 aho-corasick//0.6.10 aho-corasick 0.6.10
 aho-corasick//0.7.6 aho-corasick 0.7.6
@@ -651,6 +652,12 @@ afl//0.5.2 clap//2.33.0 weak:feature:f_cargo-afl
 afl//0.5.2 clap//2.33.0 weak:optional
 afl//0.5.2 rustc_version//0.2.3
 afl//0.5.2 xdg//2.2.0
+afl//0.6.0 cc//1.0.46 weak:feature:f_cargo-afl
+afl//0.6.0 cc//1.0.46 weak:optional
+afl//0.6.0 clap//2.33.0 weak:feature:f_cargo-afl
+afl//0.6.0 clap//2.33.0 weak:optional
+afl//0.6.0 rustc_version//0.2.3
+afl//0.6.0 xdg//2.2.0
 aho-corasick//0.5.3 memchr//0.1.11
 aho-corasick//0.5.3 quickcheck//0.2.27 weak:test
 aho-corasick//0.5.3 rand//0.3.23 weak:test
