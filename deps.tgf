@@ -544,6 +544,7 @@ thread_local//0.3.6 thread_local 0.3.6
 time//0.1.42 time 0.1.42
 timebomb//0.1.2 timebomb 0.1.2
 tokio-codec//0.1.1 tokio-codec 0.1.1
+tokio-codec//0.1.2 tokio-codec 0.1.2
 tokio-core//0.1.17 tokio-core 0.1.17
 tokio-current-thread//0.1.6 tokio-current-thread 0.1.6
 tokio-executor//0.1.9 tokio-executor 0.1.9
@@ -3064,6 +3065,9 @@ timebomb//0.1.2 pulse//0.5.3
 tokio-codec//0.1.1 bytes//0.4.12
 tokio-codec//0.1.1 futures//0.1.29
 tokio-codec//0.1.1 tokio-io//0.1.11
+tokio-codec//0.1.2 bytes//0.4.12
+tokio-codec//0.1.2 futures//0.1.29
+tokio-codec//0.1.2 tokio-io//0.1.11
 tokio-core//0.1.17 bytes//0.4.12
 tokio-core//0.1.17 env_logger//0.4.3 weak:test
 tokio-core//0.1.17 futures//0.1.29
@@ -3231,7 +3235,7 @@ tokio-udp//0.1.5 env_logger//0.5.13 weak:test
 tokio-udp//0.1.5 futures//0.1.29
 tokio-udp//0.1.5 log//0.4.8
 tokio-udp//0.1.5 mio//0.6.21
-tokio-udp//0.1.5 tokio-codec//0.1.1
+tokio-udp//0.1.5 tokio-codec//0.1.2
 tokio-udp//0.1.5 tokio-io//0.1.11
 tokio-udp//0.1.5 tokio-reactor//0.1.11
 tokio-udp//0.1.6 bytes//0.4.12
@@ -3239,7 +3243,7 @@ tokio-udp//0.1.6 env_logger//0.6.2 weak:test
 tokio-udp//0.1.6 futures//0.1.29
 tokio-udp//0.1.6 log//0.4.8
 tokio-udp//0.1.6 mio//0.6.21
-tokio-udp//0.1.6 tokio-codec//0.1.1
+tokio-udp//0.1.6 tokio-codec//0.1.2
 tokio-udp//0.1.6 tokio-io//0.1.11
 tokio-udp//0.1.6 tokio-reactor//0.1.11
 tokio-uds//0.2.5 bytes//0.4.12
@@ -3250,7 +3254,7 @@ tokio-uds//0.2.5 log//0.4.8
 tokio-uds//0.2.5 mio-uds//0.6.7
 tokio-uds//0.2.5 mio//0.6.21
 tokio-uds//0.2.5 tempfile//3.1.0 weak:test
-tokio-uds//0.2.5 tokio-codec//0.1.1
+tokio-uds//0.2.5 tokio-codec//0.1.2
 tokio-uds//0.2.5 tokio-io//0.1.11
 tokio-uds//0.2.5 tokio-reactor//0.1.11
 tokio-uds//0.2.5 tokio//0.1.22 weak:test
@@ -3262,7 +3266,7 @@ tokio-uds//0.2.6 log//0.4.8
 tokio-uds//0.2.6 mio-uds//0.6.7
 tokio-uds//0.2.6 mio//0.6.21
 tokio-uds//0.2.6 tempfile//3.1.0 weak:test
-tokio-uds//0.2.6 tokio-codec//0.1.1
+tokio-uds//0.2.6 tokio-codec//0.1.2
 tokio-uds//0.2.6 tokio-io//0.1.11
 tokio-uds//0.2.6 tokio-reactor//0.1.11
 tokio-uds//0.2.6 tokio//0.1.22 weak:test
@@ -3287,9 +3291,9 @@ tokio//0.1.22 num_cpus//1.12.0 feature:default
 tokio//0.1.22 num_cpus//1.12.0 weak:feature:rt-full
 tokio//0.1.22 num_cpus//1.12.0 weak:optional
 tokio//0.1.22 num_cpus//1.12.0 weak:test
-tokio//0.1.22 tokio-codec//0.1.1 feature:default
-tokio//0.1.22 tokio-codec//0.1.1 weak:feature:codec
-tokio//0.1.22 tokio-codec//0.1.1 weak:optional
+tokio//0.1.22 tokio-codec//0.1.2 feature:default
+tokio//0.1.22 tokio-codec//0.1.2 weak:feature:codec
+tokio//0.1.22 tokio-codec//0.1.2 weak:optional
 tokio//0.1.22 tokio-current-thread//0.1.6 feature:default
 tokio//0.1.22 tokio-current-thread//0.1.6 weak:feature:rt-full
 tokio//0.1.22 tokio-current-thread//0.1.6 weak:optional

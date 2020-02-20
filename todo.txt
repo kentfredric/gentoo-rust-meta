@@ -74,7 +74,6 @@ thiserror 1.0.6 -> 1.0.11
 thread-local 0.3.6 -> 1.0.1
 time 0.1.42 -> 0.2.6
 tokio 0.2.9 -> 0.2.11
-tokio-codec 0.1.1 -> 0.1.2
 tokio-current-thread 0.1.6 -> 0.1.7
 tokio-executor 0.1.9 -> 0.1.10
 tokio-fs 0.1.6 -> 0.1.7
