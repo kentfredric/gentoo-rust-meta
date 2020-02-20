@@ -534,6 +534,7 @@ termios//0.3.1 termios 0.3.1
 test-assembler//0.1.5 test-assembler 0.1.5
 tester//0.6.0 tester 0.6.0
 textwrap//0.11.0 textwrap 0.11.0
+thiserror-impl//1.0.11 thiserror-impl 1.0.11
 thiserror-impl//1.0.6 thiserror-impl 1.0.6
 thiserror//1.0.6 thiserror 1.0.6
 thread-id//2.0.0 thread-id 2.0.0
@@ -3040,6 +3041,9 @@ textwrap//0.11.0 hyphenation//0.7.1 weak:optional
 textwrap//0.11.0 term_size//0.3.1 weak:optional
 textwrap//0.11.0 unicode-width//0.1.6
 textwrap//0.11.0 version-sync//0.6.0 weak:test
+thiserror-impl//1.0.11 proc-macro2//1.0.8
+thiserror-impl//1.0.11 quote//1.0.2
+thiserror-impl//1.0.11 syn//1.0.14
 thiserror-impl//1.0.6 proc-macro2//1.0.8
 thiserror-impl//1.0.6 quote//1.0.2
 thiserror-impl//1.0.6 syn//1.0.14
