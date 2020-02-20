@@ -67,7 +67,6 @@ smallvec 1.1.0 -> 1.2.0
 streaming-stats 0.2.2 -> 0.2.3
 strsim 0.8.0 -> 0.10.0
 sval 0.4.7 -> 0.5.1
-sval_derive 0.4.7 -> 0.5.1
 synstructure 0.12.1 -> 0.12.3
 termcolor 1.0.5 -> 1.1.0
 tester 0.6.0 -> 0.7.0
