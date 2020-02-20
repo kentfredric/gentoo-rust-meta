@@ -549,6 +549,7 @@ tokio-executor//0.2.0.6 tokio-executor 0.2.0.6
 tokio-fs//0.1.6 tokio-fs 0.1.6
 tokio-io//0.1.11 tokio-io 0.1.11
 tokio-macros//0.2.3 tokio-macros 0.2.3
+tokio-macros//0.2.4 tokio-macros 0.2.4
 tokio-mock-task//0.1.1 tokio-mock-task 0.1.1
 tokio-process//0.2.4 tokio-process 0.2.4
 tokio-reactor//0.1.11 tokio-reactor 0.1.11
@@ -3110,6 +3111,10 @@ tokio-io//0.1.11 tokio-current-thread//0.1.6 weak:test
 tokio-macros//0.2.3 quote//1.0.2
 tokio-macros//0.2.3 syn//1.0.14
 tokio-macros//0.2.3 tokio//0.2.9 weak:test
+tokio-macros//0.2.4 proc-macro2//1.0.8
+tokio-macros//0.2.4 quote//1.0.2
+tokio-macros//0.2.4 syn//1.0.14
+tokio-macros//0.2.4 tokio//0.2.9 weak:test
 tokio-mock-task//0.1.1 futures//0.1.29
 tokio-process//0.2.4 crossbeam-queue//0.1.2
 tokio-process//0.2.4 failure//0.1.6 weak:test
@@ -3376,9 +3381,9 @@ tokio//0.2.9 slab//0.4.2 weak:feature:full
 tokio//0.2.9 slab//0.4.2 weak:feature:time
 tokio//0.2.9 slab//0.4.2 weak:optional
 tokio//0.2.9 tempfile//3.1.0 weak:test
-tokio//0.2.9 tokio-macros//0.2.3 weak:feature:full
-tokio//0.2.9 tokio-macros//0.2.3 weak:feature:macros
-tokio//0.2.9 tokio-macros//0.2.3 weak:optional
+tokio//0.2.9 tokio-macros//0.2.4 weak:feature:full
+tokio//0.2.9 tokio-macros//0.2.4 weak:feature:macros
+tokio//0.2.9 tokio-macros//0.2.4 weak:optional
 tokio//0.2.9 tokio-test//0.2.0 weak:test
 toml//0.4.10 serde//1.0.104
 toml//0.4.10 serde_derive//1.0.104 weak:test

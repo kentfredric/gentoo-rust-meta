@@ -81,7 +81,6 @@ tokio-current-thread 0.1.6 -> 0.1.7
 tokio-executor 0.1.9 -> 0.1.10
 tokio-fs 0.1.6 -> 0.1.7
 tokio-io 0.1.11 -> 0.1.13
-tokio-macros 0.2.3 -> 0.2.4
 tokio-process 0.2.4 -> 0.2.5
 tokio-reactor-0.1.11 -> 0.1.12
 tokio-signal 0.2.7 -> 0.2.9
