@@ -144,6 +144,7 @@ futures-core//0.3.4 futures-core 0.3.4
 futures-executor//0.3.1 futures-executor 0.3.1
 futures-io-preview//0.3.0.19 futures-io-preview 0.3.0.19
 futures-io//0.3.1 futures-io 0.3.1
+futures-io//0.3.4 futures-io 0.3.4
 futures-join-macro-preview//0.3.0.19 futures-join-macro-preview 0.3.0.19
 futures-macro//0.3.1 futures-macro 0.3.1
 futures-select-macro-preview//0.3.0.19 futures-select-macro-preview 0.3.0.19
@@ -727,11 +728,11 @@ async-compression//0.2.0 flate2//1.0.13 weak:feature:gzip
 async-compression//0.2.0 flate2//1.0.13 weak:feature:zlib
 async-compression//0.2.0 flate2//1.0.13 weak:optional
 async-compression//0.2.0 futures-core//0.3.4
-async-compression//0.2.0 futures-io//0.3.1 weak:feature:all
-async-compression//0.2.0 futures-io//0.3.1 weak:feature:all-implementations
-async-compression//0.2.0 futures-io//0.3.1 weak:feature:futures-bufread
-async-compression//0.2.0 futures-io//0.3.1 weak:feature:futures-write
-async-compression//0.2.0 futures-io//0.3.1 weak:optional
+async-compression//0.2.0 futures-io//0.3.4 weak:feature:all
+async-compression//0.2.0 futures-io//0.3.4 weak:feature:all-implementations
+async-compression//0.2.0 futures-io//0.3.4 weak:feature:futures-bufread
+async-compression//0.2.0 futures-io//0.3.4 weak:feature:futures-write
+async-compression//0.2.0 futures-io//0.3.4 weak:optional
 async-compression//0.2.0 futures-test//0.3.1 weak:test
 async-compression//0.2.0 futures//0.3.1 weak:test
 async-compression//0.2.0 memchr//2.3.0
@@ -1268,7 +1269,7 @@ futures-select-macro-preview//0.3.0.19 quote//1.0.2
 futures-select-macro-preview//0.3.0.19 syn//1.0.14
 futures-test//0.3.1 futures-core//0.3.4
 futures-test//0.3.1 futures-executor//0.3.1
-futures-test//0.3.1 futures-io//0.3.1
+futures-test//0.3.1 futures-io//0.3.4
 futures-test//0.3.1 futures-task//0.3.4
 futures-test//0.3.1 futures-util//0.3.1
 futures-test//0.3.1 pin-utils//0.1.0.4
@@ -1312,10 +1313,10 @@ futures-util-preview//0.3.0.19 tokio-io//0.1.11 weak:optional
 futures-util//0.3.1 futures-channel//0.3.1 weak:feature:channel
 futures-util//0.3.1 futures-channel//0.3.1 weak:optional
 futures-util//0.3.1 futures-core//0.3.4
-futures-util//0.3.1 futures-io//0.3.1 weak:feature:io
-futures-util//0.3.1 futures-io//0.3.1 weak:feature:io-compat
-futures-util//0.3.1 futures-io//0.3.1 weak:feature:read-initializer
-futures-util//0.3.1 futures-io//0.3.1 weak:optional
+futures-util//0.3.1 futures-io//0.3.4 weak:feature:io
+futures-util//0.3.1 futures-io//0.3.4 weak:feature:io-compat
+futures-util//0.3.1 futures-io//0.3.4 weak:feature:read-initializer
+futures-util//0.3.1 futures-io//0.3.4 weak:optional
 futures-util//0.3.1 futures-macro//0.3.1 feature:default
 futures-util//0.3.1 futures-macro//0.3.1 weak:feature:async-await-macro
 futures-util//0.3.1 futures-macro//0.3.1 weak:optional
@@ -1350,7 +1351,7 @@ futures//0.3.1 assert_matches//1.3.0 weak:test
 futures//0.3.1 futures-channel//0.3.1
 futures//0.3.1 futures-core//0.3.4
 futures//0.3.1 futures-executor//0.3.1
-futures//0.3.1 futures-io//0.3.1
+futures//0.3.1 futures-io//0.3.4
 futures//0.3.1 futures-sink//0.3.1
 futures//0.3.1 futures-task//0.3.4
 futures//0.3.1 futures-util//0.3.1
