@@ -150,6 +150,7 @@ futures-macro//0.3.1 futures-macro 0.3.1
 futures-select-macro-preview//0.3.0.19 futures-select-macro-preview 0.3.0.19
 futures-sink-preview//0.3.0.19 futures-sink-preview 0.3.0.19
 futures-sink//0.3.1 futures-sink 0.3.1
+futures-sink//0.3.4 futures-sink 0.3.4
 futures-task//0.3.1 futures-task 0.3.1
 futures-task//0.3.4 futures-task 0.3.4
 futures-test//0.3.1 futures-test 0.3.1
@@ -1249,8 +1250,8 @@ futf//0.1.4 new_debug_unreachable//1.0.4
 futures-channel-preview//0.3.0.19 futures-core-preview//0.3.0.19
 futures-channel-preview//0.3.0.19 futures-sink-preview//0.3.0.19
 futures-channel//0.3.1 futures-core//0.3.4
-futures-channel//0.3.1 futures-sink//0.3.1 weak:feature:sink
-futures-channel//0.3.1 futures-sink//0.3.1 weak:optional
+futures-channel//0.3.1 futures-sink//0.3.4 weak:feature:sink
+futures-channel//0.3.1 futures-sink//0.3.4 weak:optional
 futures-executor//0.3.1 futures-core//0.3.4
 futures-executor//0.3.1 futures-task//0.3.4
 futures-executor//0.3.1 futures-util//0.3.1
@@ -1321,8 +1322,8 @@ futures-util//0.3.1 futures-io//0.3.4 weak:optional
 futures-util//0.3.1 futures-macro//0.3.1 feature:default
 futures-util//0.3.1 futures-macro//0.3.1 weak:feature:async-await-macro
 futures-util//0.3.1 futures-macro//0.3.1 weak:optional
-futures-util//0.3.1 futures-sink//0.3.1 weak:feature:sink
-futures-util//0.3.1 futures-sink//0.3.1 weak:optional
+futures-util//0.3.1 futures-sink//0.3.4 weak:feature:sink
+futures-util//0.3.1 futures-sink//0.3.4 weak:optional
 futures-util//0.3.1 futures-task//0.3.4
 futures-util//0.3.1 futures//0.1.29 weak:feature:compat
 futures-util//0.3.1 futures//0.1.29 weak:feature:io-compat
@@ -1353,7 +1354,7 @@ futures//0.3.1 futures-channel//0.3.1
 futures//0.3.1 futures-core//0.3.4
 futures//0.3.1 futures-executor//0.3.1
 futures//0.3.1 futures-io//0.3.4
-futures//0.3.1 futures-sink//0.3.1
+futures//0.3.1 futures-sink//0.3.4
 futures//0.3.1 futures-task//0.3.4
 futures//0.3.1 futures-util//0.3.1
 futures//0.3.1 pin-utils//0.1.0.4 weak:test
@@ -1500,7 +1501,7 @@ h2//0.2.1 bytes//0.5.4
 h2//0.2.1 env_logger//0.5.13 weak:test
 h2//0.2.1 fnv//1.0.6
 h2//0.2.1 futures-core//0.3.4
-h2//0.2.1 futures-sink//0.3.1
+h2//0.2.1 futures-sink//0.3.4
 h2//0.2.1 futures-util//0.3.1
 h2//0.2.1 hex//0.2.0 weak:test
 h2//0.2.1 http//0.2.0
@@ -3307,7 +3308,7 @@ tokio-uds//0.2.6 tokio-reactor//0.1.11
 tokio-uds//0.2.6 tokio//0.1.22 weak:test
 tokio-util//0.2.0 bytes//0.5.4
 tokio-util//0.2.0 futures-core//0.3.4
-tokio-util//0.2.0 futures-sink//0.3.1
+tokio-util//0.2.0 futures-sink//0.3.4
 tokio-util//0.2.0 futures//0.3.1 weak:test
 tokio-util//0.2.0 log//0.4.8
 tokio-util//0.2.0 pin-project-lite//0.1.4
