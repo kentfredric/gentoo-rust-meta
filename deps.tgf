@@ -418,6 +418,7 @@ rand_xoshiro//0.1.0 rand_xoshiro 0.1.0
 rand_xoshiro//0.3.1 rand_xoshiro 0.3.1
 rand_xoshiro//0.4.0 rand_xoshiro 0.4.0
 rawpointer//0.1.0 rawpointer 0.1.0
+rawpointer//0.2.1 rawpointer 0.2.1
 rawslice//0.1.0 rawslice 0.1.0
 rayon-core//1.6.0 rayon-core 1.6.0
 rayon-core//1.6.1 rayon-core 1.6.1
