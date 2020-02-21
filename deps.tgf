@@ -555,6 +555,7 @@ thread_local//0.3.6 thread_local 0.3.6
 time-macros-impl//0.1.0 time-macros-impl 0.1.0
 time-macros//0.1.0 time-macros 0.1.0
 time//0.1.42 time 0.1.42
+time//0.2.6 time 0.2.6
 timebomb//0.1.2 timebomb 0.1.2
 tokio-codec//0.1.1 tokio-codec 0.1.1
 tokio-codec//0.1.2 tokio-codec 0.1.2
@@ -3126,6 +3127,9 @@ time-macros//0.1.0 time-macros-impl//0.1.0
 time//0.1.42 libc//0.2.66
 time//0.1.42 log//0.4.8 weak:test
 time//0.1.42 rustc-serialize//0.3.24 weak:optional
+time//0.2.6 rustversion//1.0.1
+time//0.2.6 serde//1.0.104 weak:optional
+time//0.2.6 time-macros//0.1.0
 timebomb//0.1.2 pulse//0.5.3
 tokio-codec//0.1.1 bytes//0.4.12
 tokio-codec//0.1.1 futures//0.1.29
