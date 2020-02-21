@@ -150,6 +150,7 @@ futures-select-macro-preview//0.3.0.19 futures-select-macro-preview 0.3.0.19
 futures-sink-preview//0.3.0.19 futures-sink-preview 0.3.0.19
 futures-sink//0.3.1 futures-sink 0.3.1
 futures-task//0.3.1 futures-task 0.3.1
+futures-task//0.3.4 futures-task 0.3.4
 futures-test//0.3.1 futures-test 0.3.1
 futures-util-preview//0.3.0.19 futures-util-preview 0.3.0.19
 futures-util//0.3.1 futures-util 0.3.1
@@ -1247,7 +1248,7 @@ futures-channel//0.3.1 futures-core//0.3.4
 futures-channel//0.3.1 futures-sink//0.3.1 weak:feature:sink
 futures-channel//0.3.1 futures-sink//0.3.1 weak:optional
 futures-executor//0.3.1 futures-core//0.3.4
-futures-executor//0.3.1 futures-task//0.3.1
+futures-executor//0.3.1 futures-task//0.3.4
 futures-executor//0.3.1 futures-util//0.3.1
 futures-executor//0.3.1 num_cpus//1.12.0 weak:feature:thread-pool
 futures-executor//0.3.1 num_cpus//1.12.0 weak:optional
@@ -1266,7 +1267,7 @@ futures-select-macro-preview//0.3.0.19 syn//1.0.14
 futures-test//0.3.1 futures-core//0.3.4
 futures-test//0.3.1 futures-executor//0.3.1
 futures-test//0.3.1 futures-io//0.3.1
-futures-test//0.3.1 futures-task//0.3.1
+futures-test//0.3.1 futures-task//0.3.4
 futures-test//0.3.1 futures-util//0.3.1
 futures-test//0.3.1 pin-utils//0.1.0.4
 futures-util-preview//0.3.0.19 futures-channel-preview//0.3.0.19 weak:feature:channel
@@ -1318,7 +1319,7 @@ futures-util//0.3.1 futures-macro//0.3.1 weak:feature:async-await-macro
 futures-util//0.3.1 futures-macro//0.3.1 weak:optional
 futures-util//0.3.1 futures-sink//0.3.1 weak:feature:sink
 futures-util//0.3.1 futures-sink//0.3.1 weak:optional
-futures-util//0.3.1 futures-task//0.3.1
+futures-util//0.3.1 futures-task//0.3.4
 futures-util//0.3.1 futures//0.1.29 weak:feature:compat
 futures-util//0.3.1 futures//0.1.29 weak:feature:io-compat
 futures-util//0.3.1 futures//0.1.29 weak:optional
@@ -1349,7 +1350,7 @@ futures//0.3.1 futures-core//0.3.4
 futures//0.3.1 futures-executor//0.3.1
 futures//0.3.1 futures-io//0.3.1
 futures//0.3.1 futures-sink//0.3.1
-futures//0.3.1 futures-task//0.3.1
+futures//0.3.1 futures-task//0.3.4
 futures//0.3.1 futures-util//0.3.1
 futures//0.3.1 pin-utils//0.1.0.4 weak:test
 futures//0.3.1 tokio//0.1.22 weak:test
@@ -3447,8 +3448,8 @@ tracing-core//0.1.7 spin//0.5.2
 tracing-core//0.1.9 lazy_static//1.4.0 feature:default
 tracing-core//0.1.9 lazy_static//1.4.0 weak:feature:std
 tracing-core//0.1.9 lazy_static//1.4.0 weak:optional
-tracing-futures//0.2.1 futures-task//0.3.1 weak:feature:futures-03
-tracing-futures//0.2.1 futures-task//0.3.1 weak:optional
+tracing-futures//0.2.1 futures-task//0.3.4 weak:feature:futures-03
+tracing-futures//0.2.1 futures-task//0.3.4 weak:optional
 tracing-futures//0.2.1 futures//0.3.1 weak:feature:futures-03
 tracing-futures//0.2.1 futures//0.3.1 weak:optional
 tracing-futures//0.2.1 pin-project//0.4.8 feature:default
