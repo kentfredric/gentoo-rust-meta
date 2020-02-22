@@ -45,6 +45,7 @@ block-buffer//0.7.3 block-buffer 0.7.3
 block-padding//0.1.5 block-padding 0.1.5
 brotli-decompressor//2.3.0 brotli-decompressor 2.3.0
 brotli-sys//0.3.2 brotli-sys 0.3.2
+brotli//3.3.0 brotli 3.3.0
 brotli2//0.3.2 brotli2 0.3.2
 byte-tools//0.3.1 byte-tools 0.3.1
 byteorder//0.5.3 byteorder 0.5.3
@@ -925,6 +926,12 @@ brotli-decompressor//2.3.0 alloc-stdlib//0.2.1 weak:feature:unsafe
 brotli-decompressor//2.3.0 alloc-stdlib//0.2.1 weak:optional
 brotli-sys//0.3.2 cc//1.0.46
 brotli-sys//0.3.2 libc//0.2.66
+brotli//3.3.0 alloc-no-stdlib//2.0.1
+brotli//3.3.0 alloc-stdlib//0.2.1 feature:default
+brotli//3.3.0 alloc-stdlib//0.2.1 weak:feature:std
+brotli//3.3.0 alloc-stdlib//0.2.1 weak:optional
+brotli//3.3.0 brotli-decompressor//2.3.0
+brotli//3.3.0 sha2//0.8.1
 brotli2//0.3.2 brotli-sys//0.3.2
 brotli2//0.3.2 libc//0.2.66
 brotli2//0.3.2 quickcheck//0.4.1 weak:test
