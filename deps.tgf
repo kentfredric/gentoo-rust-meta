@@ -8,6 +8,7 @@ aho-corasick//0.6.10 aho-corasick 0.6.10
 aho-corasick//0.7.6 aho-corasick 0.7.6
 aho-corasick//0.7.8 aho-corasick 0.7.8
 alloc-no-stdlib//2.0.1 alloc-no-stdlib 2.0.1
+alloc-stdlib//0.2.1 alloc-stdlib 0.2.1
 ansi_term//0.11.0 ansi_term 0.11.0
 ansi_term//0.12.1 ansi_term 0.12.1
 anyhow//1.0.26 anyhow 1.0.26
@@ -693,6 +694,7 @@ aho-corasick//0.7.6 doc-comment//0.3.1 weak:test
 aho-corasick//0.7.6 memchr//2.3.2
 aho-corasick//0.7.8 doc-comment//0.3.1 weak:test
 aho-corasick//0.7.8 memchr//2.3.2
+alloc-stdlib//0.2.1 alloc-no-stdlib//2.0.1
 ansi_term//0.12.1 doc-comment//0.3.1 weak:test
 ansi_term//0.12.1 regex//1.3.1 weak:test
 ansi_term//0.12.1 serde//1.0.104 weak:feature:derive_serde_style
