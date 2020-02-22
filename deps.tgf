@@ -499,6 +499,7 @@ sha-1//0.8.1 sha-1 0.8.1
 sha-1//0.8.2 sha-1 0.8.2
 sha1-asm//0.4.3 sha1-asm 0.4.3
 sha1//0.6.0 sha1 0.6.0
+sha2-asm//0.5.3 sha2-asm 0.5.3
 shlex//0.1.1 shlex 0.1.1
 signal-hook-registry//1.2.0 signal-hook-registry 1.2.0
 signal-hook//0.1.12 signal-hook 0.1.12
@@ -2963,6 +2964,7 @@ sha1//0.6.0 openssl//0.10.28 weak:test
 sha1//0.6.0 rand//0.4.6 weak:test
 sha1//0.6.0 serde//1.0.104 weak:optional
 sha1//0.6.0 serde_json//1.0.41 weak:test
+sha2-asm//0.5.3 cc//1.0.46
 signal-hook-registry//1.2.0 arc-swap//0.4.4
 signal-hook-registry//1.2.0 libc//0.2.66
 signal-hook-registry//1.2.0 signal-hook//0.1.12 weak:test
