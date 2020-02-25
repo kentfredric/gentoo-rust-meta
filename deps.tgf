@@ -61,6 +61,7 @@ c2-chacha//0.2.3 c2-chacha 0.2.3
 cc//1.0.46 cc 1.0.46
 cexpr//0.3.6 cexpr 0.3.6
 cfg-if//0.1.10 cfg-if 0.1.10
+chrono//0.4.10 chrono 0.4.10
 chrono//0.4.9 chrono 0.4.9
 ci_info//0.3.1 ci_info 0.3.1
 clang-sys//0.28.1 clang-sys 0.28.1
@@ -1041,6 +1042,18 @@ cc//1.0.46 num_cpus//1.12.0 weak:optional
 cc//1.0.46 tempdir//0.3.7 weak:test
 cexpr//0.3.6 clang-sys//0.28.1 weak:test
 cexpr//0.3.6 nom//4.2.3
+chrono//0.4.10 bincode//0.8.0 weak:test
+chrono//0.4.10 doc-comment//0.3.1 weak:test
+chrono//0.4.10 num-integer//0.1.42
+chrono//0.4.10 num-iter//0.1.40 weak:test
+chrono//0.4.10 num-traits//0.2.11
+chrono//0.4.10 rustc-serialize//0.3.24 weak:optional
+chrono//0.4.10 serde//1.0.104 weak:optional
+chrono//0.4.10 serde_derive//1.0.104 weak:test
+chrono//0.4.10 serde_json//1.0.41 weak:test
+chrono//0.4.10 time//0.1.42 feature:default
+chrono//0.4.10 time//0.1.42 weak:feature:clock
+chrono//0.4.10 time//0.1.42 weak:optional
 chrono//0.4.9 bincode//0.8.0 weak:test
 chrono//0.4.9 doc-comment//0.3.1 weak:test
 chrono//0.4.9 libc//0.2.66
@@ -1836,7 +1849,7 @@ insta//0.13.1 ron//0.5.1 weak:optional
 insta//0.13.1 serde//1.0.104
 insta//0.13.1 serde_json//1.0.41
 insta//0.13.1 serde_yaml//0.8.11
-insta//0.8.2 chrono//0.4.9
+insta//0.8.2 chrono//0.4.10
 insta//0.8.2 ci_info//0.3.1
 insta//0.8.2 console//0.7.7
 insta//0.8.2 difference//2.0.0
@@ -1849,7 +1862,7 @@ insta//0.8.2 serde//1.0.104
 insta//0.8.2 serde_json//1.0.41
 insta//0.8.2 serde_yaml//0.8.11
 insta//0.8.2 uuid//0.7.4
-insta//0.9.0 chrono//0.4.9
+insta//0.9.0 chrono//0.4.10
 insta//0.9.0 ci_info//0.3.1
 insta//0.9.0 console//0.7.7
 insta//0.9.0 difference//2.0.0
@@ -2387,7 +2400,7 @@ pkg-config//0.3.16 lazy_static//1.4.0 weak:test
 pkg-config//0.3.17 lazy_static//1.4.0 weak:test
 pretty_assertions//0.6.1 ansi_term//0.11.0
 pretty_assertions//0.6.1 difference//2.0.0
-pretty_env_logger//0.3.1 chrono//0.4.9
+pretty_env_logger//0.3.1 chrono//0.4.10
 pretty_env_logger//0.3.1 env_logger//0.6.2
 pretty_env_logger//0.3.1 log//0.4.8
 pretty_env_logger//0.4.0 env_logger//0.7.1
