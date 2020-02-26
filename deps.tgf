@@ -102,6 +102,7 @@ difference//2.0.0 difference 2.0.0
 digest//0.8.1 digest 0.8.1
 dirs-sys//0.3.4 dirs-sys 0.3.4
 dirs//2.0.2 dirs 2.0.2
+dissimilar//1.0.1 dissimilar 1.0.1
 doc-comment//0.3.1 doc-comment 0.3.1
 dtoa//0.2.2 dtoa 0.2.2
 dtoa//0.4.4 dtoa 0.4.4
