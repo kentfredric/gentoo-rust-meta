@@ -613,6 +613,7 @@ tracing//0.1.12 tracing 0.1.12
 try-lock//0.2.2 try-lock 0.2.2
 trybuild//1.0.17 trybuild 1.0.17
 typed-arena//1.7.0 typed-arena 1.7.0
+typed-arena//2.0.1 typed-arena 2.0.1
 typenum//1.11.2 typenum 1.11.2
 ucd-trie//0.1.2 ucd-trie 0.1.2
 ucd-util//0.1.5 ucd-util 0.1.5
