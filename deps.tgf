@@ -157,6 +157,7 @@ futures-io//0.3.1 futures-io 0.3.1
 futures-io//0.3.4 futures-io 0.3.4
 futures-join-macro-preview//0.3.0.19 futures-join-macro-preview 0.3.0.19
 futures-macro//0.3.1 futures-macro 0.3.1
+futures-macro//0.3.4 futures-macro 0.3.4
 futures-select-macro-preview//0.3.0.19 futures-select-macro-preview 0.3.0.19
 futures-sink-preview//0.3.0.19 futures-sink-preview 0.3.0.19
 futures-sink//0.3.1 futures-sink 0.3.1
@@ -1403,6 +1404,10 @@ futures-macro//0.3.1 proc-macro-hack//0.5.11
 futures-macro//0.3.1 proc-macro2//1.0.8
 futures-macro//0.3.1 quote//1.0.2
 futures-macro//0.3.1 syn//1.0.14
+futures-macro//0.3.4 proc-macro-hack//0.5.11
+futures-macro//0.3.4 proc-macro2//1.0.8
+futures-macro//0.3.4 quote//1.0.2
+futures-macro//0.3.4 syn//1.0.14
 futures-select-macro-preview//0.3.0.19 proc-macro-hack//0.5.11
 futures-select-macro-preview//0.3.0.19 proc-macro2//1.0.8
 futures-select-macro-preview//0.3.0.19 quote//1.0.2
@@ -1457,9 +1462,9 @@ futures-util//0.3.1 futures-io//0.3.4 weak:feature:io
 futures-util//0.3.1 futures-io//0.3.4 weak:feature:io-compat
 futures-util//0.3.1 futures-io//0.3.4 weak:feature:read-initializer
 futures-util//0.3.1 futures-io//0.3.4 weak:optional
-futures-util//0.3.1 futures-macro//0.3.1 feature:default
-futures-util//0.3.1 futures-macro//0.3.1 weak:feature:async-await-macro
-futures-util//0.3.1 futures-macro//0.3.1 weak:optional
+futures-util//0.3.1 futures-macro//0.3.4 feature:default
+futures-util//0.3.1 futures-macro//0.3.4 weak:feature:async-await-macro
+futures-util//0.3.1 futures-macro//0.3.4 weak:optional
 futures-util//0.3.1 futures-sink//0.3.4 weak:feature:sink
 futures-util//0.3.1 futures-sink//0.3.4 weak:optional
 futures-util//0.3.1 futures-task//0.3.4
