@@ -52,6 +52,7 @@ brotli2//0.3.2 brotli2 0.3.2
 byte-tools//0.3.1 byte-tools 0.3.1
 byteorder//0.5.3 byteorder 0.5.3
 byteorder//1.3.2 byteorder 1.3.2
+byteorder//1.3.4 byteorder 1.3.4
 bytes//0.3.0 bytes 0.3.0
 bytes//0.4.12 bytes 0.4.12
 bytes//0.5.4 bytes 0.5.4
@@ -887,19 +888,19 @@ backtrace//0.3.44 rustc-serialize//0.3.24 weak:feature:serialize-rustc
 backtrace//0.3.44 rustc-serialize//0.3.24 weak:optional
 backtrace//0.3.44 serde//1.0.104 weak:feature:serialize-serde
 backtrace//0.3.44 serde//1.0.104 weak:optional
-base64//0.10.1 byteorder//1.3.2
+base64//0.10.1 byteorder//1.3.4
 base64//0.10.1 rand//0.6.5 weak:test
 base64//0.11.0 doc-comment//0.3.1 weak:test
 base64//0.11.0 rand//0.6.5 weak:test
-base64//0.9.3 byteorder//1.3.2
+base64//0.9.3 byteorder//1.3.4
 base64//0.9.3 rand//0.4.6 weak:test
 base64//0.9.3 safemem//0.3.3
-bincode//0.8.0 byteorder//1.3.2
+bincode//0.8.0 byteorder//1.3.4
 bincode//0.8.0 num-traits//0.1.43
 bincode//0.8.0 serde//1.0.104
 bincode//0.8.0 serde_bytes//0.10.4 weak:test
 bincode//0.8.0 serde_derive//1.0.104 weak:test
-bincode//1.2.1 byteorder//1.3.2
+bincode//1.2.1 byteorder//1.3.4
 bincode//1.2.1 serde//1.0.104
 bincode//1.2.1 serde_bytes//0.11.3 weak:test
 bincode//1.2.1 serde_derive//1.0.104 weak:test
@@ -984,10 +985,10 @@ bit-vec//0.6.1 serde//1.0.104 weak:feature:serde_no_std
 bit-vec//0.6.1 serde//1.0.104 weak:feature:serde_std
 bit-vec//0.6.1 serde//1.0.104 weak:optional
 bit-vec//0.6.1 serde_json//1.0.41 weak:test
-blobby//0.1.2 byteorder//1.3.2
+blobby//0.1.2 byteorder//1.3.4
 block-buffer//0.7.3 block-padding//0.1.5
 block-buffer//0.7.3 byte-tools//0.3.1
-block-buffer//0.7.3 byteorder//1.3.2
+block-buffer//0.7.3 byteorder//1.3.4
 block-buffer//0.7.3 generic-array//0.12.3
 block-padding//0.1.5 byte-tools//0.3.1
 brotli-decompressor//2.3.0 alloc-no-stdlib//2.0.1
@@ -1012,8 +1013,11 @@ byteorder//0.5.3 rand//0.3.23 weak:test
 byteorder//1.3.2 doc-comment//0.3.1 weak:test
 byteorder//1.3.2 quickcheck//0.8.5 weak:test
 byteorder//1.3.2 rand//0.6.5 weak:test
+byteorder//1.3.4 doc-comment//0.3.1 weak:test
+byteorder//1.3.4 quickcheck//0.8.5 weak:test
+byteorder//1.3.4 rand//0.6.5 weak:test
 bytes//0.3.0 rand//0.3.23 weak:test
-bytes//0.4.12 byteorder//1.3.2
+bytes//0.4.12 byteorder//1.3.4
 bytes//0.4.12 either//1.5.3 weak:optional
 bytes//0.4.12 iovec//0.1.4
 bytes//0.4.12 serde//1.0.104 weak:optional
@@ -1033,9 +1037,9 @@ bzip2//0.3.3 rand//0.3.23 weak:test
 bzip2//0.3.3 tokio-core//0.1.17 weak:test
 bzip2//0.3.3 tokio-io//0.1.11 weak:feature:tokio
 bzip2//0.3.3 tokio-io//0.1.11 weak:optional
-c2-chacha//0.2.3 byteorder//1.3.2 feature:default
-c2-chacha//0.2.3 byteorder//1.3.2 weak:feature:rustcrypto_api
-c2-chacha//0.2.3 byteorder//1.3.2 weak:optional
+c2-chacha//0.2.3 byteorder//1.3.4 feature:default
+c2-chacha//0.2.3 byteorder//1.3.4 weak:feature:rustcrypto_api
+c2-chacha//0.2.3 byteorder//1.3.4 weak:optional
 c2-chacha//0.2.3 hex-literal//0.2.1 weak:test
 c2-chacha//0.2.3 ppv-lite86//0.2.6
 c2-chacha//0.2.3 stream-cipher//0.3.2 feature:default
@@ -1378,7 +1382,7 @@ fst//0.1.38 quickcheck//0.2.27 weak:test
 fst//0.1.38 rand//0.3.23 weak:test
 fst//0.1.38 regex-syntax//0.3.9
 fst//0.1.38 utf8-ranges//0.1.3
-fst//0.3.5 byteorder//1.3.2
+fst//0.3.5 byteorder//1.3.4
 fst//0.3.5 memmap//0.6.2 feature:default
 fst//0.3.5 memmap//0.6.2 weak:feature:mmap
 fst//0.3.5 memmap//0.6.2 weak:optional
@@ -1530,7 +1534,7 @@ getrandom//0.1.14 cfg-if//0.1.10
 getrandom//0.1.14 libc//0.2.66
 getrandom//0.1.14 log//0.4.8 weak:optional
 gimli//0.19.0 arrayvec//0.4.12
-gimli//0.19.0 byteorder//1.3.2
+gimli//0.19.0 byteorder//1.3.4
 gimli//0.19.0 crossbeam//0.7.3 weak:test
 gimli//0.19.0 fallible-iterator//0.2.0
 gimli//0.19.0 getopts//0.2.21 weak:test
@@ -1546,7 +1550,7 @@ gimli//0.19.0 stable_deref_trait//1.1.1
 gimli//0.19.0 test-assembler//0.1.5 weak:test
 gimli//0.19.0 typed-arena//1.7.0 weak:test
 gimli//0.20.0 arrayvec//0.5.1 weak:optional
-gimli//0.20.0 byteorder//1.3.2
+gimli//0.20.0 byteorder//1.3.4
 gimli//0.20.0 fallible-iterator//0.2.0 feature:default
 gimli//0.20.0 fallible-iterator//0.2.0 weak:feature:alloc
 gimli//0.20.0 fallible-iterator//0.2.0 weak:feature:std
@@ -2471,7 +2475,7 @@ proptest//0.7.2 tempfile//3.1.0 weak:optional
 proptest//0.8.7 bit-set//0.5.1 feature:default
 proptest//0.8.7 bit-set//0.5.1 weak:optional
 proptest//0.8.7 bitflags//1.2.1
-proptest//0.8.7 byteorder//1.3.2
+proptest//0.8.7 byteorder//1.3.4
 proptest//0.8.7 lazy_static//1.4.0
 proptest//0.8.7 num-traits//0.2.11
 proptest//0.8.7 quick-error//1.2.3 feature:default
@@ -2498,7 +2502,7 @@ proptest//0.9.4 bit-set//0.5.1 feature:default
 proptest//0.9.4 bit-set//0.5.1 weak:feature:default-code-coverage
 proptest//0.9.4 bit-set//0.5.1 weak:optional
 proptest//0.9.4 bitflags//1.2.1
-proptest//0.9.4 byteorder//1.3.2
+proptest//0.9.4 byteorder//1.3.4
 proptest//0.9.4 lazy_static//1.4.0 feature:default
 proptest//0.9.4 lazy_static//1.4.0 weak:feature:default-code-coverage
 proptest//0.9.4 lazy_static//1.4.0 weak:feature:fork
@@ -2536,7 +2540,7 @@ proptest//0.9.5 bit-set//0.5.1 feature:default
 proptest//0.9.5 bit-set//0.5.1 weak:feature:default-code-coverage
 proptest//0.9.5 bit-set//0.5.1 weak:optional
 proptest//0.9.5 bitflags//1.2.1
-proptest//0.9.5 byteorder//1.3.2
+proptest//0.9.5 byteorder//1.3.4
 proptest//0.9.5 lazy_static//1.4.0 feature:default
 proptest//0.9.5 lazy_static//1.4.0 weak:feature:default-code-coverage
 proptest//0.9.5 lazy_static//1.4.0 weak:feature:fork
@@ -2750,7 +2754,7 @@ rand_xorshift//0.2.0 bincode//1.2.1 weak:test
 rand_xorshift//0.2.0 rand_core//0.5.1
 rand_xorshift//0.2.0 serde//1.0.104 weak:feature:serde1
 rand_xorshift//0.2.0 serde//1.0.104 weak:optional
-rand_xoshiro//0.1.0 byteorder//1.3.2
+rand_xoshiro//0.1.0 byteorder//1.3.4
 rand_xoshiro//0.1.0 rand//0.6.5 weak:test
 rand_xoshiro//0.1.0 rand_core//0.3.1
 rand_xoshiro//0.3.1 bincode//1.2.1 weak:test
@@ -2937,7 +2941,7 @@ ron//0.5.1 bitflags//1.2.1
 ron//0.5.1 serde//1.0.104
 ron//0.5.1 serde_bytes//0.10.4 weak:test
 ron//0.5.1 serde_json//1.0.41 weak:test
-rustc-hash//1.0.1 byteorder//1.3.2
+rustc-hash//1.0.1 byteorder//1.3.4
 rustc-serialize//0.3.24 rand//0.3.23 weak:test
 rustc-test//0.3.0 getopts//0.2.21
 rustc-test//0.3.0 libc//0.2.66
@@ -3024,7 +3028,7 @@ serde_bytes//0.11.3 bincode//1.2.1 weak:test
 serde_bytes//0.11.3 serde//1.0.104
 serde_bytes//0.11.3 serde_derive//1.0.104 weak:test
 serde_bytes//0.11.3 serde_test//1.0.102 weak:test
-serde_cbor//0.9.0 byteorder//1.3.2
+serde_cbor//0.9.0 byteorder//1.3.4
 serde_cbor//0.9.0 half//1.4.0
 serde_cbor//0.9.0 serde//1.0.104
 serde_cbor//0.9.0 serde_bytes//0.10.4 weak:test
@@ -3706,8 +3710,8 @@ utf8-ranges//0.1.3 quickcheck//0.2.27 weak:test
 utf8-ranges//1.0.4 doc-comment//0.3.1 weak:test
 utf8-ranges//1.0.4 quickcheck//0.8.5 weak:test
 uuid//0.7.4 bincode//1.2.1 weak:test
-uuid//0.7.4 byteorder//1.3.2 weak:feature:u128
-uuid//0.7.4 byteorder//1.3.2 weak:optional
+uuid//0.7.4 byteorder//1.3.4 weak:feature:u128
+uuid//0.7.4 byteorder//1.3.4 weak:optional
 uuid//0.7.4 md5//0.6.1 weak:feature:v3
 uuid//0.7.4 md5//0.6.1 weak:optional
 uuid//0.7.4 rand//0.6.5 weak:feature:v4
