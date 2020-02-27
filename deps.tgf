@@ -60,6 +60,7 @@ bzip2-sys//0.1.7 bzip2-sys 0.1.7
 bzip2//0.3.3 bzip2 0.3.3
 c2-chacha//0.2.3 c2-chacha 0.2.3
 cc//1.0.46 cc 1.0.46
+cc//1.0.50 cc 1.0.50
 cexpr//0.3.6 cexpr 0.3.6
 cfg-if//0.1.10 cfg-if 0.1.10
 chrono//0.4.10 chrono 0.4.10
@@ -682,18 +683,18 @@ addr2line//0.11.0 rustc-demangle//0.1.16 weak:optional
 addr2line//0.11.0 rustc-test//0.3.0 weak:test
 addr2line//0.11.0 smallvec//1.1.0
 adler32//1.0.4 rand//0.4.6 weak:test
-afl//0.4.4 cc//1.0.46
+afl//0.4.4 cc//1.0.50
 afl//0.4.4 clap//2.33.0
 afl//0.4.4 rustc_version//0.2.3
 afl//0.4.4 xdg//2.2.0
-afl//0.5.2 cc//1.0.46 weak:feature:f_cargo-afl
-afl//0.5.2 cc//1.0.46 weak:optional
+afl//0.5.2 cc//1.0.50 weak:feature:f_cargo-afl
+afl//0.5.2 cc//1.0.50 weak:optional
 afl//0.5.2 clap//2.33.0 weak:feature:f_cargo-afl
 afl//0.5.2 clap//2.33.0 weak:optional
 afl//0.5.2 rustc_version//0.2.3
 afl//0.5.2 xdg//2.2.0
-afl//0.6.0 cc//1.0.46 weak:feature:f_cargo-afl
-afl//0.6.0 cc//1.0.46 weak:optional
+afl//0.6.0 cc//1.0.50 weak:feature:f_cargo-afl
+afl//0.6.0 cc//1.0.50 weak:optional
 afl//0.6.0 clap//2.33.0 weak:feature:f_cargo-afl
 afl//0.6.0 clap//2.33.0 weak:optional
 afl//0.6.0 rustc_version//0.2.3
@@ -848,7 +849,7 @@ average//0.9.4 serde_derive//1.0.104 weak:feature:serde1
 average//0.9.4 serde_derive//1.0.104 weak:optional
 average//0.9.4 serde_json//1.0.41 weak:test
 average//0.9.4 streaming-stats//0.2.2 weak:test
-backtrace-sys//0.1.32 cc//1.0.46
+backtrace-sys//0.1.32 cc//1.0.50
 backtrace-sys//0.1.32 libc//0.2.66
 backtrace//0.3.42 addr2line//0.11.0 weak:feature:gimli-symbolize
 backtrace//0.3.42 addr2line//0.11.0 weak:optional
@@ -996,7 +997,7 @@ brotli-decompressor//2.3.0 alloc-stdlib//0.2.1 feature:default
 brotli-decompressor//2.3.0 alloc-stdlib//0.2.1 weak:feature:std
 brotli-decompressor//2.3.0 alloc-stdlib//0.2.1 weak:feature:unsafe
 brotli-decompressor//2.3.0 alloc-stdlib//0.2.1 weak:optional
-brotli-sys//0.3.2 cc//1.0.46
+brotli-sys//0.3.2 cc//1.0.50
 brotli-sys//0.3.2 libc//0.2.66
 brotli//3.3.0 alloc-no-stdlib//2.0.1
 brotli//3.3.0 alloc-stdlib//0.2.1 feature:default
@@ -1025,7 +1026,7 @@ bytes//0.4.12 serde_test//1.0.102 weak:test
 bytes//0.5.4 loom//0.2.14 weak:test
 bytes//0.5.4 serde//1.0.104 weak:optional
 bytes//0.5.4 serde_test//1.0.102 weak:test
-bzip2-sys//0.1.7 cc//1.0.46
+bzip2-sys//0.1.7 cc//1.0.50
 bzip2-sys//0.1.7 libc//0.2.66
 bzip2//0.3.3 bzip2-sys//0.1.7
 bzip2//0.3.3 futures//0.1.29 weak:feature:tokio
@@ -1050,6 +1051,9 @@ cc//1.0.46 jobserver//0.1.21 weak:optional
 cc//1.0.46 num_cpus//1.12.0 weak:feature:parallel
 cc//1.0.46 num_cpus//1.12.0 weak:optional
 cc//1.0.46 tempdir//0.3.7 weak:test
+cc//1.0.50 jobserver//0.1.21 weak:feature:parallel
+cc//1.0.50 jobserver//0.1.21 weak:optional
+cc//1.0.50 tempfile//3.1.0 weak:test
 cexpr//0.3.6 clang-sys//0.28.1 weak:test
 cexpr//0.3.6 nom//4.2.3
 chrono//0.4.10 bincode//0.8.0 weak:test
@@ -1107,7 +1111,7 @@ clap//2.33.0 yaml-rust//0.3.5 weak:feature:yaml
 clap//2.33.0 yaml-rust//0.3.5 weak:optional
 clicolors-control//1.0.1 lazy_static//1.4.0
 clicolors-control//1.0.1 libc//0.2.66
-cmake//0.1.42 cc//1.0.46
+cmake//0.1.42 cc//1.0.50
 compiletest_rs//0.3.26 diff//0.1.12
 compiletest_rs//0.3.26 filetime//0.2.8
 compiletest_rs//0.3.26 getopts//0.2.21
@@ -1237,7 +1241,7 @@ crossbeam//0.7.3 crossbeam-queue//0.2.1 weak:optional
 crossbeam//0.7.3 crossbeam-utils//0.7.0
 crossbeam//0.7.3 rand//0.6.5 weak:test
 ct-logs//0.6.0 sct//0.6.0
-curl-sys//0.4.25 cc//1.0.46
+curl-sys//0.4.25 cc//1.0.50
 curl-sys//0.4.25 libc//0.2.66
 curl-sys//0.4.25 libnghttp2-sys//0.1.2 weak:feature:http2
 curl-sys//0.4.25 libnghttp2-sys//0.1.2 weak:optional
@@ -1509,11 +1513,11 @@ futures//0.3.1 tokio//0.1.22 weak:test
 gcc//0.3.55 rayon//0.8.2 weak:feature:parallel
 gcc//0.3.55 rayon//0.8.2 weak:optional
 gcc//0.3.55 tempdir//0.3.7 weak:test
-generator//0.6.19 cc//1.0.46
+generator//0.6.19 cc//1.0.50
 generator//0.6.19 libc//0.2.66
 generator//0.6.19 log//0.4.8
 generator//0.6.19 rustc_version//0.2.3
-generator//0.6.20 cc//1.0.46
+generator//0.6.20 cc//1.0.50
 generator//0.6.20 libc//0.2.66
 generator//0.6.20 log//0.4.8
 generator//0.6.20 rustc_version//0.2.3
@@ -1919,7 +1923,7 @@ jemalloc-ctl//0.3.3 jemalloc-sys//0.3.2
 jemalloc-ctl//0.3.3 jemallocator//0.3.2 weak:test
 jemalloc-ctl//0.3.3 libc//0.2.66
 jemalloc-ctl//0.3.3 paste//0.1.6
-jemalloc-sys//0.3.2 cc//1.0.46
+jemalloc-sys//0.3.2 cc//1.0.50
 jemalloc-sys//0.3.2 fs_extra//1.1.0
 jemalloc-sys//0.3.2 libc//0.2.66
 jemallocator//0.3.2 jemalloc-ctl//0.3.3 weak:test
@@ -1965,7 +1969,7 @@ libflate//0.1.27 adler32//1.0.4
 libflate//0.1.27 crc32fast//1.2.0
 libflate//0.1.27 rle-decode-fast//1.0.1
 libflate//0.1.27 take_mut//0.2.2
-libgit2-sys//0.10.0 cc//1.0.46
+libgit2-sys//0.10.0 cc//1.0.50
 libgit2-sys//0.10.0 libc//0.2.66
 libgit2-sys//0.10.0 libssh2-sys//0.2.14 weak:feature:ssh
 libgit2-sys//0.10.0 libssh2-sys//0.2.14 weak:optional
@@ -1973,7 +1977,7 @@ libgit2-sys//0.10.0 libz-sys//1.0.25
 libgit2-sys//0.10.0 openssl-sys//0.9.54 weak:feature:https
 libgit2-sys//0.10.0 openssl-sys//0.9.54 weak:optional
 libgit2-sys//0.10.0 pkg-config//0.3.17
-libgit2-sys//0.6.19 cc//1.0.46
+libgit2-sys//0.6.19 cc//1.0.50
 libgit2-sys//0.6.19 cmake//0.1.42
 libgit2-sys//0.6.19 curl-sys//0.4.25 weak:feature:curl
 libgit2-sys//0.6.19 curl-sys//0.4.25 weak:optional
@@ -1984,21 +1988,21 @@ libgit2-sys//0.6.19 libz-sys//1.0.25
 libgit2-sys//0.6.19 openssl-sys//0.9.54 weak:feature:https
 libgit2-sys//0.6.19 openssl-sys//0.9.54 weak:optional
 libgit2-sys//0.6.19 pkg-config//0.3.17
-libloading//0.5.2 cc//1.0.46
+libloading//0.5.2 cc//1.0.50
 libm//0.2.1 no-panic//0.1.12 weak:test
-libnghttp2-sys//0.1.2 cc//1.0.46
+libnghttp2-sys//0.1.2 cc//1.0.50
 libnghttp2-sys//0.1.2 libc//0.2.66
-libssh2-sys//0.2.13 cc//1.0.46
+libssh2-sys//0.2.13 cc//1.0.50
 libssh2-sys//0.2.13 libc//0.2.66
 libssh2-sys//0.2.13 libz-sys//1.0.25
 libssh2-sys//0.2.13 openssl-sys//0.9.54
 libssh2-sys//0.2.13 pkg-config//0.3.17
-libssh2-sys//0.2.14 cc//1.0.46
+libssh2-sys//0.2.14 cc//1.0.50
 libssh2-sys//0.2.14 libc//0.2.66
 libssh2-sys//0.2.14 libz-sys//1.0.25
 libssh2-sys//0.2.14 openssl-sys//0.9.54
 libssh2-sys//0.2.14 pkg-config//0.3.17
-libz-sys//1.0.25 cc//1.0.46
+libz-sys//1.0.25 cc//1.0.50
 libz-sys//1.0.25 libc//0.2.66
 libz-sys//1.0.25 pkg-config//0.3.17
 linked-hash-map//0.3.0 serde//0.8.23 weak:feature:serde_impl
@@ -2101,7 +2105,7 @@ mesalink//1.1.0 webpki-roots//0.17.0
 mesalink//1.1.0 webpki//0.21.0
 mime_guess//2.0.1 mime//0.3.16
 mime_guess//2.0.1 unicase//2.6.0
-miniz-sys//0.1.12 cc//1.0.46
+miniz-sys//0.1.12 cc//1.0.50
 miniz-sys//0.1.12 libc//0.2.66
 miniz_oxide//0.3.5 adler32//1.0.4
 miniz_oxide//0.3.6 adler32//1.0.4
@@ -2232,22 +2236,22 @@ once_cell//1.2.0 regex//1.3.1 weak:test
 once_cell//1.3.1 crossbeam-utils//0.6.6 weak:test
 once_cell//1.3.1 parking_lot//0.9.0 weak:optional
 once_cell//1.3.1 regex//1.3.1 weak:test
-openssl-src//111.6.0 cc//1.0.46
-openssl-src//111.6.1 cc//1.0.46
+openssl-src//111.6.0 cc//1.0.50
+openssl-src//111.6.1 cc//1.0.50
 openssl-sys//0.9.52 autocfg//0.1.6
-openssl-sys//0.9.52 cc//1.0.46
+openssl-sys//0.9.52 cc//1.0.50
 openssl-sys//0.9.52 libc//0.2.66
 openssl-sys//0.9.52 openssl-src//111.6.1 weak:feature:vendored
 openssl-sys//0.9.52 openssl-src//111.6.1 weak:optional
 openssl-sys//0.9.52 pkg-config//0.3.17
 openssl-sys//0.9.53 autocfg//0.1.6
-openssl-sys//0.9.53 cc//1.0.46
+openssl-sys//0.9.53 cc//1.0.50
 openssl-sys//0.9.53 libc//0.2.66
 openssl-sys//0.9.53 openssl-src//111.6.1 weak:feature:vendored
 openssl-sys//0.9.53 openssl-src//111.6.1 weak:optional
 openssl-sys//0.9.53 pkg-config//0.3.17
 openssl-sys//0.9.54 autocfg//1.0.0
-openssl-sys//0.9.54 cc//1.0.46
+openssl-sys//0.9.54 cc//1.0.50
 openssl-sys//0.9.54 libc//0.2.66
 openssl-sys//0.9.54 openssl-src//111.6.1 weak:feature:vendored
 openssl-sys//0.9.54 openssl-src//111.6.1 weak:optional
@@ -2916,12 +2920,12 @@ reqwest//0.10.0 tokio//0.2.9 weak:test
 reqwest//0.10.0 url//2.1.1
 reqwest//0.10.0 webpki-roots//0.17.0 weak:feature:rust-tls
 reqwest//0.10.0 webpki-roots//0.17.0 weak:optional
-ring//0.14.6 cc//1.0.46
+ring//0.14.6 cc//1.0.50
 ring//0.14.6 lazy_static//1.4.0
 ring//0.14.6 libc//0.2.66
 ring//0.14.6 spin//0.5.2
 ring//0.14.6 untrusted//0.6.2
-ring//0.16.9 cc//1.0.46
+ring//0.16.9 cc//1.0.50
 ring//0.16.9 lazy_static//1.4.0
 ring//0.16.9 libc//0.2.66
 ring//0.16.9 spin//0.5.2
@@ -3080,12 +3084,12 @@ sha-1//0.8.2 opaque-debug//0.2.3
 sha-1//0.8.2 sha1-asm//0.4.3 weak:feature:asm
 sha-1//0.8.2 sha1-asm//0.4.3 weak:feature:asm-aarch64
 sha-1//0.8.2 sha1-asm//0.4.3 weak:optional
-sha1-asm//0.4.3 cc//1.0.46
+sha1-asm//0.4.3 cc//1.0.50
 sha1//0.6.0 openssl//0.10.28 weak:test
 sha1//0.6.0 rand//0.4.6 weak:test
 sha1//0.6.0 serde//1.0.104 weak:optional
 sha1//0.6.0 serde_json//1.0.41 weak:test
-sha2-asm//0.5.3 cc//1.0.46
+sha2-asm//0.5.3 cc//1.0.50
 sha2//0.8.1 block-buffer//0.7.3
 sha2//0.8.1 digest//0.8.1
 sha2//0.8.1 digest//0.8.1 weak:test
@@ -3780,7 +3784,7 @@ yaml-rust//0.4.3 quickcheck//0.7.2 weak:test
 zstd-safe//2.0.3 libc//0.2.66
 zstd-safe//2.0.3 zstd-sys//1.4.15
 zstd-sys//1.4.15 bindgen//0.51.1
-zstd-sys//1.4.15 cc//1.0.46
+zstd-sys//1.4.15 cc//1.0.50
 zstd-sys//1.4.15 glob//0.3.0
 zstd-sys//1.4.15 libc//0.2.66
 zstd-sys//1.4.15 pkg-config//0.3.17
