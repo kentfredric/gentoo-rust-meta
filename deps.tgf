@@ -447,6 +447,7 @@ rayon-core//1.7.0 rayon-core 1.7.0
 rayon//0.8.2 rayon 0.8.2
 rayon//1.2.0 rayon 1.2.0
 rayon//1.2.1 rayon 1.2.1
+rayon//1.3.0 rayon 1.3.0
 ref-cast-impl//0.2.7 ref-cast-impl 0.2.7
 ref-cast-impl//1.0.0 ref-cast-impl 1.0.0
 ref-cast//0.2.7 ref-cast 0.2.7
@@ -1575,7 +1576,7 @@ gimli//0.19.0 indexmap//1.3.1 weak:optional
 gimli//0.19.0 memmap//0.7.0 weak:test
 gimli//0.19.0 num_cpus//1.12.0 weak:test
 gimli//0.19.0 object//0.12.0 weak:test
-gimli//0.19.0 rayon//1.2.1 weak:test
+gimli//0.19.0 rayon//1.3.0 weak:test
 gimli//0.19.0 regex//1.3.1 weak:test
 gimli//0.19.0 stable_deref_trait//1.1.1
 gimli//0.19.0 test-assembler//0.1.5 weak:test
@@ -1857,7 +1858,7 @@ indexmap//1.3.0 itertools//0.8.2 weak:test
 indexmap//1.3.0 lazy_static//1.4.0 weak:test
 indexmap//1.3.0 quickcheck//0.8.5 weak:test
 indexmap//1.3.0 rand//0.6.5 weak:test
-indexmap//1.3.0 rayon//1.2.1 weak:optional
+indexmap//1.3.0 rayon//1.3.0 weak:optional
 indexmap//1.3.0 serde//1.0.104 weak:feature:serde-1
 indexmap//1.3.0 serde//1.0.104 weak:optional
 indexmap//1.3.0 serde_test//1.0.102 weak:test
@@ -1867,7 +1868,7 @@ indexmap//1.3.1 itertools//0.8.2 weak:test
 indexmap//1.3.1 lazy_static//1.4.0 weak:test
 indexmap//1.3.1 quickcheck//0.8.5 weak:test
 indexmap//1.3.1 rand//0.6.5 weak:test
-indexmap//1.3.1 rayon//1.2.1 weak:optional
+indexmap//1.3.1 rayon//1.3.0 weak:optional
 indexmap//1.3.1 serde//1.0.104 weak:feature:serde-1
 indexmap//1.3.1 serde//1.0.104 weak:optional
 indexmap//1.3.1 serde_test//1.0.102 weak:test
@@ -2840,6 +2841,13 @@ rayon//1.2.1 lazy_static//1.4.0 weak:test
 rayon//1.2.1 rand//0.6.5 weak:test
 rayon//1.2.1 rand_xorshift//0.1.1 weak:test
 rayon//1.2.1 rayon-core//1.7.0
+rayon//1.3.0 crossbeam-deque//0.7.2
+rayon//1.3.0 doc-comment//0.3.1 weak:test
+rayon//1.3.0 either//1.5.3
+rayon//1.3.0 lazy_static//1.4.0 weak:test
+rayon//1.3.0 rand//0.7.2 weak:test
+rayon//1.3.0 rand_xorshift//0.2.0 weak:test
+rayon//1.3.0 rayon-core//1.7.0
 ref-cast-impl//0.2.7 proc-macro2//1.0.8
 ref-cast-impl//0.2.7 quote//1.0.2
 ref-cast-impl//0.2.7 syn//1.0.14
@@ -3228,7 +3236,7 @@ syn//1.0.14 quote//1.0.2 feature:default
 syn//1.0.14 quote//1.0.2 weak:feature:printing
 syn//1.0.14 quote//1.0.2 weak:feature:proc-macro
 syn//1.0.14 quote//1.0.2 weak:optional
-syn//1.0.14 rayon//1.2.1 weak:test
+syn//1.0.14 rayon//1.3.0 weak:test
 syn//1.0.14 ref-cast//1.0.0 weak:test
 syn//1.0.14 regex//1.3.1 weak:test
 syn//1.0.14 reqwest//0.10.0 weak:test
