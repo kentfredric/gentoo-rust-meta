@@ -53,7 +53,6 @@ thread-local 0.3.6 -> 1.0.1
 tokio 0.2.9 -> 0.2.11
 tokio-current-thread 0.1.6 -> 0.1.7
 tokio-fs 0.1.6 -> 0.1.7
-tokio-io 0.1.11 -> 0.1.13
 tokio-process 0.2.4 -> 0.2.5
 tokio-reactor-0.1.11 -> 0.1.12
 tokio-signal 0.2.7 -> 0.2.9

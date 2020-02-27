@@ -585,6 +585,7 @@ tokio-executor//0.1.9 tokio-executor 0.1.9
 tokio-executor//0.2.0.6 tokio-executor 0.2.0.6
 tokio-fs//0.1.6 tokio-fs 0.1.6
 tokio-io//0.1.11 tokio-io 0.1.11
+tokio-io//0.1.13 tokio-io 0.1.13
 tokio-macros//0.2.3 tokio-macros 0.2.3
 tokio-macros//0.2.4 tokio-macros 0.2.4
 tokio-mock-task//0.1.1 tokio-mock-task 0.1.1
@@ -1040,8 +1041,8 @@ bzip2//0.3.3 partial-io//0.2.5 weak:test
 bzip2//0.3.3 quickcheck//0.4.1 weak:test
 bzip2//0.3.3 rand//0.3.23 weak:test
 bzip2//0.3.3 tokio-core//0.1.17 weak:test
-bzip2//0.3.3 tokio-io//0.1.11 weak:feature:tokio
-bzip2//0.3.3 tokio-io//0.1.11 weak:optional
+bzip2//0.3.3 tokio-io//0.1.13 weak:feature:tokio
+bzip2//0.3.3 tokio-io//0.1.13 weak:optional
 c2-chacha//0.2.3 byteorder//1.3.4 feature:default
 c2-chacha//0.2.3 byteorder//1.3.4 weak:feature:rustcrypto_api
 c2-chacha//0.2.3 byteorder//1.3.4 weak:optional
@@ -1381,9 +1382,9 @@ flate2//1.0.13 miniz_oxide//0.3.6 weak:feature:rust_backend
 flate2//1.0.13 miniz_oxide//0.3.6 weak:optional
 flate2//1.0.13 quickcheck//0.9.0 weak:test
 flate2//1.0.13 rand//0.7.2 weak:test
-flate2//1.0.13 tokio-io//0.1.11 weak:feature:tokio
-flate2//1.0.13 tokio-io//0.1.11 weak:optional
-flate2//1.0.13 tokio-io//0.1.11 weak:test
+flate2//1.0.13 tokio-io//0.1.13 weak:feature:tokio
+flate2//1.0.13 tokio-io//0.1.13 weak:optional
+flate2//1.0.13 tokio-io//0.1.13 weak:test
 flate2//1.0.13 tokio-tcp//0.1.3 weak:test
 flate2//1.0.13 tokio-threadpool//0.1.18 weak:test
 float-ord//0.2.0 rand//0.3.23 weak:test
@@ -1487,8 +1488,8 @@ futures-util-preview//0.3.0.19 slab//0.4.2 weak:feature:io-compat
 futures-util-preview//0.3.0.19 slab//0.4.2 weak:feature:read_initializer
 futures-util-preview//0.3.0.19 slab//0.4.2 weak:feature:std
 futures-util-preview//0.3.0.19 slab//0.4.2 weak:optional
-futures-util-preview//0.3.0.19 tokio-io//0.1.11 weak:feature:io-compat
-futures-util-preview//0.3.0.19 tokio-io//0.1.11 weak:optional
+futures-util-preview//0.3.0.19 tokio-io//0.1.13 weak:feature:io-compat
+futures-util-preview//0.3.0.19 tokio-io//0.1.13 weak:optional
 futures-util//0.3.1 futures-channel//0.3.4 weak:feature:channel
 futures-util//0.3.1 futures-channel//0.3.4 weak:optional
 futures-util//0.3.1 futures-core//0.3.4
@@ -1524,8 +1525,8 @@ futures-util//0.3.1 slab//0.4.2 weak:feature:io-compat
 futures-util//0.3.1 slab//0.4.2 weak:feature:read-initializer
 futures-util//0.3.1 slab//0.4.2 weak:feature:std
 futures-util//0.3.1 slab//0.4.2 weak:optional
-futures-util//0.3.1 tokio-io//0.1.11 weak:feature:io-compat
-futures-util//0.3.1 tokio-io//0.1.11 weak:optional
+futures-util//0.3.1 tokio-io//0.1.13 weak:feature:io-compat
+futures-util//0.3.1 tokio-io//0.1.13 weak:optional
 futures//0.3.1 assert_matches//1.3.0 weak:test
 futures//0.3.1 futures-channel//0.3.4
 futures//0.3.1 futures-core//0.3.4
@@ -2346,16 +2347,16 @@ partial-io//0.2.5 futures//0.1.29 weak:optional
 partial-io//0.2.5 quickcheck//0.4.1 weak:optional
 partial-io//0.2.5 quickcheck//0.4.1 weak:test
 partial-io//0.2.5 tokio-core//0.1.17 weak:test
-partial-io//0.2.5 tokio-io//0.1.11 weak:feature:tokio
-partial-io//0.2.5 tokio-io//0.1.11 weak:optional
+partial-io//0.2.5 tokio-io//0.1.13 weak:feature:tokio
+partial-io//0.2.5 tokio-io//0.1.13 weak:optional
 partial-io//0.3.1 futures//0.1.29 weak:feature:tokio
 partial-io//0.3.1 futures//0.1.29 weak:optional
 partial-io//0.3.1 lazy_static//1.4.0 weak:test
 partial-io//0.3.1 quickcheck//0.6.2 weak:optional
 partial-io//0.3.1 quickcheck//0.6.2 weak:test
 partial-io//0.3.1 tokio-core//0.1.17 weak:test
-partial-io//0.3.1 tokio-io//0.1.11 weak:feature:tokio
-partial-io//0.3.1 tokio-io//0.1.11 weak:optional
+partial-io//0.3.1 tokio-io//0.1.13 weak:feature:tokio
+partial-io//0.3.1 tokio-io//0.1.13 weak:optional
 paste-impl//0.1.6 proc-macro-hack//0.5.11
 paste-impl//0.1.6 proc-macro2//1.0.8
 paste-impl//0.1.6 quote//1.0.2
@@ -3306,10 +3307,10 @@ time//0.2.6 time-macros//0.1.0
 timebomb//0.1.2 pulse//0.5.3
 tokio-codec//0.1.1 bytes//0.4.12
 tokio-codec//0.1.1 futures//0.1.29
-tokio-codec//0.1.1 tokio-io//0.1.11
+tokio-codec//0.1.1 tokio-io//0.1.13
 tokio-codec//0.1.2 bytes//0.4.12
 tokio-codec//0.1.2 futures//0.1.29
-tokio-codec//0.1.2 tokio-io//0.1.11
+tokio-codec//0.1.2 tokio-io//0.1.13
 tokio-core//0.1.17 bytes//0.4.12
 tokio-core//0.1.17 env_logger//0.4.3 weak:test
 tokio-core//0.1.17 futures//0.1.29
@@ -3319,7 +3320,7 @@ tokio-core//0.1.17 log//0.4.8
 tokio-core//0.1.17 mio//0.6.21
 tokio-core//0.1.17 scoped-tls//0.1.2
 tokio-core//0.1.17 tokio-executor//0.1.10
-tokio-core//0.1.17 tokio-io//0.1.11
+tokio-core//0.1.17 tokio-io//0.1.13
 tokio-core//0.1.17 tokio-reactor//0.1.11
 tokio-core//0.1.17 tokio-timer//0.2.12
 tokio-core//0.1.17 tokio//0.1.22
@@ -3357,14 +3358,18 @@ tokio-fs//0.1.6 futures//0.1.29
 tokio-fs//0.1.6 rand//0.6.5 weak:test
 tokio-fs//0.1.6 tempdir//0.3.7 weak:test
 tokio-fs//0.1.6 tempfile//3.1.0 weak:test
-tokio-fs//0.1.6 tokio-io//0.1.11
-tokio-fs//0.1.6 tokio-io//0.1.11 weak:test
+tokio-fs//0.1.6 tokio-io//0.1.13
+tokio-fs//0.1.6 tokio-io//0.1.13 weak:test
 tokio-fs//0.1.6 tokio-threadpool//0.1.18
 tokio-fs//0.1.6 tokio//0.1.22 weak:test
 tokio-io//0.1.11 bytes//0.4.12
 tokio-io//0.1.11 futures//0.1.29
 tokio-io//0.1.11 log//0.4.8
 tokio-io//0.1.11 tokio-current-thread//0.1.6 weak:test
+tokio-io//0.1.13 bytes//0.4.12
+tokio-io//0.1.13 futures//0.1.29
+tokio-io//0.1.13 log//0.4.8
+tokio-io//0.1.13 tokio-current-thread//0.1.6 weak:test
 tokio-macros//0.2.3 quote//1.0.2
 tokio-macros//0.2.3 syn//1.0.14
 tokio-macros//0.2.3 tokio//0.2.9 weak:test
@@ -3381,7 +3386,7 @@ tokio-process//0.2.4 libc//0.2.66
 tokio-process//0.2.4 log//0.4.8
 tokio-process//0.2.4 log//0.4.8 weak:test
 tokio-process//0.2.4 mio//0.6.21
-tokio-process//0.2.4 tokio-io//0.1.11
+tokio-process//0.2.4 tokio-io//0.1.13
 tokio-process//0.2.4 tokio-reactor//0.1.11
 tokio-process//0.2.4 tokio-signal//0.2.7
 tokio-process//0.2.4 tokio//0.1.22 weak:test
@@ -3395,7 +3400,7 @@ tokio-reactor//0.1.11 num_cpus//1.12.0 weak:test
 tokio-reactor//0.1.11 parking_lot//0.9.0
 tokio-reactor//0.1.11 slab//0.4.2
 tokio-reactor//0.1.11 tokio-executor//0.1.10
-tokio-reactor//0.1.11 tokio-io//0.1.11
+tokio-reactor//0.1.11 tokio-io//0.1.13
 tokio-reactor//0.1.11 tokio-sync//0.1.7
 tokio-rustls//0.12.2 bytes//0.5.4 weak:feature:unstable
 tokio-rustls//0.12.2 bytes//0.5.4 weak:optional
@@ -3413,7 +3418,7 @@ tokio-signal//0.2.7 mio-uds//0.6.7
 tokio-signal//0.2.7 mio//0.6.21
 tokio-signal//0.2.7 signal-hook//0.1.12
 tokio-signal//0.2.7 tokio-executor//0.1.10
-tokio-signal//0.2.7 tokio-io//0.1.11
+tokio-signal//0.2.7 tokio-io//0.1.13
 tokio-signal//0.2.7 tokio-reactor//0.1.11
 tokio-signal//0.2.7 tokio//0.1.22 weak:test
 tokio-sync//0.1.7 fnv//1.0.6
@@ -3431,7 +3436,7 @@ tokio-tcp//0.1.3 env_logger//0.5.13 weak:test
 tokio-tcp//0.1.3 futures//0.1.29
 tokio-tcp//0.1.3 iovec//0.1.4
 tokio-tcp//0.1.3 mio//0.6.21
-tokio-tcp//0.1.3 tokio-io//0.1.11
+tokio-tcp//0.1.3 tokio-io//0.1.13
 tokio-tcp//0.1.3 tokio-reactor//0.1.11
 tokio-tcp//0.1.3 tokio//0.1.22 weak:test
 tokio-test//0.2.0 bytes//0.5.4
@@ -3481,7 +3486,7 @@ tokio-udp//0.1.5 futures//0.1.29
 tokio-udp//0.1.5 log//0.4.8
 tokio-udp//0.1.5 mio//0.6.21
 tokio-udp//0.1.5 tokio-codec//0.1.2
-tokio-udp//0.1.5 tokio-io//0.1.11
+tokio-udp//0.1.5 tokio-io//0.1.13
 tokio-udp//0.1.5 tokio-reactor//0.1.11
 tokio-udp//0.1.6 bytes//0.4.12
 tokio-udp//0.1.6 env_logger//0.6.2 weak:test
@@ -3489,7 +3494,7 @@ tokio-udp//0.1.6 futures//0.1.29
 tokio-udp//0.1.6 log//0.4.8
 tokio-udp//0.1.6 mio//0.6.21
 tokio-udp//0.1.6 tokio-codec//0.1.2
-tokio-udp//0.1.6 tokio-io//0.1.11
+tokio-udp//0.1.6 tokio-io//0.1.13
 tokio-udp//0.1.6 tokio-reactor//0.1.11
 tokio-uds//0.2.5 bytes//0.4.12
 tokio-uds//0.2.5 futures//0.1.29
@@ -3500,7 +3505,7 @@ tokio-uds//0.2.5 mio-uds//0.6.7
 tokio-uds//0.2.5 mio//0.6.21
 tokio-uds//0.2.5 tempfile//3.1.0 weak:test
 tokio-uds//0.2.5 tokio-codec//0.1.2
-tokio-uds//0.2.5 tokio-io//0.1.11
+tokio-uds//0.2.5 tokio-io//0.1.13
 tokio-uds//0.2.5 tokio-reactor//0.1.11
 tokio-uds//0.2.5 tokio//0.1.22 weak:test
 tokio-uds//0.2.6 bytes//0.4.12
@@ -3512,7 +3517,7 @@ tokio-uds//0.2.6 mio-uds//0.6.7
 tokio-uds//0.2.6 mio//0.6.21
 tokio-uds//0.2.6 tempfile//3.1.0 weak:test
 tokio-uds//0.2.6 tokio-codec//0.1.2
-tokio-uds//0.2.6 tokio-io//0.1.11
+tokio-uds//0.2.6 tokio-io//0.1.13
 tokio-uds//0.2.6 tokio-reactor//0.1.11
 tokio-uds//0.2.6 tokio//0.1.22 weak:test
 tokio-util//0.2.0 bytes//0.5.4
@@ -3548,12 +3553,12 @@ tokio//0.1.22 tokio-executor//0.1.10 weak:optional
 tokio//0.1.22 tokio-fs//0.1.6 feature:default
 tokio//0.1.22 tokio-fs//0.1.6 weak:feature:fs
 tokio//0.1.22 tokio-fs//0.1.6 weak:optional
-tokio//0.1.22 tokio-io//0.1.11 feature:default
-tokio//0.1.22 tokio-io//0.1.11 weak:feature:codec
-tokio//0.1.22 tokio-io//0.1.11 weak:feature:io
-tokio//0.1.22 tokio-io//0.1.11 weak:feature:reactor
-tokio//0.1.22 tokio-io//0.1.11 weak:feature:rt-full
-tokio//0.1.22 tokio-io//0.1.11 weak:optional
+tokio//0.1.22 tokio-io//0.1.13 feature:default
+tokio//0.1.22 tokio-io//0.1.13 weak:feature:codec
+tokio//0.1.22 tokio-io//0.1.13 weak:feature:io
+tokio//0.1.22 tokio-io//0.1.13 weak:feature:reactor
+tokio//0.1.22 tokio-io//0.1.13 weak:feature:rt-full
+tokio//0.1.22 tokio-io//0.1.13 weak:optional
 tokio//0.1.22 tokio-reactor//0.1.11 feature:default
 tokio//0.1.22 tokio-reactor//0.1.11 weak:feature:reactor
 tokio//0.1.22 tokio-reactor//0.1.11 weak:feature:rt-full
@@ -3820,7 +3825,7 @@ zstd//0.5.1 futures//0.1.29 weak:optional
 zstd//0.5.1 humansize//1.1.0 weak:test
 zstd//0.5.1 partial-io//0.3.1 weak:test
 zstd//0.5.1 quickcheck//0.6.2 weak:test
-zstd//0.5.1 tokio-io//0.1.11 weak:feature:tokio
-zstd//0.5.1 tokio-io//0.1.11 weak:optional
+zstd//0.5.1 tokio-io//0.1.13 weak:feature:tokio
+zstd//0.5.1 tokio-io//0.1.13 weak:optional
 zstd//0.5.1 walkdir//2.2.9 weak:test
 zstd//0.5.1 zstd-safe//2.0.3
