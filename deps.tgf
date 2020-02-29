@@ -67,6 +67,7 @@ chrono//0.4.10 chrono 0.4.10
 chrono//0.4.9 chrono 0.4.9
 ci_info//0.3.1 ci_info 0.3.1
 clang-sys//0.28.1 clang-sys 0.28.1
+clang-sys//0.29.0 clang-sys 0.29.0
 clap//2.33.0 clap 2.33.0
 clicolors-control//1.0.1 clicolors-control 1.0.1
 cmake//0.1.42 cmake 0.1.42
@@ -1099,6 +1100,10 @@ clang-sys//0.28.1 glob//0.3.0
 clang-sys//0.28.1 libc//0.2.66
 clang-sys//0.28.1 libloading//0.5.2 weak:feature:runtime
 clang-sys//0.28.1 libloading//0.5.2 weak:optional
+clang-sys//0.29.0 glob//0.3.0
+clang-sys//0.29.0 libc//0.2.66
+clang-sys//0.29.0 libloading//0.5.2 weak:feature:runtime
+clang-sys//0.29.0 libloading//0.5.2 weak:optional
 clap//2.33.0 ansi_term//0.11.0 feature:default
 clap//2.33.0 ansi_term//0.11.0 weak:feature:color
 clap//2.33.0 ansi_term//0.11.0 weak:optional
