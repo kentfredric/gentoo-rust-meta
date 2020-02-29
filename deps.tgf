@@ -513,6 +513,7 @@ serde_json//0.8.6 serde_json 0.8.6
 serde_json//1.0.41 serde_json 1.0.41
 serde_test//0.8.23 serde_test 0.8.23
 serde_test//1.0.102 serde_test 1.0.102
+serde_test//1.0.104 serde_test 1.0.104
 serde_urlencoded//0.6.1 serde_urlencoded 0.6.1
 serde_yaml//0.8.11 serde_yaml 0.8.11
 sha-1//0.8.1 sha-1 0.8.1
@@ -744,10 +745,10 @@ arrayvec//0.4.12 matches//0.1.8 weak:test
 arrayvec//0.4.12 nodrop//0.1.14
 arrayvec//0.4.12 serde//1.0.104 weak:feature:serde-1
 arrayvec//0.4.12 serde//1.0.104 weak:optional
-arrayvec//0.4.12 serde_test//1.0.102 weak:test
+arrayvec//0.4.12 serde_test//1.0.104 weak:test
 arrayvec//0.5.1 matches//0.1.8 weak:test
 arrayvec//0.5.1 serde//1.0.104 weak:optional
-arrayvec//0.5.1 serde_test//1.0.102 weak:test
+arrayvec//0.5.1 serde_test//1.0.104 weak:test
 async-compression//0.2.0 brotli2//0.3.2 weak:feature:all
 async-compression//0.2.0 brotli2//0.3.2 weak:feature:all-algorithms
 async-compression//0.2.0 brotli2//0.3.2 weak:feature:brotli
@@ -1034,10 +1035,10 @@ bytes//0.4.12 byteorder//1.3.4
 bytes//0.4.12 either//1.5.3 weak:optional
 bytes//0.4.12 iovec//0.1.4
 bytes//0.4.12 serde//1.0.104 weak:optional
-bytes//0.4.12 serde_test//1.0.102 weak:test
+bytes//0.4.12 serde_test//1.0.104 weak:test
 bytes//0.5.4 loom//0.2.14 weak:test
 bytes//0.5.4 serde//1.0.104 weak:optional
-bytes//0.5.4 serde_test//1.0.102 weak:test
+bytes//0.5.4 serde_test//1.0.104 weak:test
 bzip2-sys//0.1.7 cc//1.0.50
 bzip2-sys//0.1.7 libc//0.2.66
 bzip2//0.3.3 bzip2-sys//0.1.7
@@ -1874,7 +1875,7 @@ indexmap//1.3.0 rand//0.6.5 weak:test
 indexmap//1.3.0 rayon//1.3.0 weak:optional
 indexmap//1.3.0 serde//1.0.104 weak:feature:serde-1
 indexmap//1.3.0 serde//1.0.104 weak:optional
-indexmap//1.3.0 serde_test//1.0.102 weak:test
+indexmap//1.3.0 serde_test//1.0.104 weak:test
 indexmap//1.3.1 autocfg//1.0.0
 indexmap//1.3.1 fnv//1.0.6 weak:test
 indexmap//1.3.1 itertools//0.8.2 weak:test
@@ -1884,7 +1885,7 @@ indexmap//1.3.1 rand//0.6.5 weak:test
 indexmap//1.3.1 rayon//1.3.0 weak:optional
 indexmap//1.3.1 serde//1.0.104 weak:feature:serde-1
 indexmap//1.3.1 serde//1.0.104 weak:optional
-indexmap//1.3.1 serde_test//1.0.102 weak:test
+indexmap//1.3.1 serde_test//1.0.104 weak:test
 insta//0.11.0 console//0.8.0
 insta//0.11.0 difference//2.0.0
 insta//0.11.0 lazy_static//1.4.0
@@ -2054,8 +2055,8 @@ linked-hash-map//0.5.2 heapsize//0.4.2 weak:feature:heapsize_impl
 linked-hash-map//0.5.2 heapsize//0.4.2 weak:optional
 linked-hash-map//0.5.2 serde//1.0.104 weak:feature:serde_impl
 linked-hash-map//0.5.2 serde//1.0.104 weak:optional
-linked-hash-map//0.5.2 serde_test//1.0.102 weak:feature:serde_impl
-linked-hash-map//0.5.2 serde_test//1.0.102 weak:optional
+linked-hash-map//0.5.2 serde_test//1.0.104 weak:feature:serde_impl
+linked-hash-map//0.5.2 serde_test//1.0.104 weak:optional
 lipsum//0.6.0 rand//0.6.5
 lipsum//0.6.0 rand_xorshift//0.1.1 weak:test
 lipsum//0.6.0 version-sync//0.6.0 weak:test
@@ -2068,7 +2069,7 @@ lock_api//0.3.3 serde//1.0.104 weak:optional
 log//0.3.9 log//0.4.8
 log//0.4.8 cfg-if//0.1.10
 log//0.4.8 serde//1.0.104 weak:optional
-log//0.4.8 serde_test//1.0.102 weak:test
+log//0.4.8 serde_test//1.0.104 weak:test
 log//0.4.8 sval//0.4.7 weak:feature:kv_unstable_sval
 log//0.4.8 sval//0.4.7 weak:optional
 loom//0.1.1 cfg-if//0.1.10
@@ -2318,13 +2319,13 @@ ordermap//0.3.5 itertools//0.7.11 weak:test
 ordermap//0.3.5 quickcheck//0.6.2 weak:test
 ordermap//0.3.5 serde//1.0.104 weak:feature:serde-1
 ordermap//0.3.5 serde//1.0.104 weak:optional
-ordermap//0.3.5 serde_test//1.0.102 weak:test
+ordermap//0.3.5 serde_test//1.0.104 weak:test
 ordermap//0.4.2 fnv//1.0.6 weak:test
 ordermap//0.4.2 itertools//0.7.11 weak:test
 ordermap//0.4.2 quickcheck//0.6.2 weak:test
 ordermap//0.4.2 serde//1.0.104 weak:feature:serde-1
 ordermap//0.4.2 serde//1.0.104 weak:optional
-ordermap//0.4.2 serde_test//1.0.102 weak:test
+ordermap//0.4.2 serde_test//1.0.104 weak:test
 owning_ref//0.4.0 stable_deref_trait//1.1.1
 parking_lot//0.10.0 bincode//1.2.1 weak:test
 parking_lot//0.10.0 lazy_static//1.4.0 weak:test
@@ -3128,15 +3129,15 @@ serde//1.0.104 serde_derive//1.0.104 weak:test
 serde_bytes//0.10.4 bincode//0.8.0 weak:test
 serde_bytes//0.10.4 serde//1.0.104
 serde_bytes//0.10.4 serde_derive//1.0.104 weak:test
-serde_bytes//0.10.4 serde_test//1.0.102 weak:test
+serde_bytes//0.10.4 serde_test//1.0.104 weak:test
 serde_bytes//0.11.2 bincode//1.2.1 weak:test
 serde_bytes//0.11.2 serde//1.0.104
 serde_bytes//0.11.2 serde_derive//1.0.104 weak:test
-serde_bytes//0.11.2 serde_test//1.0.102 weak:test
+serde_bytes//0.11.2 serde_test//1.0.104 weak:test
 serde_bytes//0.11.3 bincode//1.2.1 weak:test
 serde_bytes//0.11.3 serde//1.0.104
 serde_bytes//0.11.3 serde_derive//1.0.104 weak:test
-serde_bytes//0.11.3 serde_test//1.0.102 weak:test
+serde_bytes//0.11.3 serde_test//1.0.104 weak:test
 serde_cbor//0.9.0 byteorder//1.3.4
 serde_cbor//0.9.0 half//1.4.0
 serde_cbor//0.9.0 serde//1.0.104
@@ -3161,6 +3162,9 @@ serde_test//0.8.23 serde//0.8.23
 serde_test//1.0.102 serde//1.0.104
 serde_test//1.0.102 serde//1.0.104 weak:test
 serde_test//1.0.102 serde_derive//1.0.104 weak:test
+serde_test//1.0.104 serde//1.0.104
+serde_test//1.0.104 serde//1.0.104 weak:test
+serde_test//1.0.104 serde_derive//1.0.104 weak:test
 serde_urlencoded//0.6.1 dtoa//0.4.5
 serde_urlencoded//0.6.1 itoa//0.4.5
 serde_urlencoded//0.6.1 serde//1.0.104
@@ -3806,7 +3810,7 @@ unicase//2.6.0 version_check//0.9.1
 unicode-bidi//0.3.4 matches//0.1.8
 unicode-bidi//0.3.4 serde//1.0.104 weak:feature:with_serde
 unicode-bidi//0.3.4 serde//1.0.104 weak:optional
-unicode-bidi//0.3.4 serde_test//1.0.102 weak:test
+unicode-bidi//0.3.4 serde_test//1.0.104 weak:test
 unicode-normalization//0.1.12 smallvec//1.1.0
 unicode-normalization//0.1.8 smallvec//0.6.10
 unicode-segmentation//1.6.0 quickcheck//0.7.2 weak:test
@@ -3840,7 +3844,7 @@ uuid//0.7.4 rand//0.6.5 weak:optional
 uuid//0.7.4 serde//1.0.104 weak:optional
 uuid//0.7.4 serde_derive//1.0.104 weak:test
 uuid//0.7.4 serde_json//1.0.41 weak:test
-uuid//0.7.4 serde_test//1.0.102 weak:test
+uuid//0.7.4 serde_test//1.0.104 weak:test
 uuid//0.7.4 sha1//0.6.0 weak:feature:v5
 uuid//0.7.4 sha1//0.6.0 weak:optional
 uuid//0.7.4 slog//2.5.2 weak:optional
@@ -3852,7 +3856,7 @@ uuid//0.8.1 rand//0.7.2 weak:optional
 uuid//0.8.1 serde//1.0.104 weak:optional
 uuid//0.8.1 serde_derive//1.0.104 weak:test
 uuid//0.8.1 serde_json//1.0.41 weak:test
-uuid//0.8.1 serde_test//1.0.102 weak:test
+uuid//0.8.1 serde_test//1.0.104 weak:test
 uuid//0.8.1 sha1//0.6.0 weak:feature:v5
 uuid//0.8.1 sha1//0.6.0 weak:optional
 uuid//0.8.1 slog//2.5.2 weak:optional
