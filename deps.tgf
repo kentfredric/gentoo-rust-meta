@@ -626,6 +626,7 @@ tracing-attributes//0.1.6 tracing-attributes 0.1.6
 tracing-core//0.1.7 tracing-core 0.1.7
 tracing-core//0.1.9 tracing-core 0.1.9
 tracing-futures//0.2.1 tracing-futures 0.2.1
+tracing-futures//0.2.2 tracing-futures 0.2.2
 tracing//0.1.12 tracing 0.1.12
 try-lock//0.2.2 try-lock 0.2.2
 trybuild//1.0.17 trybuild 1.0.17
@@ -3764,7 +3765,7 @@ tower-util//0.3.0 tower-service//0.3.0
 tower-util//0.3.0 tower-test//0.3.0 weak:test
 tracing-attributes//0.1.6 quote//1.0.2
 tracing-attributes//0.1.6 syn//1.0.14
-tracing-attributes//0.1.6 tracing-futures//0.2.1 weak:test
+tracing-attributes//0.1.6 tracing-futures//0.2.2 weak:test
 tracing-attributes//0.1.6 tracing//0.1.12 weak:test
 tracing-core//0.1.7 lazy_static//1.4.0
 tracing-core//0.1.7 spin//0.5.2
@@ -3783,6 +3784,18 @@ tracing-futures//0.2.1 tokio-executor//0.1.10 weak:optional
 tracing-futures//0.2.1 tokio//0.1.22 weak:optional
 tracing-futures//0.2.1 tokio//0.1.22 weak:test
 tracing-futures//0.2.1 tracing//0.1.12
+tracing-futures//0.2.2 futures-task//0.3.4 weak:feature:futures-03
+tracing-futures//0.2.2 futures-task//0.3.4 weak:optional
+tracing-futures//0.2.2 futures//0.3.1 weak:feature:futures-03
+tracing-futures//0.2.2 futures//0.3.1 weak:optional
+tracing-futures//0.2.2 pin-project//0.4.8 feature:default
+tracing-futures//0.2.2 pin-project//0.4.8 weak:feature:futures-03
+tracing-futures//0.2.2 pin-project//0.4.8 weak:feature:std-future
+tracing-futures//0.2.2 pin-project//0.4.8 weak:optional
+tracing-futures//0.2.2 tokio-executor//0.1.10 weak:optional
+tracing-futures//0.2.2 tokio//0.1.22 weak:optional
+tracing-futures//0.2.2 tokio//0.1.22 weak:test
+tracing-futures//0.2.2 tracing//0.1.12
 tracing//0.1.12 cfg-if//0.1.10
 tracing//0.1.12 futures//0.1.29 weak:test
 tracing//0.1.12 log//0.4.8 weak:feature:log-always
