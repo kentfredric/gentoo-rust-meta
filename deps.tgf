@@ -581,6 +581,7 @@ thread-id//2.0.0 thread-id 2.0.0
 thread-id//3.3.0 thread-id 3.3.0
 thread_local//0.2.7 thread_local 0.2.7
 thread_local//0.3.6 thread_local 0.3.6
+thread_local//1.0.1 thread_local 1.0.1
 time-macros-impl//0.1.0 time-macros-impl 0.1.0
 time-macros//0.1.0 time-macros 0.1.0
 time//0.1.42 time 0.1.42
@@ -3385,6 +3386,7 @@ thread-id//2.0.0 libc//0.2.66
 thread-id//3.3.0 libc//0.2.66
 thread_local//0.2.7 thread-id//2.0.0
 thread_local//0.3.6 lazy_static//1.4.0
+thread_local//1.0.1 lazy_static//1.4.0
 time-macros-impl//0.1.0 proc-macro-hack//0.5.11
 time-macros-impl//0.1.0 proc-macro2//1.0.8
 time-macros-impl//0.1.0 quote//1.0.2
