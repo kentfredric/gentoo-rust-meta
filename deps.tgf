@@ -520,6 +520,7 @@ serde_yaml//0.8.11 serde_yaml 0.8.11
 sha-1//0.8.1 sha-1 0.8.1
 sha-1//0.8.2 sha-1 0.8.2
 sha1-asm//0.4.3 sha1-asm 0.4.3
+sha1-asm//0.4.4 sha1-asm 0.4.4
 sha1//0.6.0 sha1 0.6.0
 sha2-asm//0.5.3 sha2-asm 0.5.3
 sha2//0.8.1 sha2 0.8.1
@@ -3183,8 +3184,8 @@ sha-1//0.8.1 digest//0.8.1
 sha-1//0.8.1 fake-simd//0.1.2
 sha-1//0.8.1 hex-literal//0.1.4 weak:test
 sha-1//0.8.1 opaque-debug//0.2.3
-sha-1//0.8.1 sha1-asm//0.4.3 weak:feature:asm
-sha-1//0.8.1 sha1-asm//0.4.3 weak:optional
+sha-1//0.8.1 sha1-asm//0.4.4 weak:feature:asm
+sha-1//0.8.1 sha1-asm//0.4.4 weak:optional
 sha-1//0.8.2 block-buffer//0.7.3
 sha-1//0.8.2 digest//0.8.1
 sha-1//0.8.2 fake-simd//0.1.2
@@ -3192,10 +3193,11 @@ sha-1//0.8.2 hex-literal//0.1.4 weak:test
 sha-1//0.8.2 libc//0.2.66 weak:feature:asm-aarch64
 sha-1//0.8.2 libc//0.2.66 weak:optional
 sha-1//0.8.2 opaque-debug//0.2.3
-sha-1//0.8.2 sha1-asm//0.4.3 weak:feature:asm
-sha-1//0.8.2 sha1-asm//0.4.3 weak:feature:asm-aarch64
-sha-1//0.8.2 sha1-asm//0.4.3 weak:optional
+sha-1//0.8.2 sha1-asm//0.4.4 weak:feature:asm
+sha-1//0.8.2 sha1-asm//0.4.4 weak:feature:asm-aarch64
+sha-1//0.8.2 sha1-asm//0.4.4 weak:optional
 sha1-asm//0.4.3 cc//1.0.50
+sha1-asm//0.4.4 cc//1.0.50
 sha1//0.6.0 openssl//0.10.28 weak:test
 sha1//0.6.0 rand//0.4.6 weak:test
 sha1//0.6.0 serde//1.0.104 weak:optional
