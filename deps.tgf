@@ -602,6 +602,7 @@ tokio-process//0.2.4 tokio-process 0.2.4
 tokio-reactor//0.1.11 tokio-reactor 0.1.11
 tokio-rustls//0.12.2 tokio-rustls 0.12.2
 tokio-signal//0.2.7 tokio-signal 0.2.7
+tokio-signal//0.2.9 tokio-signal 0.2.9
 tokio-socks//0.2.0 tokio-socks 0.2.0
 tokio-sync//0.1.7 tokio-sync 0.1.7
 tokio-sync//0.2.0.6 tokio-sync 0.2.0.6
@@ -3474,7 +3475,7 @@ tokio-process//0.2.4 log//0.4.8 weak:test
 tokio-process//0.2.4 mio//0.6.21
 tokio-process//0.2.4 tokio-io//0.1.13
 tokio-process//0.2.4 tokio-reactor//0.1.11
-tokio-process//0.2.4 tokio-signal//0.2.7
+tokio-process//0.2.4 tokio-signal//0.2.9
 tokio-process//0.2.4 tokio//0.1.22 weak:test
 tokio-reactor//0.1.11 crossbeam-utils//0.6.6
 tokio-reactor//0.1.11 futures//0.1.29
@@ -3507,6 +3508,15 @@ tokio-signal//0.2.7 tokio-executor//0.1.10
 tokio-signal//0.2.7 tokio-io//0.1.13
 tokio-signal//0.2.7 tokio-reactor//0.1.11
 tokio-signal//0.2.7 tokio//0.1.22 weak:test
+tokio-signal//0.2.9 futures//0.1.29
+tokio-signal//0.2.9 libc//0.2.66
+tokio-signal//0.2.9 mio-uds//0.6.7
+tokio-signal//0.2.9 mio//0.6.21
+tokio-signal//0.2.9 signal-hook-registry//1.2.0
+tokio-signal//0.2.9 tokio-executor//0.1.10
+tokio-signal//0.2.9 tokio-io//0.1.13
+tokio-signal//0.2.9 tokio-reactor//0.1.11
+tokio-signal//0.2.9 tokio//0.1.22 weak:test
 tokio-socks//0.2.0 bytes//0.4.12
 tokio-socks//0.2.0 derefable//0.1.0
 tokio-socks//0.2.0 either//1.5.3
