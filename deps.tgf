@@ -484,6 +484,7 @@ rustls-native-certs//0.1.0 rustls-native-certs 0.1.0
 rustls//0.16.0 rustls 0.16.0
 rustversion//0.1.4 rustversion 0.1.4
 rustversion//1.0.1 rustversion 1.0.1
+rustversion//1.0.2 rustversion 1.0.2
 rusty-fork//0.2.2 rusty-fork 0.2.2
 ryu//1.0.1 ryu 1.0.1
 safemem//0.3.3 safemem 0.3.3
@@ -736,7 +737,7 @@ ansi_term//0.12.1 serde//1.0.104 weak:feature:derive_serde_style
 ansi_term//0.12.1 serde//1.0.104 weak:optional
 ansi_term//0.12.1 serde_json//1.0.41 weak:test
 anyhow//1.0.26 futures//0.3.1 weak:test
-anyhow//1.0.26 rustversion//1.0.1 weak:test
+anyhow//1.0.26 rustversion//1.0.2 weak:test
 anyhow//1.0.26 thiserror//1.0.6 weak:test
 anyhow//1.0.26 trybuild//1.0.21 weak:test
 approx//0.3.2 num-complex//0.2.4 weak:optional
@@ -2470,9 +2471,9 @@ pin-project-internal//0.4.6 syn//1.0.14
 pin-project-internal//0.4.8 proc-macro2//1.0.8
 pin-project-internal//0.4.8 quote//1.0.2
 pin-project-internal//0.4.8 syn//1.0.14
-pin-project-lite//0.1.2 rustversion//1.0.1 weak:test
+pin-project-lite//0.1.2 rustversion//1.0.2 weak:test
 pin-project-lite//0.1.2 trybuild//1.0.21 weak:test
-pin-project-lite//0.1.4 rustversion//1.0.1 weak:test
+pin-project-lite//0.1.4 rustversion//1.0.2 weak:test
 pin-project-lite//0.1.4 trybuild//1.0.21 weak:test
 pin-project//0.4.6 pin-project-internal//0.4.6
 pin-project//0.4.8 pin-project-internal//0.4.8
@@ -2879,7 +2880,7 @@ ref-cast//0.2.7 ref-cast-impl//0.2.7
 ref-cast//0.2.7 rustversion//0.1.4 weak:test
 ref-cast//0.2.7 trybuild//1.0.21 weak:test
 ref-cast//1.0.0 ref-cast-impl//1.0.0
-ref-cast//1.0.0 rustversion//1.0.1 weak:test
+ref-cast//1.0.0 rustversion//1.0.2 weak:test
 ref-cast//1.0.0 trybuild//1.0.21 weak:test
 regex-syntax//0.3.9 quickcheck//0.2.27 weak:test
 regex-syntax//0.3.9 rand//0.3.23 weak:test
@@ -3094,6 +3095,9 @@ rustversion//0.1.4 syn//1.0.14
 rustversion//1.0.1 proc-macro2//1.0.8
 rustversion//1.0.1 quote//1.0.2
 rustversion//1.0.1 syn//1.0.14
+rustversion//1.0.2 proc-macro2//1.0.8
+rustversion//1.0.2 quote//1.0.2
+rustversion//1.0.2 syn//1.0.14
 rusty-fork//0.2.2 fnv//1.0.6
 rusty-fork//0.2.2 quick-error//1.2.3
 rusty-fork//0.2.2 tempfile//3.1.0
@@ -3378,7 +3382,7 @@ thiserror-impl//1.0.6 quote//1.0.2
 thiserror-impl//1.0.6 syn//1.0.14
 thiserror//1.0.6 anyhow//1.0.26 weak:test
 thiserror//1.0.6 ref-cast//1.0.0 weak:test
-thiserror//1.0.6 rustversion//1.0.1 weak:test
+thiserror//1.0.6 rustversion//1.0.2 weak:test
 thiserror//1.0.6 thiserror-impl//1.0.6
 thiserror//1.0.6 trybuild//1.0.21 weak:test
 thread-id//2.0.0 kernel32-sys//0.2.2
@@ -3396,7 +3400,7 @@ time-macros//0.1.0 time-macros-impl//0.1.0
 time//0.1.42 libc//0.2.66
 time//0.1.42 log//0.4.8 weak:test
 time//0.1.42 rustc-serialize//0.3.24 weak:optional
-time//0.2.6 rustversion//1.0.1
+time//0.2.6 rustversion//1.0.2
 time//0.2.6 serde//1.0.104 weak:optional
 time//0.2.6 time-macros//0.1.0
 timebomb//0.1.2 pulse//0.5.3
