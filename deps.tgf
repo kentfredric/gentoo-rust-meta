@@ -175,6 +175,7 @@ futures-task//0.3.4 futures-task 0.3.4
 futures-test//0.3.1 futures-test 0.3.1
 futures-util-preview//0.3.0.19 futures-util-preview 0.3.0.19
 futures-util//0.3.1 futures-util 0.3.1
+futures-util//0.3.4 futures-util 0.3.4
 futures//0.1.29 futures 0.1.29
 futures//0.3.1 futures 0.3.1
 gcc//0.3.55 gcc 0.3.55
@@ -1459,7 +1460,7 @@ futures-channel//0.3.4 futures-sink//0.3.4 weak:feature:sink
 futures-channel//0.3.4 futures-sink//0.3.4 weak:optional
 futures-executor//0.3.1 futures-core//0.3.4
 futures-executor//0.3.1 futures-task//0.3.4
-futures-executor//0.3.1 futures-util//0.3.1
+futures-executor//0.3.1 futures-util//0.3.4
 futures-executor//0.3.1 num_cpus//1.12.0 weak:feature:thread-pool
 futures-executor//0.3.1 num_cpus//1.12.0 weak:optional
 futures-join-macro-preview//0.3.0.19 proc-macro-hack//0.5.11
@@ -1482,7 +1483,7 @@ futures-test//0.3.1 futures-core//0.3.4
 futures-test//0.3.1 futures-executor//0.3.1
 futures-test//0.3.1 futures-io//0.3.4
 futures-test//0.3.1 futures-task//0.3.4
-futures-test//0.3.1 futures-util//0.3.1
+futures-test//0.3.1 futures-util//0.3.4
 futures-test//0.3.1 pin-utils//0.1.0.4
 futures-util-preview//0.3.0.19 futures-channel-preview//0.3.0.19 weak:feature:channel
 futures-util-preview//0.3.0.19 futures-channel-preview//0.3.0.19 weak:optional
@@ -1558,6 +1559,43 @@ futures-util//0.3.1 slab//0.4.2 weak:feature:std
 futures-util//0.3.1 slab//0.4.2 weak:optional
 futures-util//0.3.1 tokio-io//0.1.13 weak:feature:io-compat
 futures-util//0.3.1 tokio-io//0.1.13 weak:optional
+futures-util//0.3.4 futures-channel//0.3.4 weak:feature:channel
+futures-util//0.3.4 futures-channel//0.3.4 weak:optional
+futures-util//0.3.4 futures-core//0.3.4
+futures-util//0.3.4 futures-io//0.3.4 weak:feature:io
+futures-util//0.3.4 futures-io//0.3.4 weak:feature:io-compat
+futures-util//0.3.4 futures-io//0.3.4 weak:feature:read-initializer
+futures-util//0.3.4 futures-io//0.3.4 weak:optional
+futures-util//0.3.4 futures-macro//0.3.4 feature:default
+futures-util//0.3.4 futures-macro//0.3.4 weak:feature:async-await-macro
+futures-util//0.3.4 futures-macro//0.3.4 weak:optional
+futures-util//0.3.4 futures-sink//0.3.4 weak:feature:sink
+futures-util//0.3.4 futures-sink//0.3.4 weak:optional
+futures-util//0.3.4 futures-task//0.3.4
+futures-util//0.3.4 futures//0.1.29 weak:feature:compat
+futures-util//0.3.4 futures//0.1.29 weak:feature:io-compat
+futures-util//0.3.4 futures//0.1.29 weak:optional
+futures-util//0.3.4 memchr//2.3.2 weak:feature:io
+futures-util//0.3.4 memchr//2.3.2 weak:feature:io-compat
+futures-util//0.3.4 memchr//2.3.2 weak:feature:read-initializer
+futures-util//0.3.4 memchr//2.3.2 weak:optional
+futures-util//0.3.4 pin-utils//0.1.0.4
+futures-util//0.3.4 proc-macro-hack//0.5.11 feature:default
+futures-util//0.3.4 proc-macro-hack//0.5.11 weak:feature:async-await-macro
+futures-util//0.3.4 proc-macro-hack//0.5.11 weak:optional
+futures-util//0.3.4 proc-macro-nested//0.1.3 feature:default
+futures-util//0.3.4 proc-macro-nested//0.1.3 weak:feature:async-await-macro
+futures-util//0.3.4 proc-macro-nested//0.1.3 weak:optional
+futures-util//0.3.4 slab//0.4.2 feature:default
+futures-util//0.3.4 slab//0.4.2 weak:feature:channel
+futures-util//0.3.4 slab//0.4.2 weak:feature:compat
+futures-util//0.3.4 slab//0.4.2 weak:feature:io
+futures-util//0.3.4 slab//0.4.2 weak:feature:io-compat
+futures-util//0.3.4 slab//0.4.2 weak:feature:read-initializer
+futures-util//0.3.4 slab//0.4.2 weak:feature:std
+futures-util//0.3.4 slab//0.4.2 weak:optional
+futures-util//0.3.4 tokio-io//0.1.13 weak:feature:io-compat
+futures-util//0.3.4 tokio-io//0.1.13 weak:optional
 futures//0.3.1 assert_matches//1.3.0 weak:test
 futures//0.3.1 futures-channel//0.3.4
 futures//0.3.1 futures-core//0.3.4
@@ -1565,7 +1603,7 @@ futures//0.3.1 futures-executor//0.3.1
 futures//0.3.1 futures-io//0.3.4
 futures//0.3.1 futures-sink//0.3.4
 futures//0.3.1 futures-task//0.3.4
-futures//0.3.1 futures-util//0.3.1
+futures//0.3.1 futures-util//0.3.4
 futures//0.3.1 pin-utils//0.1.0.4 weak:test
 futures//0.3.1 tokio//0.1.22 weak:test
 gcc//0.3.55 rayon//0.8.2 weak:feature:parallel
@@ -1711,7 +1749,7 @@ h2//0.2.1 env_logger//0.5.13 weak:test
 h2//0.2.1 fnv//1.0.6
 h2//0.2.1 futures-core//0.3.4
 h2//0.2.1 futures-sink//0.3.4
-h2//0.2.1 futures-util//0.3.1
+h2//0.2.1 futures-util//0.3.4
 h2//0.2.1 hex//0.2.0 weak:test
 h2//0.2.1 http//0.2.0
 h2//0.2.1 indexmap//1.3.1
@@ -1791,7 +1829,7 @@ hyper-rustls//0.19.1 bytes//0.5.4
 hyper-rustls//0.19.1 ct-logs//0.6.0 feature:default
 hyper-rustls//0.19.1 ct-logs//0.6.0 weak:feature:tokio-runtime
 hyper-rustls//0.19.1 ct-logs//0.6.0 weak:optional
-hyper-rustls//0.19.1 futures-util//0.3.1
+hyper-rustls//0.19.1 futures-util//0.3.4
 hyper-rustls//0.19.1 hyper//0.13.2
 hyper-rustls//0.19.1 rustls-native-certs//0.1.0 feature:default
 hyper-rustls//0.19.1 rustls-native-certs//0.1.0 weak:feature:tokio-runtime
@@ -1810,8 +1848,8 @@ hyper-tls//0.4.1 tokio//0.2.9 weak:test
 hyper//0.13.1 bytes//0.5.4
 hyper//0.13.1 futures-channel//0.3.4
 hyper//0.13.1 futures-core//0.3.4
-hyper//0.13.1 futures-util//0.3.1
-hyper//0.13.1 futures-util//0.3.1 weak:test
+hyper//0.13.1 futures-util//0.3.4
+hyper//0.13.1 futures-util//0.3.4 weak:test
 hyper//0.13.1 h2//0.2.1
 hyper//0.13.1 http-body//0.3.1
 hyper//0.13.1 http//0.2.0
@@ -1834,8 +1872,8 @@ hyper//0.13.1 want//0.3.0
 hyper//0.13.2 bytes//0.5.4
 hyper//0.13.2 futures-channel//0.3.4
 hyper//0.13.2 futures-core//0.3.4
-hyper//0.13.2 futures-util//0.3.1
-hyper//0.13.2 futures-util//0.3.1 weak:test
+hyper//0.13.2 futures-util//0.3.4
+hyper//0.13.2 futures-util//0.3.4 weak:test
 hyper//0.13.2 h2//0.2.1
 hyper//0.13.2 http-body//0.3.1
 hyper//0.13.2 http//0.2.0
@@ -2099,8 +2137,8 @@ loom//0.1.1 serde_derive//1.0.104 weak:optional
 loom//0.1.1 serde_json//1.0.41 weak:feature:checkpoint
 loom//0.1.1 serde_json//1.0.41 weak:optional
 loom//0.2.14 cfg-if//0.1.10
-loom//0.2.14 futures-util//0.3.1 weak:feature:futures
-loom//0.2.14 futures-util//0.3.1 weak:optional
+loom//0.2.14 futures-util//0.3.4 weak:feature:futures
+loom//0.2.14 futures-util//0.3.4 weak:optional
 loom//0.2.14 generator//0.6.20
 loom//0.2.14 scoped-tls//0.1.2
 loom//0.2.14 serde//1.0.104 weak:feature:checkpoint
@@ -2941,7 +2979,7 @@ reqwest//0.10.0 doc-comment//0.3.1 weak:test
 reqwest//0.10.0 encoding_rs//0.8.22
 reqwest//0.10.0 env_logger//0.6.2 weak:test
 reqwest//0.10.0 futures-core//0.3.4
-reqwest//0.10.0 futures-util//0.3.1
+reqwest//0.10.0 futures-util//0.3.4
 reqwest//0.10.0 http-body//0.3.1
 reqwest//0.10.0 http//0.2.0
 reqwest//0.10.0 hyper-rustls//0.19.1 weak:feature:rust-tls
@@ -2997,7 +3035,7 @@ reqwest//0.10.1 doc-comment//0.3.1 weak:test
 reqwest//0.10.1 encoding_rs//0.8.22
 reqwest//0.10.1 env_logger//0.6.2 weak:test
 reqwest//0.10.1 futures-core//0.3.4
-reqwest//0.10.1 futures-util//0.3.1
+reqwest//0.10.1 futures-util//0.3.4
 reqwest//0.10.1 http-body//0.3.1
 reqwest//0.10.1 http//0.2.0
 reqwest//0.10.1 hyper-rustls//0.19.1 weak:feature:rust-tls
@@ -3512,7 +3550,7 @@ tokio-reactor//0.1.11 tokio-sync//0.1.7
 tokio-rustls//0.12.2 bytes//0.5.4 weak:feature:unstable
 tokio-rustls//0.12.2 bytes//0.5.4 weak:optional
 tokio-rustls//0.12.2 futures-core//0.3.4
-tokio-rustls//0.12.2 futures-util//0.3.1 weak:test
+tokio-rustls//0.12.2 futures-util//0.3.4 weak:test
 tokio-rustls//0.12.2 lazy_static//1.4.0 weak:test
 tokio-rustls//0.12.2 rustls//0.16.0
 tokio-rustls//0.12.2 tokio//0.2.9
@@ -3565,7 +3603,7 @@ tokio-tcp//0.1.3 tokio-reactor//0.1.11
 tokio-tcp//0.1.3 tokio//0.1.22 weak:test
 tokio-test//0.2.0 bytes//0.5.4
 tokio-test//0.2.0 futures-core//0.3.4
-tokio-test//0.2.0 futures-util//0.3.1 weak:test
+tokio-test//0.2.0 futures-util//0.3.4 weak:test
 tokio-test//0.2.0 tokio//0.2.9
 tokio-test//0.2.0 tokio//0.2.9 weak:test
 tokio-threadpool//0.1.17 crossbeam-deque//0.7.2
@@ -3787,7 +3825,7 @@ toml//0.5.3 serde_derive//1.0.104 weak:test
 toml//0.5.3 serde_json//1.0.41 weak:test
 tower-layer//0.3.0 tower-service//0.3.0 weak:test
 tower-service//0.3.0 http//0.1.21 weak:test
-tower-test//0.3.0 futures-util//0.3.1
+tower-test//0.3.0 futures-util//0.3.4
 tower-test//0.3.0 pin-project//0.4.8
 tower-test//0.3.0 tokio-test//0.2.0
 tower-test//0.3.0 tokio//0.2.9
@@ -3795,9 +3833,9 @@ tower-test//0.3.0 tokio//0.2.9 weak:test
 tower-test//0.3.0 tower-layer//0.3.0
 tower-test//0.3.0 tower-service//0.3.0
 tower-util//0.3.0 futures-core//0.3.4
-tower-util//0.3.0 futures-util//0.3.1 feature:default
-tower-util//0.3.0 futures-util//0.3.1 weak:feature:call-all
-tower-util//0.3.0 futures-util//0.3.1 weak:optional
+tower-util//0.3.0 futures-util//0.3.4 feature:default
+tower-util//0.3.0 futures-util//0.3.4 weak:feature:call-all
+tower-util//0.3.0 futures-util//0.3.4 weak:optional
 tower-util//0.3.0 pin-project//0.4.8
 tower-util//0.3.0 tokio-test//0.2.0 weak:test
 tower-util//0.3.0 tokio//0.2.9 weak:test
