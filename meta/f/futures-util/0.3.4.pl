@@ -10,7 +10,6 @@ my %added = (
 );
 crate(
     'futures-util' => '0.3.4',
-    missing_tests  => 1,
     optional       => {
         'futures-channel'   => '^0.3.4',
         'futures-io'        => '^0.3.4',
