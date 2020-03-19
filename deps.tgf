@@ -179,6 +179,7 @@ futures-util//0.3.1 futures-util 0.3.1
 futures-util//0.3.4 futures-util 0.3.4
 futures//0.1.29 futures 0.1.29
 futures//0.3.1 futures 0.3.1
+futures//0.3.4 futures 0.3.4
 gcc//0.3.55 gcc 0.3.55
 generator//0.6.19 generator 0.6.19
 generator//0.6.20 generator 0.6.20
@@ -739,7 +740,7 @@ ansi_term//0.12.1 regex//1.3.1 weak:test
 ansi_term//0.12.1 serde//1.0.104 weak:feature:derive_serde_style
 ansi_term//0.12.1 serde//1.0.104 weak:optional
 ansi_term//0.12.1 serde_json//1.0.41 weak:test
-anyhow//1.0.26 futures//0.3.1 weak:test
+anyhow//1.0.26 futures//0.3.4 weak:test
 anyhow//1.0.26 rustversion//1.0.2 weak:test
 anyhow//1.0.26 thiserror//1.0.6 weak:test
 anyhow//1.0.26 trybuild//1.0.21 weak:test
@@ -784,7 +785,7 @@ async-compression//0.2.0 futures-io//0.3.4 weak:feature:futures-bufread
 async-compression//0.2.0 futures-io//0.3.4 weak:feature:futures-write
 async-compression//0.2.0 futures-io//0.3.4 weak:optional
 async-compression//0.2.0 futures-test//0.3.1 weak:test
-async-compression//0.2.0 futures//0.3.1 weak:test
+async-compression//0.2.0 futures//0.3.4 weak:test
 async-compression//0.2.0 memchr//2.3.2
 async-compression//0.2.0 ntest//0.3.3 weak:test
 async-compression//0.2.0 pin-project-lite//0.1.4
@@ -821,7 +822,7 @@ async-compression//0.3.0 futures-io//0.3.4 weak:feature:futures-bufread
 async-compression//0.3.0 futures-io//0.3.4 weak:feature:futures-write
 async-compression//0.3.0 futures-io//0.3.4 weak:optional
 async-compression//0.3.0 futures-test//0.3.1 weak:test
-async-compression//0.3.0 futures//0.3.1 weak:test
+async-compression//0.3.0 futures//0.3.4 weak:test
 async-compression//0.3.0 memchr//2.3.2
 async-compression//0.3.0 ntest//0.3.3 weak:test
 async-compression//0.3.0 pin-project-lite//0.1.4
@@ -1467,7 +1468,7 @@ futures-executor//0.3.1 num_cpus//1.12.0 weak:optional
 futures-executor//0.3.4 futures-core//0.3.4
 futures-executor//0.3.4 futures-task//0.3.4
 futures-executor//0.3.4 futures-util//0.3.4
-futures-executor//0.3.4 futures//0.3.1 weak:test
+futures-executor//0.3.4 futures//0.3.4 weak:test
 futures-executor//0.3.4 num_cpus//1.12.0 weak:feature:thread-pool
 futures-executor//0.3.4 num_cpus//1.12.0 weak:optional
 futures-join-macro-preview//0.3.0.19 proc-macro-hack//0.5.11
@@ -1613,6 +1614,17 @@ futures//0.3.1 futures-task//0.3.4
 futures//0.3.1 futures-util//0.3.4
 futures//0.3.1 pin-utils//0.1.0.4 weak:test
 futures//0.3.1 tokio//0.1.22 weak:test
+futures//0.3.4 assert_matches//1.3.0 weak:test
+futures//0.3.4 futures-channel//0.3.4
+futures//0.3.4 futures-core//0.3.4
+futures//0.3.4 futures-executor//0.3.4
+futures//0.3.4 futures-io//0.3.4
+futures//0.3.4 futures-sink//0.3.4
+futures//0.3.4 futures-task//0.3.4
+futures//0.3.4 futures-test//0.3.1 weak:test
+futures//0.3.4 futures-util//0.3.4
+futures//0.3.4 pin-utils//0.1.0.4 weak:test
+futures//0.3.4 tokio//0.1.22 weak:test
 gcc//0.3.55 rayon//0.8.2 weak:feature:parallel
 gcc//0.3.55 rayon//0.8.2 weak:optional
 gcc//0.3.55 tempdir//0.3.7 weak:test
@@ -3586,7 +3598,7 @@ tokio-socks//0.2.0 bytes//0.4.12
 tokio-socks//0.2.0 derefable//0.1.0
 tokio-socks//0.2.0 either//1.5.3
 tokio-socks//0.2.0 failure//0.1.6
-tokio-socks//0.2.0 futures//0.3.1
+tokio-socks//0.2.0 futures//0.3.4
 tokio-socks//0.2.0 once_cell//1.3.1 weak:test
 tokio-socks//0.2.0 tokio//0.2.9
 tokio-socks//0.2.0 tokio//0.2.9 weak:test
@@ -3651,7 +3663,7 @@ tokio-timer//0.2.13 tokio-mock-task//0.1.1 weak:test
 tokio-timer//0.2.13 tokio//0.1.22 weak:test
 tokio-tls//0.3.0 cfg-if//0.1.10 weak:test
 tokio-tls//0.3.0 env_logger//0.6.2 weak:test
-tokio-tls//0.3.0 futures//0.3.1 weak:test
+tokio-tls//0.3.0 futures//0.3.4 weak:test
 tokio-tls//0.3.0 native-tls//0.2.3
 tokio-tls//0.3.0 openssl//0.10.28 weak:test
 tokio-tls//0.3.0 tokio//0.2.9
@@ -3699,7 +3711,7 @@ tokio-uds//0.2.6 tokio//0.1.22 weak:test
 tokio-util//0.2.0 bytes//0.5.4
 tokio-util//0.2.0 futures-core//0.3.4
 tokio-util//0.2.0 futures-sink//0.3.4
-tokio-util//0.2.0 futures//0.3.1 weak:test
+tokio-util//0.2.0 futures//0.3.4 weak:test
 tokio-util//0.2.0 log//0.4.8
 tokio-util//0.2.0 pin-project-lite//0.1.4
 tokio-util//0.2.0 tokio-test//0.2.0 weak:test
@@ -3767,7 +3779,7 @@ tokio//0.2.9 fnv//1.0.6 weak:optional
 tokio//0.2.9 futures-core//0.3.4 weak:feature:full
 tokio//0.2.9 futures-core//0.3.4 weak:feature:stream
 tokio//0.2.9 futures-core//0.3.4 weak:optional
-tokio//0.2.9 futures//0.3.1 weak:test
+tokio//0.2.9 futures//0.3.4 weak:test
 tokio//0.2.9 iovec//0.1.4 weak:feature:full
 tokio//0.2.9 iovec//0.1.4 weak:feature:net
 tokio//0.2.9 iovec//0.1.4 weak:feature:tcp
@@ -3859,8 +3871,8 @@ tracing-core//0.1.9 lazy_static//1.4.0 weak:feature:std
 tracing-core//0.1.9 lazy_static//1.4.0 weak:optional
 tracing-futures//0.2.1 futures-task//0.3.4 weak:feature:futures-03
 tracing-futures//0.2.1 futures-task//0.3.4 weak:optional
-tracing-futures//0.2.1 futures//0.3.1 weak:feature:futures-03
-tracing-futures//0.2.1 futures//0.3.1 weak:optional
+tracing-futures//0.2.1 futures//0.3.4 weak:feature:futures-03
+tracing-futures//0.2.1 futures//0.3.4 weak:optional
 tracing-futures//0.2.1 pin-project//0.4.8 feature:default
 tracing-futures//0.2.1 pin-project//0.4.8 weak:feature:futures-03
 tracing-futures//0.2.1 pin-project//0.4.8 weak:feature:std-future
@@ -3871,8 +3883,8 @@ tracing-futures//0.2.1 tokio//0.1.22 weak:test
 tracing-futures//0.2.1 tracing//0.1.12
 tracing-futures//0.2.2 futures-task//0.3.4 weak:feature:futures-03
 tracing-futures//0.2.2 futures-task//0.3.4 weak:optional
-tracing-futures//0.2.2 futures//0.3.1 weak:feature:futures-03
-tracing-futures//0.2.2 futures//0.3.1 weak:optional
+tracing-futures//0.2.2 futures//0.3.4 weak:feature:futures-03
+tracing-futures//0.2.2 futures//0.3.4 weak:optional
 tracing-futures//0.2.2 pin-project//0.4.8 feature:default
 tracing-futures//0.2.2 pin-project//0.4.8 weak:feature:futures-03
 tracing-futures//0.2.2 pin-project//0.4.8 weak:feature:std-future
