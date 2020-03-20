@@ -437,6 +437,7 @@ rand_hc//0.2.0 rand_hc 0.2.0
 rand_isaac//0.1.1 rand_isaac 0.1.1
 rand_isaac//0.2.0 rand_isaac 0.2.0
 rand_jitter//0.1.4 rand_jitter 0.1.4
+rand_jitter//0.2.0 rand_jitter 0.2.0
 rand_os//0.1.3 rand_os 0.1.3
 rand_pcg//0.1.2 rand_pcg 0.1.2
 rand_pcg//0.2.1 rand_pcg 0.2.1
@@ -2861,6 +2862,8 @@ rand_isaac//0.2.0 serde_derive//1.0.104 weak:feature:serde1
 rand_isaac//0.2.0 serde_derive//1.0.104 weak:optional
 rand_jitter//0.1.4 log//0.4.8 weak:optional
 rand_jitter//0.1.4 rand_core//0.4.2
+rand_jitter//0.2.0 log//0.4.8 weak:optional
+rand_jitter//0.2.0 rand_core//0.5.1
 rand_os//0.1.3 libc//0.2.66
 rand_os//0.1.3 log//0.4.8 weak:optional
 rand_os//0.1.3 rand_core//0.4.2
