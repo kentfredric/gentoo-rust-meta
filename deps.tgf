@@ -683,6 +683,7 @@ walkdir//2.2.9 walkdir 2.2.9
 want//0.3.0 want 0.3.0
 webpki-roots//0.17.0 webpki-roots 0.17.0
 webpki-roots//0.18.0 webpki-roots 0.18.0
+webpki-roots//0.19.0 webpki-roots 0.19.0
 webpki//0.21.0 webpki 0.21.0
 which//3.1.0 which 3.1.0
 winapi-build//0.1.1 winapi-build 0.1.1
@@ -3166,13 +3167,13 @@ rustls-native-certs//0.1.0 openssl-probe//0.1.2
 rustls-native-certs//0.1.0 ring//0.16.11 weak:test
 rustls-native-certs//0.1.0 rustls//0.16.0
 rustls-native-certs//0.1.0 untrusted//0.7.0 weak:test
-rustls-native-certs//0.1.0 webpki-roots//0.18.0 weak:test
+rustls-native-certs//0.1.0 webpki-roots//0.19.0 weak:test
 rustls-native-certs//0.1.0 webpki//0.21.0 weak:test
 rustls-native-certs//0.2.1 openssl-probe//0.1.2
 rustls-native-certs//0.2.1 ring//0.16.11 weak:test
 rustls-native-certs//0.2.1 rustls//0.16.0
 rustls-native-certs//0.2.1 untrusted//0.7.0 weak:test
-rustls-native-certs//0.2.1 webpki-roots//0.18.0 weak:test
+rustls-native-certs//0.2.1 webpki-roots//0.19.0 weak:test
 rustls-native-certs//0.2.1 webpki//0.21.0 weak:test
 rustls//0.16.0 base64//0.10.1
 rustls//0.16.0 env_logger//0.6.2 weak:test
@@ -4029,6 +4030,7 @@ want//0.3.0 tokio-sync//0.2.0.6 weak:test
 want//0.3.0 try-lock//0.2.2
 webpki-roots//0.17.0 webpki//0.21.0
 webpki-roots//0.18.0 webpki//0.21.0
+webpki-roots//0.19.0 webpki//0.21.0
 webpki//0.21.0 base64//0.9.3 weak:test
 webpki//0.21.0 ring//0.16.11
 webpki//0.21.0 untrusted//0.7.0
