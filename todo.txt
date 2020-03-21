@@ -31,7 +31,6 @@ sval 0.4.7 -> 0.5.1
 synstructure 0.12.1 -> 0.12.3
 termcolor 1.0.5 -> 1.1.0
 thiserror 1.0.6 -> 1.0.11
-tokio 0.2.9 -> 0.2.11
 tokio-current-thread 0.1.6 -> 0.1.7
 tokio-fs 0.1.6 -> 0.1.7
 tokio-process 0.2.4 -> 0.2.5
