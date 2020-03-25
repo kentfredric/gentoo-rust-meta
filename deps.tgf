@@ -541,6 +541,7 @@ sha2//0.8.1 sha2 0.8.1
 shlex//0.1.1 shlex 0.1.1
 signal-hook-registry//1.2.0 signal-hook-registry 1.2.0
 signal-hook//0.1.12 signal-hook 0.1.12
+signal-hook//0.1.13 signal-hook 0.1.13
 siphasher//0.2.3 siphasher 0.2.3
 siphasher//0.3.1 siphasher 0.3.1
 slab//0.4.2 slab 0.4.2
@@ -1249,11 +1250,11 @@ crc32fast//1.2.0 rand//0.4.6 weak:test
 crossbeam-channel//0.3.9 crossbeam-utils//0.6.6
 crossbeam-channel//0.3.9 num_cpus//1.12.0 weak:test
 crossbeam-channel//0.3.9 rand//0.6.5 weak:test
-crossbeam-channel//0.3.9 signal-hook//0.1.12 weak:test
+crossbeam-channel//0.3.9 signal-hook//0.1.13 weak:test
 crossbeam-channel//0.4.0 crossbeam-utils//0.7.0
 crossbeam-channel//0.4.0 num_cpus//1.12.0 weak:test
 crossbeam-channel//0.4.0 rand//0.6.5 weak:test
-crossbeam-channel//0.4.0 signal-hook//0.1.12 weak:test
+crossbeam-channel//0.4.0 signal-hook//0.1.13 weak:test
 crossbeam-deque//0.7.2 crossbeam-epoch//0.8.0
 crossbeam-deque//0.7.2 crossbeam-utils//0.7.0
 crossbeam-deque//0.7.2 rand//0.6.5 weak:test
@@ -3354,7 +3355,7 @@ sha2//0.8.1 sha2-asm//0.5.3 weak:feature:asm-aarch64
 sha2//0.8.1 sha2-asm//0.5.3 weak:optional
 signal-hook-registry//1.2.0 arc-swap//0.4.4
 signal-hook-registry//1.2.0 libc//0.2.66
-signal-hook-registry//1.2.0 signal-hook//0.1.12 weak:test
+signal-hook-registry//1.2.0 signal-hook//0.1.13 weak:test
 signal-hook-registry//1.2.0 version-sync//0.8.1 weak:test
 signal-hook//0.1.12 futures//0.1.29 weak:feature:tokio-support
 signal-hook//0.1.12 futures//0.1.29 weak:optional
@@ -3367,6 +3368,17 @@ signal-hook//0.1.12 tokio-reactor//0.1.11 weak:feature:tokio-support
 signal-hook//0.1.12 tokio-reactor//0.1.11 weak:optional
 signal-hook//0.1.12 tokio//0.1.22 weak:test
 signal-hook//0.1.12 version-sync//0.8.1 weak:test
+signal-hook//0.1.13 futures//0.1.29 weak:feature:tokio-support
+signal-hook//0.1.13 futures//0.1.29 weak:optional
+signal-hook//0.1.13 libc//0.2.66
+signal-hook//0.1.13 mio//0.6.21 weak:feature:mio-support
+signal-hook//0.1.13 mio//0.6.21 weak:feature:tokio-support
+signal-hook//0.1.13 mio//0.6.21 weak:optional
+signal-hook//0.1.13 signal-hook-registry//1.2.0
+signal-hook//0.1.13 tokio-reactor//0.1.11 weak:feature:tokio-support
+signal-hook//0.1.13 tokio-reactor//0.1.11 weak:optional
+signal-hook//0.1.13 tokio//0.1.22 weak:test
+signal-hook//0.1.13 version-sync//0.8.1 weak:test
 slog//2.5.2 erased-serde//0.3.10 weak:feature:nested-values
 slog//2.5.2 erased-serde//0.3.10 weak:optional
 smallvec//0.6.10 bincode//1.2.1 weak:test
@@ -3643,7 +3655,7 @@ tokio-signal//0.2.7 futures//0.1.29
 tokio-signal//0.2.7 libc//0.2.66
 tokio-signal//0.2.7 mio-uds//0.6.7
 tokio-signal//0.2.7 mio//0.6.21
-tokio-signal//0.2.7 signal-hook//0.1.12
+tokio-signal//0.2.7 signal-hook//0.1.13
 tokio-signal//0.2.7 tokio-executor//0.1.10
 tokio-signal//0.2.7 tokio-io//0.1.13
 tokio-signal//0.2.7 tokio-reactor//0.1.11
