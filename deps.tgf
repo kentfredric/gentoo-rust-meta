@@ -71,6 +71,7 @@ clang-sys//0.29.0 clang-sys 0.29.0
 clap//2.33.0 clap 2.33.0
 clicolors-control//1.0.1 clicolors-control 1.0.1
 cmake//0.1.42 cmake 0.1.42
+colored//1.9.3 colored 1.9.3
 compiletest_rs//0.3.26 compiletest_rs 0.3.26
 compiletest_rs//0.4.0 compiletest_rs 0.4.0
 console//0.7.7 console 0.7.7
@@ -1159,6 +1160,10 @@ clap//2.33.0 yaml-rust//0.3.5 weak:optional
 clicolors-control//1.0.1 lazy_static//1.4.0
 clicolors-control//1.0.1 libc//0.2.66
 cmake//0.1.42 cc//1.0.50
+colored//1.9.3 ansi_term//0.12.1 weak:test
+colored//1.9.3 atty//0.2.14
+colored//1.9.3 lazy_static//1.4.0
+colored//1.9.3 rspec//1.0.0.3 weak:test
 compiletest_rs//0.3.26 diff//0.1.12
 compiletest_rs//0.3.26 filetime//0.2.8
 compiletest_rs//0.3.26 getopts//0.2.21
