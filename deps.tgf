@@ -280,6 +280,7 @@ maplit//1.0.2 maplit 1.0.2
 markup5ever//0.10.0 markup5ever 0.10.0
 markup5ever//0.7.5 markup5ever 0.7.5
 matches//0.1.8 matches 0.1.8
+maybe-uninit//2.0.0 maybe-uninit 2.0.0
 md5//0.6.1 md5 0.6.1
 md5//0.7.0 md5 0.7.0
 memchr//0.1.11 memchr 0.1.11
