@@ -636,6 +636,7 @@ tokio-macros//0.2.3 tokio-macros 0.2.3
 tokio-macros//0.2.4 tokio-macros 0.2.4
 tokio-mock-task//0.1.1 tokio-mock-task 0.1.1
 tokio-process//0.2.4 tokio-process 0.2.4
+tokio-process//0.2.5 tokio-process 0.2.5
 tokio-reactor//0.1.11 tokio-reactor 0.1.11
 tokio-reactor//0.1.12 tokio-reactor 0.1.12
 tokio-rustls//0.12.2 tokio-rustls 0.12.2
@@ -2127,13 +2128,13 @@ jobserver//0.1.17 log//0.4.8
 jobserver//0.1.17 num_cpus//1.12.0 weak:test
 jobserver//0.1.17 tempdir//0.3.7 weak:test
 jobserver//0.1.17 tokio-core//0.1.17 weak:test
-jobserver//0.1.17 tokio-process//0.2.4 weak:test
+jobserver//0.1.17 tokio-process//0.2.5 weak:test
 jobserver//0.1.21 futures//0.1.29 weak:test
 jobserver//0.1.21 libc//0.2.66
 jobserver//0.1.21 num_cpus//1.12.0 weak:test
 jobserver//0.1.21 tempdir//0.3.7 weak:test
 jobserver//0.1.21 tokio-core//0.1.17 weak:test
-jobserver//0.1.21 tokio-process//0.2.4 weak:test
+jobserver//0.1.21 tokio-process//0.2.5 weak:test
 kernel32-sys//0.2.2 winapi-build//0.1.1
 kernel32-sys//0.2.2 winapi//0.2.8
 lazy_static//1.1.0 spin//0.4.10 weak:feature:spin_no_std
@@ -3730,6 +3731,18 @@ tokio-process//0.2.4 tokio-io//0.1.13
 tokio-process//0.2.4 tokio-reactor//0.1.12
 tokio-process//0.2.4 tokio-signal//0.2.9
 tokio-process//0.2.4 tokio//0.1.22 weak:test
+tokio-process//0.2.5 crossbeam-queue//0.1.2
+tokio-process//0.2.5 failure//0.1.6 weak:test
+tokio-process//0.2.5 futures//0.1.29
+tokio-process//0.2.5 lazy_static//1.4.0
+tokio-process//0.2.5 libc//0.2.66
+tokio-process//0.2.5 log//0.4.8
+tokio-process//0.2.5 log//0.4.8 weak:test
+tokio-process//0.2.5 mio//0.6.21
+tokio-process//0.2.5 tokio-io//0.1.13
+tokio-process//0.2.5 tokio-reactor//0.1.12
+tokio-process//0.2.5 tokio-signal//0.2.9
+tokio-process//0.2.5 tokio//0.1.22 weak:test
 tokio-reactor//0.1.11 crossbeam-utils//0.6.6
 tokio-reactor//0.1.11 futures//0.1.29
 tokio-reactor//0.1.11 lazy_static//1.4.0
