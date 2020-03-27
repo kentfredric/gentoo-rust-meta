@@ -554,6 +554,7 @@ signal-hook//0.1.12 signal-hook 0.1.12
 signal-hook//0.1.13 signal-hook 0.1.13
 siphasher//0.2.3 siphasher 0.2.3
 siphasher//0.3.1 siphasher 0.3.1
+skeptic//0.9.0 skeptic 0.9.0
 slab//0.4.2 slab 0.4.2
 slog//2.5.2 slog 2.5.2
 smallvec//0.6.10 smallvec 0.6.10
@@ -3436,6 +3437,8 @@ signal-hook//0.1.13 tokio-reactor//0.1.12 weak:feature:tokio-support
 signal-hook//0.1.13 tokio-reactor//0.1.12 weak:optional
 signal-hook//0.1.13 tokio//0.1.22 weak:test
 signal-hook//0.1.13 version-sync//0.8.1 weak:test
+skeptic//0.9.0 pulldown-cmark//0.0.8
+skeptic//0.9.0 tempdir//0.3.7
 slog//2.5.2 erased-serde//0.3.10 weak:feature:nested-values
 slog//2.5.2 erased-serde//0.3.10 weak:optional
 smallvec//0.6.10 bincode//1.2.1 weak:test
