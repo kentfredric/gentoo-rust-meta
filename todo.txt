@@ -20,5 +20,4 @@ tokio-current-thread 0.1.6 -> 0.1.7
 tokio-fs 0.1.6 -> 0.1.7
 toml 0.5.3 -> 0.5.6
 unicode-width 0.1.6 -> 0.1.7
-walkdir 2.2.9 -> 2.3.1
 winapi 0.2.8 -> 0.3.8

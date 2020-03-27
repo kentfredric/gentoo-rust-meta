@@ -713,6 +713,7 @@ version_check//0.9.1 version_check 0.9.1
 wait-timeout//0.2.0 wait-timeout 0.2.0
 walkdir//1.0.7 walkdir 1.0.7
 walkdir//2.2.9 walkdir 2.2.9
+walkdir//2.3.1 walkdir 2.3.1
 want//0.3.0 want 0.3.0
 webpki-roots//0.17.0 webpki-roots 0.17.0
 webpki-roots//0.18.0 webpki-roots 0.18.0
@@ -2310,7 +2311,7 @@ mesalink//1.1.0 ring//0.16.11
 mesalink//1.1.0 rustls//0.16.0
 mesalink//1.1.0 sct//0.6.0
 mesalink//1.1.0 untrusted//0.7.0
-mesalink//1.1.0 walkdir//2.2.9
+mesalink//1.1.0 walkdir//2.3.1
 mesalink//1.1.0 webpki-roots//0.17.0
 mesalink//1.1.0 webpki//0.21.2
 mime_guess//2.0.1 mime//0.3.16
@@ -3560,7 +3561,7 @@ syn//0.15.44 quote//0.6.13 weak:optional
 syn//0.15.44 ref-cast//0.2.7 weak:test
 syn//0.15.44 termcolor//1.1.0 weak:test
 syn//0.15.44 unicode-xid//0.1.0
-syn//0.15.44 walkdir//2.2.9 weak:test
+syn//0.15.44 walkdir//2.3.1 weak:test
 syn//1.0.14 anyhow//1.0.26 weak:test
 syn//1.0.14 flate2//1.0.13 weak:test
 syn//1.0.14 insta//0.12.0 weak:test
@@ -3576,7 +3577,7 @@ syn//1.0.14 reqwest//0.10.1 weak:test
 syn//1.0.14 tar//0.4.26 weak:test
 syn//1.0.14 termcolor//1.1.0 weak:test
 syn//1.0.14 unicode-xid//0.2.0
-syn//1.0.14 walkdir//2.2.9 weak:test
+syn//1.0.14 walkdir//2.3.1 weak:test
 synom//0.11.3 syn//0.11.11 weak:test
 synom//0.11.3 unicode-xid//0.0.4
 synstructure//0.12.1 proc-macro2//1.0.8
@@ -4275,6 +4276,8 @@ walkdir//1.0.7 quickcheck//0.4.1 weak:test
 walkdir//1.0.7 same-file//0.1.3
 walkdir//2.2.9 doc-comment//0.3.1 weak:test
 walkdir//2.2.9 same-file//1.0.5
+walkdir//2.3.1 doc-comment//0.3.1 weak:test
+walkdir//2.3.1 same-file//1.0.5
 want//0.3.0 log//0.4.8
 want//0.3.0 tokio-executor//0.2.0.6 weak:test
 want//0.3.0 tokio-sync//0.2.0.6 weak:test
@@ -4313,5 +4316,5 @@ zstd//0.5.1 partial-io//0.3.1 weak:test
 zstd//0.5.1 quickcheck//0.6.2 weak:test
 zstd//0.5.1 tokio-io//0.1.13 weak:feature:tokio
 zstd//0.5.1 tokio-io//0.1.13 weak:optional
-zstd//0.5.1 walkdir//2.2.9 weak:test
+zstd//0.5.1 walkdir//2.3.1 weak:test
 zstd//0.5.1 zstd-safe//2.0.3
