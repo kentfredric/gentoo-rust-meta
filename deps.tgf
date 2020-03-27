@@ -644,6 +644,7 @@ tokio-socks//0.2.0 tokio-socks 0.2.0
 tokio-sync//0.1.7 tokio-sync 0.1.7
 tokio-sync//0.2.0.6 tokio-sync 0.2.0.6
 tokio-tcp//0.1.3 tokio-tcp 0.1.3
+tokio-tcp//0.1.4 tokio-tcp 0.1.4
 tokio-test//0.2.0 tokio-test 0.2.0
 tokio-threadpool//0.1.17 tokio-threadpool 0.1.17
 tokio-threadpool//0.1.18 tokio-threadpool 0.1.18
@@ -1480,7 +1481,7 @@ flate2//1.0.13 rand//0.7.2 weak:test
 flate2//1.0.13 tokio-io//0.1.13 weak:feature:tokio
 flate2//1.0.13 tokio-io//0.1.13 weak:optional
 flate2//1.0.13 tokio-io//0.1.13 weak:test
-flate2//1.0.13 tokio-tcp//0.1.3 weak:test
+flate2//1.0.13 tokio-tcp//0.1.4 weak:test
 flate2//1.0.13 tokio-threadpool//0.1.18 weak:test
 float-ord//0.2.0 rand//0.3.23 weak:test
 foreign-types-macros//0.2.0 proc-macro2//1.0.8
@@ -3803,6 +3804,15 @@ tokio-tcp//0.1.3 mio//0.6.21
 tokio-tcp//0.1.3 tokio-io//0.1.13
 tokio-tcp//0.1.3 tokio-reactor//0.1.12
 tokio-tcp//0.1.3 tokio//0.1.22 weak:test
+tokio-tcp//0.1.4 bytes//0.4.12
+tokio-tcp//0.1.4 env_logger//0.6.2 weak:test
+tokio-tcp//0.1.4 futures//0.1.29
+tokio-tcp//0.1.4 iovec//0.1.4
+tokio-tcp//0.1.4 mio//0.6.21
+tokio-tcp//0.1.4 net2//0.2.33 weak:test
+tokio-tcp//0.1.4 tokio-io//0.1.13
+tokio-tcp//0.1.4 tokio-reactor//0.1.12
+tokio-tcp//0.1.4 tokio//0.1.22 weak:test
 tokio-test//0.2.0 bytes//0.5.4
 tokio-test//0.2.0 futures-core//0.3.4
 tokio-test//0.2.0 futures-util//0.3.4 weak:test
@@ -3937,9 +3947,9 @@ tokio//0.1.22 tokio-reactor//0.1.12 weak:optional
 tokio//0.1.22 tokio-sync//0.1.7 feature:default
 tokio//0.1.22 tokio-sync//0.1.7 weak:feature:sync
 tokio//0.1.22 tokio-sync//0.1.7 weak:optional
-tokio//0.1.22 tokio-tcp//0.1.3 feature:default
-tokio//0.1.22 tokio-tcp//0.1.3 weak:feature:tcp
-tokio//0.1.22 tokio-tcp//0.1.3 weak:optional
+tokio//0.1.22 tokio-tcp//0.1.4 feature:default
+tokio//0.1.22 tokio-tcp//0.1.4 weak:feature:tcp
+tokio//0.1.22 tokio-tcp//0.1.4 weak:optional
 tokio//0.1.22 tokio-threadpool//0.1.18 feature:default
 tokio//0.1.22 tokio-threadpool//0.1.18 weak:feature:rt-full
 tokio//0.1.22 tokio-threadpool//0.1.18 weak:optional
