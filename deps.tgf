@@ -107,6 +107,7 @@ demo-hack//0.0.4 demo-hack 0.0.4
 demo-hack//0.0.5 demo-hack 0.0.5
 derefable//0.1.0 derefable 0.1.0
 derive-new//0.5.8 derive-new 0.5.8
+derive_builder//0.5.1 derive_builder 0.5.1
 derive_builder_core//0.2.0 derive_builder_core 0.2.0
 diff//0.1.12 diff 0.1.12
 difference//1.0.0 difference 1.0.0
@@ -1352,6 +1353,18 @@ derefable//0.1.0 syn//0.15.44
 derive-new//0.5.8 proc-macro2//1.0.8
 derive-new//0.5.8 quote//1.0.2
 derive-new//0.5.8 syn//1.0.14
+derive_builder//0.5.1 compiletest_rs//0.3.26 weak:feature:nightlytests
+derive_builder//0.5.1 compiletest_rs//0.3.26 weak:optional
+derive_builder//0.5.1 derive_builder_core//0.2.0
+derive_builder//0.5.1 env_logger//0.4.3 weak:feature:logging
+derive_builder//0.5.1 env_logger//0.4.3 weak:optional
+derive_builder//0.5.1 log//0.3.9 weak:feature:logging
+derive_builder//0.5.1 log//0.3.9 weak:optional
+derive_builder//0.5.1 pretty_assertions//0.2.1 weak:test
+derive_builder//0.5.1 quote//0.3.15
+derive_builder//0.5.1 skeptic//0.9.0 weak:feature:skeptic_tests
+derive_builder//0.5.1 skeptic//0.9.0 weak:optional
+derive_builder//0.5.1 syn//0.11.11
 derive_builder_core//0.2.0 log//0.3.9 weak:feature:logging
 derive_builder_core//0.2.0 log//0.3.9 weak:optional
 derive_builder_core//0.2.0 pretty_assertions//0.2.1 weak:test
