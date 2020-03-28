@@ -618,6 +618,7 @@ tester//0.7.0 tester 0.7.0
 textwrap//0.11.0 textwrap 0.11.0
 thiserror-impl//1.0.11 thiserror-impl 1.0.11
 thiserror-impl//1.0.6 thiserror-impl 1.0.6
+thiserror//1.0.11 thiserror 1.0.11
 thiserror//1.0.6 thiserror 1.0.6
 thread-id//2.0.0 thread-id 2.0.0
 thread-id//3.3.0 thread-id 3.3.0
@@ -792,7 +793,7 @@ ansi_term//0.12.1 serde//1.0.104 weak:optional
 ansi_term//0.12.1 serde_json//1.0.48 weak:test
 anyhow//1.0.26 futures//0.3.4 weak:test
 anyhow//1.0.26 rustversion//1.0.2 weak:test
-anyhow//1.0.26 thiserror//1.0.6 weak:test
+anyhow//1.0.26 thiserror//1.0.11 weak:test
 anyhow//1.0.26 trybuild//1.0.21 weak:test
 approx//0.3.2 num-complex//0.2.4 weak:optional
 approx//0.3.2 num-traits//0.2.11
@@ -3652,6 +3653,11 @@ thiserror-impl//1.0.11 syn//1.0.14
 thiserror-impl//1.0.6 proc-macro2//1.0.8
 thiserror-impl//1.0.6 quote//1.0.2
 thiserror-impl//1.0.6 syn//1.0.14
+thiserror//1.0.11 anyhow//1.0.26 weak:test
+thiserror//1.0.11 ref-cast//1.0.0 weak:test
+thiserror//1.0.11 rustversion//1.0.2 weak:test
+thiserror//1.0.11 thiserror-impl//1.0.11
+thiserror//1.0.11 trybuild//1.0.21 weak:test
 thiserror//1.0.6 anyhow//1.0.26 weak:test
 thiserror//1.0.6 ref-cast//1.0.0 weak:test
 thiserror//1.0.6 rustversion//1.0.2 weak:test
