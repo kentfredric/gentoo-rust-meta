@@ -584,6 +584,7 @@ string_cache//0.8.0 string_cache 0.8.0
 string_cache_codegen//0.4.4 string_cache_codegen 0.4.4
 string_cache_codegen//0.5.1 string_cache_codegen 0.5.1
 string_cache_shared//0.3.0 string_cache_shared 0.3.0
+strsim//0.10.0 strsim 0.10.0
 strsim//0.8.0 strsim 0.8.0
 sval//0.4.7 sval 0.4.7
 sval_derive//0.4.7 sval_derive 0.4.7
