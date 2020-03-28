@@ -83,6 +83,7 @@ conv//0.3.3 conv 0.3.3
 cookie//0.12.0 cookie 0.12.0
 cookie_store//0.10.0 cookie_store 0.10.0
 cpp_demangle//0.2.13 cpp_demangle 0.2.13
+cpp_demangle//0.2.14 cpp_demangle 0.2.14
 crates-index//0.13.4 crates-index 0.13.4
 crates-index//0.5.1 crates-index 0.5.1
 crc32fast//1.2.0 crc32fast 1.2.0
@@ -744,8 +745,8 @@ zstd//0.5.1 zstd 0.5.1
 #
 addr2line//0.11.0 backtrace//0.3.44 weak:test
 addr2line//0.11.0 clap//2.33.0 weak:test
-addr2line//0.11.0 cpp_demangle//0.2.13 feature:default
-addr2line//0.11.0 cpp_demangle//0.2.13 weak:optional
+addr2line//0.11.0 cpp_demangle//0.2.14 feature:default
+addr2line//0.11.0 cpp_demangle//0.2.14 weak:optional
 addr2line//0.11.0 fallible-iterator//0.2.0
 addr2line//0.11.0 findshlibs//0.5.0 weak:test
 addr2line//0.11.0 gimli//0.20.0
@@ -933,7 +934,7 @@ backtrace//0.3.42 backtrace-sys//0.1.32 feature:default
 backtrace//0.3.42 backtrace-sys//0.1.32 weak:feature:libbacktrace
 backtrace//0.3.42 backtrace-sys//0.1.32 weak:optional
 backtrace//0.3.42 cfg-if//0.1.10
-backtrace//0.3.42 cpp_demangle//0.2.13 weak:optional
+backtrace//0.3.42 cpp_demangle//0.2.14 weak:optional
 backtrace//0.3.42 findshlibs//0.5.0 weak:feature:gimli-symbolize
 backtrace//0.3.42 findshlibs//0.5.0 weak:optional
 backtrace//0.3.42 goblin//0.0.24 weak:feature:gimli-symbolize
@@ -952,7 +953,7 @@ backtrace//0.3.44 backtrace-sys//0.1.32 feature:default
 backtrace//0.3.44 backtrace-sys//0.1.32 weak:feature:libbacktrace
 backtrace//0.3.44 backtrace-sys//0.1.32 weak:optional
 backtrace//0.3.44 cfg-if//0.1.10
-backtrace//0.3.44 cpp_demangle//0.2.13 weak:optional
+backtrace//0.3.44 cpp_demangle//0.2.14 weak:optional
 backtrace//0.3.44 findshlibs//0.5.0 weak:feature:gimli-symbolize
 backtrace//0.3.44 findshlibs//0.5.0 weak:optional
 backtrace//0.3.44 goblin//0.0.24 weak:feature:gimli-symbolize
@@ -1276,6 +1277,11 @@ cpp_demangle//0.2.13 afl//0.4.4 weak:optional
 cpp_demangle//0.2.13 cfg-if//0.1.10
 cpp_demangle//0.2.13 diff//0.1.12 weak:test
 cpp_demangle//0.2.13 glob//0.3.0
+cpp_demangle//0.2.14 afl//0.5.2 weak:feature:fuzz
+cpp_demangle//0.2.14 afl//0.5.2 weak:optional
+cpp_demangle//0.2.14 cfg-if//0.1.10
+cpp_demangle//0.2.14 diff//0.1.12 weak:test
+cpp_demangle//0.2.14 glob//0.3.0
 crates-index//0.13.4 error-chain//0.12.1
 crates-index//0.13.4 git2//0.11.0
 crates-index//0.13.4 glob//0.3.0
