@@ -729,6 +729,7 @@ webpki//0.21.2 webpki 0.21.2
 which//3.1.0 which 3.1.0
 winapi-build//0.1.1 winapi-build 0.1.1
 winapi//0.2.8 winapi 0.2.8
+winapi//0.3.8 winapi 0.3.8
 xattr//0.2.2 xattr 0.2.2
 xdg//2.2.0 xdg 2.2.0
 yaml-rust//0.3.5 yaml-rust 0.3.5
