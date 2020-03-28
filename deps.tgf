@@ -596,6 +596,7 @@ syn//0.15.44 syn 0.15.44
 syn//1.0.14 syn 1.0.14
 synom//0.11.3 synom 0.11.3
 synstructure//0.12.1 synstructure 0.12.1
+synstructure//0.12.3 synstructure 0.12.3
 synstructure_test_traits//0.1.0 synstructure_test_traits 0.1.0
 take_mut//0.2.2 take_mut 0.2.2
 tar//0.4.26 tar 0.4.26
@@ -1471,7 +1472,7 @@ failure_derive//0.1.6 failure//0.1.6 weak:test
 failure_derive//0.1.6 proc-macro2//1.0.8
 failure_derive//0.1.6 quote//1.0.2
 failure_derive//0.1.6 syn//1.0.14
-failure_derive//0.1.6 synstructure//0.12.1
+failure_derive//0.1.6 synstructure//0.12.3
 filetime//0.2.8 cfg-if//0.1.10
 filetime//0.2.8 libc//0.2.66
 filetime//0.2.8 tempfile//3.1.0 weak:test
@@ -3601,6 +3602,11 @@ synstructure//0.12.1 quote//1.0.2
 synstructure//0.12.1 syn//1.0.14
 synstructure//0.12.1 synstructure_test_traits//0.1.0 weak:test
 synstructure//0.12.1 unicode-xid//0.2.0
+synstructure//0.12.3 proc-macro2//1.0.8
+synstructure//0.12.3 quote//1.0.2
+synstructure//0.12.3 syn//1.0.14
+synstructure//0.12.3 synstructure_test_traits//0.1.0 weak:test
+synstructure//0.12.3 unicode-xid//0.2.0
 tar//0.4.26 filetime//0.2.8
 tar//0.4.26 libc//0.2.66
 tar//0.4.26 tempdir//0.3.7 weak:test
