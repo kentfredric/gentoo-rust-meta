@@ -634,6 +634,7 @@ tokio-executor//0.1.10 tokio-executor 0.1.10
 tokio-executor//0.1.9 tokio-executor 0.1.9
 tokio-executor//0.2.0.6 tokio-executor 0.2.0.6
 tokio-fs//0.1.6 tokio-fs 0.1.6
+tokio-fs//0.1.7 tokio-fs 0.1.7
 tokio-io//0.1.11 tokio-io 0.1.11
 tokio-io//0.1.13 tokio-io 0.1.13
 tokio-macros//0.2.3 tokio-macros 0.2.3
@@ -3713,6 +3714,13 @@ tokio-fs//0.1.6 tokio-io//0.1.13
 tokio-fs//0.1.6 tokio-io//0.1.13 weak:test
 tokio-fs//0.1.6 tokio-threadpool//0.1.18
 tokio-fs//0.1.6 tokio//0.1.22 weak:test
+tokio-fs//0.1.7 futures//0.1.29
+tokio-fs//0.1.7 rand//0.7.2 weak:test
+tokio-fs//0.1.7 tempfile//3.1.0 weak:test
+tokio-fs//0.1.7 tokio-io//0.1.13
+tokio-fs//0.1.7 tokio-io//0.1.13 weak:test
+tokio-fs//0.1.7 tokio-threadpool//0.1.18
+tokio-fs//0.1.7 tokio//0.1.22 weak:test
 tokio-io//0.1.11 bytes//0.4.12
 tokio-io//0.1.11 futures//0.1.29
 tokio-io//0.1.11 log//0.4.8
@@ -3963,9 +3971,9 @@ tokio//0.1.22 tokio-current-thread//0.1.6 weak:optional
 tokio//0.1.22 tokio-executor//0.1.10 feature:default
 tokio//0.1.22 tokio-executor//0.1.10 weak:feature:rt-full
 tokio//0.1.22 tokio-executor//0.1.10 weak:optional
-tokio//0.1.22 tokio-fs//0.1.6 feature:default
-tokio//0.1.22 tokio-fs//0.1.6 weak:feature:fs
-tokio//0.1.22 tokio-fs//0.1.6 weak:optional
+tokio//0.1.22 tokio-fs//0.1.7 feature:default
+tokio//0.1.22 tokio-fs//0.1.7 weak:feature:fs
+tokio//0.1.22 tokio-fs//0.1.7 weak:optional
 tokio//0.1.22 tokio-io//0.1.13 feature:default
 tokio//0.1.22 tokio-io//0.1.13 weak:feature:codec
 tokio//0.1.22 tokio-io//0.1.13 weak:feature:io

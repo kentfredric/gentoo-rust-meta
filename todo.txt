@@ -14,7 +14,6 @@ sval 0.4.7 -> 0.5.1
 synstructure 0.12.1 -> 0.12.3
 thiserror 1.0.6 -> 1.0.11
 tokio-current-thread 0.1.6 -> 0.1.7
-tokio-fs 0.1.6 -> 0.1.7
 toml 0.5.3 -> 0.5.6
 unicode-width 0.1.6 -> 0.1.7
 winapi 0.2.8 -> 0.3.8
