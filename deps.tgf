@@ -221,6 +221,7 @@ hex//0.3.2 hex 0.3.2
 hex//0.4.2 hex 0.4.2
 home//0.5.3 home 0.5.3
 html5ever//0.22.5 html5ever 0.22.5
+html5ever//0.24.1 html5ever 0.24.1
 html5ever//0.25.1 html5ever 0.25.1
 http-body//0.3.1 http-body 0.3.1
 http//0.1.21 http 0.1.21
@@ -1915,6 +1916,14 @@ html5ever//0.22.5 proc-macro2//0.4.30
 html5ever//0.22.5 quote//0.6.13
 html5ever//0.22.5 rustc-serialize//0.3.24 weak:test
 html5ever//0.22.5 rustc-test//0.3.0 weak:test
+html5ever//0.24.1 log//0.4.8
+html5ever//0.24.1 mac//0.1.1
+html5ever//0.24.1 markup5ever//0.9.0
+html5ever//0.24.1 proc-macro2//1.0.8
+html5ever//0.24.1 quote//1.0.2
+html5ever//0.24.1 rustc-test//0.3.0 weak:test
+html5ever//0.24.1 serde_json//1.0.48 weak:test
+html5ever//0.24.1 syn//1.0.14
 html5ever//0.25.1 log//0.4.8
 html5ever//0.25.1 mac//0.1.1
 html5ever//0.25.1 markup5ever//0.10.0
