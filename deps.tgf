@@ -322,7 +322,6 @@ ntest_timeout//0.3.3 ntest_timeout 0.3.3
 ntest_timeout//0.5.1 ntest_timeout 0.5.1
 num-complex//0.2.4 num-complex 0.2.4
 num-integer//0.1.42 num-integer 0.1.42
-num-iter//0.1.39 num-iter 0.1.39
 num-iter//0.1.40 num-iter 0.1.40
 num-traits//0.1.43 num-traits 0.1.43
 num-traits//0.2.11 num-traits 0.2.11
@@ -2410,9 +2409,6 @@ num-complex//0.2.4 rand//0.5.6 weak:optional
 num-complex//0.2.4 serde//1.0.104 weak:optional
 num-integer//0.1.42 autocfg//1.0.0
 num-integer//0.1.42 num-traits//0.2.11
-num-iter//0.1.39 autocfg//0.1.7
-num-iter//0.1.39 num-integer//0.1.42
-num-iter//0.1.39 num-traits//0.2.11
 num-iter//0.1.40 autocfg//1.0.0
 num-iter//0.1.40 num-integer//0.1.42
 num-iter//0.1.40 num-traits//0.2.11
