@@ -5,7 +5,6 @@ afl//0.5.2 afl 0.5.2
 afl//0.6.0 afl 0.6.0
 aho-corasick//0.5.3 aho-corasick 0.5.3
 aho-corasick//0.6.10 aho-corasick 0.6.10
-aho-corasick//0.7.6 aho-corasick 0.7.6
 aho-corasick//0.7.8 aho-corasick 0.7.8
 alloc-no-stdlib//2.0.1 alloc-no-stdlib 2.0.1
 alloc-stdlib//0.2.1 alloc-stdlib 0.2.1
@@ -798,8 +797,6 @@ aho-corasick//0.5.3 rand//0.3.23 weak:test
 aho-corasick//0.6.10 memchr//2.3.2
 aho-corasick//0.6.10 quickcheck//0.7.2 weak:test
 aho-corasick//0.6.10 rand//0.5.6 weak:test
-aho-corasick//0.7.6 doc-comment//0.3.1 weak:test
-aho-corasick//0.7.6 memchr//2.3.2
 aho-corasick//0.7.8 doc-comment//0.3.1 weak:test
 aho-corasick//0.7.8 memchr//2.3.2
 alloc-stdlib//0.2.1 alloc-no-stdlib//2.0.1
