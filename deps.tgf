@@ -685,7 +685,6 @@ unicase//1.4.2 unicase 1.4.2
 unicase//2.6.0 unicase 2.6.0
 unicode-bidi//0.3.4 unicode-bidi 0.3.4
 unicode-normalization//0.1.12 unicode-normalization 0.1.12
-unicode-normalization//0.1.8 unicode-normalization 0.1.8
 unicode-segmentation//1.6.0 unicode-segmentation 1.6.0
 unicode-width//0.1.6 unicode-width 0.1.6
 unicode-width//0.1.7 unicode-width 0.1.7
@@ -4185,7 +4184,6 @@ unicode-bidi//0.3.4 serde//1.0.104 weak:feature:with_serde
 unicode-bidi//0.3.4 serde//1.0.104 weak:optional
 unicode-bidi//0.3.4 serde_test//1.0.104 weak:test
 unicode-normalization//0.1.12 smallvec//1.2.0
-unicode-normalization//0.1.8 smallvec//0.6.13
 unicode-segmentation//1.6.0 quickcheck//0.7.2 weak:test
 url//1.7.2 encoding//0.2.33 weak:feature:query_encoding
 url//1.7.2 encoding//0.2.33 weak:optional
