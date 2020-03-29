@@ -616,7 +616,6 @@ time-macros//0.1.0 time-macros 0.1.0
 time//0.1.42 time 0.1.42
 time//0.2.6 time 0.2.6
 timebomb//0.1.2 timebomb 0.1.2
-tokio-codec//0.1.1 tokio-codec 0.1.1
 tokio-codec//0.1.2 tokio-codec 0.1.2
 tokio-core//0.1.17 tokio-core 0.1.17
 tokio-current-thread//0.1.6 tokio-current-thread 0.1.6
@@ -3621,9 +3620,6 @@ time//0.2.6 rustversion//1.0.2
 time//0.2.6 serde//1.0.104 weak:optional
 time//0.2.6 time-macros//0.1.0
 timebomb//0.1.2 pulse//0.5.3
-tokio-codec//0.1.1 bytes//0.4.12
-tokio-codec//0.1.1 futures//0.1.29
-tokio-codec//0.1.1 tokio-io//0.1.13
 tokio-codec//0.1.2 bytes//0.4.12
 tokio-codec//0.1.2 futures//0.1.29
 tokio-codec//0.1.2 tokio-io//0.1.13
