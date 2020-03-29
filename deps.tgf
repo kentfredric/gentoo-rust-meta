@@ -251,7 +251,6 @@ itertools//0.5.10 itertools 0.5.10
 itertools//0.7.11 itertools 0.7.11
 itertools//0.8.2 itertools 0.8.2
 itoa//0.1.1 itoa 0.1.1
-itoa//0.4.4 itoa 0.4.4
 itoa//0.4.5 itoa 0.4.5
 jemalloc-ctl//0.3.3 jemalloc-ctl 0.3.3
 jemalloc-sys//0.3.2 jemalloc-sys 0.3.2
