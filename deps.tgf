@@ -396,7 +396,6 @@ proc-macro2//1.0.8 proc-macro2 1.0.8
 proptest-derive//0.1.2 proptest-derive 0.1.2
 proptest//0.7.2 proptest 0.7.2
 proptest//0.8.7 proptest 0.8.7
-proptest//0.9.4 proptest 0.9.4
 proptest//0.9.5 proptest 0.9.5
 publicsuffix//1.5.4 publicsuffix 1.5.4
 pulldown-cmark//0.0.8 pulldown-cmark 0.0.8
@@ -2696,44 +2695,6 @@ proptest//0.8.7 tempfile//3.1.0 feature:default
 proptest//0.8.7 tempfile//3.1.0 weak:feature:fork
 proptest//0.8.7 tempfile//3.1.0 weak:feature:timeout
 proptest//0.8.7 tempfile//3.1.0 weak:optional
-proptest//0.9.4 bit-set//0.5.1 feature:default
-proptest//0.9.4 bit-set//0.5.1 weak:feature:default-code-coverage
-proptest//0.9.4 bit-set//0.5.1 weak:optional
-proptest//0.9.4 bitflags//1.2.1
-proptest//0.9.4 byteorder//1.3.4
-proptest//0.9.4 lazy_static//1.4.0 feature:default
-proptest//0.9.4 lazy_static//1.4.0 weak:feature:default-code-coverage
-proptest//0.9.4 lazy_static//1.4.0 weak:feature:fork
-proptest//0.9.4 lazy_static//1.4.0 weak:feature:std
-proptest//0.9.4 lazy_static//1.4.0 weak:feature:timeout
-proptest//0.9.4 lazy_static//1.4.0 weak:optional
-proptest//0.9.4 num-traits//0.2.11
-proptest//0.9.4 quick-error//1.2.3 feature:default
-proptest//0.9.4 quick-error//1.2.3 weak:feature:default-code-coverage
-proptest//0.9.4 quick-error//1.2.3 weak:feature:fork
-proptest//0.9.4 quick-error//1.2.3 weak:feature:std
-proptest//0.9.4 quick-error//1.2.3 weak:feature:timeout
-proptest//0.9.4 quick-error//1.2.3 weak:optional
-proptest//0.9.4 rand//0.6.5
-proptest//0.9.4 rand_chacha//0.1.1
-proptest//0.9.4 rand_xorshift//0.1.1
-proptest//0.9.4 regex-syntax//0.6.14 feature:default
-proptest//0.9.4 regex-syntax//0.6.14 weak:feature:default-code-coverage
-proptest//0.9.4 regex-syntax//0.6.14 weak:feature:fork
-proptest//0.9.4 regex-syntax//0.6.14 weak:feature:std
-proptest//0.9.4 regex-syntax//0.6.14 weak:feature:timeout
-proptest//0.9.4 regex-syntax//0.6.14 weak:optional
-proptest//0.9.4 regex//1.3.4 weak:test
-proptest//0.9.4 rusty-fork//0.2.2 feature:default
-proptest//0.9.4 rusty-fork//0.2.2 weak:feature:default-code-coverage
-proptest//0.9.4 rusty-fork//0.2.2 weak:feature:fork
-proptest//0.9.4 rusty-fork//0.2.2 weak:feature:timeout
-proptest//0.9.4 rusty-fork//0.2.2 weak:optional
-proptest//0.9.4 tempfile//3.1.0 feature:default
-proptest//0.9.4 tempfile//3.1.0 weak:feature:default-code-coverage
-proptest//0.9.4 tempfile//3.1.0 weak:feature:fork
-proptest//0.9.4 tempfile//3.1.0 weak:feature:timeout
-proptest//0.9.4 tempfile//3.1.0 weak:optional
 proptest//0.9.5 bit-set//0.5.1 feature:default
 proptest//0.9.5 bit-set//0.5.1 weak:feature:default-code-coverage
 proptest//0.9.5 bit-set//0.5.1 weak:optional
