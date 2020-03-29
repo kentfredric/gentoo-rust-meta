@@ -272,7 +272,6 @@ libgit2-sys//0.6.19 libgit2-sys 0.6.19
 libloading//0.5.2 libloading 0.5.2
 libm//0.2.1 libm 0.2.1
 libnghttp2-sys//0.1.2 libnghttp2-sys 0.1.2
-libssh2-sys//0.2.13 libssh2-sys 0.2.13
 libssh2-sys//0.2.14 libssh2-sys 0.2.14
 libz-sys//1.0.25 libz-sys 1.0.25
 linked-hash-map//0.3.0 linked-hash-map 0.3.0
@@ -2229,11 +2228,6 @@ libloading//0.5.2 cc//1.0.50
 libm//0.2.1 no-panic//0.1.12 weak:test
 libnghttp2-sys//0.1.2 cc//1.0.50
 libnghttp2-sys//0.1.2 libc//0.2.66
-libssh2-sys//0.2.13 cc//1.0.50
-libssh2-sys//0.2.13 libc//0.2.66
-libssh2-sys//0.2.13 libz-sys//1.0.25
-libssh2-sys//0.2.13 openssl-sys//0.9.54
-libssh2-sys//0.2.13 pkg-config//0.3.17
 libssh2-sys//0.2.14 cc//1.0.50
 libssh2-sys//0.2.14 libc//0.2.66
 libssh2-sys//0.2.14 libz-sys//1.0.25
