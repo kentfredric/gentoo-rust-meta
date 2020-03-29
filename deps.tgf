@@ -84,6 +84,7 @@ console//0.9.1 console 0.9.1
 console//0.9.2 console 0.9.2
 conv//0.3.3 conv 0.3.3
 cookie//0.12.0 cookie 0.12.0
+cookie//0.13.3 cookie 0.13.3
 cookie_store//0.10.0 cookie_store 0.10.0
 cpp_demangle//0.2.13 cpp_demangle 0.2.13
 cpp_demangle//0.2.14 cpp_demangle 0.2.14
@@ -1296,6 +1297,13 @@ cookie//0.12.0 ring//0.14.6 weak:optional
 cookie//0.12.0 time//0.1.42
 cookie//0.12.0 url//1.7.2 weak:feature:percent-encode
 cookie//0.12.0 url//1.7.2 weak:optional
+cookie//0.13.3 base64//0.11.0 weak:feature:secure
+cookie//0.13.3 base64//0.11.0 weak:optional
+cookie//0.13.3 percent-encoding//2.1.0 weak:feature:percent-encode
+cookie//0.13.3 percent-encoding//2.1.0 weak:optional
+cookie//0.13.3 ring//0.16.11 weak:feature:secure
+cookie//0.13.3 ring//0.16.11 weak:optional
+cookie//0.13.3 time//0.2.6
 cookie_store//0.10.0 cookie//0.12.0
 cookie_store//0.10.0 env_logger//0.6.2 weak:test
 cookie_store//0.10.0 idna//0.2.0
