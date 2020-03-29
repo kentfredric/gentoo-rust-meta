@@ -198,7 +198,6 @@ generator//0.6.20 generator 0.6.20
 generic-array//0.12.3 generic-array 0.12.3
 generic-array//0.13.2 generic-array 0.13.2
 getopts//0.2.21 getopts 0.2.21
-getrandom//0.1.13 getrandom 0.1.13
 getrandom//0.1.14 getrandom 0.1.14
 gimli//0.19.0 gimli 0.19.0
 gimli//0.20.0 gimli 0.20.0
@@ -1781,9 +1780,6 @@ generic-array//0.13.2 serde_json//1.0.48 weak:test
 generic-array//0.13.2 typenum//1.11.2
 getopts//0.2.21 log//0.4.8 weak:test
 getopts//0.2.21 unicode-width//0.1.7
-getrandom//0.1.13 cfg-if//0.1.10
-getrandom//0.1.13 libc//0.2.66
-getrandom//0.1.13 log//0.4.8 weak:optional
 getrandom//0.1.14 cfg-if//0.1.10
 getrandom//0.1.14 libc//0.2.66
 getrandom//0.1.14 log//0.4.8 weak:optional
