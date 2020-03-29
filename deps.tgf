@@ -303,7 +303,6 @@ mesalink//1.1.0 mesalink 1.1.0
 mime//0.3.16 mime 0.3.16
 mime_guess//2.0.1 mime_guess 2.0.1
 miniz-sys//0.1.12 miniz-sys 0.1.12
-miniz_oxide//0.3.5 miniz_oxide 0.3.5
 miniz_oxide//0.3.6 miniz_oxide 0.3.6
 mio-uds//0.6.7 mio-uds 0.6.7
 mio//0.6.21 mio 0.6.21
@@ -2341,7 +2340,6 @@ mime_guess//2.0.1 mime//0.3.16
 mime_guess//2.0.1 unicase//2.6.0
 miniz-sys//0.1.12 cc//1.0.50
 miniz-sys//0.1.12 libc//0.2.66
-miniz_oxide//0.3.5 adler32//1.0.4
 miniz_oxide//0.3.6 adler32//1.0.4
 mio-uds//0.6.7 iovec//0.1.4
 mio-uds//0.6.7 libc//0.2.66
