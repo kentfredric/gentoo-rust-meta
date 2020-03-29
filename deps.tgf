@@ -193,7 +193,6 @@ futures//0.1.29 futures 0.1.29
 futures//0.3.1 futures 0.3.1
 futures//0.3.4 futures 0.3.4
 gcc//0.3.55 gcc 0.3.55
-generator//0.6.19 generator 0.6.19
 generator//0.6.20 generator 0.6.20
 generic-array//0.12.3 generic-array 0.12.3
 generic-array//0.13.2 generic-array 0.13.2
@@ -1761,10 +1760,6 @@ futures//0.3.4 tokio//0.1.22 weak:test
 gcc//0.3.55 rayon//0.8.2 weak:feature:parallel
 gcc//0.3.55 rayon//0.8.2 weak:optional
 gcc//0.3.55 tempdir//0.3.7 weak:test
-generator//0.6.19 cc//1.0.50
-generator//0.6.19 libc//0.2.66
-generator//0.6.19 log//0.4.8
-generator//0.6.19 rustc_version//0.2.3
 generator//0.6.20 cc//1.0.50
 generator//0.6.20 libc//0.2.66
 generator//0.6.20 log//0.4.8
