@@ -310,7 +310,6 @@ model//0.1.2 model 0.1.2
 native-tls//0.2.3 native-tls 0.2.3
 net2//0.2.33 net2 0.2.33
 new_debug_unreachable//1.0.4 new_debug_unreachable 1.0.4
-no-panic//0.1.11 no-panic 0.1.11
 no-panic//0.1.12 no-panic 0.1.12
 nodrop//0.1.14 nodrop 0.1.14
 nom//4.2.3 nom 4.2.3
@@ -2361,9 +2360,6 @@ native-tls//0.2.3 openssl-sys//0.9.54
 native-tls//0.2.3 openssl//0.10.28
 net2//0.2.33 cfg-if//0.1.10
 net2//0.2.33 libc//0.2.66
-no-panic//0.1.11 proc-macro2//1.0.8
-no-panic//0.1.11 quote//1.0.2
-no-panic//0.1.11 syn//1.0.14
 no-panic//0.1.12 proc-macro2//1.0.8
 no-panic//0.1.12 quote//1.0.2
 no-panic//0.1.12 syn//1.0.14
