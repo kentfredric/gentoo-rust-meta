@@ -378,7 +378,6 @@ pin-project-internal//0.4.8 pin-project-internal 0.4.8
 pin-project-lite//0.1.4 pin-project-lite 0.1.4
 pin-project//0.4.8 pin-project 0.4.8
 pin-utils//0.1.0.4 pin-utils 0.1.0.4
-pkg-config//0.3.16 pkg-config 0.3.16
 pkg-config//0.3.17 pkg-config 0.3.17
 plain//0.2.3 plain 0.2.3
 pocket-resources//0.3.2 pocket-resources 0.3.2
@@ -2622,7 +2621,6 @@ pin-project-internal//0.4.8 syn//1.0.14
 pin-project-lite//0.1.4 rustversion//1.0.2 weak:test
 pin-project-lite//0.1.4 trybuild//1.0.21 weak:test
 pin-project//0.4.8 pin-project-internal//0.4.8
-pkg-config//0.3.16 lazy_static//1.4.0 weak:test
 pkg-config//0.3.17 lazy_static//1.4.0 weak:test
 pretty_assertions//0.2.1 difference//1.0.0
 pretty_assertions//0.6.1 ansi_term//0.11.0
