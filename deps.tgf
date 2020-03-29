@@ -23,6 +23,7 @@ atlatl//0.1.2 atlatl 0.1.2
 atom//0.3.5 atom 0.3.5
 atty//0.2.14 atty 0.2.14
 autocfg//0.1.6 autocfg 0.1.6
+autocfg//0.1.7 autocfg 0.1.7
 autocfg//1.0.0 autocfg 1.0.0
 average//0.10.3 average 0.10.3
 average//0.10.4 average 0.10.4
@@ -1332,7 +1333,7 @@ crossbeam-channel//0.4.0 signal-hook//0.1.13 weak:test
 crossbeam-deque//0.7.2 crossbeam-epoch//0.8.0
 crossbeam-deque//0.7.2 crossbeam-utils//0.7.0
 crossbeam-deque//0.7.2 rand//0.6.5 weak:test
-crossbeam-epoch//0.8.0 autocfg//0.1.6
+crossbeam-epoch//0.8.0 autocfg//0.1.7
 crossbeam-epoch//0.8.0 cfg-if//0.1.10
 crossbeam-epoch//0.8.0 crossbeam-utils//0.7.0
 crossbeam-epoch//0.8.0 lazy_static//1.4.0 feature:default
@@ -1351,7 +1352,7 @@ crossbeam-utils//0.6.6 lazy_static//1.4.0 feature:default
 crossbeam-utils//0.6.6 lazy_static//1.4.0 weak:feature:std
 crossbeam-utils//0.6.6 lazy_static//1.4.0 weak:optional
 crossbeam-utils//0.6.6 rand//0.6.5 weak:test
-crossbeam-utils//0.7.0 autocfg//0.1.6 weak:test
+crossbeam-utils//0.7.0 autocfg//0.1.7 weak:test
 crossbeam-utils//0.7.0 cfg-if//0.1.10
 crossbeam-utils//0.7.0 lazy_static//1.4.0 feature:default
 crossbeam-utils//0.7.0 lazy_static//1.4.0 weak:feature:std
@@ -2071,7 +2072,7 @@ idna//0.2.0 rustc-test//0.3.0 weak:test
 idna//0.2.0 serde_json//1.0.48 weak:test
 idna//0.2.0 unicode-bidi//0.3.4
 idna//0.2.0 unicode-normalization//0.1.12
-indexmap//1.3.0 autocfg//0.1.6
+indexmap//1.3.0 autocfg//0.1.7
 indexmap//1.3.0 fnv//1.0.6 weak:test
 indexmap//1.3.0 itertools//0.8.2 weak:test
 indexmap//1.3.0 lazy_static//1.4.0 weak:test
@@ -2468,11 +2469,11 @@ num-complex//0.2.4 autocfg//1.0.0
 num-complex//0.2.4 num-traits//0.2.11
 num-complex//0.2.4 rand//0.5.6 weak:optional
 num-complex//0.2.4 serde//1.0.104 weak:optional
-num-integer//0.1.41 autocfg//0.1.6
+num-integer//0.1.41 autocfg//0.1.7
 num-integer//0.1.41 num-traits//0.2.11
 num-integer//0.1.42 autocfg//1.0.0
 num-integer//0.1.42 num-traits//0.2.11
-num-iter//0.1.39 autocfg//0.1.6
+num-iter//0.1.39 autocfg//0.1.7
 num-iter//0.1.39 num-integer//0.1.42
 num-iter//0.1.39 num-traits//0.2.11
 num-iter//0.1.40 autocfg//1.0.0
@@ -2481,7 +2482,7 @@ num-iter//0.1.40 num-traits//0.2.11
 num-traits//0.1.43 num-traits//0.2.11
 num-traits//0.2.11 autocfg//1.0.0
 num-traits//0.2.11 libm//0.2.1
-num-traits//0.2.8 autocfg//0.1.6
+num-traits//0.2.8 autocfg//0.1.7
 num_cpus//1.10.1 doc-comment//0.3.1 weak:test
 num_cpus//1.10.1 libc//0.2.66
 num_cpus//1.12.0 doc-comment//0.3.1 weak:test
@@ -2523,13 +2524,13 @@ once_cell//1.3.1 parking_lot//0.9.0 weak:optional
 once_cell//1.3.1 regex//1.3.4 weak:test
 openssl-src//111.6.0 cc//1.0.50
 openssl-src//111.6.1 cc//1.0.50
-openssl-sys//0.9.52 autocfg//0.1.6
+openssl-sys//0.9.52 autocfg//0.1.7
 openssl-sys//0.9.52 cc//1.0.50
 openssl-sys//0.9.52 libc//0.2.66
 openssl-sys//0.9.52 openssl-src//111.6.1 weak:feature:vendored
 openssl-sys//0.9.52 openssl-src//111.6.1 weak:optional
 openssl-sys//0.9.52 pkg-config//0.3.17
-openssl-sys//0.9.53 autocfg//0.1.6
+openssl-sys//0.9.53 autocfg//0.1.7
 openssl-sys//0.9.53 cc//1.0.50
 openssl-sys//0.9.53 libc//0.2.66
 openssl-sys//0.9.53 openssl-src//111.6.1 weak:feature:vendored
@@ -2984,7 +2985,7 @@ rand//0.5.6 log//0.4.8 weak:optional
 rand//0.5.6 rand_core//0.3.1
 rand//0.5.6 serde//1.0.104 weak:optional
 rand//0.5.6 serde_derive//1.0.104 weak:optional
-rand//0.6.5 autocfg//0.1.6
+rand//0.6.5 autocfg//0.1.7
 rand//0.6.5 average//0.9.4 weak:test
 rand//0.6.5 libc//0.2.66
 rand//0.6.5 log//0.4.8 weak:optional
@@ -3025,7 +3026,7 @@ rand//0.7.3 rand_hc//0.2.0 weak:test
 rand//0.7.3 rand_pcg//0.2.1 weak:feature:small_rng
 rand//0.7.3 rand_pcg//0.2.1 weak:optional
 rand//0.7.3 rand_pcg//0.2.1 weak:test
-rand_chacha//0.1.1 autocfg//0.1.6
+rand_chacha//0.1.1 autocfg//0.1.7
 rand_chacha//0.1.1 rand_core//0.3.1
 rand_chacha//0.2.1 c2-chacha//0.2.3
 rand_chacha//0.2.1 rand_core//0.5.1
@@ -3065,7 +3066,7 @@ rand_os//0.1.3 log//0.4.8 weak:optional
 rand_os//0.1.3 rand_core//0.4.2
 rand_os//0.2.2 getrandom//0.1.14
 rand_os//0.2.2 rand_core//0.5.1
-rand_pcg//0.1.2 autocfg//0.1.6
+rand_pcg//0.1.2 autocfg//0.1.7
 rand_pcg//0.1.2 bincode//1.2.1 weak:test
 rand_pcg//0.1.2 rand_core//0.4.2
 rand_pcg//0.1.2 serde//1.0.104 weak:feature:serde1
