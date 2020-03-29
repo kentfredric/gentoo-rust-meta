@@ -5,7 +5,24 @@ use warnings;
 use Data::Dump qw(pp);
 my $graph = load_graph();
 
+BEGIN {
+  if ( $ENV{DATE_GATE} ) {
+    my ( $y, $m, $d ) = split /-/, $ENV{DATE_GATE};
+
+    *is_old = sub {
+      $_[0] <= $y
+        and
+      $_[1] <= $m
+        and
+      $_[2] <= $d
+    };
+  } else {
+    *is_old = sub { 1 };
+  }
+}
+
 my %node_versions;
+my @match_lines;
 
 for my $node ( sort keys %{$graph} ) {
     my ( $name, $version ) = split q[//], $node;
@@ -30,11 +47,43 @@ for my $node ( sort keys %{$graph} ) {
           map { $_ eq $version ? "\e[1;32m" . $_ . "\e[0m" : $_ }
           @{ $node_versions{$name} };
 
-        warn "$node \e[31m>\e[0m $node_list\n";
+        my $content = do {
+          local $ENV{NODE} = $node;
+          local $ENV{TZ} = 'C';
+           qx{ git log -1 --date=iso-local --format="%cd %s" -G " \$NODE" deps.tgf };
+        };
+        chomp $content;
+        next unless defined $content and length $content;
+        my ($date, $time, $zone, $subject ) = split / /, $content, 4;
+        my ($Y, $M, $D ) = split /-/, $date;
+        next unless is_old($Y,$M,$D);
+
+        my $msg = "$node \e[31m>\e[0m $node_list \e[32m||\e[0m $subject";
+        push @match_lines, {
+          date => {y => $Y, m => $M, d => $D, t => $time},
+          line => $msg
+        };
+        warn "<scan> $msg\n";
 
         next;
     }
 }
+
+sub date_cmp {
+  my ( $left, $right ) = @_;
+  my $ldate = $left->{date};
+  my $rdate = $right->{date};
+
+  $ldate->{y} <=> $rdate->{y} ||
+  $ldate->{m} <=> $rdate->{m} ||
+  $ldate->{d} <=> $rdate->{d} ||
+  $ldate->{t} cmp $rdate->{t}
+}
+warn "===\n";
+for ( sort { date_cmp($a,$b) } @match_lines ) {
+  warn $_->{line} . "\n";
+}
+
 
 use Data::Dump qw(pp);
 
