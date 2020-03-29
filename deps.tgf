@@ -621,7 +621,6 @@ tokio-core//0.1.17 tokio-core 0.1.17
 tokio-current-thread//0.1.6 tokio-current-thread 0.1.6
 tokio-current-thread//0.1.7 tokio-current-thread 0.1.7
 tokio-executor//0.1.10 tokio-executor 0.1.10
-tokio-executor//0.1.9 tokio-executor 0.1.9
 tokio-executor//0.2.0.6 tokio-executor 0.2.0.6
 tokio-fs//0.1.6 tokio-fs 0.1.6
 tokio-fs//0.1.7 tokio-fs 0.1.7
@@ -3643,9 +3642,6 @@ tokio-current-thread//0.1.7 tokio-executor//0.1.10
 tokio-executor//0.1.10 crossbeam-utils//0.7.0
 tokio-executor//0.1.10 futures//0.1.29
 tokio-executor//0.1.10 tokio//0.1.22 weak:test
-tokio-executor//0.1.9 crossbeam-utils//0.6.6
-tokio-executor//0.1.9 futures//0.1.29
-tokio-executor//0.1.9 tokio//0.1.22 weak:test
 tokio-executor//0.2.0.6 crossbeam-channel//0.3.9 weak:feature:current-thread
 tokio-executor//0.2.0.6 crossbeam-channel//0.3.9 weak:optional
 tokio-executor//0.2.0.6 crossbeam-deque//0.7.2 weak:feature:threadpool
