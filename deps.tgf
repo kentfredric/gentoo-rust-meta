@@ -160,6 +160,7 @@ foreign-types//0.5.0 foreign-types 0.5.0
 fs2//0.2.5 fs2 0.2.5
 fs2//0.4.3 fs2 0.4.3
 fs_extra//1.1.0 fs_extra 1.1.0
+fsio//0.1.2 fsio 0.1.2
 fst//0.1.38 fst 0.1.38
 fst//0.3.5 fst 0.3.5
 futf//0.1.4 futf 0.1.4
@@ -1546,6 +1547,10 @@ fs2//0.2.5 tempdir//0.3.7 weak:test
 fs2//0.2.5 winapi//0.2.8
 fs2//0.4.3 libc//0.2.66
 fs2//0.4.3 tempdir//0.3.7 weak:test
+fsio//0.1.2 rand//0.7.3 weak:feature:temp-path
+fsio//0.1.2 rand//0.7.3 weak:optional
+fsio//0.1.2 users//0.9.1 weak:feature:temp-path
+fsio//0.1.2 users//0.9.1 weak:optional
 fst//0.1.38 byteorder//0.5.3
 fst//0.1.38 fnv//1.0.6 weak:test
 fst//0.1.38 lazy_static//0.1.16 weak:test
