@@ -478,7 +478,6 @@ ring//0.14.6 ring 0.14.6
 ring//0.16.11 ring 0.16.11
 ring//0.16.9 ring 0.16.9
 rle-decode-fast//1.0.1 rle-decode-fast 1.0.1
-ron//0.4.1 ron 0.4.1
 ron//0.4.2 ron 0.4.2
 ron//0.5.1 ron 0.5.1
 rspec//1.0.0.3 rspec 1.0.0.3
@@ -3213,11 +3212,6 @@ ring//0.16.9 lazy_static//1.4.0
 ring//0.16.9 libc//0.2.66
 ring//0.16.9 spin//0.5.2
 ring//0.16.9 untrusted//0.7.0
-ron//0.4.1 base64//0.10.1
-ron//0.4.1 bitflags//1.2.1
-ron//0.4.1 serde//1.0.104
-ron//0.4.1 serde_bytes//0.10.5 weak:test
-ron//0.4.1 serde_json//1.0.48 weak:test
 ron//0.4.2 base64//0.10.1
 ron//0.4.2 bitflags//1.2.1
 ron//0.4.2 serde//1.0.104
