@@ -309,7 +309,6 @@ mio//0.6.21 mio 0.6.21
 model//0.1.2 model 0.1.2
 native-tls//0.2.3 native-tls 0.2.3
 net2//0.2.33 net2 0.2.33
-new_debug_unreachable//1.0.3 new_debug_unreachable 1.0.3
 new_debug_unreachable//1.0.4 new_debug_unreachable 1.0.4
 no-panic//0.1.11 no-panic 0.1.11
 no-panic//0.1.12 no-panic 0.1.12
