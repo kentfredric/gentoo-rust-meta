@@ -160,7 +160,6 @@ fst//0.1.38 fst 0.1.38
 fst//0.3.5 fst 0.3.5
 futf//0.1.4 futf 0.1.4
 futures-channel-preview//0.3.0.19 futures-channel-preview 0.3.0.19
-futures-channel//0.3.1 futures-channel 0.3.1
 futures-channel//0.3.4 futures-channel 0.3.4
 futures-core-preview//0.3.0.19 futures-core-preview 0.3.0.19
 futures-core//0.3.4 futures-core 0.3.4
@@ -1481,9 +1480,6 @@ futf//0.1.4 mac//0.1.1
 futf//0.1.4 new_debug_unreachable//1.0.4
 futures-channel-preview//0.3.0.19 futures-core-preview//0.3.0.19
 futures-channel-preview//0.3.0.19 futures-sink-preview//0.3.0.19
-futures-channel//0.3.1 futures-core//0.3.4
-futures-channel//0.3.1 futures-sink//0.3.4 weak:feature:sink
-futures-channel//0.3.1 futures-sink//0.3.4 weak:optional
 futures-channel//0.3.4 futures-core//0.3.4
 futures-channel//0.3.4 futures-sink//0.3.4 weak:feature:sink
 futures-channel//0.3.4 futures-sink//0.3.4 weak:optional
