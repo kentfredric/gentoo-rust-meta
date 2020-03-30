@@ -660,7 +660,6 @@ tower-service//0.3.0 tower-service 0.3.0
 tower-test//0.3.0 tower-test 0.3.0
 tower-util//0.3.0 tower-util 0.3.0
 tracing-attributes//0.1.6 tracing-attributes 0.1.6
-tracing-core//0.1.7 tracing-core 0.1.7
 tracing-core//0.1.9 tracing-core 0.1.9
 tracing-futures//0.2.1 tracing-futures 0.2.1
 tracing-futures//0.2.2 tracing-futures 0.2.2
@@ -4091,8 +4090,6 @@ tracing-attributes//0.1.6 quote//1.0.2
 tracing-attributes//0.1.6 syn//1.0.14
 tracing-attributes//0.1.6 tracing-futures//0.2.2 weak:test
 tracing-attributes//0.1.6 tracing//0.1.12 weak:test
-tracing-core//0.1.7 lazy_static//1.4.0
-tracing-core//0.1.7 spin//0.5.2
 tracing-core//0.1.9 lazy_static//1.4.0 feature:default
 tracing-core//0.1.9 lazy_static//1.4.0 weak:feature:std
 tracing-core//0.1.9 lazy_static//1.4.0 weak:optional
