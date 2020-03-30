@@ -65,7 +65,6 @@ cc//1.0.50 cc 1.0.50
 cexpr//0.3.6 cexpr 0.3.6
 cfg-if//0.1.10 cfg-if 0.1.10
 chrono//0.4.10 chrono 0.4.10
-chrono//0.4.9 chrono 0.4.9
 ci_info//0.3.1 ci_info 0.3.1
 ci_info//0.9.2 ci_info 0.9.2
 clang-sys//0.28.1 clang-sys 0.28.1
@@ -1110,19 +1109,6 @@ chrono//0.4.10 serde_json//1.0.48 weak:test
 chrono//0.4.10 time//0.1.42 feature:default
 chrono//0.4.10 time//0.1.42 weak:feature:clock
 chrono//0.4.10 time//0.1.42 weak:optional
-chrono//0.4.9 bincode//0.8.0 weak:test
-chrono//0.4.9 doc-comment//0.3.1 weak:test
-chrono//0.4.9 libc//0.2.66
-chrono//0.4.9 num-integer//0.1.42
-chrono//0.4.9 num-iter//0.1.40 weak:test
-chrono//0.4.9 num-traits//0.2.11
-chrono//0.4.9 rustc-serialize//0.3.24 weak:optional
-chrono//0.4.9 serde//1.0.104 weak:optional
-chrono//0.4.9 serde_derive//1.0.104 weak:test
-chrono//0.4.9 serde_json//1.0.48 weak:test
-chrono//0.4.9 time//0.1.42 feature:default
-chrono//0.4.9 time//0.1.42 weak:feature:clock
-chrono//0.4.9 time//0.1.42 weak:optional
 ci_info//0.3.1 serde//1.0.104 weak:feature:serde-1
 ci_info//0.3.1 serde//1.0.104 weak:optional
 ci_info//0.3.1 serde_derive//1.0.104 weak:feature:serde-1
