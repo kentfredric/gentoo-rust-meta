@@ -172,7 +172,6 @@ futures-core//0.3.4 futures-core 0.3.4
 futures-executor//0.3.1 futures-executor 0.3.1
 futures-executor//0.3.4 futures-executor 0.3.4
 futures-io-preview//0.3.0.19 futures-io-preview 0.3.0.19
-futures-io//0.3.1 futures-io 0.3.1
 futures-io//0.3.4 futures-io 0.3.4
 futures-join-macro-preview//0.3.0.19 futures-join-macro-preview 0.3.0.19
 futures-macro//0.3.1 futures-macro 0.3.1
