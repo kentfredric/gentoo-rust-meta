@@ -59,7 +59,6 @@ bytes//0.5.4 bytes 0.5.4
 bzip2-sys//0.1.7 bzip2-sys 0.1.7
 bzip2//0.3.3 bzip2 0.3.3
 c2-chacha//0.2.3 c2-chacha 0.2.3
-cc//1.0.46 cc 1.0.46
 cc//1.0.50 cc 1.0.50
 cexpr//0.3.6 cexpr 0.3.6
 cfg-if//0.1.10 cfg-if 0.1.10
@@ -1081,11 +1080,6 @@ c2-chacha//0.2.3 ppv-lite86//0.2.6
 c2-chacha//0.2.3 stream-cipher//0.3.2 feature:default
 c2-chacha//0.2.3 stream-cipher//0.3.2 weak:feature:rustcrypto_api
 c2-chacha//0.2.3 stream-cipher//0.3.2 weak:optional
-cc//1.0.46 jobserver//0.1.21 weak:feature:parallel
-cc//1.0.46 jobserver//0.1.21 weak:optional
-cc//1.0.46 num_cpus//1.12.0 weak:feature:parallel
-cc//1.0.46 num_cpus//1.12.0 weak:optional
-cc//1.0.46 tempdir//0.3.7 weak:test
 cc//1.0.50 jobserver//0.1.21 weak:feature:parallel
 cc//1.0.50 jobserver//0.1.21 weak:optional
 cc//1.0.50 tempfile//3.1.0 weak:test
