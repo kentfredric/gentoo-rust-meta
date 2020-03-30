@@ -655,7 +655,6 @@ tracing-futures//0.2.1 tracing-futures 0.2.1
 tracing-futures//0.2.2 tracing-futures 0.2.2
 tracing//0.1.12 tracing 0.1.12
 try-lock//0.2.2 try-lock 0.2.2
-trybuild//1.0.17 trybuild 1.0.17
 trybuild//1.0.21 trybuild 1.0.21
 typed-arena//1.7.0 typed-arena 1.7.0
 typed-arena//2.0.1 typed-arena 2.0.1
@@ -4062,12 +4061,6 @@ tracing//0.1.12 log//0.4.8 weak:optional
 tracing//0.1.12 log//0.4.8 weak:test
 tracing//0.1.12 tracing-attributes//0.1.6
 tracing//0.1.12 tracing-core//0.1.9
-trybuild//1.0.17 glob//0.3.0
-trybuild//1.0.17 lazy_static//1.4.0
-trybuild//1.0.17 serde//1.0.104
-trybuild//1.0.17 serde_json//1.0.48
-trybuild//1.0.17 termcolor//1.1.0
-trybuild//1.0.17 toml//0.5.6
 trybuild//1.0.21 dissimilar//1.0.1 weak:feature:diff
 trybuild//1.0.21 dissimilar//1.0.1 weak:optional
 trybuild//1.0.21 glob//0.3.0
