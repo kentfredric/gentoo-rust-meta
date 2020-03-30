@@ -398,7 +398,6 @@ pulldown-cmark//0.4.1 pulldown-cmark 0.4.1
 pulldown-cmark//0.7.0 pulldown-cmark 0.7.0
 pulse//0.5.3 pulse 0.5.3
 quantiles//0.7.1 quantiles 0.7.1
-quick-error//1.2.2 quick-error 1.2.2
 quick-error//1.2.3 quick-error 1.2.3
 quickcheck//0.2.24 quickcheck 0.2.24
 quickcheck//0.2.27 quickcheck 0.2.27
